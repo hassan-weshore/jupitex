@@ -1,0 +1,125 @@
+form.wpcf7-form.thegem-cf7 {
+
+  .with-label {
+	display: flex;
+
+	.wpcf7-form-control-wrap {
+	  margin-bottom: 0;
+	}
+  }
+
+  &.label-left {
+
+	.with-label {
+	  flex-direction: row;
+	  align-items: center;
+
+	  label {
+		flex: none;
+	  }
+	}
+  }
+
+  &.label-right {
+
+	.with-label {
+	  flex-direction: row-reverse;
+	  align-items: center;
+	  justify-content: flex-end;
+
+	  label {
+		flex: none;
+	  }
+	}
+  }
+
+  &.label-top {
+
+	.with-label {
+	  flex-direction: column;
+	}
+  }
+
+  &.label-bottom {
+
+	.with-label {
+	  flex-direction: column-reverse;
+
+	  .wpcf7-form-control-wrap, .wpcf7-form-control, .combobox-wrapper {
+		margin-bottom: 0 !important;
+	  }
+	}
+  }
+
+   input[type='submit'] {
+	 height: auto;
+	 margin-right: 0;
+	 margin-left: 0;
+	 border: none;
+   }
+
+  .combobox-wrapper {
+	height: auto;
+
+	.combobox-text {
+	  line-height: inherit;
+	  border: none;
+	  padding: 12px 20px;
+	}
+
+	.combobox-button {
+	  height: 100%;
+	  border: none;
+	}
+  }
+
+  .checkbox-sign.checked:before, .radio-sign.checked:before {
+	margin: 0;
+	transform: translate(-50%, -50%);
+	font-size: 24px;
+	width: 24px;
+	height: 24px;
+	line-height: 24px;
+  }
+
+  p {
+	margin-bottom: 0;
+  }
+
+  p:nth-last-of-type(1), .submit-outer {
+	display: flex;
+	flex-direction: column;
+  }
+
+  .wpcf7-form-control {
+	display: inline-block;
+  }
+
+  .wpcf7-form-control-wrap:after {
+	top: 50%;
+	transform: translateY(-50%);
+  }
+
+  .form-line {
+	margin: 0;
+  }
+}
+
+.wpcf7-form.gem-contact-form-white  .combobox-wrapper,
+.wpcf7-form.gem-contact-form-white  input:not(.gem-button-wpcf-custom),
+.wpcf7-form.gem-contact-form-white .combobox-wrapper .combobox-button,
+.wpcf7-form.gem-contact-form-white .combobox-wrapper .combobox-text,
+.wpcf7-form.gem-contact-form-white .checkbox-sign,
+.wpcf7-form.gem-contact-form-white  span.radio-sign,
+.wpcf7-form.gem-contact-form-white textarea {
+  border: 1px solid #ffffff;
+  background-color: #ffffff;
+}
+
+.wpcf7-warning {
+  line-height: 1.2;
+}
+
+.not-empty {
+  height: 1px;
+}

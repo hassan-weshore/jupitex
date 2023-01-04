@@ -1,0 +1,64 @@
+.gem_chart {
+    z-index: 0;
+    text-align: center;
+    opacity: 0;
+}
+.gem_chart.gem-ready {
+    opacity: 1;
+}
+.gem_chart .gem_wrapper {
+    position: relative;
+    margin: 0 auto;
+}
+.gem_chart .gem_chart_back {
+    border-color: #dfe5e8;
+}
+.gem_chart .gem_chart_icon {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gem_chart canvas {
+    position: relative;
+    z-index: 1;
+}
+.gem_chart .gem_chart_value {
+    font-size: 48px;
+    color: #5f727f;
+    font-family: 'Source Sans Pro';
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+.gem_chart_back {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    border: 7px solid #f7f7f7;
+    border-radius: 999px;
+    border-radius: 50%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.gem_chart .gem_chart_icon i{
+    font-size: 48px;
+    color: rgb(221, 51, 51);
+}
+
+.gem_chart .gem_chart_icon svg{
+    width: 48px;
+    height: 48px;
+    fill: rgb(221, 51, 51);
+}

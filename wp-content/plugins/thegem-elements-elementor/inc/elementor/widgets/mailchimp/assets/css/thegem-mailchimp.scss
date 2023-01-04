@@ -1,0 +1,172 @@
+.thegem-mailchimp.wpcf7-form {
+
+  .yikes-mailchimp-form-inline {
+	display: flex;
+	//flex-wrap: wrap;
+  }
+
+  @media (max-width: 767px) {
+
+	&.mobile-column .yikes-mailchimp-form-inline {
+	  flex-direction: column;
+
+	  label.label-inline {
+		padding-right: 0;
+		padding-bottom: 10px;
+	  }
+	}
+  }
+
+
+
+  .submit-button-inline-label {
+	width: auto;
+	min-width: initial;
+  }
+
+  label {
+	display: flex;
+	margin-bottom: .5em;
+	width: 100%;
+
+	&.label-inline {
+	  padding-right: 10px;
+	}
+  }
+
+  &.label-left {
+
+	label {
+	  flex-wrap: wrap;
+	  flex-direction: row;
+	  align-items: center;
+
+	  span {
+		flex: none;
+	  }
+	}
+  }
+
+  &.label-right {
+
+	label {
+	  flex-wrap: wrap;
+	  flex-direction: row-reverse;
+	  align-items: center;
+	  justify-content: flex-end;
+
+	  span {
+		flex: none;
+	  }
+	}
+  }
+
+  &.label-top {
+
+	label {
+	  flex-direction: column;
+	  //margin-right: auto;
+	  //margin-left: auto;
+	}
+  }
+
+  &.label-bottom {
+
+	label {
+	  flex-direction: column-reverse;
+	  margin-right: auto;
+	  margin-left: auto;
+	}
+  }
+
+  form.yikes-easy-mc-form input {
+	min-height: 40px;
+	height: auto;
+	margin-bottom: 0;
+  }
+
+  .form-field-description {
+	margin-bottom: 0;
+	width: 100%;
+  }
+
+  .yikes-easy-mc-form .yikes-easy-mc-submit-button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	margin: 0 auto 0 auto;
+	min-height: 40px;
+	height: auto;
+	border: none;
+	line-height: inherit;
+
+	svg {
+	  width: 1em;
+	  height: 1em;
+	  fill: currentColor;
+	}
+
+  }
+
+  .yikes-easy-mc-form .submit-button-inline-label {
+	//min-width: initial;
+	height: fit-content;
+  }
+
+  &.gem-contact-form-white {
+
+	input, textarea {
+	  border: 1px solid #ffffff;
+	  background-color: #ffffff;
+	}
+  }
+
+
+  &.gem-contact-form-simple-line {
+
+	input, textarea {
+	  border-top: 0 none;
+	  border-left: 0 none;
+	  border-right: 0 none;
+	  background: transparent;
+	}
+  }
+
+  &.gem-contact-form-dark {
+
+	input, textarea {
+	  color: #46485c;
+	}
+
+	::-webkit-input-placeholder {
+	  color: #46485c;
+	}
+	:-moz-placeholder {
+	  color: #46485c;
+	}
+	::-moz-placeholder {
+	  color: #46485c;
+	}
+	:-ms-input-placeholder {
+	  color: #46485c;
+	}
+  }
+
+  .yikes-easy-mc-form .form-field-description {
+	display: block;
+	margin-top: .25em;
+	margin-bottom: .75em;
+	font-style: italic;
+	font-weight: 400;
+	font-size: 80%;
+  }
+}
+
+.not-empty {
+  height: 1px;
+}
+
+.yikes-easy-mc-form .empty-form-inline-label .empty-label.labels-hidden {
+  display: none;
+}

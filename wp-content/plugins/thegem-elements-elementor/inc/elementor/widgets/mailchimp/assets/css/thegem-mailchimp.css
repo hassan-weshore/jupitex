@@ -1,0 +1,120 @@
+.thegem-mailchimp.wpcf7-form .yikes-mailchimp-form-inline {
+  display: flex;
+}
+@media (max-width: 767px) {
+  .thegem-mailchimp.wpcf7-form.mobile-column .yikes-mailchimp-form-inline {
+    flex-direction: column;
+  }
+  .thegem-mailchimp.wpcf7-form.mobile-column .yikes-mailchimp-form-inline label.label-inline {
+    padding-right: 0;
+    padding-bottom: 10px;
+  }
+}
+.thegem-mailchimp.wpcf7-form .submit-button-inline-label {
+  width: auto;
+  min-width: initial;
+}
+.thegem-mailchimp.wpcf7-form label {
+  display: flex;
+  margin-bottom: 0.5em;
+  width: 100%;
+}
+.thegem-mailchimp.wpcf7-form label.label-inline {
+  padding-right: 10px;
+}
+.thegem-mailchimp.wpcf7-form.label-left label {
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+}
+.thegem-mailchimp.wpcf7-form.label-left label span {
+  flex: none;
+}
+.thegem-mailchimp.wpcf7-form.label-right label {
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: flex-end;
+}
+.thegem-mailchimp.wpcf7-form.label-right label span {
+  flex: none;
+}
+.thegem-mailchimp.wpcf7-form.label-top label {
+  flex-direction: column;
+}
+.thegem-mailchimp.wpcf7-form.label-bottom label {
+  flex-direction: column-reverse;
+  margin-right: auto;
+  margin-left: auto;
+}
+.thegem-mailchimp.wpcf7-form form.yikes-easy-mc-form input {
+  min-height: 40px;
+  height: auto;
+  margin-bottom: 0;
+}
+.thegem-mailchimp.wpcf7-form .form-field-description {
+  margin-bottom: 0;
+  width: 100%;
+}
+.thegem-mailchimp.wpcf7-form .yikes-easy-mc-form .yikes-easy-mc-submit-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto 0 auto;
+  min-height: 40px;
+  height: auto;
+  border: none;
+  line-height: inherit;
+}
+.thegem-mailchimp.wpcf7-form .yikes-easy-mc-form .yikes-easy-mc-submit-button svg {
+  width: 1em;
+  height: 1em;
+  fill: currentColor;
+}
+.thegem-mailchimp.wpcf7-form .yikes-easy-mc-form .submit-button-inline-label {
+  height: fit-content;
+}
+.thegem-mailchimp.wpcf7-form.gem-contact-form-white input, .thegem-mailchimp.wpcf7-form.gem-contact-form-white textarea {
+  border: 1px solid #ffffff;
+  background-color: #ffffff;
+}
+.thegem-mailchimp.wpcf7-form.gem-contact-form-simple-line input, .thegem-mailchimp.wpcf7-form.gem-contact-form-simple-line textarea {
+  border-top: 0 none;
+  border-left: 0 none;
+  border-right: 0 none;
+  background: transparent;
+}
+.thegem-mailchimp.wpcf7-form.gem-contact-form-dark input, .thegem-mailchimp.wpcf7-form.gem-contact-form-dark textarea {
+  color: #46485c;
+}
+.thegem-mailchimp.wpcf7-form.gem-contact-form-dark ::-webkit-input-placeholder {
+  color: #46485c;
+}
+.thegem-mailchimp.wpcf7-form.gem-contact-form-dark :-moz-placeholder {
+  color: #46485c;
+}
+.thegem-mailchimp.wpcf7-form.gem-contact-form-dark ::-moz-placeholder {
+  color: #46485c;
+}
+.thegem-mailchimp.wpcf7-form.gem-contact-form-dark :-ms-input-placeholder {
+  color: #46485c;
+}
+.thegem-mailchimp.wpcf7-form .yikes-easy-mc-form .form-field-description {
+  display: block;
+  margin-top: 0.25em;
+  margin-bottom: 0.75em;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 80%;
+}
+
+.not-empty {
+  height: 1px;
+}
+
+.yikes-easy-mc-form .empty-form-inline-label .empty-label.labels-hidden {
+  display: none;
+}
+
+/*# sourceMappingURL=thegem-mailchimp.css.map */

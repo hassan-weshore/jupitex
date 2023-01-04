@@ -1,0 +1,4085 @@
+# Copyright (c) $(date +'%Y') SellKit.
+msgid ""
+msgstr ""
+"Project-Id-Version: Sellkit 1.5.4\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/sellkit\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2022-12-12T10:49:33+01:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.6.0\n"
+"X-Domain: sellkit\n"
+
+#. Plugin Name of the plugin
+#: includes/elementor/class.php:78
+#: sellkit.php:396
+#: sellkit.php:437
+msgid "Sellkit"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://getsellkit.com/"
+msgstr ""
+
+#. Description of the plugin
+msgid "Build unlimited sales funnels, one-click order bumps and upsells, custom thank you pages, and more. The free version of SellKit also offers a huge round of features to optimize your WooCommerce store: build and style single or multi-step checkout pages with advanced styling options. Add, remove & reorder form fields. Fasten the form submission process with pre-populated form data, Instant form validation, and removing cart page. All this and more is 100% free and for an unlimited number of sites."
+msgstr ""
+
+#. Author of the plugin
+msgid "Artbees"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://artbees.net"
+msgstr ""
+
+#: includes/admin/class-components.php:57
+msgid "Header Type (Meta option)"
+msgstr ""
+
+#: includes/admin/class-components.php:58
+msgid "Header Behavior (Meta option)"
+msgstr ""
+
+#: includes/admin/class-components.php:80
+#: includes/admin/class-components.php:109
+#: includes/admin/class-components.php:138
+#: includes/admin/class-components.php:168
+msgid "Author"
+msgstr ""
+
+#: includes/admin/class-components.php:81
+#: includes/admin/class-components.php:110
+#: includes/admin/class-components.php:139
+#: includes/admin/class-components.php:169
+msgid "Created at"
+msgstr ""
+
+#: includes/admin/class-custom-tables.php:218
+#: includes/admin/class-custom-tables.php:305
+#: includes/admin/class-custom-tables.php:331
+#: includes/admin/funnel/importer/ajax-handler.php:57
+#: includes/admin/funnel/importer/ajax-handler.php:134
+#: includes/admin/funnel/importer/ajax-handler.php:183
+#: includes/core/admin/feedback.php:58
+msgid "Something went wrong."
+msgstr ""
+
+#: includes/admin/class-custom-tables.php:391
+msgid "The details have been updated."
+msgstr ""
+
+#: includes/admin/class-personalised-coupons.php:37
+#: includes/admin/class-posts.php:69
+#: includes/admin/class-posts.php:266
+#: includes/admin/funnel/importer/ajax-handler.php:151
+msgid "something went wrong"
+msgstr ""
+
+#: includes/admin/class-personalised-coupons.php:43
+msgid "The new coupon was added"
+msgstr ""
+
+#: includes/admin/class-posts.php:72
+msgid "The process has been completed."
+msgstr ""
+
+#: includes/admin/class-posts.php:204
+#: includes/admin/class-posts.php:205
+#: includes/admin/class-posts.php:210
+#: includes/admin/class-posts.php:214
+#: includes/admin/class-steps.php:95
+#: assets/dist/admin/sellkit.js:280
+msgid "Decision"
+msgstr ""
+
+#: includes/admin/class-posts.php:272
+#: includes/admin/settings/class-settings.php:72
+msgid "The update process has been completed."
+msgstr ""
+
+#: includes/admin/class-posts.php:278
+msgid "The creation process has been completed."
+msgstr ""
+
+#: includes/admin/class-posts.php:394
+msgid "Post title should not be empty."
+msgstr ""
+
+#: includes/admin/class-promote-sellkit-pro.php:58
+msgid "Upgrade to Pro"
+msgstr ""
+
+#: includes/admin/class-promote-sellkit-pro.php:76
+#: includes/elementor/modules/checkout/templates/review-order.php:72
+#: assets/dist/admin/sellkit.js:280
+msgid "Discount"
+msgstr ""
+
+#: includes/admin/class-promote-sellkit-pro.php:77
+msgid "Coupons"
+msgstr ""
+
+#: includes/admin/class-promote-sellkit-pro.php:78
+msgid "Notices"
+msgstr ""
+
+#: includes/admin/class-promote-sellkit-pro.php:96
+msgid "RFM Segments"
+msgstr ""
+
+#: includes/admin/class-promote-sellkit-pro.php:97
+msgid "First Order Date"
+msgstr ""
+
+#: includes/admin/class-promote-sellkit-pro.php:98
+msgid "Last Order Date"
+msgstr ""
+
+#: includes/admin/class-promote-sellkit-pro.php:99
+msgid "Purchased Categories"
+msgstr ""
+
+#: includes/admin/class-promote-sellkit-pro.php:100
+msgid "Purchased Products"
+msgstr ""
+
+#: includes/admin/class-promote-sellkit-pro.php:101
+msgid "Time Deadline"
+msgstr ""
+
+#: includes/admin/class-promote-sellkit-pro.php:102
+#: assets/dist/admin/sellkit.js:280
+msgid "Total Spent"
+msgstr ""
+
+#: includes/admin/class-promote-sellkit-pro.php:103
+#: includes/dynamic-keywords/contact-segmentation/viewed-categories.php:38
+msgid "Viewed Categories"
+msgstr ""
+
+#: includes/admin/class-promote-sellkit-pro.php:104
+#: includes/dynamic-keywords/contact-segmentation/viewed-products.php:38
+msgid "Viewed Products"
+msgstr ""
+
+#: includes/admin/class-promote-sellkit-pro.php:105
+msgid "Visitor City & Region"
+msgstr ""
+
+#: includes/admin/class-promote-sellkit-pro.php:106
+#: includes/dynamic-keywords/contact-segmentation/visitor-country.php:38
+msgid "Visitor Country"
+msgstr ""
+
+#: includes/admin/class-promote-sellkit-pro.php:107
+msgid "Visitor's Local Currency"
+msgstr ""
+
+#: includes/admin/class-promote-sellkit-pro.php:108
+msgid "Visitor's Timezone"
+msgstr ""
+
+#: includes/admin/class-promote-sellkit-pro.php:109
+#: includes/admin/class-steps.php:96
+#: assets/dist/admin/sellkit.js:280
+msgid "Upsell"
+msgstr ""
+
+#: includes/admin/class-promote-sellkit-pro.php:110
+#: includes/admin/class-steps.php:97
+#: assets/dist/admin/sellkit.js:280
+msgid "Downsell"
+msgstr ""
+
+#: includes/admin/class-promote-sellkit-pro.php:115
+msgid "(PRO)"
+msgstr ""
+
+#: includes/admin/class-steps.php:92
+msgid "Sales Page"
+msgstr ""
+
+#: includes/admin/class-steps.php:93
+#: assets/dist/admin/sellkit.js:280
+msgid "Checkout"
+msgstr ""
+
+#: includes/admin/class-steps.php:94
+msgid "Thank You"
+msgstr ""
+
+#: includes/admin/class-steps.php:99
+#: assets/dist/admin/sellkit.js:280
+msgid "Opt-in"
+msgstr ""
+
+#: includes/admin/class-steps.php:162
+#: includes/admin/class-steps.php:213
+#: includes/admin/funnel/class.php:50
+msgid "Please install and activate WooCommerce."
+msgstr ""
+
+#: includes/admin/class-steps.php:226
+#: includes/admin/funnel/class.php:56
+msgid "Product does not exist"
+msgstr ""
+
+#: includes/admin/class-steps.php:399
+msgctxt "flow step general name"
+msgid "Steps"
+msgstr ""
+
+#: includes/admin/class-steps.php:400
+msgctxt "flow step singular name"
+msgid "Step"
+msgstr ""
+
+#: includes/admin/class-steps.php:401
+msgid "Search Steps"
+msgstr ""
+
+#: includes/admin/class-steps.php:402
+msgid "All Steps"
+msgstr ""
+
+#: includes/admin/class-steps.php:403
+msgid "Edit Step"
+msgstr ""
+
+#: includes/admin/class-steps.php:404
+msgid "View Step"
+msgstr ""
+
+#: includes/admin/class-steps.php:405
+#: includes/admin/class-steps.php:407
+#: assets/dist/admin/sellkit.js:266
+msgid "Add New"
+msgstr ""
+
+#: includes/admin/class-steps.php:406
+msgid "Update Step"
+msgstr ""
+
+#: includes/admin/class-steps.php:408
+msgid "New Step Name"
+msgstr ""
+
+#: includes/admin/components/class-list-table.php:169
+#: includes/admin/components/class-list-table.php:217
+msgid "Clone"
+msgstr ""
+
+#: includes/admin/funnel/importer/ajax-handler.php:91
+#: includes/admin/funnel/importer/ajax-handler.php:114
+#: includes/funnel/steps/upsell.php:130
+msgid "Something went wrong"
+msgstr ""
+
+#: includes/admin/funnel/importer/page-builders/importer-base.php:55
+#: includes/admin/funnel/importer/step-importer.php:72
+msgid "Does not have any step id for importing"
+msgstr ""
+
+#: includes/admin/funnel/importer/page-builders/importer-base.php:66
+#: includes/admin/funnel/importer/step-importer.php:85
+msgid "Something went wrong in importing data from API."
+msgstr ""
+
+#: includes/admin/notices/woocommerce-coupons-main.php:30
+msgid "Boost your WooCommerce store promotions with dynamic discounts, smart coupons and smart checkout alerts."
+msgstr ""
+
+#: includes/admin/notices/woocommerce-coupons-main.php:32
+#: includes/admin/notices/woocommerce-orders.php:32
+#: includes/admin/notices/woocommerce-products-main.php:32
+#: includes/admin/notices/woocommerce-settings.php:32
+msgid "Upgrade to SellKit Pro"
+msgstr ""
+
+#: includes/admin/notices/woocommerce-not-installed.php:36
+msgid "Install WooCommerce"
+msgstr ""
+
+#: includes/admin/notices/woocommerce-not-installed.php:91
+msgid "Welcome to Sellkit"
+msgstr ""
+
+#. Translators: 1: bold sellkit 2: bold woocommerce
+#: includes/admin/notices/woocommerce-not-installed.php:94
+msgid "The %1$s plugin requires the %2$s plugin to be installed & activated as well."
+msgstr ""
+
+#: includes/admin/notices/woocommerce-orders.php:30
+msgid "Increase average order value for your WooCommerce store with advanced checkout optimization."
+msgstr ""
+
+#: includes/admin/notices/woocommerce-products-main.php:30
+msgid "Unlock more sales for your WooCommerce store with advanced checkout optimization, dynamic discounts and personalized promotions."
+msgstr ""
+
+#: includes/admin/notices/woocommerce-settings.php:30
+msgid "Unlock more engagement and sales for your WooCommerce store with advanced checkout optimization, dynamic discounts and personalized promotions."
+msgstr ""
+
+#: includes/admin/settings/class-settings.php:60
+msgid "Somethings went wrong."
+msgstr ""
+
+#: includes/contact-segmentation/conditions.php:138
+msgid "Condition has no value"
+msgstr ""
+
+#: includes/contact-segmentation/conditions.php:163
+msgid "Please send a condition name"
+msgstr ""
+
+#: includes/contact-segmentation/conditions/billing-city.php:33
+msgid "Past Order Billing City"
+msgstr ""
+
+#: includes/contact-segmentation/conditions/billing-country.php:32
+msgid "Past Order Billing Country"
+msgstr ""
+
+#: includes/contact-segmentation/conditions/browser-language.php:33
+msgid "Browser Language"
+msgstr ""
+
+#: includes/contact-segmentation/conditions/cart-category.php:33
+msgid "Cart Categories"
+msgstr ""
+
+#: includes/contact-segmentation/conditions/cart-item.php:33
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:95
+#: includes/elementor/modules/order-cart-details/widgets/order-cart-details.php:145
+#: includes/elementor/modules/order-cart-details/widgets/order-cart-details.php:348
+msgid "Cart Items"
+msgstr ""
+
+#: includes/contact-segmentation/conditions/cart-items-quantity.php:32
+msgid "Cart Items Quantity"
+msgstr ""
+
+#: includes/contact-segmentation/conditions/cart-subtotal.php:32
+msgid "Cart Subtotal"
+msgstr ""
+
+#: includes/contact-segmentation/conditions/cart-tag.php:33
+msgid "Cart Tags"
+msgstr ""
+
+#: includes/contact-segmentation/conditions/login-status.php:32
+msgid "Login Status"
+msgstr ""
+
+#: includes/contact-segmentation/conditions/login-status.php:65
+msgid "logged in"
+msgstr ""
+
+#: includes/contact-segmentation/conditions/login-status.php:66
+msgid "logged out"
+msgstr ""
+
+#: includes/contact-segmentation/conditions/referral-source-internal-post.php:32
+msgid "Referral Source (Internal Page/Post)"
+msgstr ""
+
+#: includes/contact-segmentation/conditions/referral-source-post-category.php:32
+msgid "Referral Source (post Category)"
+msgstr ""
+
+#: includes/contact-segmentation/conditions/referral-source-product-category.php:32
+msgid "Referral Source (Product Category)"
+msgstr ""
+
+#: includes/contact-segmentation/conditions/referral-source-url.php:32
+msgid "Referral Source (URL)"
+msgstr ""
+
+#: includes/contact-segmentation/conditions/shipping-city.php:33
+msgid "Past Order Shipping City"
+msgstr ""
+
+#: includes/contact-segmentation/conditions/shipping-country.php:32
+msgid "Past Order Shipping Country"
+msgstr ""
+
+#: includes/contact-segmentation/conditions/signup-date.php:32
+msgid "Signup Date"
+msgstr ""
+
+#: includes/contact-segmentation/conditions/total-order-count.php:32
+msgid "Total Orders Count"
+msgstr ""
+
+#: includes/contact-segmentation/conditions/user-device.php:32
+msgid "User Device"
+msgstr ""
+
+#: includes/contact-segmentation/conditions/user-device.php:52
+msgid "Desktop"
+msgstr ""
+
+#: includes/contact-segmentation/conditions/user-device.php:53
+msgid "Tablet"
+msgstr ""
+
+#: includes/contact-segmentation/conditions/user-device.php:54
+#: includes/elementor/modules/optin/fields/tel.php:85
+#: includes/elementor/modules/optin/module.php:293
+msgid "Mobile"
+msgstr ""
+
+#: includes/contact-segmentation/conditions/user-role.php:32
+#: includes/dynamic-keywords/contact-segmentation/user-role.php:38
+msgid "User Role"
+msgstr ""
+
+#: includes/contact-segmentation/conditions/user-type.php:32
+msgid "User Type"
+msgstr ""
+
+#: includes/contact-segmentation/conditions/user-type.php:52
+msgid "First-time visitor"
+msgstr ""
+
+#: includes/contact-segmentation/conditions/user-type.php:53
+msgid "Returning visitor"
+msgstr ""
+
+#: includes/contact-segmentation/conditions/user-type.php:54
+msgid "Lead"
+msgstr ""
+
+#: includes/contact-segmentation/conditions/user-type.php:55
+msgid "Customer"
+msgstr ""
+
+#: includes/contact-segmentation/conditions/utm-campaign.php:32
+#: includes/dynamic-keywords/contact-segmentation/utm-campaign.php:38
+msgid "UTM Campaign"
+msgstr ""
+
+#: includes/contact-segmentation/conditions/utm-content.php:32
+#: includes/dynamic-keywords/contact-segmentation/utm-content.php:38
+msgid "UTM Content"
+msgstr ""
+
+#: includes/contact-segmentation/conditions/utm-medium.php:32
+msgid "UTM Medium"
+msgstr ""
+
+#: includes/contact-segmentation/conditions/utm-source.php:32
+#: includes/dynamic-keywords/contact-segmentation/utm-source.php:38
+msgid "UTM Source"
+msgstr ""
+
+#: includes/contact-segmentation/conditions/utm-term.php:32
+#: includes/dynamic-keywords/contact-segmentation/utm-term.php:38
+msgid "UTM Term"
+msgstr ""
+
+#: includes/contact-segmentation/conditions/visitor-language.php:32
+msgid "Visitor's Local Language"
+msgstr ""
+
+#: includes/contact-segmentation/contact-data.php:161
+#: includes/contact-segmentation/rfm/class.php:82
+#: includes/contact-segmentation/rfm/updater.php:66
+msgid "Somethings went wrong"
+msgstr ""
+
+#: includes/contact-segmentation/operators/after.php:32
+msgid "after..."
+msgstr ""
+
+#: includes/contact-segmentation/operators/before.php:32
+msgid "before..."
+msgstr ""
+
+#: includes/contact-segmentation/operators/contains.php:32
+msgid "contains"
+msgstr ""
+
+#: includes/contact-segmentation/operators/dates-between.php:32
+msgid "dates between"
+msgstr ""
+
+#: includes/contact-segmentation/operators/does-not-contain.php:32
+msgid "does not contains"
+msgstr ""
+
+#: includes/contact-segmentation/operators/ends-with.php:32
+msgid "end with"
+msgstr ""
+
+#: includes/contact-segmentation/operators/greater-than.php:32
+msgid "greater than"
+msgstr ""
+
+#: includes/contact-segmentation/operators/in-the-last.php:32
+msgid "in the last"
+msgstr ""
+
+#: includes/contact-segmentation/operators/is-accepted.php:32
+msgid "is accepted"
+msgstr ""
+
+#: includes/contact-segmentation/operators/is-any-of.php:32
+msgid "is any of"
+msgstr ""
+
+#: includes/contact-segmentation/operators/is-none-of.php:32
+msgid "is none of"
+msgstr ""
+
+#: includes/contact-segmentation/operators/is-not-accepted.php:32
+msgid "is not accepted"
+msgstr ""
+
+#: includes/contact-segmentation/operators/is-not.php:32
+msgid "is not"
+msgstr ""
+
+#: includes/contact-segmentation/operators/is.php:32
+msgid "is"
+msgstr ""
+
+#: includes/contact-segmentation/operators/last-month.php:32
+msgid "last month"
+msgstr ""
+
+#: includes/contact-segmentation/operators/less-than.php:32
+msgid "less than"
+msgstr ""
+
+#: includes/contact-segmentation/operators/on.php:32
+msgid "on..."
+msgstr ""
+
+#: includes/contact-segmentation/operators/starts-with.php:32
+msgid "starts with"
+msgstr ""
+
+#: includes/contact-segmentation/operators/this-month.php:32
+msgid "this month"
+msgstr ""
+
+#: includes/contact-segmentation/operators/threshold-range.php:32
+msgid "threshold range"
+msgstr ""
+
+#: includes/core/admin/feedback.php:42
+msgid "Nonce is wrong."
+msgstr ""
+
+#: includes/core/admin/feedback.php:61
+msgid "Deactivation feedback is sent."
+msgstr ""
+
+#: includes/core/admin/feedback.php:115
+msgid "It is a temporary deactivation, I am just debugging an issue"
+msgstr ""
+
+#: includes/core/admin/feedback.php:118
+msgid "I need more feature"
+msgstr ""
+
+#: includes/core/admin/feedback.php:121
+msgid "I no longer need it"
+msgstr ""
+
+#: includes/core/admin/feedback.php:124
+msgid "Customer service was less than expected"
+msgstr ""
+
+#: includes/core/admin/feedback.php:127
+msgid "Ease of use was less than expected"
+msgstr ""
+
+#: includes/core/admin/feedback.php:130
+msgid "Quality was less than expected"
+msgstr ""
+
+#: includes/core/admin/feedback.php:133
+msgid "Lack of integration with my tools"
+msgstr ""
+
+#: includes/core/admin/feedback.php:136
+msgid "Other reason"
+msgstr ""
+
+#: includes/core/admin/feedback.php:137
+msgid "Please share the reason"
+msgstr ""
+
+#: includes/core/admin/feedback.php:145
+msgid "Sellkit Feedback"
+msgstr ""
+
+#: includes/core/admin/feedback.php:153
+msgid "May we have a little info about why you are deactivating?"
+msgstr ""
+
+#: includes/core/admin/feedback.php:169
+#: assets/dist/admin/sellkit.js:266
+#: assets/dist/admin/sellkit.js:280
+msgid "Discard"
+msgstr ""
+
+#: includes/core/admin/feedback.php:172
+msgid "Submit & Deactivate"
+msgstr ""
+
+#: includes/dynamic-keywords/contact-segmentation/categories-in-cart.php:38
+msgid "Categories in cart"
+msgstr ""
+
+#: includes/dynamic-keywords/contact-segmentation/contact-base.php:131
+msgid "And "
+msgstr ""
+
+#: includes/dynamic-keywords/contact-segmentation/products-in-cart.php:38
+msgid "Products in Cart"
+msgstr ""
+
+#: includes/dynamic-keywords/contact-segmentation/remaining-subtotal-amount.php:38
+msgid "Remaining subtotal amount"
+msgstr ""
+
+#: includes/dynamic-keywords/contact-segmentation/time-to-deadline.php:38
+msgid "Time to Deadline"
+msgstr ""
+
+#: includes/dynamic-keywords/contact-segmentation/time-to-deadline.php:74
+msgid "Hour"
+msgstr ""
+
+#: includes/dynamic-keywords/contact-segmentation/time-to-deadline.php:74
+msgid "Hours"
+msgstr ""
+
+#: includes/dynamic-keywords/contact-segmentation/time-to-deadline.php:77
+msgid "Minute"
+msgstr ""
+
+#: includes/dynamic-keywords/contact-segmentation/time-to-deadline.php:77
+msgid "Minutes"
+msgstr ""
+
+#: includes/dynamic-keywords/contact-segmentation/visitor-city.php:38
+msgid "Visitor City"
+msgstr ""
+
+#: includes/dynamic-keywords/keywords/coupon-code.php:19
+msgid "Coupon Code"
+msgstr ""
+
+#: includes/dynamic-keywords/keywords/coupon-expiry-date.php:19
+msgid "Coupon Expiry Date"
+msgstr ""
+
+#: includes/dynamic-keywords/keywords/coupon-value.php:19
+msgid "Coupon Value"
+msgstr ""
+
+#: includes/dynamic-keywords/keywords/customer-email.php:19
+msgid "Customer Email"
+msgstr ""
+
+#: includes/dynamic-keywords/keywords/customer-first-name.php:19
+msgid "Customer First Name"
+msgstr ""
+
+#: includes/dynamic-keywords/keywords/customer-full-name.php:19
+msgid "Customer Full Name"
+msgstr ""
+
+#: includes/dynamic-keywords/keywords/customer-last-name.php:19
+msgid "Customer Last Name"
+msgstr ""
+
+#: includes/dynamic-keywords/keywords/customer-phone.php:19
+msgid "Customer Phone"
+msgstr ""
+
+#: includes/dynamic-keywords/keywords/customer-provided-note.php:19
+msgid "Customer Provided Note"
+msgstr ""
+
+#: includes/dynamic-keywords/keywords/customer-user-id.php:19
+msgid "Customer User Id"
+msgstr ""
+
+#: includes/dynamic-keywords/keywords/order-billing-address.php:19
+msgid "Order Billing Address"
+msgstr ""
+
+#: includes/dynamic-keywords/keywords/order-billing-country.php:19
+msgid "Order Billing Country"
+msgstr ""
+
+#: includes/dynamic-keywords/keywords/order-date.php:20
+#: assets/dist/admin/sellkit.js:280
+msgid "Order Date"
+msgstr ""
+
+#: includes/dynamic-keywords/keywords/order-items-count.php:19
+msgid "Order Item Count"
+msgstr ""
+
+#: includes/dynamic-keywords/keywords/order-number.php:19
+#: includes/elementor/modules/order-details/module.php:34
+#: includes/elementor/modules/order-details/widgets/order-details.php:111
+#: assets/dist/admin/sellkit.js:280
+msgid "Order Number"
+msgstr ""
+
+#: includes/dynamic-keywords/keywords/order-payment-method.php:19
+msgid "Order Payment Method"
+msgstr ""
+
+#: includes/dynamic-keywords/keywords/order-shipping-address.php:20
+msgid "Order Shipping Address"
+msgstr ""
+
+#: includes/dynamic-keywords/keywords/order-shipping-method.php:20
+msgid "Order Shipping Method"
+msgstr ""
+
+#: includes/dynamic-keywords/keywords/order-status.php:20
+#: includes/elementor/modules/order-details/module.php:35
+msgid "Order Status"
+msgstr ""
+
+#: includes/dynamic-keywords/keywords/order-total.php:20
+msgid "Order Total"
+msgstr ""
+
+#: includes/elementor/controls/file-uploader.php:106
+msgid "Upload File"
+msgstr ""
+
+#: includes/elementor/controls/file-uploader.php:109
+msgid "Uploading..."
+msgstr ""
+
+#: includes/elementor/controls/file-uploader.php:126
+msgid "Maximum allowed file size is"
+msgstr ""
+
+#. translators: here "MB" means megabytes
+#: includes/elementor/controls/file-uploader.php:130
+msgid "MB"
+msgstr ""
+
+#: includes/elementor/modules/accept-reject-button/widgets/accept-reject-button.php:19
+msgid "Accept/Reject Button"
+msgstr ""
+
+#: includes/elementor/modules/accept-reject-button/widgets/accept-reject-button.php:40
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:75
+#: includes/elementor/modules/product-description/widgets/product-description.php:35
+#: includes/elementor/modules/product-images/widgets/product-images.php:323
+#: includes/elementor/modules/product-title/widgets/product-title.php:79
+#: assets/dist/admin/sellkit.js:280
+msgid "Content"
+msgstr ""
+
+#: includes/elementor/modules/accept-reject-button/widgets/accept-reject-button.php:48
+msgid "Offer Type"
+msgstr ""
+
+#: includes/elementor/modules/accept-reject-button/widgets/accept-reject-button.php:52
+msgid "Accept Offer"
+msgstr ""
+
+#: includes/elementor/modules/accept-reject-button/widgets/accept-reject-button.php:53
+msgid "Reject Offer"
+msgstr ""
+
+#: includes/elementor/modules/accept-reject-button/widgets/accept-reject-button.php:61
+#: includes/elementor/modules/order-details/widgets/order-details.php:66
+#: includes/elementor/modules/order-details/widgets/order-details.php:67
+msgid "Title"
+msgstr ""
+
+#: includes/elementor/modules/accept-reject-button/widgets/accept-reject-button.php:62
+msgid "Offer Action"
+msgstr ""
+
+#: includes/elementor/modules/accept-reject-button/widgets/accept-reject-button.php:70
+msgid "Sub Title"
+msgstr ""
+
+#: includes/elementor/modules/accept-reject-button/widgets/accept-reject-button.php:78
+#: includes/elementor/modules/checkout/widgets/style-controls.php:149
+#: includes/elementor/modules/checkout/widgets/style-controls.php:209
+#: includes/elementor/modules/checkout/widgets/style-controls.php:294
+#: includes/elementor/modules/optin/controls/tab-style.php:941
+#: includes/elementor/modules/optin/controls/tab-style.php:1189
+#: includes/elementor/modules/product-description/widgets/product-description.php:68
+#: includes/elementor/modules/product-images/widgets/product-images.php:343
+#: includes/elementor/modules/product-price/widgets/product-price.php:38
+#: includes/elementor/modules/product-quantity/widgets/product-quantity.php:38
+#: includes/elementor/modules/product-title/widgets/product-title.php:105
+msgid "Alignment"
+msgstr ""
+
+#: includes/elementor/modules/accept-reject-button/widgets/accept-reject-button.php:83
+#: includes/elementor/modules/checkout/widgets/style-controls.php:153
+#: includes/elementor/modules/checkout/widgets/style-controls.php:213
+#: includes/elementor/modules/checkout/widgets/style-controls.php:298
+#: includes/elementor/modules/optin/controls/tab-style.php:947
+#: includes/elementor/modules/optin/controls/tab-style.php:1197
+#: includes/elementor/modules/product-description/widgets/product-description.php:72
+#: includes/elementor/modules/product-images/widgets/product-images.php:348
+#: includes/elementor/modules/product-price/widgets/product-price.php:42
+#: includes/elementor/modules/product-quantity/widgets/product-quantity.php:42
+#: includes/elementor/modules/product-title/widgets/product-title.php:110
+msgid "Left"
+msgstr ""
+
+#: includes/elementor/modules/accept-reject-button/widgets/accept-reject-button.php:87
+#: includes/elementor/modules/checkout/widgets/style-controls.php:157
+#: includes/elementor/modules/checkout/widgets/style-controls.php:217
+#: includes/elementor/modules/checkout/widgets/style-controls.php:302
+#: includes/elementor/modules/optin/controls/tab-style.php:951
+#: includes/elementor/modules/product-description/widgets/product-description.php:76
+#: includes/elementor/modules/product-images/widgets/product-images.php:352
+#: includes/elementor/modules/product-price/widgets/product-price.php:46
+#: includes/elementor/modules/product-quantity/widgets/product-quantity.php:46
+#: includes/elementor/modules/product-title/widgets/product-title.php:114
+msgid "Center"
+msgstr ""
+
+#: includes/elementor/modules/accept-reject-button/widgets/accept-reject-button.php:91
+#: includes/elementor/modules/checkout/widgets/style-controls.php:161
+#: includes/elementor/modules/checkout/widgets/style-controls.php:221
+#: includes/elementor/modules/checkout/widgets/style-controls.php:306
+#: includes/elementor/modules/optin/controls/tab-style.php:955
+#: includes/elementor/modules/optin/controls/tab-style.php:1201
+#: includes/elementor/modules/product-description/widgets/product-description.php:80
+#: includes/elementor/modules/product-images/widgets/product-images.php:356
+#: includes/elementor/modules/product-price/widgets/product-price.php:50
+#: includes/elementor/modules/product-quantity/widgets/product-quantity.php:50
+#: includes/elementor/modules/product-title/widgets/product-title.php:118
+msgid "Right"
+msgstr ""
+
+#: includes/elementor/modules/accept-reject-button/widgets/accept-reject-button.php:104
+#: includes/elementor/modules/optin/controls/tab-style.php:416
+#: includes/elementor/modules/optin/controls/tab-style.php:472
+#: includes/elementor/modules/optin/controls/tab-style.php:687
+#: includes/elementor/modules/optin/controls/tab-style.php:1145
+#: includes/elementor/modules/order-details/widgets/order-details.php:285
+msgid "Size"
+msgstr ""
+
+#: includes/elementor/modules/accept-reject-button/widgets/accept-reject-button.php:125
+#: includes/elementor/modules/checkout/widgets/style-controls.php:460
+msgid "Icon Spacing"
+msgstr ""
+
+#: includes/elementor/modules/accept-reject-button/widgets/accept-reject-button.php:151
+#: includes/elementor/modules/checkout/widgets/style-controls.php:441
+msgid "Icon Size"
+msgstr ""
+
+#: includes/elementor/modules/accept-reject-button/widgets/accept-reject-button.php:174
+msgid "Title Spacing"
+msgstr ""
+
+#: includes/elementor/modules/accept-reject-button/widgets/accept-reject-button.php:206
+#: includes/elementor/modules/checkout/widgets/style-controls.php:488
+#: includes/elementor/modules/optin/controls/tab-style.php:848
+msgid "Button"
+msgstr ""
+
+#: includes/elementor/modules/accept-reject-button/widgets/accept-reject-button.php:224
+msgid "Subtitle Typography"
+msgstr ""
+
+#: includes/elementor/modules/accept-reject-button/widgets/accept-reject-button.php:239
+#: includes/elementor/modules/product-description/widgets/product-description.php:121
+#: includes/elementor/modules/product-price/widgets/product-price.php:91
+#: includes/elementor/modules/product-quantity/widgets/product-quantity.php:129
+#: includes/elementor/modules/product-title/widgets/product-title.php:60
+msgid "Text Shadow"
+msgstr ""
+
+#: includes/elementor/modules/accept-reject-button/widgets/accept-reject-button.php:251
+#: includes/elementor/modules/optin/controls/tab-style.php:128
+#: includes/elementor/modules/optin/controls/tab-style.php:540
+#: includes/elementor/modules/optin/controls/tab-style.php:746
+#: includes/elementor/modules/optin/controls/tab-style.php:970
+#: includes/elementor/modules/optin/controls/tab-style.php:1213
+msgid "Normal"
+msgstr ""
+
+#: includes/elementor/modules/accept-reject-button/widgets/accept-reject-button.php:258
+#: includes/elementor/modules/accept-reject-button/widgets/accept-reject-button.php:289
+#: includes/elementor/modules/checkout/widgets/style-controls.php:515
+#: includes/elementor/modules/checkout/widgets/style-controls.php:563
+#: includes/elementor/modules/checkout/widgets/style-controls.php:653
+#: includes/elementor/modules/checkout/widgets/style-controls.php:693
+#: includes/elementor/modules/product-description/widgets/product-description.php:107
+#: includes/elementor/modules/product-price/widgets/product-price.php:77
+msgid "Text Color"
+msgstr ""
+
+#: includes/elementor/modules/accept-reject-button/widgets/accept-reject-button.php:270
+#: includes/elementor/modules/accept-reject-button/widgets/accept-reject-button.php:301
+msgid "Background Type"
+msgstr ""
+
+#: includes/elementor/modules/accept-reject-button/widgets/accept-reject-button.php:282
+#: includes/elementor/modules/optin/controls/tab-style.php:1048
+#: includes/elementor/modules/optin/controls/tab-style.php:1240
+msgid "Hover"
+msgstr ""
+
+#: includes/elementor/modules/accept-reject-button/widgets/accept-reject-button.php:321
+#: includes/elementor/modules/checkout/widgets/style-controls.php:1152
+#: includes/elementor/modules/product-images/widgets/product-images.php:47
+#: includes/elementor/modules/product-images/widgets/product-images.php:214
+msgid "Border Type"
+msgstr ""
+
+#: includes/elementor/modules/accept-reject-button/widgets/accept-reject-button.php:324
+#: includes/elementor/modules/optin/controls/tab-content.php:194
+#: includes/elementor/modules/product-images/widgets/product-images.php:50
+#: includes/elementor/modules/product-images/widgets/product-images.php:218
+msgid "None"
+msgstr ""
+
+#: includes/elementor/modules/accept-reject-button/widgets/accept-reject-button.php:325
+#: includes/elementor/modules/product-images/widgets/product-images.php:51
+#: includes/elementor/modules/product-images/widgets/product-images.php:219
+msgid "Solid"
+msgstr ""
+
+#: includes/elementor/modules/accept-reject-button/widgets/accept-reject-button.php:326
+#: includes/elementor/modules/product-images/widgets/product-images.php:52
+#: includes/elementor/modules/product-images/widgets/product-images.php:220
+msgid "Double"
+msgstr ""
+
+#: includes/elementor/modules/accept-reject-button/widgets/accept-reject-button.php:327
+#: includes/elementor/modules/product-images/widgets/product-images.php:53
+#: includes/elementor/modules/product-images/widgets/product-images.php:221
+msgid "Dotted"
+msgstr ""
+
+#: includes/elementor/modules/accept-reject-button/widgets/accept-reject-button.php:328
+#: includes/elementor/modules/product-images/widgets/product-images.php:54
+#: includes/elementor/modules/product-images/widgets/product-images.php:222
+msgid "Dashed"
+msgstr ""
+
+#: includes/elementor/modules/accept-reject-button/widgets/accept-reject-button.php:329
+#: includes/elementor/modules/product-images/widgets/product-images.php:55
+#: includes/elementor/modules/product-images/widgets/product-images.php:223
+msgid "Groove"
+msgstr ""
+
+#: includes/elementor/modules/accept-reject-button/widgets/accept-reject-button.php:340
+#: includes/elementor/modules/product-images/widgets/product-images.php:67
+#: includes/elementor/modules/product-images/widgets/product-images.php:237
+msgid "Border Color"
+msgstr ""
+
+#: includes/elementor/modules/accept-reject-button/widgets/accept-reject-button.php:354
+#: includes/elementor/modules/optin/controls/tab-style.php:572
+#: includes/elementor/modules/optin/controls/tab-style.php:626
+#: includes/elementor/modules/optin/controls/tab-style.php:774
+#: includes/elementor/modules/optin/controls/tab-style.php:821
+#: includes/elementor/modules/optin/controls/tab-style.php:1022
+#: includes/elementor/modules/order-cart-details/widgets/order-cart-details.php:69
+#: includes/elementor/modules/order-cart-details/widgets/order-cart-details.php:232
+#: includes/elementor/modules/product-images/widgets/product-images.php:82
+#: includes/elementor/modules/product-images/widgets/product-images.php:252
+msgid "Border Width"
+msgstr ""
+
+#: includes/elementor/modules/accept-reject-button/widgets/accept-reject-button.php:378
+#: includes/elementor/modules/checkout/widgets/style-controls.php:258
+#: includes/elementor/modules/checkout/widgets/style-controls.php:609
+#: includes/elementor/modules/checkout/widgets/style-controls.php:739
+#: includes/elementor/modules/checkout/widgets/style-controls.php:935
+#: includes/elementor/modules/checkout/widgets/style-controls.php:1160
+#: includes/elementor/modules/optin/controls/tab-style.php:162
+#: includes/elementor/modules/optin/controls/tab-style.php:280
+#: includes/elementor/modules/optin/controls/tab-style.php:657
+#: includes/elementor/modules/optin/controls/tab-style.php:1034
+#: includes/elementor/modules/optin/controls/tab-style.php:1119
+#: includes/elementor/modules/order-cart-details/widgets/order-cart-details.php:93
+#: includes/elementor/modules/order-cart-details/widgets/order-cart-details.php:212
+#: includes/elementor/modules/order-details/widgets/order-details.php:174
+#: includes/elementor/modules/product-images/widgets/product-images.php:107
+#: includes/elementor/modules/product-images/widgets/product-images.php:277
+msgid "Border Radius"
+msgstr ""
+
+#: includes/elementor/modules/accept-reject-button/widgets/accept-reject-button.php:408
+#: includes/elementor/modules/checkout/widgets/style-controls.php:1185
+#: includes/elementor/modules/optin/controls/tab-style.php:364
+#: includes/elementor/modules/order-cart-details/widgets/order-cart-details.php:129
+#: includes/elementor/modules/order-details/widgets/order-details.php:198
+msgid "Padding"
+msgstr ""
+
+#: includes/elementor/modules/accept-reject-button/widgets/accept-reject-button.php:448
+msgid "Updating your order…"
+msgstr ""
+
+#: includes/elementor/modules/accept-reject-button/widgets/accept-reject-button.php:451
+msgid "Congratulations! Your item has been successfully added to the order."
+msgstr ""
+
+#: includes/elementor/modules/accept-reject-button/widgets/accept-reject-button.php:454
+msgid "Sorry! We were unable to add this item to your order."
+msgstr ""
+
+#: includes/elementor/modules/checkout/classes/global-hooks.php:273
+#: includes/elementor/modules/checkout/classes/helper.php:260
+#: includes/elementor/modules/checkout/classes/multi-step.php:253
+#: includes/elementor/modules/checkout/classes/multi-step.php:283
+msgid "Shipping"
+msgstr ""
+
+#: includes/elementor/modules/checkout/classes/global-hooks.php:419
+msgid "Email or password field is not valid."
+msgstr ""
+
+#: includes/elementor/modules/checkout/classes/global-hooks.php:733
+msgid "Not valid inputs"
+msgstr ""
+
+#: includes/elementor/modules/checkout/classes/global-hooks.php:739
+msgid "Server error."
+msgstr ""
+
+#: includes/elementor/modules/checkout/classes/global-hooks.php:784
+msgid "Oh do not be tricky."
+msgstr ""
+
+#: includes/elementor/modules/checkout/classes/helper.php:49
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:50
+msgid "Billing First Name"
+msgstr ""
+
+#: includes/elementor/modules/checkout/classes/helper.php:50
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:51
+msgid "Billing Last Name"
+msgstr ""
+
+#: includes/elementor/modules/checkout/classes/helper.php:51
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:53
+msgid "Billing Address 1"
+msgstr ""
+
+#: includes/elementor/modules/checkout/classes/helper.php:52
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:54
+msgid "Billing Address 2"
+msgstr ""
+
+#: includes/elementor/modules/checkout/classes/helper.php:53
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:55
+msgid "Billing City"
+msgstr ""
+
+#: includes/elementor/modules/checkout/classes/helper.php:54
+msgid "Billing Postal Code"
+msgstr ""
+
+#: includes/elementor/modules/checkout/classes/helper.php:55
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:57
+msgid "Billing Country"
+msgstr ""
+
+#: includes/elementor/modules/checkout/classes/helper.php:56
+#: includes/elementor/modules/checkout/classes/helper.php:57
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:58
+msgid "Billing State"
+msgstr ""
+
+#: includes/elementor/modules/checkout/classes/helper.php:69
+msgid "shipping First Name"
+msgstr ""
+
+#: includes/elementor/modules/checkout/classes/helper.php:70
+msgid "shipping Last Name"
+msgstr ""
+
+#: includes/elementor/modules/checkout/classes/helper.php:71
+msgid "shipping Address 1"
+msgstr ""
+
+#: includes/elementor/modules/checkout/classes/helper.php:72
+msgid "shipping Address 2"
+msgstr ""
+
+#: includes/elementor/modules/checkout/classes/helper.php:73
+msgid "shipping City"
+msgstr ""
+
+#: includes/elementor/modules/checkout/classes/helper.php:74
+msgid "shipping Postal Code"
+msgstr ""
+
+#: includes/elementor/modules/checkout/classes/helper.php:75
+msgid "shipping Country"
+msgstr ""
+
+#: includes/elementor/modules/checkout/classes/helper.php:76
+msgid "shipping State"
+msgstr ""
+
+#. translators: %s field_name.
+#: includes/elementor/modules/checkout/classes/helper.php:270
+#: includes/elementor/modules/checkout/classes/helper.php:305
+#: includes/elementor/modules/checkout/classes/helper.php:321
+msgid "%s is a required field."
+msgstr ""
+
+#: includes/elementor/modules/checkout/classes/helper.php:295
+msgid "Billing"
+msgstr ""
+
+#. translators: %s field_name.
+#: includes/elementor/modules/checkout/classes/helper.php:321
+#: includes/elementor/modules/checkout/classes/helper.php:327
+#: includes/elementor/modules/checkout/templates/form-login.php:36
+#: includes/elementor/modules/checkout/templates/form-login.php:65
+msgid "Email address"
+msgstr ""
+
+#. translators: %s field_name.
+#: includes/elementor/modules/checkout/classes/helper.php:327
+msgid "%s is not a valid email."
+msgstr ""
+
+#. translators: %s field_name.
+#: includes/elementor/modules/checkout/classes/helper.php:378
+msgid "%s is not a valid phone."
+msgstr ""
+
+#. translators: %s field_name.
+#: includes/elementor/modules/checkout/classes/helper.php:404
+msgid "%s is not a valid postcode."
+msgstr ""
+
+#: includes/elementor/modules/checkout/classes/local-hooks.php:469
+#: includes/elementor/modules/checkout/classes/local-hooks.php:612
+msgid "Shipping Methods"
+msgstr ""
+
+#: includes/elementor/modules/checkout/classes/local-hooks.php:510
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:167
+msgid "Express Checkout"
+msgstr ""
+
+#: includes/elementor/modules/checkout/classes/local-hooks.php:519
+msgid "OR"
+msgstr ""
+
+#: includes/elementor/modules/checkout/classes/local-hooks.php:725
+msgid "Have a coupon? Click here to enter your code"
+msgstr ""
+
+#: includes/elementor/modules/checkout/classes/local-hooks.php:732
+msgid "Enter Promo code"
+msgstr ""
+
+#: includes/elementor/modules/checkout/classes/local-hooks.php:737
+msgid "Apply"
+msgstr ""
+
+#: includes/elementor/modules/checkout/classes/local-hooks.php:805
+msgid "Your Products"
+msgstr ""
+
+#: includes/elementor/modules/checkout/classes/local-hooks.php:809
+#: includes/elementor/modules/checkout/widgets/style-controls.php:1004
+#: assets/dist/admin/sellkit.js:280
+msgid "Product"
+msgstr ""
+
+#: includes/elementor/modules/checkout/classes/local-hooks.php:810
+#: assets/dist/admin/sellkit.js:280
+msgid "Quantity"
+msgstr ""
+
+#: includes/elementor/modules/checkout/classes/local-hooks.php:811
+#: assets/dist/admin/sellkit.js:280
+msgid "Price"
+msgstr ""
+
+#: includes/elementor/modules/checkout/classes/multi-step.php:90
+msgid "Continue to shipping"
+msgstr ""
+
+#: includes/elementor/modules/checkout/classes/multi-step.php:93
+msgid "Continue to payment"
+msgstr ""
+
+#: includes/elementor/modules/checkout/classes/multi-step.php:131
+#: includes/elementor/modules/checkout/classes/multi-step.php:170
+msgid "Return to previous step"
+msgstr ""
+
+#: includes/elementor/modules/checkout/classes/multi-step.php:134
+msgid "Continue to Payment"
+msgstr ""
+
+#: includes/elementor/modules/checkout/classes/multi-step.php:209
+#: assets/dist/js/elementor-init.js:393
+msgid "Hide order summary"
+msgstr ""
+
+#: includes/elementor/modules/checkout/classes/multi-step.php:244
+#: includes/elementor/modules/checkout/classes/multi-step.php:274
+#: includes/elementor/modules/order-cart-details/widgets/order-cart-details.php:341
+msgid "Cart"
+msgstr ""
+
+#: includes/elementor/modules/checkout/classes/multi-step.php:249
+#: includes/elementor/modules/checkout/classes/multi-step.php:279
+msgid "Information"
+msgstr ""
+
+#: includes/elementor/modules/checkout/classes/multi-step.php:257
+#: includes/elementor/modules/checkout/classes/multi-step.php:287
+#: includes/elementor/modules/checkout/templates/payment.php:27
+msgid "Payment"
+msgstr ""
+
+#: includes/elementor/modules/checkout/classes/multi-step.php:303
+#: includes/elementor/modules/checkout/classes/multi-step.php:339
+msgid "Contact"
+msgstr ""
+
+#: includes/elementor/modules/checkout/classes/multi-step.php:307
+#: includes/elementor/modules/checkout/classes/multi-step.php:317
+#: includes/elementor/modules/checkout/classes/multi-step.php:343
+#: includes/elementor/modules/checkout/classes/multi-step.php:353
+#: includes/elementor/modules/checkout/classes/multi-step.php:363
+msgid "Change"
+msgstr ""
+
+#: includes/elementor/modules/checkout/classes/multi-step.php:313
+#: includes/elementor/modules/checkout/classes/multi-step.php:349
+msgid "Ship to"
+msgstr ""
+
+#: includes/elementor/modules/checkout/classes/multi-step.php:359
+msgid "Method"
+msgstr ""
+
+#: includes/elementor/modules/checkout/fields/base.php:116
+msgid "This field is required."
+msgstr ""
+
+#: includes/elementor/modules/checkout/fields/select.php:159
+msgid "Select a country…"
+msgstr ""
+
+#: includes/elementor/modules/checkout/fields/select.php:172
+msgid "Update country"
+msgstr ""
+
+#: includes/elementor/modules/checkout/fields/select.php:212
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:587
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:897
+#: includes/elementor/modules/optin/actions/drip.php:156
+#: assets/dist/js/elementor-init.js:654
+#: assets/dist/js/elementor-init.js:722
+msgid "State"
+msgstr ""
+
+#: includes/elementor/modules/checkout/fields/select.php:221
+msgid "Select a state…"
+msgstr ""
+
+#: includes/elementor/modules/checkout/templates/form-billing.php:26
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:964
+msgid "Select the address that matches your card or payment method."
+msgstr ""
+
+#: includes/elementor/modules/checkout/templates/form-billing.php:37
+msgid "Same as shipping address"
+msgstr ""
+
+#: includes/elementor/modules/checkout/templates/form-billing.php:45
+msgid "Use a different billing address"
+msgstr ""
+
+#: includes/elementor/modules/checkout/templates/form-login.php:31
+#: includes/elementor/modules/checkout/templates/form-login.php:60
+#: includes/elementor/modules/order-details/module.php:37
+#: assets/dist/admin/sellkit.js:280
+msgid "Contact Details"
+msgstr ""
+
+#: includes/elementor/modules/checkout/templates/form-login.php:47
+#: includes/elementor/modules/checkout/templates/form-login.php:75
+msgid "Email Address"
+msgstr ""
+
+#: includes/elementor/modules/checkout/templates/form-login.php:80
+msgid "Email address is not valid."
+msgstr ""
+
+#: includes/elementor/modules/checkout/templates/form-login.php:83
+msgid "Email address is empty."
+msgstr ""
+
+#: includes/elementor/modules/checkout/templates/form-login.php:87
+msgid "Checking..."
+msgstr ""
+
+#: includes/elementor/modules/checkout/templates/form-login.php:97
+#: includes/elementor/modules/checkout/templates/form-login.php:106
+msgid "Username"
+msgstr ""
+
+#: includes/elementor/modules/checkout/templates/form-login.php:109
+msgid "An account is already registered with that username. Please choose another.."
+msgstr ""
+
+#: includes/elementor/modules/checkout/templates/form-login.php:119
+#: includes/elementor/modules/checkout/templates/form-login.php:135
+msgid "Password"
+msgstr ""
+
+#: includes/elementor/modules/checkout/templates/form-login.php:163
+msgid "Login"
+msgstr ""
+
+#: includes/elementor/modules/checkout/templates/form-shipping.php:29
+msgid "Shipping address"
+msgstr ""
+
+#: includes/elementor/modules/checkout/templates/payment.php:29
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:955
+msgid "All transactions are secure and encrypted."
+msgstr ""
+
+#: includes/elementor/modules/checkout/templates/review-order.php:89
+msgid "Remove coupon"
+msgstr ""
+
+#: includes/elementor/modules/checkout/widgets/checkout.php:28
+msgid "Checkout Form"
+msgstr ""
+
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:28
+msgid "Shipping First Name"
+msgstr ""
+
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:29
+msgid "Shipping Last Name"
+msgstr ""
+
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:30
+msgid "Shipping Company"
+msgstr ""
+
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:31
+msgid "Shipping Address 1"
+msgstr ""
+
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:32
+msgid "Shipping Address 2"
+msgstr ""
+
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:33
+msgid "Shipping City"
+msgstr ""
+
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:34
+msgid "Shipping Postcode"
+msgstr ""
+
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:35
+msgid "Shipping Country"
+msgstr ""
+
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:36
+msgid "Shipping State"
+msgstr ""
+
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:37
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:60
+msgid "Custom Field (Sellkit Pro)"
+msgstr ""
+
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:52
+msgid "Billing Company"
+msgstr ""
+
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:56
+msgid "Billing Postcode"
+msgstr ""
+
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:59
+msgid "Billing Phone"
+msgstr ""
+
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:82
+msgid "Layout"
+msgstr ""
+
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:86
+msgid "Single Page"
+msgstr ""
+
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:87
+msgid "Multi Steps"
+msgstr ""
+
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:97
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:109
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:124
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:139
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:151
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:170
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:183
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:514
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:529
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:824
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:839
+#: includes/elementor/modules/optin/controls/tab-content.php:146
+#: includes/elementor/modules/optin/controls/tab-content.php:157
+#: includes/elementor/modules/order-cart-details/widgets/order-cart-details.php:330
+#: includes/elementor/modules/order-cart-details/widgets/order-cart-details.php:351
+#: includes/elementor/modules/order-cart-details/widgets/order-cart-details.php:362
+msgid "Show"
+msgstr ""
+
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:98
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:110
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:125
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:140
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:152
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:171
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:184
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:515
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:530
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:825
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:840
+#: includes/elementor/modules/optin/controls/tab-content.php:147
+#: includes/elementor/modules/optin/controls/tab-content.php:158
+#: includes/elementor/modules/order-cart-details/widgets/order-cart-details.php:331
+#: includes/elementor/modules/order-cart-details/widgets/order-cart-details.php:352
+#: includes/elementor/modules/order-cart-details/widgets/order-cart-details.php:363
+msgid "Hide"
+msgstr ""
+
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:107
+msgid "Enable Cart Editing"
+msgstr ""
+
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:122
+msgid "Steps"
+msgstr ""
+
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:137
+#: includes/elementor/modules/order-details/module.php:38
+msgid "Shipping Method"
+msgstr ""
+
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:149
+msgid "Preview Box"
+msgstr ""
+
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:181
+msgid "Checkout Sticky Cart"
+msgstr ""
+
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:196
+msgid "Place Order Button Text"
+msgstr ""
+
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:199
+msgid "Complete Order"
+msgstr ""
+
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:223
+#: assets/dist/admin/sellkit.js:280
+msgid "Upgrade Now"
+msgstr ""
+
+#. translators: 1: bold tag 2: bold tag
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:241
+msgid "You are using a free version of Sellkit. Upgrade to %1$s Sellkit Pro %2$s to use this feature."
+msgstr ""
+
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:250
+msgid "Address Autocomplete"
+msgstr ""
+
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:259
+msgid "Upgrade to Sellkit Pro"
+msgstr ""
+
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:273
+msgid "Coupon"
+msgstr ""
+
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:280
+msgid "Enable Coupon Field"
+msgstr ""
+
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:282
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:488
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:502
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:798
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:812
+#: includes/elementor/modules/checkout/widgets/style-controls.php:1014
+#: includes/elementor/modules/optin/actions/webhook.php:84
+#: includes/elementor/modules/product-images/widgets/product-images.php:335
+msgid "Yes"
+msgstr ""
+
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:283
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:489
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:503
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:799
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:813
+#: includes/elementor/modules/checkout/widgets/style-controls.php:1015
+#: includes/elementor/modules/optin/actions/webhook.php:84
+#: includes/elementor/modules/product-images/widgets/product-images.php:336
+msgid "No"
+msgstr ""
+
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:292
+msgid "Coupon Field Behavior"
+msgstr ""
+
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:296
+msgid "ُNormal"
+msgstr ""
+
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:297
+msgid "Collapsible"
+msgstr ""
+
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:309
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:542
+msgid "Shipping Fields"
+msgstr ""
+
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:318
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:628
+msgid "Field role"
+msgstr ""
+
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:327
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:637
+msgid "Custom Field Type"
+msgstr ""
+
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:330
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:640
+msgid "Text Field"
+msgstr ""
+
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:331
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:641
+msgid "Textarea Field"
+msgstr ""
+
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:332
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:642
+msgid "Select Field"
+msgstr ""
+
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:333
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:643
+msgid "Multiselect Field"
+msgstr ""
+
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:334
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:644
+#: includes/elementor/modules/optin/controls/tab-style.php:464
+#: includes/elementor/modules/optin/module.php:70
+msgid "Checkbox"
+msgstr ""
+
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:335
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:645
+#: includes/elementor/modules/optin/controls/tab-style.php:679
+#: includes/elementor/modules/optin/module.php:71
+msgid "Radio"
+msgstr ""
+
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:336
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:646
+msgid "Tel Field"
+msgstr ""
+
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:337
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:647
+msgid "Email Field"
+msgstr ""
+
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:338
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:648
+msgid "Hidden Field"
+msgstr ""
+
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:350
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:660
+#: includes/elementor/modules/optin/fields/checkbox.php:68
+#: includes/elementor/modules/optin/fields/radio.php:68
+#: includes/elementor/modules/optin/fields/select.php:85
+msgid "Options"
+msgstr ""
+
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:353
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:663
+msgid "e.g. option1:label1"
+msgstr ""
+
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:354
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:664
+msgid "Each line one option and separate value and label with (:)"
+msgstr ""
+
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:364
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:674
+msgid "Display Mode"
+msgstr ""
+
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:368
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:678
+msgid "Inline"
+msgstr ""
+
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:372
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:682
+#: includes/elementor/modules/optin/actions/activecampaign.php:60
+msgid "List"
+msgstr ""
+
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:387
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:697
+msgid "Custom Field ID"
+msgstr ""
+
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:399
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:411
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:709
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:721
+#: includes/elementor/modules/optin/fields/field-base.php:341
+msgid "Default Value"
+msgstr ""
+
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:427
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:737
+#: includes/elementor/modules/optin/controls/tab-style.php:856
+#: includes/elementor/modules/order-cart-details/widgets/order-cart-details.php:162
+#: includes/elementor/modules/product-images/widgets/product-images.php:141
+#: includes/elementor/modules/product-quantity/widgets/product-quantity.php:64
+msgid "Width"
+msgstr ""
+
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:430
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:740
+msgid "10%"
+msgstr ""
+
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:431
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:741
+msgid "20%"
+msgstr ""
+
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:432
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:742
+msgid "30%"
+msgstr ""
+
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:433
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:743
+msgid "33%"
+msgstr ""
+
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:434
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:744
+msgid "34%"
+msgstr ""
+
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:435
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:745
+msgid "40%"
+msgstr ""
+
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:436
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:746
+msgid "50%"
+msgstr ""
+
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:437
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:747
+msgid "60%"
+msgstr ""
+
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:438
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:748
+msgid "70%"
+msgstr ""
+
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:439
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:749
+msgid "80%"
+msgstr ""
+
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:440
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:750
+msgid "90%"
+msgstr ""
+
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:441
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:751
+msgid "100%"
+msgstr ""
+
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:450
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:760
+msgid "Field Label"
+msgstr ""
+
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:452
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:762
+msgid "Default label"
+msgstr ""
+
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:459
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:769
+msgid "Field Class"
+msgstr ""
+
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:461
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:771
+msgid "Divide each class with space character"
+msgstr ""
+
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:468
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:778
+msgid "Validation"
+msgstr ""
+
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:471
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:781
+msgid "Select one..."
+msgstr ""
+
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:472
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:782
+msgid "Phone validation"
+msgstr ""
+
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:473
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:783
+msgid "Postcode Validation"
+msgstr ""
+
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:485
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:795
+msgid "Field Required?"
+msgstr ""
+
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:498
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:808
+msgid "Field Clear"
+msgstr ""
+
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:512
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:822
+msgid "Show in Thank You Page"
+msgstr ""
+
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:527
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:837
+msgid "Show in Order Email"
+msgstr ""
+
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:552
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:862
+#: includes/elementor/modules/optin/actions/activecampaign.php:172
+#: includes/elementor/modules/optin/actions/convertkit.php:148
+#: includes/elementor/modules/optin/actions/drip.php:151
+#: includes/elementor/modules/optin/actions/growmatik.php:172
+#: assets/dist/admin/sellkit.js:280
+msgid "First Name"
+msgstr ""
+
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:559
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:869
+#: includes/elementor/modules/optin/actions/activecampaign.php:173
+#: includes/elementor/modules/optin/actions/drip.php:152
+#: includes/elementor/modules/optin/actions/growmatik.php:173
+#: assets/dist/admin/sellkit.js:280
+msgid "Last Name"
+msgstr ""
+
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:566
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:876
+#: includes/elementor/modules/optin/module.php:73
+msgid "Address"
+msgstr ""
+
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:573
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:883
+msgid "apartment, suit, unit, etc."
+msgstr ""
+
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:580
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:890
+#: includes/elementor/modules/optin/actions/drip.php:157
+#: includes/elementor/modules/optin/actions/growmatik.php:178
+#: assets/dist/admin/sellkit.js:280
+msgid "Country"
+msgstr ""
+
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:594
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:904
+msgid "Postal code"
+msgstr ""
+
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:601
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:911
+#: includes/elementor/modules/optin/actions/drip.php:155
+#: includes/elementor/modules/optin/actions/growmatik.php:180
+msgid "City"
+msgstr ""
+
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:618
+msgid "Billings Fields"
+msgstr ""
+
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:810
+msgid "Yes or No, applies a clear fix to the field"
+msgstr ""
+
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:852
+msgid "Billing Fields"
+msgstr ""
+
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:928
+#: includes/elementor/modules/optin/controls/tab-content.php:263
+msgid "Custom Messages"
+msgstr ""
+
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:936
+msgid "Your shopping cart is empty."
+msgstr ""
+
+#: includes/elementor/modules/checkout/widgets/settings-controls.php:945
+msgid "Create a {{website}} account"
+msgstr ""
+
+#: includes/elementor/modules/checkout/widgets/style-controls.php:22
+#: includes/elementor/modules/optin/actions/convertkit.php:53
+msgid "Form"
+msgstr ""
+
+#: includes/elementor/modules/checkout/widgets/style-controls.php:30
+msgid "Columns gap"
+msgstr ""
+
+#: includes/elementor/modules/checkout/widgets/style-controls.php:52
+msgid "Row gap"
+msgstr ""
+
+#: includes/elementor/modules/checkout/widgets/style-controls.php:74
+#: includes/elementor/modules/checkout/widgets/style-controls.php:362
+#: includes/elementor/modules/checkout/widgets/style-controls.php:393
+msgid "Links Color"
+msgstr ""
+
+#: includes/elementor/modules/checkout/widgets/style-controls.php:85
+#: includes/elementor/modules/checkout/widgets/style-controls.php:342
+#: includes/elementor/modules/checkout/widgets/style-controls.php:373
+#: includes/elementor/modules/checkout/widgets/style-controls.php:405
+msgid "Links Hover Color"
+msgstr ""
+
+#: includes/elementor/modules/checkout/widgets/style-controls.php:96
+msgid "Collapsible Form Background"
+msgstr ""
+
+#: includes/elementor/modules/checkout/widgets/style-controls.php:112
+#: includes/elementor/modules/order-cart-details/widgets/order-cart-details.php:327
+#: includes/elementor/modules/order-details/widgets/order-details.php:133
+#: includes/elementor/modules/order-details/widgets/order-details.php:235
+msgid "Heading"
+msgstr ""
+
+#: includes/elementor/modules/checkout/widgets/style-controls.php:121
+#: includes/elementor/modules/checkout/widgets/style-controls.php:190
+#: includes/elementor/modules/checkout/widgets/style-controls.php:286
+#: includes/elementor/modules/checkout/widgets/style-controls.php:527
+#: includes/elementor/modules/checkout/widgets/style-controls.php:575
+#: includes/elementor/modules/checkout/widgets/style-controls.php:665
+#: includes/elementor/modules/checkout/widgets/style-controls.php:705
+#: includes/elementor/modules/checkout/widgets/style-controls.php:773
+#: includes/elementor/modules/checkout/widgets/style-controls.php:849
+#: includes/elementor/modules/checkout/widgets/style-controls.php:887
+#: includes/elementor/modules/checkout/widgets/style-controls.php:1025
+#: includes/elementor/modules/checkout/widgets/style-controls.php:1068
+#: includes/elementor/modules/checkout/widgets/style-controls.php:1102
+msgid "Typography"
+msgstr ""
+
+#: includes/elementor/modules/checkout/widgets/style-controls.php:134
+#: includes/elementor/modules/checkout/widgets/style-controls.php:198
+#: includes/elementor/modules/checkout/widgets/style-controls.php:331
+#: includes/elementor/modules/checkout/widgets/style-controls.php:792
+#: includes/elementor/modules/checkout/widgets/style-controls.php:813
+#: includes/elementor/modules/checkout/widgets/style-controls.php:861
+#: includes/elementor/modules/checkout/widgets/style-controls.php:899
+#: includes/elementor/modules/checkout/widgets/style-controls.php:1034
+#: includes/elementor/modules/checkout/widgets/style-controls.php:1078
+#: includes/elementor/modules/checkout/widgets/style-controls.php:1110
+#: includes/elementor/modules/optin/controls/tab-style.php:79
+#: includes/elementor/modules/optin/controls/tab-style.php:194
+#: includes/elementor/modules/optin/controls/tab-style.php:223
+#: includes/elementor/modules/optin/controls/tab-style.php:311
+#: includes/elementor/modules/optin/controls/tab-style.php:340
+#: includes/elementor/modules/optin/controls/tab-style.php:403
+#: includes/elementor/modules/optin/controls/tab-style.php:488
+#: includes/elementor/modules/optin/controls/tab-style.php:700
+#: includes/elementor/modules/optin/controls/tab-style.php:977
+#: includes/elementor/modules/optin/controls/tab-style.php:1055
+#: includes/elementor/modules/optin/controls/tab-style.php:1223
+#: includes/elementor/modules/optin/controls/tab-style.php:1250
+#: includes/elementor/modules/order-cart-details/widgets/order-cart-details.php:79
+#: includes/elementor/modules/order-cart-details/widgets/order-cart-details.php:242
+#: includes/elementor/modules/order-details/widgets/order-details.php:253
+#: includes/elementor/modules/order-details/widgets/order-details.php:303
+#: includes/elementor/modules/order-details/widgets/order-details.php:356
+msgid "Color"
+msgstr ""
+
+#: includes/elementor/modules/checkout/widgets/style-controls.php:181
+msgid "Sub Heading"
+msgstr ""
+
+#: includes/elementor/modules/checkout/widgets/style-controls.php:239
+msgid "Divider"
+msgstr ""
+
+#: includes/elementor/modules/checkout/widgets/style-controls.php:248
+#: includes/elementor/modules/checkout/widgets/style-controls.php:601
+#: includes/elementor/modules/checkout/widgets/style-controls.php:731
+#: includes/elementor/modules/checkout/widgets/style-controls.php:914
+#: includes/elementor/modules/checkout/widgets/style-controls.php:924
+#: includes/elementor/modules/optin/controls/tab-style.php:1006
+#: includes/elementor/modules/optin/controls/tab-style.php:1085
+msgid "Border"
+msgstr ""
+
+#: includes/elementor/modules/checkout/widgets/style-controls.php:277
+msgid "Step"
+msgstr ""
+
+#: includes/elementor/modules/checkout/widgets/style-controls.php:324
+msgid "UPCOMING"
+msgstr ""
+
+#: includes/elementor/modules/checkout/widgets/style-controls.php:355
+msgid "IN-PROGRESS"
+msgstr ""
+
+#: includes/elementor/modules/checkout/widgets/style-controls.php:386
+msgid "COMPLETED"
+msgstr ""
+
+#: includes/elementor/modules/checkout/widgets/style-controls.php:421
+msgid "Separator Icon"
+msgstr ""
+
+#: includes/elementor/modules/checkout/widgets/style-controls.php:430
+msgid "Icon Color"
+msgstr ""
+
+#: includes/elementor/modules/checkout/widgets/style-controls.php:496
+msgid "Primary button"
+msgstr ""
+
+#: includes/elementor/modules/checkout/widgets/style-controls.php:508
+#: includes/elementor/modules/checkout/widgets/style-controls.php:646
+#: includes/elementor/modules/checkout/widgets/style-controls.php:785
+msgid "NORMAL"
+msgstr ""
+
+#: includes/elementor/modules/checkout/widgets/style-controls.php:543
+#: includes/elementor/modules/checkout/widgets/style-controls.php:583
+#: includes/elementor/modules/checkout/widgets/style-controls.php:673
+#: includes/elementor/modules/checkout/widgets/style-controls.php:713
+#: includes/elementor/modules/checkout/widgets/style-controls.php:978
+#: includes/elementor/modules/checkout/widgets/style-controls.php:1124
+#: includes/elementor/modules/optin/controls/tab-style.php:135
+#: includes/elementor/modules/optin/controls/tab-style.php:253
+#: includes/elementor/modules/optin/controls/tab-style.php:547
+#: includes/elementor/modules/optin/controls/tab-style.php:601
+#: includes/elementor/modules/optin/controls/tab-style.php:753
+#: includes/elementor/modules/optin/controls/tab-style.php:800
+#: includes/elementor/modules/order-cart-details/widgets/order-cart-details.php:53
+#: includes/elementor/modules/order-details/widgets/order-details.php:155
+msgid "Background Color"
+msgstr ""
+
+#: includes/elementor/modules/checkout/widgets/style-controls.php:556
+#: includes/elementor/modules/checkout/widgets/style-controls.php:686
+#: includes/elementor/modules/checkout/widgets/style-controls.php:806
+msgid "HOVER"
+msgstr ""
+
+#: includes/elementor/modules/checkout/widgets/style-controls.php:621
+#: includes/elementor/modules/checkout/widgets/style-controls.php:751
+msgid "Text Padding"
+msgstr ""
+
+#: includes/elementor/modules/checkout/widgets/style-controls.php:633
+msgid "Secondary button"
+msgstr ""
+
+#: includes/elementor/modules/checkout/widgets/style-controls.php:763
+msgid "Return Link"
+msgstr ""
+
+#: includes/elementor/modules/checkout/widgets/style-controls.php:832
+#: includes/elementor/modules/optin/actions/utils/crm-trait.php:379
+#: includes/elementor/modules/optin/controls/tab-style.php:117
+msgid "Field"
+msgstr ""
+
+#: includes/elementor/modules/checkout/widgets/style-controls.php:840
+#: includes/elementor/modules/optin/controls/tab-content.php:144
+#: includes/elementor/modules/optin/controls/tab-style.php:71
+#: includes/elementor/modules/optin/fields/field-base.php:336
+#: includes/elementor/modules/order-cart-details/widgets/order-cart-details.php:338
+msgid "Label"
+msgstr ""
+
+#: includes/elementor/modules/checkout/widgets/style-controls.php:877
+msgid "Input"
+msgstr ""
+
+#: includes/elementor/modules/checkout/widgets/style-controls.php:950
+msgid "Focus Color"
+msgstr ""
+
+#: includes/elementor/modules/checkout/widgets/style-controls.php:964
+msgid "Error Validation Color"
+msgstr ""
+
+#: includes/elementor/modules/checkout/widgets/style-controls.php:996
+msgid "Order Summary"
+msgstr ""
+
+#: includes/elementor/modules/checkout/widgets/style-controls.php:1012
+msgid "Enable Image"
+msgstr ""
+
+#: includes/elementor/modules/checkout/widgets/style-controls.php:1046
+msgid "Image Border Color"
+msgstr ""
+
+#: includes/elementor/modules/checkout/widgets/style-controls.php:1059
+#: assets/dist/admin/sellkit.js:280
+msgid "Subtotal"
+msgstr ""
+
+#: includes/elementor/modules/checkout/widgets/style-controls.php:1093
+#: assets/dist/admin/sellkit.js:280
+msgid "Total"
+msgstr ""
+
+#: includes/elementor/modules/checkout/widgets/style-controls.php:1135
+msgid "Inner Background Color"
+msgstr ""
+
+#: includes/elementor/modules/checkout/widgets/style-controls.php:1175
+msgid "Box Shadow"
+msgstr ""
+
+#: includes/elementor/modules/checkout/widgets/style-controls.php:1197
+#: includes/elementor/modules/order-cart-details/widgets/order-cart-details.php:117
+#: includes/elementor/modules/order-details/widgets/order-details.php:211
+#: includes/elementor/modules/order-details/widgets/order-details.php:264
+#: includes/elementor/modules/order-details/widgets/order-details.php:367
+msgid "Margin"
+msgstr ""
+
+#: includes/elementor/modules/dynamic-keywords/module.php:38
+msgid "You can also add personalization tags to this element using shortcodes. "
+msgstr ""
+
+#: includes/elementor/modules/dynamic-keywords/module.php:38
+msgid "Click here to show the available shortcodes"
+msgstr ""
+
+#: includes/elementor/modules/dynamic-keywords/template/modal.php:110
+msgid "Keywords List"
+msgstr ""
+
+#: includes/elementor/modules/dynamic-keywords/template/modal.php:113
+msgid "Keywords Name"
+msgstr ""
+
+#: includes/elementor/modules/dynamic-keywords/template/modal.php:114
+msgid "Keywords Shortcode"
+msgstr ""
+
+#: includes/elementor/modules/optin/actions/activecampaign.php:34
+#: includes/elementor/modules/optin/module.php:114
+#: assets/dist/admin/sellkit.js:280
+msgid "ActiveCampaign"
+msgstr ""
+
+#: includes/elementor/modules/optin/actions/activecampaign.php:68
+msgid "Custom API URL"
+msgstr ""
+
+#. translators: Action name
+#: includes/elementor/modules/optin/actions/activecampaign.php:73
+msgid "Enter your %s API URL for only this form."
+msgstr ""
+
+#: includes/elementor/modules/optin/actions/activecampaign.php:93
+#: includes/elementor/modules/optin/actions/convertkit.php:70
+#: includes/elementor/modules/optin/actions/drip.php:75
+#: includes/elementor/modules/optin/actions/getresponse.php:94
+#: includes/elementor/modules/optin/actions/growmatik.php:91
+#: includes/elementor/modules/optin/actions/mailchimp.php:148
+#: includes/elementor/modules/optin/actions/mailerlite.php:90
+msgid "Missing API credentials."
+msgstr ""
+
+#: includes/elementor/modules/optin/actions/activecampaign.php:169
+#: includes/elementor/modules/optin/actions/convertkit.php:145
+#: includes/elementor/modules/optin/actions/drip.php:148
+#: includes/elementor/modules/optin/actions/getresponse.php:168
+#: includes/elementor/modules/optin/actions/growmatik.php:169
+#: includes/elementor/modules/optin/actions/mailchimp.php:245
+#: includes/elementor/modules/optin/actions/mailerlite.php:148
+#: includes/elementor/modules/optin/controls/tab-content.php:61
+#: includes/elementor/modules/optin/module.php:65
+#: assets/dist/admin/sellkit.js:280
+msgid "Email"
+msgstr ""
+
+#: includes/elementor/modules/optin/actions/activecampaign.php:174
+#: includes/elementor/modules/optin/actions/drip.php:159
+#: includes/elementor/modules/optin/actions/growmatik.php:177
+msgid "Phone"
+msgstr ""
+
+#: includes/elementor/modules/optin/actions/convertkit.php:32
+#: includes/elementor/modules/optin/module.php:115
+#: assets/dist/admin/sellkit.js:280
+msgid "ConvertKit"
+msgstr ""
+
+#: includes/elementor/modules/optin/actions/download-redirect.php:73
+msgid "Download error: The file doesn't exist anymore."
+msgstr ""
+
+#: includes/elementor/modules/optin/actions/download-redirect.php:93
+msgid "Download error: Invalid file URL."
+msgstr ""
+
+#: includes/elementor/modules/optin/actions/download-redirect.php:108
+msgid "Internal server error: failed to find next funnel step."
+msgstr ""
+
+#: includes/elementor/modules/optin/actions/download-redirect.php:130
+msgid "Redirect error: Invalid URL."
+msgstr ""
+
+#: includes/elementor/modules/optin/actions/drip.php:32
+#: includes/elementor/modules/optin/module.php:116
+#: assets/dist/admin/sellkit.js:280
+msgid "Drip"
+msgstr ""
+
+#: includes/elementor/modules/optin/actions/drip.php:58
+msgid "Account"
+msgstr ""
+
+#: includes/elementor/modules/optin/actions/drip.php:153
+#: includes/elementor/modules/optin/actions/growmatik.php:176
+msgid "Address 1"
+msgstr ""
+
+#: includes/elementor/modules/optin/actions/drip.php:154
+msgid "Address 2"
+msgstr ""
+
+#: includes/elementor/modules/optin/actions/drip.php:158
+msgid "Zip"
+msgstr ""
+
+#: includes/elementor/modules/optin/actions/drip.php:160
+msgid "SMS Number"
+msgstr ""
+
+#: includes/elementor/modules/optin/actions/drip.php:161
+msgid "SMS Consent"
+msgstr ""
+
+#: includes/elementor/modules/optin/actions/drip.php:162
+msgid "Timezone"
+msgstr ""
+
+#: includes/elementor/modules/optin/actions/getresponse.php:32
+#: includes/elementor/modules/optin/module.php:117
+#: assets/dist/admin/sellkit.js:280
+msgid "GetResponse"
+msgstr ""
+
+#: includes/elementor/modules/optin/actions/getresponse.php:58
+msgid "Campaign"
+msgstr ""
+
+#: includes/elementor/modules/optin/actions/getresponse.php:64
+msgid "Day Of Cycle"
+msgstr ""
+
+#: includes/elementor/modules/optin/actions/getresponse.php:171
+#: includes/elementor/modules/optin/actions/mailerlite.php:151
+#: includes/elementor/modules/optin/controls/tab-content.php:56
+#: assets/dist/admin/sellkit.js:280
+msgid "Name"
+msgstr ""
+
+#: includes/elementor/modules/optin/actions/getresponse.php:232
+msgid "GetResponse: Contact already exists, but cannot retrieve its ID."
+msgstr ""
+
+#: includes/elementor/modules/optin/actions/growmatik.php:34
+#: includes/elementor/modules/optin/module.php:113
+#: assets/dist/admin/sellkit.js:280
+msgid "Growmatik"
+msgstr ""
+
+#: includes/elementor/modules/optin/actions/growmatik.php:60
+msgid "Site"
+msgstr ""
+
+#: includes/elementor/modules/optin/actions/growmatik.php:68
+msgid "Custom API Secret"
+msgstr ""
+
+#. translators: Action name
+#: includes/elementor/modules/optin/actions/growmatik.php:71
+msgid "Enter your %s API Secret for only this form."
+msgstr ""
+
+#: includes/elementor/modules/optin/actions/growmatik.php:174
+msgid "User Name"
+msgstr ""
+
+#: includes/elementor/modules/optin/actions/growmatik.php:175
+msgid "Gender"
+msgstr ""
+
+#: includes/elementor/modules/optin/actions/growmatik.php:179
+msgid "Region"
+msgstr ""
+
+#: includes/elementor/modules/optin/actions/growmatik.php:181
+msgid "EU Consent"
+msgstr ""
+
+#: includes/elementor/modules/optin/actions/growmatik.php:182
+msgid "Marketing Email Consent"
+msgstr ""
+
+#: includes/elementor/modules/optin/actions/mailchimp.php:34
+#: includes/elementor/modules/optin/module.php:118
+#: assets/dist/admin/sellkit.js:280
+msgid "MailChimp"
+msgstr ""
+
+#: includes/elementor/modules/optin/actions/mailchimp.php:93
+msgid "Audience"
+msgstr ""
+
+#: includes/elementor/modules/optin/actions/mailchimp.php:98
+msgid "Groups"
+msgstr ""
+
+#: includes/elementor/modules/optin/actions/mailchimp.php:118
+#: includes/elementor/modules/optin/actions/mailerlite.php:62
+msgid "Double Opt-In"
+msgstr ""
+
+#: includes/elementor/modules/optin/actions/mailchimp.php:120
+#: includes/elementor/modules/optin/actions/mailerlite.php:64
+msgid "Activates the existing user, if unsubscribed."
+msgstr ""
+
+#: includes/elementor/modules/optin/actions/mailchimp.php:248
+msgid "Full Name"
+msgstr ""
+
+#: includes/elementor/modules/optin/actions/mailerlite.php:32
+#: includes/elementor/modules/optin/module.php:119
+#: assets/dist/admin/sellkit.js:280
+msgid "MailerLite"
+msgstr ""
+
+#: includes/elementor/modules/optin/actions/mailerlite.php:57
+msgid "Group"
+msgstr ""
+
+#: includes/elementor/modules/optin/actions/utils/ajax-handler.php:73
+msgid "Error: Nonce mismatch or expired. Please reload the page and retry."
+msgstr ""
+
+#: includes/elementor/modules/optin/actions/utils/ajax-handler.php:215
+msgid "There's something wrong. The form is not valid."
+msgstr ""
+
+#: includes/elementor/modules/optin/actions/utils/crm-trait.php:230
+msgid " (issued by endpoint)"
+msgstr ""
+
+#. translators: 1: Action name, 2: response code, 3: error message (an unknown English string)
+#: includes/elementor/modules/optin/actions/utils/crm-trait.php:244
+msgid "%1$s: Request error-%2$s -- %3$s"
+msgstr ""
+
+#: includes/elementor/modules/optin/actions/utils/crm-trait.php:302
+msgid "API key"
+msgstr ""
+
+#: includes/elementor/modules/optin/actions/utils/crm-trait.php:307
+#: includes/elementor/modules/order-details/widgets/order-details.php:87
+msgid "Default"
+msgstr ""
+
+#: includes/elementor/modules/optin/actions/utils/crm-trait.php:308
+msgid "Custom"
+msgstr ""
+
+#. translators: 1: html tag, 2: Action name, 3: html tags, 4: html tags
+#: includes/elementor/modules/optin/actions/utils/crm-trait.php:315
+msgid "%1$sSet your %2$s API key in %3$s Sellkit Settings %4$s."
+msgstr ""
+
+#: includes/elementor/modules/optin/actions/utils/crm-trait.php:332
+msgid "Custom API Key"
+msgstr ""
+
+#. translators: Action name
+#: includes/elementor/modules/optin/actions/utils/crm-trait.php:336
+msgid "Enter your %s API key for only this form."
+msgstr ""
+
+#: includes/elementor/modules/optin/actions/utils/crm-trait.php:392
+msgid "Form Field"
+msgstr ""
+
+#: includes/elementor/modules/optin/actions/utils/crm-trait.php:408
+msgid "Field Mapping"
+msgstr ""
+
+#: includes/elementor/modules/optin/actions/utils/crm-trait.php:439
+msgid "Tags"
+msgstr ""
+
+#. translators: 1: Action name 2: Field name
+#: includes/elementor/modules/optin/actions/utils/crm-trait.php:469
+msgid "%1$s: %2$s is required by api endpoint, but the corresponding field is not made required in your form."
+msgstr ""
+
+#. translators: 1: Action name 2: Field name
+#: includes/elementor/modules/optin/actions/utils/crm-trait.php:487
+msgid "%1$s: %2$s is required by api endpoint, but it is not mapped to any field in your form."
+msgstr ""
+
+#. translators: 1: Action name 2: List name
+#: includes/elementor/modules/optin/actions/utils/crm-trait.php:505
+msgid "%1$s: Invalid %2$s is selected."
+msgstr ""
+
+#: includes/elementor/modules/optin/actions/webhook.php:31
+#: includes/elementor/modules/optin/module.php:120
+msgid "WebHook"
+msgstr ""
+
+#: includes/elementor/modules/optin/actions/webhook.php:37
+msgid "Enter the webhook URL where you want to send your Form data after submit e.g. "
+msgstr ""
+
+#: includes/elementor/modules/optin/actions/webhook.php:38
+msgid "Integrate with Zapier Webhook"
+msgstr ""
+
+#: includes/elementor/modules/optin/actions/webhook.php:43
+msgid "Webhook URL"
+msgstr ""
+
+#: includes/elementor/modules/optin/actions/webhook.php:67
+msgid "Webhook Action: Webhook Error."
+msgstr ""
+
+#: includes/elementor/modules/optin/actions/webhook.php:88
+msgid "No Label"
+msgstr ""
+
+#: includes/elementor/modules/optin/controls/tab-content.php:25
+msgid "Form Fields"
+msgstr ""
+
+#: includes/elementor/modules/optin/controls/tab-content.php:34
+#: includes/elementor/modules/optin/fields/tel.php:79
+#: includes/elementor/modules/order-details/widgets/order-details.php:56
+msgid "Type"
+msgstr ""
+
+#: includes/elementor/modules/optin/controls/tab-content.php:78
+msgid "Submit Button"
+msgstr ""
+
+#: includes/elementor/modules/optin/controls/tab-content.php:85
+#: includes/elementor/modules/optin/module.php:63
+msgid "Text"
+msgstr ""
+
+#: includes/elementor/modules/optin/controls/tab-content.php:87
+msgid "Subscribe"
+msgstr ""
+
+#: includes/elementor/modules/optin/controls/tab-content.php:94
+msgid "Sub Text"
+msgstr ""
+
+#: includes/elementor/modules/optin/controls/tab-content.php:102
+#: includes/elementor/modules/optin/controls/tab-style.php:389
+#: includes/elementor/modules/optin/controls/tab-style.php:1135
+#: includes/elementor/modules/order-details/widgets/order-details.php:75
+#: includes/elementor/modules/order-details/widgets/order-details.php:276
+msgid "Icon"
+msgstr ""
+
+#: includes/elementor/modules/optin/controls/tab-content.php:112
+#: includes/elementor/modules/optin/fields/field-base.php:358
+msgid "Column Width"
+msgstr ""
+
+#: includes/elementor/modules/optin/controls/tab-content.php:137
+#: includes/elementor/modules/order-cart-details/widgets/order-cart-details.php:320
+#: includes/elementor/modules/order-details/widgets/order-details.php:126
+#: sellkit.php:437
+#: sellkit.php:438
+#: assets/dist/admin/sellkit.js:280
+msgid "Settings"
+msgstr ""
+
+#: includes/elementor/modules/optin/controls/tab-content.php:155
+msgid "Required Mark"
+msgstr ""
+
+#: includes/elementor/modules/optin/controls/tab-content.php:167
+#: assets/dist/admin/sellkit.js:280
+msgid "CRM Integrations"
+msgstr ""
+
+#: includes/elementor/modules/optin/controls/tab-content.php:183
+msgid "After Submit Actions"
+msgstr ""
+
+#: includes/elementor/modules/optin/controls/tab-content.php:190
+msgid "Download a File"
+msgstr ""
+
+#: includes/elementor/modules/optin/controls/tab-content.php:195
+#: includes/elementor/modules/optin/controls/tab-content.php:216
+msgid "File"
+msgstr ""
+
+#: includes/elementor/modules/optin/controls/tab-content.php:196
+msgid "URL"
+msgstr ""
+
+#: includes/elementor/modules/optin/controls/tab-content.php:204
+msgid "Download URL"
+msgstr ""
+
+#: includes/elementor/modules/optin/controls/tab-content.php:206
+#: includes/elementor/modules/optin/controls/tab-content.php:240
+msgid "https: //your-link.com"
+msgstr ""
+
+#: includes/elementor/modules/optin/controls/tab-content.php:225
+msgid "Redirect to"
+msgstr ""
+
+#: includes/elementor/modules/optin/controls/tab-content.php:229
+msgid "Next Funnel Step"
+msgstr ""
+
+#: includes/elementor/modules/optin/controls/tab-content.php:230
+msgid "Custom URL"
+msgstr ""
+
+#: includes/elementor/modules/optin/controls/tab-content.php:238
+msgid "Redirect URL"
+msgstr ""
+
+#: includes/elementor/modules/optin/controls/tab-content.php:256
+msgid "Feedback Messages"
+msgstr ""
+
+#: includes/elementor/modules/optin/controls/tab-content.php:272
+msgid "Success Message"
+msgstr ""
+
+#: includes/elementor/modules/optin/controls/tab-content.php:286
+msgid "Error Message"
+msgstr ""
+
+#: includes/elementor/modules/optin/controls/tab-content.php:300
+msgid "Required Message"
+msgstr ""
+
+#: includes/elementor/modules/optin/controls/tab-style.php:27
+msgid "General"
+msgstr ""
+
+#: includes/elementor/modules/optin/controls/tab-style.php:35
+msgid "Column Spacing"
+msgstr ""
+
+#: includes/elementor/modules/optin/controls/tab-style.php:53
+msgid "Row Spacing"
+msgstr ""
+
+#: includes/elementor/modules/optin/controls/tab-style.php:99
+#: includes/elementor/modules/optin/controls/tab-style.php:525
+#: includes/elementor/modules/optin/controls/tab-style.php:732
+#: includes/elementor/modules/optin/controls/tab-style.php:893
+#: includes/elementor/modules/product-images/widgets/product-images.php:123
+#: includes/elementor/modules/product-images/widgets/product-images.php:296
+msgid "Spacing"
+msgstr ""
+
+#: includes/elementor/modules/optin/controls/tab-style.php:187
+#: includes/elementor/modules/optin/controls/tab-style.php:304
+#: includes/elementor/modules/optin/fields/field-base.php:347
+msgid "Placeholder"
+msgstr ""
+
+#: includes/elementor/modules/optin/controls/tab-style.php:216
+#: includes/elementor/modules/optin/controls/tab-style.php:333
+msgid "Value"
+msgstr ""
+
+#: includes/elementor/modules/optin/controls/tab-style.php:246
+msgid "Focus"
+msgstr ""
+
+#: includes/elementor/modules/optin/controls/tab-style.php:381
+#: includes/elementor/modules/optin/module.php:72
+msgid "Select"
+msgstr ""
+
+#: includes/elementor/modules/optin/controls/tab-style.php:430
+msgid "Vertical Offset"
+msgstr ""
+
+#: includes/elementor/modules/optin/controls/tab-style.php:442
+msgid "Horizontal Offset"
+msgstr ""
+
+#: includes/elementor/modules/optin/controls/tab-style.php:512
+#: includes/elementor/modules/optin/controls/tab-style.php:720
+msgid "Spacing Between"
+msgstr ""
+
+#: includes/elementor/modules/optin/controls/tab-style.php:594
+#: includes/elementor/modules/optin/controls/tab-style.php:793
+msgid "Checked"
+msgstr ""
+
+#: includes/elementor/modules/optin/controls/tab-style.php:877
+#: includes/elementor/modules/order-cart-details/widgets/order-cart-details.php:187
+msgid "Height"
+msgstr ""
+
+#: includes/elementor/modules/optin/controls/tab-style.php:918
+msgid "Text Typography"
+msgstr ""
+
+#: includes/elementor/modules/optin/controls/tab-style.php:932
+msgid "SubText Typography"
+msgstr ""
+
+#: includes/elementor/modules/optin/controls/tab-style.php:1164
+#: includes/elementor/modules/order-details/widgets/order-details.php:315
+msgid "Space Between"
+msgstr ""
+
+#: includes/elementor/modules/optin/controls/tab-style.php:1274
+msgid "Messages"
+msgstr ""
+
+#: includes/elementor/modules/optin/controls/tab-style.php:1291
+msgid "Success Message Color"
+msgstr ""
+
+#: includes/elementor/modules/optin/controls/tab-style.php:1302
+msgid "Error Message Color"
+msgstr ""
+
+#: includes/elementor/modules/optin/controls/tab-style.php:1313
+msgid "Inline Message Color"
+msgstr ""
+
+#: includes/elementor/modules/optin/fields/acceptance.php:49
+msgid "Acceptance Text"
+msgstr ""
+
+#: includes/elementor/modules/optin/fields/acceptance.php:50
+msgid "I agree to terms."
+msgstr ""
+
+#: includes/elementor/modules/optin/fields/acceptance.php:55
+msgid "Checked by Default"
+msgstr ""
+
+#: includes/elementor/modules/optin/fields/address.php:26
+msgid "Set your google API key in "
+msgstr ""
+
+#: includes/elementor/modules/optin/fields/address.php:27
+msgid "Sellkit Settings "
+msgstr ""
+
+#: includes/elementor/modules/optin/fields/checkbox.php:72
+#: includes/elementor/modules/optin/fields/radio.php:72
+#: includes/elementor/modules/optin/fields/select.php:89
+msgid "Enter each option in a separate line. To differentiate between label and value, separate them with a pipe char (\"|\"). For example: First Name|f_name"
+msgstr ""
+
+#: includes/elementor/modules/optin/fields/checkbox.php:75
+#: includes/elementor/modules/optin/fields/radio.php:75
+msgid "Inline List"
+msgstr ""
+
+#: includes/elementor/modules/optin/fields/date.php:60
+msgid "Min Date"
+msgstr ""
+
+#: includes/elementor/modules/optin/fields/date.php:72
+msgid "Max Date"
+msgstr ""
+
+#: includes/elementor/modules/optin/fields/date.php:84
+msgid "Localization"
+msgstr ""
+
+#: includes/elementor/modules/optin/fields/date.php:90
+#: includes/elementor/modules/optin/fields/time.php:77
+msgid "Native HTML5"
+msgstr ""
+
+#: includes/elementor/modules/optin/fields/field-base.php:352
+#: includes/elementor/modules/optin/module.php:172
+msgid "Required"
+msgstr ""
+
+#: includes/elementor/modules/optin/fields/number.php:35
+msgid "Min Value"
+msgstr ""
+
+#: includes/elementor/modules/optin/fields/number.php:40
+msgid "Max Value"
+msgstr ""
+
+#: includes/elementor/modules/optin/fields/select.php:92
+msgid "Multiple Selection"
+msgstr ""
+
+#: includes/elementor/modules/optin/fields/select.php:98
+#: includes/elementor/modules/optin/fields/textarea.php:36
+msgid "Rows"
+msgstr ""
+
+#: includes/elementor/modules/optin/fields/tel.php:19
+msgid "The value should only consist numbers and phone characters (-, +, (), etc.)"
+msgstr ""
+
+#: includes/elementor/modules/optin/fields/tel.php:65
+msgid "Intelligent"
+msgstr ""
+
+#: includes/elementor/modules/optin/fields/tel.php:83
+msgid "All"
+msgstr ""
+
+#: includes/elementor/modules/optin/fields/tel.php:84
+#: includes/elementor/modules/optin/module.php:292
+msgid "Fixed Line"
+msgstr ""
+
+#: includes/elementor/modules/optin/fields/tel.php:86
+#: includes/elementor/modules/optin/module.php:294
+msgid "Fixed Line or Mobile"
+msgstr ""
+
+#: includes/elementor/modules/optin/fields/tel.php:87
+#: includes/elementor/modules/optin/module.php:295
+msgid "Toll Free"
+msgstr ""
+
+#: includes/elementor/modules/optin/fields/tel.php:88
+#: includes/elementor/modules/optin/module.php:296
+msgid "Premium Rate"
+msgstr ""
+
+#: includes/elementor/modules/optin/fields/tel.php:89
+#: includes/elementor/modules/optin/module.php:297
+msgid "Shared Cost"
+msgstr ""
+
+#: includes/elementor/modules/optin/fields/tel.php:90
+#: includes/elementor/modules/optin/module.php:298
+msgid "VOIP"
+msgstr ""
+
+#: includes/elementor/modules/optin/fields/tel.php:91
+#: includes/elementor/modules/optin/module.php:299
+msgid "Personal Number"
+msgstr ""
+
+#: includes/elementor/modules/optin/fields/tel.php:92
+#: includes/elementor/modules/optin/module.php:300
+msgid "Pager"
+msgstr ""
+
+#: includes/elementor/modules/optin/fields/tel.php:93
+#: includes/elementor/modules/optin/module.php:301
+msgid "UAN"
+msgstr ""
+
+#: includes/elementor/modules/optin/fields/tel.php:94
+#: includes/elementor/modules/optin/module.php:302
+msgid "Voicemail"
+msgstr ""
+
+#: includes/elementor/modules/optin/fields/tel.php:103
+msgid "Require Area Code"
+msgstr ""
+
+#: includes/elementor/modules/optin/fields/tel.php:111
+msgid "Allow Dropdown"
+msgstr ""
+
+#: includes/elementor/modules/optin/fields/tel.php:120
+msgid "Only Include Countries"
+msgstr ""
+
+#: includes/elementor/modules/optin/fields/tel.php:123
+msgid "Leave empty to include all countries."
+msgstr ""
+
+#: includes/elementor/modules/optin/fields/tel.php:132
+msgid "Auto Detect by IP"
+msgstr ""
+
+#: includes/elementor/modules/optin/fields/tel.php:148
+msgid "Internationalize"
+msgstr ""
+
+#: includes/elementor/modules/optin/fields/tel.php:152
+msgid "Convert entered national numbers to international format on form submit."
+msgstr ""
+
+#: includes/elementor/modules/optin/fields/time.php:55
+msgid "Min Time"
+msgstr ""
+
+#: includes/elementor/modules/optin/fields/time.php:66
+msgid "Max Time"
+msgstr ""
+
+#: includes/elementor/modules/optin/module.php:64
+msgid "Number"
+msgstr ""
+
+#: includes/elementor/modules/optin/module.php:66
+msgid "Tel"
+msgstr ""
+
+#: includes/elementor/modules/optin/module.php:67
+msgid "Textarea"
+msgstr ""
+
+#: includes/elementor/modules/optin/module.php:68
+#: assets/dist/admin/sellkit.js:266
+msgid "Date"
+msgstr ""
+
+#: includes/elementor/modules/optin/module.php:69
+msgid "Time"
+msgstr ""
+
+#: includes/elementor/modules/optin/module.php:74
+msgid "Acceptance"
+msgstr ""
+
+#: includes/elementor/modules/optin/module.php:75
+msgid "Hidden"
+msgstr ""
+
+#: includes/elementor/modules/optin/module.php:170
+msgid "The form was sent successfully!"
+msgstr ""
+
+#: includes/elementor/modules/optin/module.php:171
+msgid "Please check the errors."
+msgstr ""
+
+#: includes/elementor/modules/optin/module.php:277
+msgid "Invalid Email address."
+msgstr ""
+
+#: includes/elementor/modules/optin/module.php:278
+msgid "The value should only consist numbers and phone characters (-, +, (), etc)."
+msgstr ""
+
+#: includes/elementor/modules/optin/module.php:279
+msgid "Invalid number."
+msgstr ""
+
+#: includes/elementor/modules/optin/module.php:280
+msgid "Value must be less than or equal to MAX_VALUE."
+msgstr ""
+
+#: includes/elementor/modules/optin/module.php:281
+msgid "Value must be greater than or equal to MIN_VALUE."
+msgstr ""
+
+#: includes/elementor/modules/optin/module.php:285
+msgid "Invalid country code."
+msgstr ""
+
+#: includes/elementor/modules/optin/module.php:286
+msgid "Phone number is too short."
+msgstr ""
+
+#: includes/elementor/modules/optin/module.php:287
+msgid "Phone number is too long."
+msgstr ""
+
+#: includes/elementor/modules/optin/module.php:288
+msgid "Area code is required.."
+msgstr ""
+
+#: includes/elementor/modules/optin/module.php:289
+msgid "Phone number has an invalid length."
+msgstr ""
+
+#: includes/elementor/modules/optin/module.php:290
+msgid "Invalid phone number."
+msgstr ""
+
+#: includes/elementor/modules/optin/module.php:292
+#: includes/elementor/modules/optin/module.php:293
+#: includes/elementor/modules/optin/module.php:294
+#: includes/elementor/modules/optin/module.php:295
+#: includes/elementor/modules/optin/module.php:296
+#: includes/elementor/modules/optin/module.php:297
+#: includes/elementor/modules/optin/module.php:298
+#: includes/elementor/modules/optin/module.php:299
+#: includes/elementor/modules/optin/module.php:300
+#: includes/elementor/modules/optin/module.php:301
+#: includes/elementor/modules/optin/module.php:302
+msgid "Phone number must be of type: "
+msgstr ""
+
+#: includes/elementor/modules/optin/widgets/optin.php:17
+msgid "Opt-In"
+msgstr ""
+
+#: includes/elementor/modules/order-cart-details/widgets/order-cart-details.php:28
+msgid "Order Cart Details"
+msgstr ""
+
+#: includes/elementor/modules/order-cart-details/widgets/order-cart-details.php:45
+#: includes/elementor/modules/order-details/widgets/order-details.php:147
+msgid "Box"
+msgstr ""
+
+#: includes/elementor/modules/order-cart-details/widgets/order-cart-details.php:153
+#: includes/elementor/modules/product-images/widgets/product-images.php:202
+msgid "Thumbnail"
+msgstr ""
+
+#: includes/elementor/modules/order-cart-details/widgets/order-cart-details.php:256
+#: includes/elementor/modules/product-title/widgets/product-title.php:16
+msgid "Product Title"
+msgstr ""
+
+#: includes/elementor/modules/order-cart-details/widgets/order-cart-details.php:275
+#: includes/elementor/modules/order-cart-details/widgets/order-cart-details.php:305
+msgid "Font Color"
+msgstr ""
+
+#: includes/elementor/modules/order-cart-details/widgets/order-cart-details.php:286
+#: includes/elementor/modules/product-price/widgets/product-price.php:19
+msgid "Product Price"
+msgstr ""
+
+#: includes/elementor/modules/order-cart-details/widgets/order-cart-details.php:340
+msgid "Enter cart box title"
+msgstr ""
+
+#: includes/elementor/modules/order-cart-details/widgets/order-cart-details.php:359
+msgid "Product Thumbnail"
+msgstr ""
+
+#: includes/elementor/modules/order-details/items/bank-transfer.php:126
+#: includes/elementor/modules/order-details/module.php:41
+msgid "Bank Details"
+msgstr ""
+
+#: includes/elementor/modules/order-details/items/contact-details.php:105
+msgid "09.... ( contact details )"
+msgstr ""
+
+#: includes/elementor/modules/order-details/items/order-number.php:108
+msgid "1234... ( order number )"
+msgstr ""
+
+#: includes/elementor/modules/order-details/items/order-status.php:107
+msgid "progressing... ( order status )"
+msgstr ""
+
+#: includes/elementor/modules/order-details/items/payment-method.php:107
+msgid "Cash on delivery...( payment method )"
+msgstr ""
+
+#: includes/elementor/modules/order-details/items/shipping-address.php:107
+msgid "USA... ( shipping address )"
+msgstr ""
+
+#: includes/elementor/modules/order-details/items/shipping-method.php:107
+msgid "COD... ( shipping Method )"
+msgstr ""
+
+#: includes/elementor/modules/order-details/items/trachking-number.php:107
+msgid "wc_order_... ( Tracking Number )"
+msgstr ""
+
+#: includes/elementor/modules/order-details/module.php:36
+msgid "Payment Method"
+msgstr ""
+
+#: includes/elementor/modules/order-details/module.php:39
+msgid "Tracking Number"
+msgstr ""
+
+#: includes/elementor/modules/order-details/module.php:40
+msgid "Shipping Address"
+msgstr ""
+
+#: includes/elementor/modules/order-details/widgets/order-details.php:24
+msgid "Order Details"
+msgstr ""
+
+#: includes/elementor/modules/order-details/widgets/order-details.php:47
+msgid "Order Details items"
+msgstr ""
+
+#: includes/elementor/modules/order-details/widgets/order-details.php:84
+msgid "Item Width"
+msgstr ""
+
+#: includes/elementor/modules/order-details/widgets/order-details.php:136
+msgid "Enter your list name"
+msgstr ""
+
+#: includes/elementor/modules/order-details/widgets/order-details.php:227
+msgid "Order Details Item"
+msgstr ""
+
+#: includes/elementor/modules/order-details/widgets/order-details.php:338
+msgid "Data"
+msgstr ""
+
+#: includes/elementor/modules/product-description/widgets/product-description.php:19
+msgid "Product Description"
+msgstr ""
+
+#: includes/elementor/modules/product-description/widgets/product-description.php:43
+msgid "Content Type"
+msgstr ""
+
+#: includes/elementor/modules/product-description/widgets/product-description.php:47
+msgid "Full Description"
+msgstr ""
+
+#: includes/elementor/modules/product-description/widgets/product-description.php:48
+msgid "Short Description"
+msgstr ""
+
+#: includes/elementor/modules/product-description/widgets/product-description.php:60
+#: includes/elementor/modules/product-images/widgets/product-images.php:39
+#: includes/elementor/modules/product-price/widgets/product-price.php:30
+#: includes/elementor/modules/product-quantity/widgets/product-quantity.php:30
+#: includes/elementor/modules/product-title/widgets/product-title.php:29
+msgid "Style"
+msgstr ""
+
+#: includes/elementor/modules/product-description/widgets/product-description.php:84
+#: includes/elementor/modules/product-price/widgets/product-price.php:54
+msgid "Justified"
+msgstr ""
+
+#: includes/elementor/modules/product-images/widgets/product-images.php:26
+msgid "Product Images"
+msgstr ""
+
+#: includes/elementor/modules/product-images/widgets/product-images.php:128
+#: includes/elementor/modules/product-images/widgets/product-images.php:301
+msgid "Between main image and gallery slider(If slider available)"
+msgstr ""
+
+#: includes/elementor/modules/product-images/widgets/product-images.php:174
+msgid "Max Width (%)"
+msgstr ""
+
+#: includes/elementor/modules/product-images/widgets/product-images.php:331
+msgid "Enable Slider"
+msgstr ""
+
+#: includes/elementor/modules/product-images/widgets/product-images.php:334
+msgid "Note: Slider is only show if gallery images are available."
+msgstr ""
+
+#: includes/elementor/modules/product-quantity/widgets/product-quantity.php:19
+msgid "Product Quantity"
+msgstr ""
+
+#: includes/elementor/modules/product-quantity/widgets/product-quantity.php:95
+msgid "Label Color"
+msgstr ""
+
+#: includes/elementor/modules/product-quantity/widgets/product-quantity.php:106
+msgid "Input Text Color"
+msgstr ""
+
+#: includes/elementor/modules/product-title/widgets/product-title.php:37
+msgid "Title Color"
+msgstr ""
+
+#: includes/elementor/modules/product-title/widgets/product-title.php:87
+msgid "HTML Tag"
+msgstr ""
+
+#: includes/funnel/class.php:318
+msgid "Sellkit Upsell"
+msgstr ""
+
+#: includes/funnel/class.php:337
+msgid "SellKit Parent Order"
+msgstr ""
+
+#: includes/funnel/class.php:346
+msgid "SellKit Upsell Order"
+msgstr ""
+
+#: includes/funnel/steps.php:78
+msgid "There is nothing to view here."
+msgstr ""
+
+#: includes/funnel/steps/upsell.php:40
+msgid "Each upsell needs a main order."
+msgstr ""
+
+#: sellkit.php:399
+#: assets/dist/admin/sellkit.js:280
+msgid "Dashboard"
+msgstr ""
+
+#: sellkit.php:400
+#: assets/dist/admin/sellkit.js:266
+#: assets/dist/admin/sellkit.js:280
+msgid "Funnels"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:266
+msgid "Logo"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:266
+msgid "Docs"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:266
+msgid "Sellkit requires"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:266
+msgid " to be installed and activated."
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:266
+#: assets/dist/admin/sellkit.js:280
+msgid "Back"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:266
+msgid "Loading..."
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:266
+#: assets/dist/admin/sellkit.js:280
+msgid "Last 7 days"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:266
+#: assets/dist/admin/sellkit.js:280
+msgid "Last 30 days"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:266
+#: assets/dist/admin/sellkit.js:280
+msgid "Visits"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:266
+#: assets/dist/admin/sellkit.js:280
+msgid "Unique visits"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:266
+#: assets/dist/admin/sellkit.js:280
+msgid "Bounce Rate"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:266
+#: assets/dist/admin/sellkit.js:280
+msgid "Revenue"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:266
+#: assets/dist/admin/sellkit.js:280
+msgid "Orders"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:266
+#: assets/dist/admin/sellkit.js:280
+msgid "Conversion Rate"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:266
+#: assets/dist/admin/sellkit.js:280
+msgid "Average Order Value"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:266
+#: assets/dist/admin/sellkit.js:280
+msgid "Upsell Revenue"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:266
+msgid "Created Coupons"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:266
+msgid "Used Coupons"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:266
+msgid "Customers"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:266
+msgid "Total Discounts"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:266
+msgid "Impression"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:266
+msgid "Click"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:266
+msgid "Applied Discount"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:266
+msgid "Converted"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:266
+msgid "Welcome to SellKit! 👋"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:266
+#: assets/dist/admin/sellkit.js:280
+msgid "Date Range"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:266
+#: assets/dist/admin/sellkit.js:280
+msgid "Funnel Engagement"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:266
+#: assets/dist/admin/sellkit.js:280
+msgid "Funnel Sales"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:266
+#: assets/dist/admin/sellkit.js:280
+msgid "Smart Coupons"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:266
+msgid "Dynamic Discounts"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:266
+#: assets/dist/admin/sellkit.js:280
+msgid "Smart Notices"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:266
+msgid "Import Funnel"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:266
+#: assets/dist/admin/sellkit.js:280
+msgid "Create your first sales funnel"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:266
+msgid "Customize and control your entire sales process. Optimize your checkout page using offers, order bumps, upsells and a lot more."
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:266
+#: assets/dist/admin/sellkit.js:280
+msgid "Add Sales Funnel"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:266
+msgid "Submit"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:266
+msgid "OK"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "Import Flows"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "The file must be a JSON file exported using Sellkit."
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "Unable to upload file."
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "Only JSON file exported using sellkit is allowed."
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "No JSON file found."
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "Importing flow…"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "Import Flow"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "Import"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "Export all"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "Actions"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "Inactive"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "View"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "Edit"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "Duplicate"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "Deactivate"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "Activate"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "Export"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "Remove"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "Remove item"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "Are you sure you want to remove this item? This action can’t be undone."
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "Customize and control your entire sales process."
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "Optimize your checkout page using offers, order bumps, upsells and a lot more."
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "PRO"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "Funnel Recipes"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "Select a pre-made funnel or create one from scratch"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "Start From Scratch"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "View Steps"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "Add Funnel"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "Enter a name for this funnel"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "Creating New Funnel…"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "Create"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "Edit Funnel Name"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "Save"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "Add %s step"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "Enter a name for this step"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "Upgrade to <strong>Sellkit Pro</strong> to add %s."
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "Upgrade to <strong>Sellkit Pro</strong> to use premium templates."
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "You are using a free version of Sellkit."
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "Why upgrade?"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "Preview"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "Importing"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "Add New Step"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "Select a Starting Point"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "Select a pre-designed template or create one from scratch"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "View details"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "Delete"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "There are no contacts yet"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "Previous"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "Next"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "UTM_Source"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "Language"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "Cancel"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "Order details for "
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "There is no order."
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "Order Bump"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "Back to Contacts"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "History"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "Add Product"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "Select a Product"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "Discounted Price"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "Percentage % on Sale Price"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "Fixed Amount on Sale Price"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "Percentage % on Regular Price"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "Fixed Amount on Regular Price"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "Remove Product"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "Are you sure you want to remove this product? This action can’t be undone."
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "Allow customers to edit cart product(s) (e.g. Remove or edit quantity)"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "Restrict buyer to select only one of the above products (e.g. when selling similar products with different pricing plans or quantity)"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "Allow buyer to select any of the above product(s) (e.g. when selling multiple products)"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "Force sell all of the above product(s) (e.g. when selling a fixed price bundle)"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "Auto-Apply Coupons"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "Automatically add coupons to the cart. Auto-apply coupons will simplify the checkout process and reduce the cart abandonment rate."
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "Select Coupons"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "Expire Checkout"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "Set a particular date as a deadline to close the checkout."
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "Close checkout on"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "Closed Checkout redirect URL"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "Design or customize the sales / landing page. This is where you convince people to buy from you."
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "Design or customize the checkout page. People will use this page to place an order."
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "Design or customize the Thank You page. This page will be displayed after an order is received."
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "Design or customize the Upsell offer page. This offer will be displayed after people check out their cart."
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "Next Step Button Link"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "Add order bump"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "Add Order Bump"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "Enter a name for this order bump"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "Design"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "Products"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "No product is selected yet"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "Select product(s) to be included in the checkout when ordered within this funnel."
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "Optimization"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "Bump"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "Select product that you want to offer to your customers as upselling."
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "Edit Name"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "Edit Step Name"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "Slug"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "[UNSET]"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "There is no condition"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "on"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "everyday"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "at"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "This step is disabled."
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "Order Bumps"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "Exit"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "Position"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "Above the order summary"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "Below the order summary"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "Above the payment gateways"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "Below the payment gateways"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "Checkbox label"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "Product description"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "Active Product image"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "Product Image"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "Select One"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "Days"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "Weeks"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "Months"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "Search..."
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "Threshold Amount (%s)"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "Target Subtotal Amount (%s)"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "Applicable for which days of the week?"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "Add Condition"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "This step can't be inserted here because it may conflict with the previous step in the flow"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "Please remove the child nodes before removing a parent node."
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "Select product that you want to offer to your customers to include in their orders as additional items."
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "Conditions"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "order bump"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "Disable"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "Define a Decision"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "Visitors will join the 'Yes' path if they match the following conditions."
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "Add a New Step"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "Are you sure you want to quit? Any unsaved changes will be lost."
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "Add a Landing page"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "First add a landing page using the button above."
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "Save Changes"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "Saving Changes..."
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "Saved"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "Flow"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "Contacts"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "Analytics"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "Getting Funnel"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "Get Funnel"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "Find API credentials in your "
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid " account."
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "Empty Cart Template"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "This template will replace the default WooCommerce empty cart page content."
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "Skip Cart Page"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "If enabled, the cart page will be disabled and customer will be redirected to the checkout page. it reduces the steps for faster conversion, therefore reducing abandoned carts."
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "Disallow search engine from indexing flows"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "Facebook Pixel"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "Facebook pixel ID"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "Facebook Pixel Events"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "Initiate Checkout"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "Add Payment Info"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "Purchase Complete"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "Google Analytics"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "Google Analytics ID"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "Google Analytics Events"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "Begin Checkout"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "Add To Cart"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "Purchase"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "Geolocation API Key"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "Geolocation API is a third-party service that is utilised in customer segmentation conditions to detect the country and city of the visitor. You will need to generate an API key to use the geolocation service."
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "Generate API Key"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "Google API Key"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "Google API key is used by Checkout form Address Autocomplete feature. Obtain your API key through "
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "Google Cloud Platform Console."
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "Delete plugin data on plugin deletion"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "Are you sure?"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "Confirm"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "Do you want to delete plugin data while deleting the plugin? Type \"DELETE\" to confirm!"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "Type DELETE"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "If you wish to altogether remove Sellkit data from your site (options, database, tables, etc), enable this option and save settings. On plugin deletion, the sellkit data also gets deleted permanently."
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "Google API"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "API Key"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "Get Google API credentials from "
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "here"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "Save Settings"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "Add %s"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "Upgrade to Sellkit Pro to use this feature."
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "Upgrade Now."
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "Create your first %s"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "Increase your sales by creating conditional discounts based on your customer behavior. The right discount for the right customer!"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "Create smart discount coupons based on your customer behavior. Build a better relationship with your customers and increase repeat purchases."
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "Smart notices are offers and promotions that pop up while your customer is checking out their orders. They are great for increasing the chance of more purchases."
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:280
+msgid "Dynamic Discount"
+msgstr ""
+
+#: assets/dist/js/admin.js:16
+msgid "Installing WooCommerce"
+msgstr ""
+
+#: assets/dist/js/admin.js:30
+msgid "Failed, Try again."
+msgstr ""
+
+#: assets/dist/js/editor.js:68
+msgid "Something went wrong please try again."
+msgstr ""
+
+#: assets/dist/js/editor.js:376
+msgid "Select..."
+msgstr ""
+
+#: assets/dist/js/editor.js:379
+msgid "Fetching..."
+msgstr ""
+
+#: assets/dist/js/editor.js:382
+msgid "Nothing found!"
+msgstr ""
+
+#: assets/dist/js/editor.js:386
+msgid "-NONE-"
+msgstr ""
+
+#: assets/dist/js/editor.js:467
+msgid "Error! nonce mismatch"
+msgstr ""
+
+#: assets/dist/js/elementor-init.js:296
+msgid "Both Field required."
+msgstr ""
+
+#: assets/dist/js/elementor-init.js:389
+msgid "Show order summary"
+msgstr ""
+
+#: assets/dist/js/elementor-init.js:477
+msgid "Please select a country."
+msgstr ""
+
+#: assets/dist/js/elementor-init.js:872
+msgid "Postcode is not valid."
+msgstr ""
+
+#: assets/dist/js/elementor-init.js:898
+msgid "Phone number is not valid."
+msgstr ""
+
+#: assets/dist/js/elementor-init.js:1486
+msgid "Following messages are visible only for admin users."
+msgstr ""

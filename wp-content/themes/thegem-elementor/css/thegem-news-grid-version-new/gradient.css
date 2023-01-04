@@ -1,0 +1,221 @@
+.hover-new-gradient .portfolio-item .image .image-inner img {
+	overflow: hidden;
+	-webkit-transform: translate(0,0) scale(1);
+	transform: translate(0,0) scale(1);
+	-webkit-transition: -webkit-transform 0.3s;
+	transition: transform 0.3s;
+}
+
+.hover-new-gradient .portfolio-item:hover .image .image-inner img {
+	-webkit-transform: translate(0,0) scale(1.12);
+	transform: translate(0,0) scale(1.12);
+	-webkit-transition: -webkit-transform 0.3s;
+	transition: transform 0.3s;
+}
+
+.hover-new-gradient .portfolio-item:hover .image.format-video.has-post-thumbnail .image-inner img {
+	-webkit-transform: translate(0,0) scale(1);
+	transform: translate(0,0) scale(1);
+}
+
+.hover-new-gradient .portfolio-item .image .overlay,
+.hover-new-gradient .portfolio-item:hover .image .overlay {
+	display: block;
+	-webkit-transition: background 0.3s;
+	transition: background 0.3s;
+}
+
+.hover-new-gradient .portfolio-item .image .overlay:before,
+.portfolio.hover-new-gradient .portfolio-item .gem-simple-gallery .gem-gallery-item a:before {
+	content: '';
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: -2;
+	opacity: 0;
+	-webkit-transition: opacity 0.3s;
+	transition: opacity 0.3s;
+
+	background: -moz-linear-gradient(left,  rgba(255,43,88,0.8) 0%, rgba(255,216,0,0.8) 100%) !important;
+	background: -webkit-linear-gradient(left,  rgba(255,43,88,0.8) 0%,rgba(255,216,0,0.8) 100%) !important;
+	background: linear-gradient(to right,  rgba(255,43,88,0.8) 0%,rgba(255,216,0,0.8) 100%) !important;
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ccff2b58', endColorstr='#ccffd800',GradientType=1 ) !important;
+}
+
+.portfolio.hover-new-gradient .portfolio-item .gem-simple-gallery .gem-gallery-item a:before {
+	z-index: 5;
+}
+
+.hover-new-gradient .portfolio-item:hover .image .overlay:before,
+.portfolio.hover-new-gradient .portfolio-item .gem-simple-gallery .gem-gallery-item a:hover:before {
+	opacity: 1;
+	-webkit-transition: opacity 0.3s;
+	transition: opacity 0.3s;
+}
+
+.hover-new-gradient.title-on-hover .portfolio-item .image .overlay:after {
+	background: -moz-linear-gradient(top,  rgba(30,87,153,0) 65%, rgba(0,0,0,0.5) 100%);
+	background: -webkit-linear-gradient(top,  rgba(30,87,153,0) 65%,rgba(0,0,0,0.5) 100%);
+	background: linear-gradient(to bottom,  rgba(30,87,153,0) 65%,rgba(0,0,0,0.5) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#001e5799', endColorstr='#80000000',GradientType=0 );
+	opacity: 1;
+	-webkit-transition: opacity 0.3s;
+	transition: opacity 0.3s;
+}
+
+.hover-new-gradient .portfolio-item:hover .image .overlay:after {
+	opacity: 0;
+}
+
+.hover-new-gradient.title-style-dark .portfolio-item .image .overlay:after {
+	display: none;
+}
+
+.version-new.news-grid.hover-new-gradient .portfolio-item .image .links .caption .slide-content-hidden {
+    margin: 0 !important;
+}
+
+.version-new.news-grid.hover-new-gradient .portfolio-item .image .links .caption {
+    text-align: center;
+}
+
+.version-new.news-grid.hover-new-gradient .portfolio-item .image .links .caption .slide-content {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+}
+
+.version-new.news-grid.hover-new-gradient .portfolio-item .image .links .caption .grid-post-meta {
+	opacity: 0;
+	top: -200px;
+	position: relative;
+    -webkit-transition: opacity 0.3s 0.15s, top 0.3s 0.15s;
+	transition: opacity 0.3s 0.15s, top 0.3s 0.15s;
+}
+
+.version-new.news-grid.hover-new-gradient .portfolio-item .image .links .caption .description {
+	opacity: 0;
+	-webkit-transform: translateY(-200px);
+	transform: translateY(-200px);
+	position: relative;
+    -webkit-transition: opacity 0.3s 0.07s, -webkit-transform 0.3s 0.07s;
+	transition: opacity 0.3s 0.07s, transform 0.3s 0.07s;
+}
+
+.version-new.news-grid.hover-new-gradient .portfolio-item .image .links .caption .author {
+	opacity: 0;
+	top: -200px;
+	position: relative;
+	-webkit-transition: opacity 0.3s, top 0.3s;
+	transition: opacity 0.3s, top 0.3s;
+}
+
+.version-new.news-grid.hover-new-gradient .portfolio-item:hover .image .links .caption .grid-post-meta {
+	opacity: 1;
+	top: 0;
+    -webkit-transition: opacity 0.3s, top 0.3s;
+	transition: opacity 0.3s, top 0.3s;
+}
+
+.version-new.news-grid.hover-new-gradient .portfolio-item:hover .image .links .caption .description {
+	opacity: 1;
+	top: 0;
+	-webkit-transform: translateY(0);
+	transform: translateY(0);
+    -webkit-transition: opacity 0.3s 0.07s, -webkit-transform 0.3s 0.07s;
+	transition: opacity 0.3s 0.07s, transform 0.3s 0.07s;
+}
+
+.version-new.news-grid.hover-new-gradient .portfolio-item:hover .image .links .caption .author {
+	opacity: 1;
+	top: 0;
+    -webkit-transition: opacity 0.3s 0.15s, top 0.3s 0.15s;
+	transition: opacity 0.3s 0.15s, top 0.3s 0.15s;
+}
+
+.hover-new-gradient .portfolio-item .image .overlay .links .portfolio-icons > .icon {
+	display: inline-block;
+	opacity: 0;
+	-webkit-transform: translate(0,0) scale(0);
+	transform: translate(0,0) scale(0);
+	-webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+	transition: opacity 0.3s, transform 0.3s;
+}
+
+.hover-new-gradient .portfolio-item:hover .image .overlay .links .portfolio-icons > .icon {
+	opacity: 1;
+	-webkit-transform: translate(0,0) scale(1);
+	transform: translate(0,0) scale(1);
+	-webkit-transition: opacity 0.3s, transform 0.3s;
+	transition: opacity 0.3s, transform 0.3s;
+}
+
+.portfolio.hover-new-gradient .portfolio-item .gem-simple-gallery .gem-gallery-item a:after {
+    position: absolute;
+	left: 50%;
+    top: 50%;
+	opacity: 0;
+	-webkit-transform: translate(0,0) scale(0);
+	transform: translate(0,0) scale(0);
+	-webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+	transition: opacity 0.3s, transform 0.3s;
+}
+
+.portfolio.hover-new-gradient .portfolio-item .gem-simple-gallery .gem-gallery-item a:hover:after {
+	opacity: 1;
+	-webkit-transform: translate(0,0) scale(1);
+	transform: translate(0,0) scale(1);
+	-webkit-transition: opacity 0.3s, transform 0.3s;
+	transition: opacity 0.3s, transform 0.3s;
+}
+
+.version-new.news-grid.portfolio.hover-new-gradient .portfolio-item .image .links .caption .post-date {
+    margin-bottom: 3px;
+}
+
+.version-new.news-grid.portfolio.hover-new-gradient .portfolio-item .image .links .caption .title {
+    margin-bottom: 0 !important;
+}
+
+.version-new.news-grid.portfolio.hover-new-gradient.title-on-hover .portfolio-item .image .links .caption .info {
+	padding-top: 0;
+	margin-top: 1px;
+}
+
+.version-new.news-grid.portfolio.hover-new-gradient .portfolio-item .image .links .caption .author {
+    margin-bottom: 0;
+	padding-top: 0;
+}
+
+.version-new.news-grid.portfolio.hover-new-gradient .portfolio-item .image .links .caption .grid-post-meta {
+	margin-top: 9px;
+}
+
+.version-new.news-grid.portfolio.hover-new-gradient .portfolio-item .image .links .caption .author + .description {
+    margin-top: 7px;
+}
+
+.version-new.news-grid.hover-new-gradient .portfolio-item .image .links .caption .slide-content-visible {
+	padding: 0 !important;
+}
+
+.version-new.news-grid.hover-new-gradient .portfolio-item.double-item-style-alternative .highlight-item-alternate-box .highlight-item-alternate-box-content {
+	justify-content: flex-end;
+}
+
+.version-new.news-grid.hover-new-gradient .portfolio-item.double-item-style-alternative .highlight-item-alternate-box .highlight-item-alternate-box-content-inline {
+	text-align: center;
+}
+
+@media only screen and (min-width: 551px) {
+	.hover-new-gradient.title-on-hover .portfolio-item.double-item-style-alternative:not(.post-has-sets) .image .overlay:after {
+		display: none;
+	}
+}

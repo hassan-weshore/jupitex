@@ -1,0 +1,261 @@
+.portfolio.portfolio-slider.item-separator .portfolio-item:before {
+	opacity: 1;
+}
+
+.portfolio.portfolio-slider.item-separator .portfolio-item:after {
+	opacity: 0;
+}
+
+.portfolio.portfolio-slider.item-separator .portfolio-item.currentPosition-last:after {
+	opacity: 1;
+}
+
+.portfolio.portfolio-slider.item-separator .fullwidth-block .portfolio-item.currentPosition-last:after {
+	opacity: 0;
+}
+
+.portfolio.portfolio-slider.item-separator .portfolio-item.currentPosition-last + .portfolio-item:before {
+	opacity: 0;
+}
+
+.portfolio.portfolio-slider.item-separator .fullwidth-block .portfolio-item.currentPosition-first:before {
+	opacity: 0;
+}
+
+.portfolio.portfolio-slider .fullwidth-block {
+	padding: 0;
+}
+
+.portfolio.portfolio-slider.disable-socials .portolio-slider-center .portfolio-set {
+	margin-bottom: 0;
+}
+
+.portfolio.portfolio-slider.without-padding .portolio-slider-center .fullwidth-block {
+	padding: 0;
+}
+
+.portfolio.portfolio-slider .portfolio-item .wrap {
+	padding-bottom: 0;
+}
+
+.portfolio.portfolio-slider .portfolio-item .wrap {
+	background: none;
+}
+
+.portfolio.portfolio-slider.hover-gradient .portfolio-item .image .overlay .links a.icon svg {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.portfolio.portfolio-slider:not(.hover-zooming-blur) .portfolio-item .image .overlay .links a.icon:hover svg {
+	fill: #393d50;
+}
+
+/*start arrows*/
+.portfolio-slider .portolio-slider-prev, .portfolio-slider .portolio-slider-next {
+	opacity: 0;
+	transition: all .2s linear;
+	-moz-transition: all .2s linear;
+	-webkit-transition: all .2s linear
+}
+
+.portfolio.portfolio-slider:hover .portolio-slider-prev, .portfolio.portfolio-slider:hover .portolio-slider-next {
+	opacity: 1;
+	transition: all .2s linear;
+	-moz-transition: all .2s linear;
+	-webkit-transition: all .2s linear
+}
+
+.portfolio.portfolio-slider .portolio-slider-prev span,
+.portfolio.portfolio-slider .portolio-slider-next span {
+	display: inline-block;
+	cursor: pointer
+}
+
+.portfolio.portfolio-slider .portolio-slider-prev span {
+	left: 0
+}
+
+.portfolio.portfolio-slider .portolio-slider-next span {
+	right: 0
+}
+
+.portfolio.portfolio-slider .portolio-slider-prev {
+	float: left;
+	text-align: right;
+	position: relative;
+	z-index: 10
+}
+
+.portfolio.portfolio-slider .portolio-slider-next {
+	float: right;
+	text-align: left;
+	position: relative;
+	z-index: 10
+}
+
+.portfolio.portfolio-slider .portolio-slider-next span, .portfolio.portfolio-slider .portolio-slider-prev span {
+	font-size: 0
+}
+
+.portfolio.portfolio-slider.gem-slider-animation-one .portolio-slider-next,
+.portfolio.portfolio-slider.gem-slider-animation-one .portolio-slider-prev {
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 2
+}
+
+.portfolio.portfolio-slider.gem-slider-animation-one .portolio-slider-next {
+	left: auto;
+	right: 0
+}
+
+.portfolio_slider_arrow_big.portfolio.portfolio-slider .portolio-slider-prev span i,
+.portfolio_slider_arrow_big.portfolio.portfolio-slider .portolio-slider-next span i {
+	vertical-align: middle;
+	font-size: 48px
+}
+
+.portfolio_slider_arrow_big.portfolio.portfolio-slider .portolio-slider-prev span svg,
+.portfolio_slider_arrow_big.portfolio.portfolio-slider .portolio-slider-next span svg {
+	vertical-align: middle;
+	width: 48px;
+	height: auto;
+}
+
+.portfolio_slider_arrow_big.portfolio.portfolio-slider .portolio-slider-prev span, .portfolio_slider_arrow_big.portfolio.portfolio-slider .portolio-slider-next span {
+	padding: 28px 16px
+}
+
+.portfolio_slider_arrow_small.portfolio.portfolio-slider .portolio-slider-prev span, .portfolio_slider_arrow_small.portfolio.portfolio-slider .portolio-slider-next span {
+	padding: 7px 6px
+}
+
+.portfolio_slider_arrow_small.portfolio.portfolio-slider .portolio-slider-prev span i,
+.portfolio_slider_arrow_small.portfolio.portfolio-slider .portolio-slider-next span i {
+	font-size: 24px;
+	vertical-align: middle;
+}
+
+.portfolio_slider_arrow_small.portfolio.portfolio-slider .portolio-slider-prev span svg,
+.portfolio_slider_arrow_small.portfolio.portfolio-slider .portolio-slider-next span svg {
+	width: 24px;
+	height: auto;
+	vertical-align: middle;
+}
+
+.portfolio_slider_arrow_small.portfolio.portfolio-slider .portolio-slider-prev, .portfolio_slider_arrow_small.portfolio.portfolio-slider .portolio-slider-next {
+}
+
+.portfolio_slider_arrow_big.portfolio.portfolio-slider .portolio-slider-prev, .portfolio_slider_arrow_big.portfolio.portfolio-slider .portolio-slider-next {
+}
+
+@media (max-width: 1024px) {
+	body .portfolio_slider_arrow_small.portfolio.portfolio-slider .portolio-slider-prev, body .portfolio_slider_arrow_small.portfolio.portfolio-slider .portolio-slider-next {
+		margin-top: 0
+	}
+}
+
+.hover-gradient.title-on-page.title-style-dark .portfolio-item .image .overlay .links .caption .title, .hover-gradient.title-on-page.title-style-dark .portfolio-item .image .overlay .links .caption .title > div, .hover-circular.title-on-page.title-style-dark .portfolio-item .image .overlay .links .caption .title, .hover-circular.title-on-page.title-style-dark .portfolio-item .image .overlay .links .caption .title > div {
+	color: #212227
+}
+
+.hover-gradient.title-on-page.title-style-dark .portfolio-item .image .overlay .links .caption .subtitle, .hover-circular.title-on-page.title-style-dark .portfolio-item .image .overlay .links .caption .subtitle, .hover-gradient.title-on-page.title-style-dark .portfolio-item .image .overlay .links .caption .post-date, .hover-circular.title-on-page.title-style-dark .portfolio-item .image .overlay .links .caption .post-date, .hover-gradient.title-on-page.title-style-dark .portfolio-item .image .overlay .links .caption .author .author-name, .hover-gradient.title-on-page.title-style-dark .portfolio-item .image .overlay .links .caption .author .author-name a, .hover-gradient.title-on-page.title-style-dark .portfolio-item .image .overlay .links .caption .product-info .product-price, .hover-circular.title-on-page.title-style-dark .portfolio-item .image .overlay .links .caption .product-info .product-price, .hover-gradient.title-on-page.title-style-dark .portfolio-item .image .overlay .links .caption .product-info .product-price .amount, .hover-circular.title-on-page.title-style-dark .portfolio-item .image .overlay .links .caption .product-info .product-price .amount, .news-grid.portfolio.hover-circular.title-on-page.title-style-dark .portfolio-item .image .overlay .links .caption .info, .news-grid.portfolio.hover-circular.title-on-page.title-style-dark .portfolio-item .image .overlay .links .caption .info a {
+	color: #212227
+}
+
+.news-grid.portfolio.title-on-page.hover-circular.title-style-dark .portfolio-item .image .overlay .links .caption .info span.sep {
+	border-left-color: #212227
+}
+
+.thegem-touch #page .portfolio.portfolio-slider .portolio-slider-prev, .thegem-touch .portfolio.portfolio-slider .portolio-slider-next {
+	display: block
+}
+
+.thegem-touch #page .portfolio_slider_arrow_big.portfolio.portfolio-slider .portolio-slider-prev, .thegem-touch #page .portfolio_slider_arrow_big.portfolio.portfolio-slider .portolio-slider-next {
+	margin-top: 0
+}
+
+@media (max-width: 1023px) {
+	.thegem-touch #page .portfolio_slider_arrow_big.portfolio.portfolio-slider .portolio-slider-prev,
+	.thegem-touch #page .portfolio_slider_arrow_big.portfolio.portfolio-slider .portolio-slider-next {
+		margin-top: 0
+	}
+
+	.thegem-touch #page .portfolio_slider_arrow_big.portfolio.portfolio-slider .portolio-slider-prev span,
+	.thegem-touch #page .portfolio_slider_arrow_big.portfolio.portfolio-slider .portolio-slider-next span {
+		padding: 7px 6px
+	}
+
+	.thegem-touch #page .portfolio_slider_arrow_big.portfolio.portfolio-slider .portolio-slider-prev span i,
+	.thegem-touch #page .portfolio_slider_arrow_big.portfolio.portfolio-slider .portolio-slider-next span i {
+		font-size: 24px
+	}
+
+	.thegem-touch #page .portfolio_slider_arrow_big.portfolio.portfolio-slider .portolio-slider-prev span svg,
+	.thegem-touch #page .portfolio_slider_arrow_big.portfolio.portfolio-slider .portolio-slider-next span svg {
+		width: 24px
+	}
+
+	.thegem-touch #page .portfolio_slider_arrow_big.portfolio.portfolio-slider .portolio-slider-prev span {
+		vertical-align: middle
+	}
+
+	.thegem-touch #page .portfolio_slider_arrow_big.portfolio.portfolio-slider .portolio-slider-next span {
+		vertical-align: middle
+	}
+}
+
+/*end arrows*/
+
+/* ------------------------- */
+
+.portfolio-slider .portolio-slider-prev span,
+.portfolio-slider .portolio-slider-next span,
+.portfolio-slider .portolio-slider-prev span i,
+.portfolio-slider .portolio-slider-next span i,
+.portfolio-slider .portolio-slider-prev span svg,
+.portfolio-slider .portolio-slider-next span svg,
+.portfolio-slider .portfolio-item .image-inner {
+	-o-transition: all 0.2s linear;
+	-webkit-transition: all 0.2s linear;
+	transition: all 0.2s linear;
+}
+
+.portfolio-slider .portolio-slider-center > div > div {
+	margin: -21px;
+}
+
+.portfolio-slider .portfolio-item {
+	padding: 21px;
+}
+
+.portfolio-slider:not(.columns-1):not(.portfolio-style-masonry) .portfolio-item .wrap > .caption .subtitle {
+	max-height: unset;
+}
+
+.portfolio-slider .portfolio-item .wrap > .caption .subtitle {
+	padding-bottom: 0;
+	padding-top: 0;
+}
+
+.portfolio-slider .portfolio-item .wrap {
+	border-bottom: unset;
+}
+
+.portfolio-slider .portfolio-item .wrap > .caption {
+	border-bottom: 1px solid #dfe5e8;
+}
+
+.portfolio-slider .portfolio-item:hover .wrap > .caption {
+	border-bottom-color: #f4f6f7;
+}
+
+.portfolio-slider.background-style-gray .portfolio-item .wrap > .caption,
+.portfolio-slider.background-style-dark .portfolio-item .wrap > .caption,
+.portfolio-slider.background-style-transparent .portfolio-item .wrap > .caption {
+	border-bottom-width: 0;
+}

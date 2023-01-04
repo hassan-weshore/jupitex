@@ -1,0 +1,386 @@
+.hover-circular .portfolio-item .image .overlay,
+.hover-circular .portfolio-item:hover .image .overlay,
+.hover-circular .portfolio-item.hover-effect .image .overlay,
+.hover-circular .gallery-item .overlay-wrap .overlay,
+.hover-circular .gallery-item:hover .overlay-wrap .overlay,
+.hover-circular .gallery-item.hover-effect .overlay-wrap .overlay {
+	display: block;
+	-webkit-transition: background 0.5s 0.2s;
+	transition: background 0.5s 0.2s;
+}
+
+.hover-circular .portfolio-item .image .overlay .overlay-circle,
+.hover-circular .gallery-item .overlay-wrap .overlay .overlay-circle {
+	content: '';
+	position: absolute;
+	z-index: -2;
+	opacity: 0;
+	-webkit-transition: opacity 0.5s 0.2s;
+	transition: opacity 0.5s 0.2s;
+	border-radius: 100%;
+	width: 100%;
+	height: 100%;
+	padding: 15%;
+	left: 50%;
+	top: 50%;
+
+	-webkit-transform: scale(0);
+	transform: scale(0);
+	transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1) 0s, opacity 0.4s ease 0s;
+	box-sizing: content-box;
+}
+
+.hover-circular .portfolio-item:hover .image .overlay .overlay-circle,
+.hover-circular .portfolio-item.hover-effect .image .overlay .overlay-circle,
+.hover-circular .gallery-item:hover .overlay-wrap .overlay .overlay-circle,
+.hover-circular .gallery-item.hover-effect .overlay-wrap .overlay .overlay-circle {
+	opacity: 1;
+	opacity: 1;
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
+
+.hover-circular .portfolio-item .image .overlay:after,
+.hover-circular .gallery-item .overlay-wrap .overlay:after {
+	content: '';
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: -1;
+	opacity: 1;
+	background: none !important;
+}
+
+.hover-circular.title-on-page .portfolio-item .image .overlay:after,
+.hover-circular.title-on-page .gallery-item .overlay-wrap .overlay:after {
+	background: -moz-linear-gradient(top, rgba(30, 87, 153, 0) 65%, rgba(0, 0, 0, 0.5) 100%) !important;
+	background: -webkit-linear-gradient(top, rgba(30, 87, 153, 0) 65%, rgba(0, 0, 0, 0.5) 100%) !important;
+	background: linear-gradient(to bottom, rgba(30, 87, 153, 0) 65%, rgba(0, 0, 0, 0.5) 100%) !important;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#001e5799', endColorstr='#80000000', GradientType=0) !important;
+}
+
+.hover-circular.title-on-page.title-style-dark .portfolio-item .image .overlay:after {
+	display: none;
+}
+
+.hover-circular .portfolio-item .image .links .caption .title,
+.products.hover-circular.title-on-hover .portfolio-item .image .links .caption .product-info {
+	opacity: 0;
+	top: 200px;
+	display: inline-block;
+	vertical-align: middle;
+	position: relative;
+	-webkit-transform: scale(0);
+	transform: scale(0);
+	-webkit-transition: -webkit-transform 0s 0.5s, opacity 0.3s 0.1s, top 0.3s 0.1s;
+	transition: transform 0s 0.5s, opacity 0.3s 0.1s, top 0.3s 0.1s;
+}
+
+.hover-circular .gallery-item .overlay .overlay-content-inner .title {
+	opacity: 0;
+	top: 200px;
+	display: block;
+	vertical-align: middle;
+	position: relative;
+	margin-top: 35px;
+	-webkit-transform: scale(0);
+	transform: scale(0);
+	-webkit-transition: -webkit-transform 0s 0.5s, opacity 0.3s 0.1s, top 0.3s 0.1s;
+	transition: transform 0s 0.5s, opacity 0.3s 0.1s, top 0.3s 0.1s;
+}
+
+.hover-circular .portfolio-item:hover .image .links .caption .title,
+.hover-circular .portfolio-item.hover-effect .image .links .caption .title,
+.products.hover-circular.title-on-hover .portfolio-item:hover .image .links .caption .product-info,
+.products.hover-circular.title-on-hover .portfolio-item.hover-effect .image .links .caption .product-info {
+	opacity: 1;
+	top: 0;
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: -webkit-transform 0.3s 0.1s, opacity 0.3s 0.1s, top 0s;
+	transition: transform 0.3s 0.1s, opacity 0.3s 0.1s, top 0s;
+}
+
+.hover-circular .gallery-item:hover .overlay .overlay-content-inner .title,
+.hover-circular .gallery-item.hover-effect .overlay .overlay-content-inner .title {
+	opacity: 1;
+	top: 0;
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: -webkit-transform 0.3s 0.1s, opacity 0.3s 0.1s, top 0s;
+	transition: transform 0.3s 0.1s, opacity 0.3s 0.1s, top 0s;
+}
+
+.products.hover-circular.title-on-page .portfolio-item.has-rating .image .links .caption .product-info {
+	position: relative;
+	-webkit-transition: padding 0.3s;
+	transition: padding 0.3s;
+}
+
+.products.hover-circular.title-on-page .portfolio-item.has-rating .image .links .caption .product-info .product-rating {
+	position: absolute;
+	-webkit-transform: scale(0);
+	transform: scale(0);
+	opacity: 0;
+	-webkit-transition: -webkit-transform 0.3s, opacity 0.3s 0.1s;
+	transition: transform 0.3s, opacity 0.3s 0.1s;
+}
+
+.products.hover-circular.title-on-page .portfolio-item.has-rating:hover .image .links .caption .product-info .product-rating,
+.products.hover-circular.title-on-page .portfolio-item.has-rating.hover-effect .image .links .caption .product-info .product-rating {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	opacity: 1;
+}
+
+.hover-circular .portfolio-item .image .links .caption .info {
+	opacity: 0;
+	top: 200px;
+	display: inline-block;
+	vertical-align: middle;
+	position: relative;
+	-webkit-transform: scale(0);
+	transform: scale(0);
+	-webkit-transition: -webkit-transform 0s 0.5s, opacity 0.3s 0.1s, top 0.3s 0.1s;
+	transition: transform 0s 0.5s, opacity 0.3s 0.1s, top 0.3s 0.1s;
+}
+
+.hover-circular .portfolio-item:hover .image .links .caption .info,
+.hover-circular .portfolio-item.hover-effect .image .links .caption .info {
+	opacity: 1;
+	top: 0;
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: -webkit-transform 0.3s 0.1s, opacity 0.3s 0.1s, top 0s;
+	transition: transform 0.3s 0.1s, opacity 0.3s 0.1s, top 0s;
+}
+
+.hover-circular .portfolio-item:hover .image .links .caption .description,
+.hover-circular .portfolio-item.hover-effect .image .links .caption .description {
+	opacity: 1;
+	position: static;
+}
+
+.portfolio.hover-circular .portfolio-item .image .overlay .links .caption .subtitle {
+	opacity: 0;
+	top: 350px;
+	position: absolute;
+	-webkit-transform: scale(0);
+	transform: scale(0);
+	-webkit-transition: -webkit-transform 0s 0.5s, opacity 0.3s 0.1s, top 0.3s 0.1s;
+	transition: transform 0s 0.5s, opacity 0.3s 0.1s, top 0.3s 0.1s;
+}
+
+.portfolio.hover-circular .portfolio-item:hover .image .overlay .links .caption .subtitle,
+.portfolio.hover-circular .portfolio-item.hover-effect .image .overlay .links .caption .subtitle {
+	opacity: 1;
+	top: 150px;
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: -webkit-transform 0.3s 0.1s, opacity 0.3s 0.1s, top 0s;
+	transition: transform 0.3s 0.1s, opacity 0.3s 0.1s, top 0s;
+}
+
+.hover-circular .gallery-item .overlay .overlay-content-inner .subtitle {
+	opacity: 0;
+	display: inline-block;
+	vertical-align: middle;
+	top: 200px;
+	position: relative;
+	margin-top: 20px;
+	-webkit-transform: scale(0);
+	transform: scale(0);
+	-webkit-transition: -webkit-transform 0s 0.5s, opacity 0.3s, top 0.3s;
+	transition: transform 0s 0.5s, opacity 0.3s, top 0.3s;
+}
+
+.hover-circular .gallery-item:hover .overlay .overlay-content-inner .subtitle,
+.hover-circular .gallery-item.hover-effect .overlay .overlay-content-inner .subtitle {
+	opacity: 1;
+	top: 0;
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: -webkit-transform 0.3s 0.2s, opacity 0.3s 0.2s, top 0s;
+	transition: transform 0.2s 0.2s, opacity 0.3s 0.2s, top 0s;
+}
+
+.hover-circular .portfolio-item .image .overlay .links .portfolio-icons > .icon,
+.hover-circular .portfolio-item .image .overlay .links .portfolio-icons-inner > .icon,
+.hover-circular .gallery-item .overlay .overlay-content-inner a.icon,
+.portfolio.products.hover-circular .portfolio-item .image .overlay .portfolio-icons.product-bottom a.added_to_cart {
+	opacity: 0;
+	display: inline-block;
+	vertical-align: middle;
+	position: relative;
+	-webkit-transform: translate(0, 200px);
+	transform: translate(0, 200px);
+	-webkit-transition: opacity 0.2s, -webkit-transform 0.3s;
+	transition: opacity 0.2s, transform 0.3s;
+}
+
+.hover-circular .gallery-item .overlay .overlay-content-inner a.icon.link {
+	margin-left: 10px;
+}
+
+.hover-circular .portfolio-item:hover .image .overlay .links .portfolio-icons > .icon,
+.hover-circular .portfolio-item.hover-effect .image .overlay .links .portfolio-icons > .icon,
+.hover-circular .portfolio-item:hover .image .overlay .links .portfolio-icons-inner > .icon,
+.hover-circular .portfolio-item.hover-effect .image .overlay .links .portfolio-icons-inner > .icon,
+.hover-circular .gallery-item:hover .overlay .overlay-content-inner a.icon,
+.hover-circular .gallery-item.hover-effect .overlay .overlay-content-inner a.icon,
+.portfolio.products.hover-circular .portfolio-item:hover .image .overlay .portfolio-icons.product-bottom a.added_to_cart,
+.portfolio.products.hover-circular .portfolio-item.hover-effect .image .overlay .portfolio-icons.product-bottom a.added_to_cart {
+	opacity: 1;
+	-webkit-transform: translate(0, 0);
+	transform: translate(0, 0);
+}
+
+.portfolio.hover-circular .portfolio-item:hover .image .overlay .links .portfolio-icons > .icon:hover,
+.portfolio.hover-circular .portfolio-item.hover-effect .image .overlay .links .portfolio-icons > .icon:hover,
+.portfolio.hover-circular .portfolio-item:hover .image .overlay .links .portfolio-icons-inner > .icon:hover,
+.portfolio.hover-circular .portfolio-item.hover-effect .image .overlay .links .portfolio-icons-inner > .icon:hover {
+	-webkit-transform: scale(1.2);
+	transform: scale(1.2);
+	-webkit-transition: -webkit-transform 0.2s;
+	transition: transform 0.2s;
+}
+
+.hover-circular .portfolio-item:hover .image .overlay .links .portfolio-icons > .icon:nth-child(1),
+.hover-circular .portfolio-item.hover-effect .image .overlay .links .portfolio-icons > .icon:nth-child(1),
+.hover-circular .portfolio-item:hover .image .overlay .links .portfolio-icons-inner > .icon:nth-child(1),
+.hover-circular .portfolio-item.hover-effect .image .overlay .links .portfolio-icons-inner > .icon:nth-child(1),
+.portfolio.products.hover-circular .portfolio-item:hover .image .overlay .portfolio-icons.product-bottom a.added_to_cart,
+.portfolio.products.hover-circular .portfolio-item.hover-effect .image .overlay .portfolio-icons.product-bottom a.added_to_cart {
+	-webkit-transition: opacity 0.5s 0.0s, -webkit-transform 0.35s 0.0s, font-size 0.3s;
+	transition: opacity 0.5s 0s, transform 0.35s 0.00s, font-size 0.3s;
+}
+
+.hover-circular .portfolio-item:hover .image .overlay .links .portfolio-icons > .icon:nth-child(2),
+.hover-circular .portfolio-item.hover-effect .image .overlay .links .portfolio-icons > .icon:nth-child(2),
+.hover-circular .portfolio-item:hover .image .overlay .links .portfolio-icons-inner > .icon:nth-child(2),
+.hover-circular .portfolio-item.hover-effect .image .overlay .links .portfolio-icons-inner > .icon:nth-child(2) {
+	-webkit-transition: opacity 0.5s 0.05s, -webkit-transform 0.35s 0.05s, font-size 0.3s;
+	transition: opacity 0.5s 0.05s, transform 0.35s 0.05s, font-size 0.3s;
+}
+
+.hover-circular .portfolio-item:hover .image .overlay .links .portfolio-icons > .icon:nth-child(3),
+.hover-circular .portfolio-item.hover-effect .image .overlay .links .portfolio-icons > .icon:nth-child(3),
+.hover-circular .portfolio-item:hover .image .overlay .links .portfolio-icons-inner > .icon:nth-child(3),
+.hover-circular .portfolio-item.hover-effect .image .overlay .links .portfolio-icons-inner > .icon:nth-child(3),
+.portfolio.hover-circular .portfolio-item:hover .image .overlay .links .portfolio-icons > .yith-wcwl-add-to-wishlist a.icon,
+.portfolio.hover-circular .portfolio-item.hover-effect .image .overlay .links .portfolio-icons > .yith-wcwl-add-to-wishlist a.icon,
+.portfolio.hover-circular .portfolio-item:hover .image .overlay .links .portfolio-icons-inner > .yith-wcwl-add-to-wishlist a.icon,
+.portfolio.hover-circular .portfolio-item.hover-effect .image .overlay .links .portfolio-icons-inner > .yith-wcwl-add-to-wishlist a.icon {
+	-webkit-transition: opacity 0.5s 0.1s, -webkit-transform 0.35s 0.1s, font-size 0.3s;
+	transition: opacity 0.5s 0.1s, transform 0.35s 0.1s, font-size 0.3s;
+}
+
+.hover-circular .portfolio-item:hover .image .overlay .links .portfolio-icons > .icon:nth-child(4),
+.hover-circular .portfolio-item.hover-effect .image .overlay .links .portfolio-icons > .icon:nth-child(4),
+.hover-circular .portfolio-item:hover .image .overlay .links .portfolio-icons-inner > .icon:nth-child(4),
+.hover-circular .portfolio-item.hover-effect .image .overlay .links .portfolio-icons-inner > .icon:nth-child(4) {
+	-webkit-transition: opacity 0.5s 0.15s, -webkit-transform 0.35s 0.15s, font-size 0.3s;
+	transition: opacity 0.5s 0.15s, transform 0.35s 0.15s, font-size 0.3s;
+}
+
+.hover-circular .portfolio-item:hover .image .overlay .links .portfolio-icons > .icon:nth-child(5),
+.hover-circular .portfolio-item.hover-effect .image .overlay .links .portfolio-icons > .icon:nth-child(5),
+.hover-circular .portfolio-item:hover .image .overlay .links .portfolio-icons-inner > .icon:nth-child(5),
+.hover-circular .portfolio-item.hover-effect .image .overlay .links .portfolio-icons-inner > .icon:nth-child(5) {
+	-webkit-transition: opacity 0.5s 0.2s, -webkit-transform 0.35s 0.2s, font-size 0.3s;
+	transition: opacity 0.5s 0.2s, transform 0.35s 0.2s, font-size 0.3s;
+}
+
+.hover-circular .gallery-item .overlay .overlay-line {
+	width: 0;
+	opacity: 0;
+	-webkit-transition: width 0.35s, opacity 0.5s;
+	transition: width 0.35s, opacity 0.5s;
+}
+
+.hover-circular .gallery-item:hover .overlay .overlay-line,
+.hover-circular .gallery-item.hover-effect .overlay .overlay-line {
+	width: 100%;
+	opacity: 1;
+	-webkit-transition: width 0.35s, opacity 0.5s;
+	transition: width 0.35s, opacity 0.5s;
+}
+
+.hover-circular .portfolio-item .image .links .overlay-line {
+	overflow: hidden;
+	position: relative;
+	background: transparent;
+}
+
+.hover-circular .portfolio-item .image .links .overlay-line:after {
+	position: absolute;
+	content: '';
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 2px;
+	background-color: #fff;
+	-webkit-transform: translateX(-100%);
+	transform: translateX(-100%);
+	-webkit-transition: -webkit-transform 0.35s;
+	transition: transform 0.35s;
+}
+
+.hover-circular .portfolio-item:hover .image .links .overlay-line:after,
+.hover-circular .portfolio-item.hover-effect .image .links .overlay-line:after {
+	-webkit-transform: translateX(0);
+	transform: translateX(0);
+	-webkit-transition: -webkit-transform 0.35s;
+	transition: transform 0.35s;
+}
+
+.hover-circular .portfolio-item .image .overlay .links .portfolio-sharing-pane {
+	opacity: 0;
+	margin-top: 0;
+	margin-bottom: 0;
+	-webkit-transform: translateY(-1000px);
+	transform: translateY(-1000px);
+	-webkit-transition: opacity 0.3s, margin 0.3s 0.3s, -webkit-transform 0s;
+	transition: opacity 0.3s, margin 0.3s 0.3s, transform 0s;
+}
+
+.hover-circular .portfolio-item:hover .image .overlay .links .portfolio-sharing-pane,
+.hover-circular .portfolio-item.hover-effect .image .overlay .links .portfolio-sharing-pane {
+	visibility: hidden;
+	-webkit-transform: translateY(0);
+	transform: translateY(0);
+	-webkit-transition: opacity 0.5s, -webkit-transform 0s, margin 0.3s 0.3s;
+	transition: opacity 0.5s, transform 0s, margin 0.3s 0.3s;
+}
+
+.hover-circular .portfolio-item:hover .image .overlay .links .portfolio-sharing-pane.active,
+.hover-circular .portfolio-item.hover-effect .image .overlay .links .portfolio-sharing-pane.active {
+	opacity: 1;
+	visibility: visible;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	-webkit-transition: opacity 0.5s, margin 0.3s;
+	transition: opacity 0.5s, margin 0.3s;
+}
+
+.hover-circular.fullwidth-columns-6 .portfolio-item:hover .image .overlay .links .portfolio-sharing-pane.active,
+.hover-circular.fullwidth-columns-6 .portfolio-item.hover-effect .image .overlay .links .portfolio-sharing-pane.active {
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+.hover-circular .portfolio-item:hover .image .overlay .links .portfolio-sharing-pane .socials-item-icon,
+.hover-circular .portfolio-item.hover-effect .image .overlay .links .portfolio-sharing-pane .socials-item-icon {
+	opacity: 0;
+	-webkit-transform: translate(0, 30px);
+	transform: translate(0, 30px);
+}
+
+.hover-circular .portfolio-item:hover .image .overlay .links .portfolio-sharing-pane.active .socials-item-icon,
+.hover-circular .portfolio-item.hover-effect .image .overlay .links .portfolio-sharing-pane.active .socials-item-icon {
+	opacity: 1;
+	-webkit-transform: translate(0, 0);
+	transform: translate(0, 0);
+}

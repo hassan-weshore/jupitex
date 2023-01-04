@@ -1,0 +1,568 @@
+/*  QUICKFINDER VERTICAL ITEM  */
+.quickfinder-style-vertical .quickfinder-item {
+	display: table-row;
+}
+.quickfinder-style-vertical .quickfinder-item-info,
+.quickfinder-style-vertical .quickfinder-item-image {
+	display: table-cell;
+	vertical-align: middle;
+}
+.quickfinder-style-vertical .quickfinder-item + .quickfinder-item .quickfinder-item-info,
+.quickfinder-style-vertical .quickfinder-item + .quickfinder-item .quickfinder-item-image .quickfinder-item-image-content {
+	padding-top: 75px;
+}
+.quickfinder-style-vertical .quickfinder-item-image {
+	position: relative;
+	width: 2%;
+	margin-bottom: 0;
+}
+.quickfinder-style-vertical .quickfinder-item.odd:after,
+.quickfinder-style-vertical .quickfinder-item.even:before {
+	content: '';
+	display: table-cell;
+	width: 49%;
+}
+.quickfinder-style-vertical .quickfinder-item.odd .quickfinder-item-info {
+	text-align: right;
+	padding-right: 25px;
+}
+.quickfinder-style-vertical .quickfinder-item.even .quickfinder-item-info {
+	text-align: left;
+	padding-left: 25px;
+}
+.quickfinder-style-vertical .quickfinder-item-title {
+	margin-top: 0;
+}
+@media (max-width: 768px) {
+	.quickfinder-style-vertical .quickfinder-item {
+		display: block;
+	}
+	.quickfinder-style-vertical .quickfinder-item.odd:after,
+	.quickfinder-style-vertical .quickfinder-item.even:before {
+		display: none;
+	}
+	.quickfinder-style-vertical .quickfinder-item + .quickfinder-item .quickfinder-item-connector {
+		display: none;
+	}
+}
+.quickfinder-style-vertical .quickfinder-item-link{
+	opacity: 0;
+}
+.quickfinder-style-vertical-1 .quickfinder-item-info{
+	border-radius: 60px;
+	display: block;
+}
+.quickfinder-style-vertical-2 .quickfinder-item-info{
+	border-radius: 60px;
+}
+.quickfinder-style-vertical-1 .quickfinder-item.odd .quickfinder-item-info-wrapper{
+	padding-right: 60px;
+	position: relative;
+}
+.quickfinder-style-vertical-1 .quickfinder-item.even .quickfinder-item-info-wrapper{
+	padding-left: 60px;
+	position: relative;
+}
+body .quickfinder-style-vertical-1 .quickfinder-item.odd {
+	text-align: right;
+}
+body .quickfinder-style-vertical-1 .quickfinder-item.even {
+	text-align: left;
+}
+body .quickfinder-style-vertical .quickfinder-item.odd .quickfinder-item-info,
+body .quickfinder-style-vertical .quickfinder-item.even .quickfinder-item-info
+{
+	padding-top: 0;
+	padding-right: 40px;
+	padding-left: 40px;
+}
+.quickfinder-style-vertical .quickfinder-item-title{
+	padding-top: 35px;
+	padding-bottom: 20px;
+}
+.quickfinder-style-vertical .quickfinder-item-title span,
+.quickfinder-style-vertical .quickfinder-item-title a,
+.quickfinder-style-vertical .quickfinder-item-text span,
+.quickfinder-style-vertical .quickfinder-item-text a
+{
+	color: inherit;
+}
+.quickfinder-style-vertical .quickfinder-item-text{
+	margin-top: 0;
+	padding-bottom: 35px;
+}
+.qf-svg-arrow-left,
+.qf-svg-arrow-right {
+	position: absolute;
+	width: 50px;
+	height: 100px;
+}
+body .quickfinder-style-vertical .quickfinder-item.odd .qf-svg-arrow-right{
+	top: 50%;
+	margin-top: -50px;
+	right: 10px;
+	transform: rotate(180deg);
+	-webkit-transform: rotate(180deg);
+}
+body .quickfinder-style-vertical .quickfinder-item.even .qf-svg-arrow-left{
+	top: 50%;
+	margin-top: -50px;
+	left: 10px;
+}
+.quickfinder-style-vertical .gem-icon{
+	background-color: #fff;
+}
+.quickfinder-style-vertical .gem-icon.gem-icon-shape-hexagon{
+	background-color: transparent;
+}
+body .quickfinder-style-vertical .quickfinder-item-image{
+	text-align: center;
+	height: 100%;
+}
+body .quickfinder-style-vertical .quickfinder-item-image-content{
+	padding-top: 0 !important;
+	z-index: 10;
+}
+body .quickfinder-style-vertical .quickfinder-item-image-wrapper{
+	display: inline-block;
+	text-align: center;
+}
+.quickfinder-style-vertical .quickfinder-item:first-child .quickfinder-item-connector.connector-bot{
+	display: block;
+	position: absolute;
+	width: 3px;
+	height: 50%;
+	margin-left: -1px;
+	left: 50%;
+	top: 50%;
+}
+.quickfinder-style-vertical .quickfinder-item:last-child .quickfinder-item-connector.connector-bot{
+	display: none;
+}
+body .quickfinder-item .quickfinder-item-connector{
+	height: 50% !important;
+	border: none;
+}
+body .quickfinder-item .quickfinder-item-connector.connector-top{
+	position: absolute;
+	top: 0;
+	z-index: 0;
+	height: auto;
+}
+body .quickfinder-item .quickfinder-item-connector.connector-bot{
+	position: absolute
+;	top: 50% !important;
+	z-index: 0;
+	vertical-align: bottom;
+	height: auto;
+}
+body .quickfinder-style-vertical .gem-dummy,
+body .quickfinder-style-vertical .quickfinder-item-link,
+body .quickfinder-style-vertical .quickfinder-item-image-wrapper,
+body .quickfinder-style-vertical .quickfinder-item-image-wrapper .gem-icon
+{
+	vertical-align: top;
+}
+body .quickfinder-style-vertical .quickfinder-dummy-wrapper{
+}
+.quickfinder-style-vertical .quickfinder-item:first-child .connector-top,
+.quickfinder-style-vertical .quickfinder-item:last-child .connector-bot
+{
+	display: none;
+}
+.connector-top{
+	border: solid;
+	width: 3px;
+	height: 50%;
+	position: absolute;
+	top: 0;
+	border-top-width: 0;
+	border-bottom-width: 0;
+	border-left-width: 2px;
+	border-right-width: 1px;
+}
+.connector-bot{
+	border: solid;
+	width: 3px;
+	height: 50%;
+	position: absolute;
+	bottom: 0;
+	border-top-width: 0;
+	border-bottom-width: 0;
+	border-left-width: 2px;
+	border-right-width: 1px;
+}
+.quickfinder-style-vertical a.quickfinder-item-link{
+	z-index: 20
+}
+.quickfinder-style-vertical .gem-icon.gem-icon-shape-circle{
+	border-radius: 50%;
+}
+.quickfinder-style-vertical-1 .gem-icon-size-small.gem-icon-shape-romb,
+.quickfinder-style-vertical-2 .gem-icon-size-small.gem-icon-shape-romb,
+.quickfinder-style-vertical-3 .gem-icon-size-small.gem-icon-shape-romb,
+.quickfinder-style-vertical-4 .gem-icon-size-small.gem-icon-shape-romb,
+.quickfinder-style-vertical-1 .gem-icon-size-medium.gem-icon-shape-romb,
+.quickfinder-style-vertical-2 .gem-icon-size-medium.gem-icon-shape-romb,
+.quickfinder-style-vertical-3 .gem-icon-size-medium.gem-icon-shape-romb,
+.quickfinder-style-vertical-4 .gem-icon-size-medium.gem-icon-shape-romb,
+.quickfinder-style-vertical-1 .gem-icon-size-large.gem-icon-shape-romb,
+.quickfinder-style-vertical-2 .gem-icon-size-large.gem-icon-shape-romb,
+.quickfinder-style-vertical-3 .gem-icon-size-large.gem-icon-shape-romb,
+.quickfinder-style-vertical-4 .gem-icon-size-large.gem-icon-shape-romb,
+.quickfinder-style-vertical-1 .gem-icon-size-xlarge.gem-icon-shape-romb,
+.quickfinder-style-vertical-2 .gem-icon-size-xlarge.gem-icon-shape-romb,
+.quickfinder-style-vertical-3 .gem-icon-size-xlarge.gem-icon-shape-romb,
+.quickfinder-style-vertical-4 .gem-icon-size-xlarge.gem-icon-shape-romb{
+	margin: 0;
+}
+.quickfinder-style-vertical .gem-icon-size-small.gem-simple-icon {
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+}
+.quickfinder-style-vertical .gem-icon-size-medium.gem-simple-icon {
+	width: 80px;
+	height: 80px;
+	line-height: 80px;
+}
+.quickfinder-style-vertical .gem-icon-size-large.gem-simple-icon {
+	width: 160px;
+	height: 160px;
+	line-height: 160px;
+}
+.quickfinder-style-vertical .gem-icon-size-xlarge.gem-simple-icon {
+	width: 240px;
+	height: 240px;
+	line-height: 240px;
+}
+
+
+@media(max-width: 768px){
+	.quickfinder-style-vertical-1 .quickfinder-item {display: block;}
+	.quickfinder-style-vertical-1 .quickfinder-item .quickfinder-item-info-wrapper {display: table-cell; height: 100%;}
+	.quickfinder-style-vertical-1 .quickfinder-item:first-child {margin-top: 0}
+	.quickfinder-style-vertical .quickfinder-item {margin-top: 50px; }
+	.quickfinder-style-vertical-1 .quickfinder-item:first-child .quickfinder-item-connector.connector-bot,
+	.connector-top,
+	.connector-bot
+	{
+		display: none;
+	}
+}
+
+@media(max-width: 560px){
+	.quickfinder-style-vertical-1 .quickfinder-item {display: block;}
+	.quickfinder-style-vertical-2 .quickfinder-item-info{ display: block;}
+	body .quickfinder-style-vertical .quickfinder-item .quickfinder-item-info-wrapper,
+	body .quickfinder-style-vertical .quickfinder-item .quickfinder-item-image
+	{
+		display: block;
+		width: auto;
+	}
+
+	body .quickfinder-style-vertical .quickfinder-item.odd {
+		position: relative;
+	}
+	body .quickfinder-style-vertical .quickfinder-item.odd .quickfinder-item-info {
+		border-top-right-radius: 0;
+	}
+	body .quickfinder-style-vertical .quickfinder-item.even .quickfinder-item-info {
+		border-top-left-radius: 0;
+	}
+	body .quickfinder-style-vertical .quickfinder-item.odd.small .quickfinder-item-image,
+	body .quickfinder-style-vertical .quickfinder-item.odd.medium .quickfinder-item-image,
+	body .quickfinder-style-vertical .quickfinder-item.odd.large .quickfinder-item-image,
+	body .quickfinder-style-vertical .quickfinder-item.odd.xlarge .quickfinder-item-image
+	{
+		position: absolute;
+		top: 0;
+		right: 6px;
+	}
+	body .quickfinder-style-vertical .quickfinder-item.even.small .quickfinder-item-image,
+	body .quickfinder-style-vertical .quickfinder-item.even.medium .quickfinder-item-image,
+	body .quickfinder-style-vertical .quickfinder-item.even.large .quickfinder-item-image,
+	body .quickfinder-style-vertical .quickfinder-item.even.xlarge .quickfinder-item-image
+	{
+		position: absolute;
+		top: 0;
+		left: 6px;
+	}
+	body .quickfinder-style-vertical .quickfinder-item.small
+	{
+		padding-top: 80px;
+	}
+	body .quickfinder-style-vertical .quickfinder-item.medium{
+		padding-top: 128px;
+	}
+	body .quickfinder-style-vertical .quickfinder-item.large{
+		padding-top: 200px;
+	}
+	body .quickfinder-style-vertical .quickfinder-item.xlarge{
+		padding-top: 270px;
+	}
+	.quickfinder-style-vertical .quickfinder-item.odd .quickfinder-item-info-wrapper {
+		padding-right: 0;
+	}
+	.quickfinder-style-vertical .quickfinder-item.even .quickfinder-item-info-wrapper {
+		padding-left: 0;
+	}
+	body .quickfinder-style-vertical .quickfinder-item.odd .qf-svg-arrow-right,
+	body .quickfinder-style-vertical .quickfinder-item.even .qf-svg-arrow-left
+	{
+		display: none;
+	}
+}
+
+/* QUICKFINDERS STYLE 2 */
+body .quickfinder-style-vertical-2 .quickfinder-item{
+	text-align: left;
+	border-spacing: 0 25px;
+}
+.quickfinder-style-vertical-2 .quickfinder-item.odd::after,
+.quickfinder-style-vertical-2 .quickfinder-item.even::before
+{
+	display: none;
+}
+.quickfinder-style-vertical-2 .quickfinder-item .quickfinder-item-image{
+	vertical-align: middle;
+}
+body .quickfinder-style-vertical-2 .quickfinder-item .quickfinder-item-info-wrapper{
+	position: relative;
+	padding-left: 60px;
+}
+.quickfinder-style-vertical-2 .quickfinder-item .qf-svg-arrow-left,
+.quickfinder-style-vertical-2 .quickfinder-item.qf-svg-arrow-left
+{
+	top: 50%;
+	margin-top: -50px;
+	left: 10px;
+}
+.quickfinder-style-vertical-2 .quickfinder-item .quickfinder-item-info{
+
+}
+.quickfinder-style-vertical-2 .quickfinder-item .quickfinder-item-info-wrapper .quickfinder-item-info,
+.quickfinder-style-vertical-2 .quickfinder-item .quickfinder-item-info-wrapper .quickfinder-item-title
+{
+	padding-top: 35px;
+	text-align: left;
+}
+.quickfinder-style-vertical-2 .quickfinder-item:first-child .connector-top,
+.quickfinder-style-vertical-2 .quickfinder-item:last-child .connector-bot
+{
+	display: none;
+}
+.quickfinder-style-vertical-2 .connector-top{
+	border: solid;
+	width: 3px;
+	height: 50%;
+	position: absolute;
+	top: 0;
+	border-top-width: 0;
+	border-bottom-width: 0;
+	border-left-width: 2px;
+	border-right-width: 1px;
+}
+.quickfinder-style-vertical-2 .connector-bot{
+	border: solid;
+	width: 3px;
+	height: 50%;
+	position: absolute;
+	bottom: 0;
+	border-top-width: 0;
+	border-bottom-width: 0;
+	border-left-width: 2px;
+	border-right-width: 1px;
+}
+.quickfinder-style-vertical-2 .quickfinder-item-info .quickfinder-item-block{
+	display: block;
+
+}
+@media (max-width: 768px){
+	.quickfinder-style-vertical.quickfinder-style-vertical-2 .quickfinder-item{
+		display: table-row;
+	}
+}
+@media (max-width: 560px){
+	.quickfinder-style-vertical.quickfinder-style-vertical-2 .quickfinder-item{
+		display: block;
+		border-spacing: 0;
+	}
+	.quickfinder-style-vertical-2 .quickfinder-item .quickfinder-item-image{
+		text-align: left;
+		display: block;
+		padding-left: 0;
+	}
+	body .quickfinder-style-vertical-2 .quickfinder-item .quickfinder-item-info-wrapper{
+		padding-left: 0;
+		margin-top: 0;
+	}
+	.quickfinder-style-vertical-2 .quickfinder-item .quickfinder-item-info{
+		min-height: 150px !important;
+	}
+	.quickfinder-style-vertical-2 .quickfinder-item-info .quickfinder-item-block{
+		min-height: 100px;
+	}
+	body .quickfinder-style-vertical-2 .quickfinder-item .qf-svg-arrow-left
+	{
+		display: none;
+	}
+
+	.quickfinder-style-vertical-2 .quickfinder-item:first-child .quickfinder-item-connector.connector-bot,
+	.connector-top,
+	.connector-bot
+	{
+		display: none;
+	}
+}
+
+/* QUICKFINDERS STYLE 3 */
+body .quickfinder-style-vertical-3 .quickfinder-item{
+	text-align: left;
+}
+.quickfinder-style-vertical-3 .quickfinder-item.odd::after,
+.quickfinder-style-vertical-3 .quickfinder-item.even::before
+{
+	display: none;
+}
+.quickfinder-style-vertical-3 .quickfinder-item .quickfinder-item-image{
+	vertical-align: top;
+	padding-top: 11px;
+}
+body .quickfinder-style-vertical-3 .quickfinder-item .quickfinder-item-info-wrapper{
+	position: relative;
+}
+.quickfinder-style-vertical-3 .quickfinder-item .quickfinder-item-info-wrapper .quickfinder-item-title{
+	padding-top: 0;
+}
+.quickfinder-style-vertical-3 .quickfinder-item .quickfinder-item-info-wrapper .quickfinder-item-info{
+	padding: 35px 30px 50px;
+}
+.quickfinder-style-vertical-3 .quickfinder-item .quickfinder-item-info-wrapper .quickfinder-item-info,
+.quickfinder-style-vertical-3 .quickfinder-item .quickfinder-item-info-wrapper .quickfinder-item-title {
+	text-align: left;
+}
+.quickfinder-style-vertical-3.quickfinder-alignment-left .quickfinder-item .quickfinder-item-info-wrapper .quickfinder-item-info,
+.quickfinder-style-vertical-3.quickfinder-alignment-left .quickfinder-item .quickfinder-item-info-wrapper .quickfinder-item-title {
+	text-align: right;
+}
+
+.quickfinder-style-vertical-3 .connector{
+	border: solid;
+	width: 3px;
+	height: 100%;
+	position: absolute;
+	top: 15px;
+	border-top-width: 0;
+	border-bottom-width: 0;
+	border-left-width: 2px;
+	border-right-width: 1px;
+}
+.quickfinder-style-vertical-3 .quickfinder-item:last-child .connector{
+	display: none;
+}
+.quickfinder-style-vertical-3 .quickfinder-item-info .quickfinder-item-block{
+	display: block;
+}
+
+
+@media (max-width: 768px){
+	.quickfinder-style-vertical.quickfinder-style-vertical-3 .quickfinder-item{
+		display: table-row;
+	}
+}
+@media (max-width: 560px){
+	.quickfinder-style-vertical.quickfinder-style-vertical-3 .quickfinder-item{
+		display: block;
+		border-spacing: 0;
+		margin-top: 0;
+	}
+	.quickfinder-style-vertical-3 .quickfinder-item .quickfinder-item-image{
+		text-align: left;
+		display: block;
+		padding-left: 0;
+	}
+	body .quickfinder-style-vertical-3 .quickfinder-item .quickfinder-item-info-wrapper{
+		padding-left: 0;
+		margin-top: 0;
+	}
+	body .quickfinder-style-vertical.quickfinder-style-vertical-3 .quickfinder-item .quickfinder-item-info{
+		padding-left: 0;
+		padding-right: 0;
+		padding-bottom: 0;
+	}
+	.quickfinder-style-vertical-3 .quickfinder-item-info .quickfinder-item-block{
+		min-height: 100px;
+	}
+	.quickfinder-style-vertical-3 .quickfinder-item .quickfinder-item-connector.connector{
+		display: none;
+	}
+	body .quickfinder-style-vertical.quickfinder-style-vertical-3 .quickfinder-item.odd .quickfinder-item-image{
+		left: 6px;
+	}
+	body .quickfinder-style-vertical.quickfinder-style-vertical-3.quickfinder-style-vertical-3 .quickfinder-item.even.small .quickfinder-item-image,
+	body .quickfinder-style-vertical.quickfinder-style-vertical-3 .quickfinder-item.even.medium .quickfinder-item-image,
+	body .quickfinder-style-vertical.quickfinder-style-vertical-3 .quickfinder-item.even.large .quickfinder-item-image,
+	body .quickfinder-style-vertical.quickfinder-style-vertical-3 .quickfinder-item.even.xlarge .quickfinder-item-image,
+	body .quickfinder-style-vertical.quickfinder-style-vertical-3 .quickfinder-item.odd.small .quickfinder-item-image,
+	body .quickfinder-style-vertical.quickfinder-style-vertical-3 .quickfinder-item.odd.medium .quickfinder-item-image,
+	body .quickfinder-style-vertical.quickfinder-style-vertical-3 .quickfinder-item.odd.large .quickfinder-item-image,
+	body .quickfinder-style-vertical.quickfinder-style-vertical-3 .quickfinder-item.odd.xlarge .quickfinder-item-image
+	{
+		position: absolute;
+		top: 0;
+		left: 6px;
+	}
+}
+
+/*  QUICKFINDER VERTICAL ITEM 4*/
+.quickfinder-style-vertical-4 .quickfinder-item-info{
+	display: block;
+}
+.quickfinder-style-vertical-4 .quickfinder-item .quickfinder-item-image{
+	vertical-align: top;
+	padding-top: 11px;
+}
+.quickfinder-style-vertical-4 .quickfinder-item-title{
+	padding-top: 0;
+}
+.quickfinder-style-vertical-4 .quickfinder-item.odd .quickfinder-item-info-wrapper,
+.quickfinder-style-vertical-4 .quickfinder-item.even .quickfinder-item-info-wrapper{
+	position: relative;
+}
+body .quickfinder-style-vertical-4 .quickfinder-item.odd {
+	text-align: right;
+}
+body .quickfinder-style-vertical-4 .quickfinder-item.even {
+	text-align: left;
+}
+body .quickfinder-style-vertical.quickfinder-style-vertical-4 .quickfinder-item.odd .quickfinder-item-info,
+body .quickfinder-style-vertical.quickfinder-style-vertical-4 .quickfinder-item.even .quickfinder-item-info{
+	padding-right: 50px;
+	padding-left: 50px;
+}
+.quickfinder-style-vertical-4 .connector{
+	border: solid;
+	width: 3px;
+	height: 100%;
+	position: absolute;
+	top: 25px;
+	border-top-width: 0;
+	border-bottom-width: 0;
+	border-left-width: 2px;
+	border-right-width: 1px;
+}
+.quickfinder-style-vertical-4 .quickfinder-item:last-child .connector{
+	display: none;
+}
+@media(max-width: 768px){
+	.quickfinder-style-vertical-4 .quickfinder-item {display: block;}
+	.quickfinder-style-vertical-4 .quickfinder-item .quickfinder-item-info-wrapper {display: table-cell; height: 100%;}
+	.quickfinder-style-vertical-4 .quickfinder-item:first-child {margin-top: 0}
+	.quickfinder-style-vertical-4 .connector{display: none;}
+}
+@media(max-width: 560px){
+	.quickfinder-style-vertical-4 .quickfinder-item {display: block;}
+	body .quickfinder-style-vertical.quickfinder-style-vertical-4 .quickfinder-item.even .quickfinder-item-info,
+	body .quickfinder-style-vertical.quickfinder-style-vertical-4 .quickfinder-item.odd .quickfinder-item-info {padding-left: 0; padding-right: 0;}
+}

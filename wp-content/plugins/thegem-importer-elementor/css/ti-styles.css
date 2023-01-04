@@ -1,0 +1,1427 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,700|Source+Sans+Pro:300,400');
+
+.loading-text:before {
+	content: '';
+	border: 2px solid #cccccc;
+	border-top: 2px solid #0073aa;
+	border-radius: 50%;
+	width: 20px;
+	height: 20px;
+	animation: spin 0.5s linear infinite;
+	display: inline-block;
+	margin-right: 15px;
+	vertical-align: middle;
+}
+
+@keyframes spin {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
+.thegem-importer-header {
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	background-color: #23282c;
+	padding: 15px 25px;
+	align-items: center;
+	margin-top: 20px;
+}
+
+.thegem-importer-header > div {
+	-ms-flex-preferred-size: 0;
+	flex-basis: 0;
+	-ms-flex-positive: 1;
+	flex-grow: 1;
+	max-width: 100%;
+}
+
+.thegem-importer-logo img {
+	width: 164px;
+	height: auto;
+	vertical-align: middle;
+}
+
+.thegem-importer-header > .thegem-importer-title {
+	flex-grow: 20;
+	color: #ffffff;
+}
+
+.thegem-importer-header > .thegem-importer-remover a {
+	white-space: nowrap;
+	display: inline-block;
+	padding: 0 15px;
+	border-radius: 15px;
+	font-size: 14px;
+	line-height: 30px;
+	background-color: #00bcd5;
+	color: #ffffff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: 'Montserrat';
+	font-weight: 700;
+	letter-spacing: 0.7px;
+}
+
+.thegem-importer-header > .thegem-importer-remover a:focus {
+	outline: 0 none;
+	box-shadow: none;
+}
+
+.thegem-importer-content {
+	padding: 40px 25px;
+	background-color: #ffffff;
+}
+
+.imports-list {
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	margin-left: -10px;
+	margin-right: -10px;
+}
+
+.import-progress-bar {
+	height: 15px;
+	position: relative;
+}
+
+.import-progress-bar-line {
+	height: 15px;
+	background: #777777;
+}
+
+.import-progress-bar-percents {
+	position: absolute;
+	top: 3px;
+	right: 17px;
+	color: #3c3950;
+	font-family: Montserrat;
+	font-size: 14px;
+	font-weight: 700;
+}
+
+.part-data-select {
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	align-items: flex-start;
+}
+
+.part-data-select .import-data-part-column {
+	-ms-flex-preferred-size: 0;
+	flex-basis: 0;
+	-ms-flex-positive: 1;
+	flex-grow: 1;
+	max-width: 100%;
+}
+
+.imports-categories {
+	margin: -10px 0;
+}
+
+.imports-category {
+	display: inline-block;
+}
+
+.imports-categories .imports-category a {
+	font-family: 'Montserrat';
+	text-decoration: none;
+	background-color: #dfe5e8;
+	color: #5f727f;
+	font-size: 14px;
+	font-weight: 700;
+	padding: 3px 17px;
+	letter-spacing: 0.7px;
+	border-radius: 20px;
+	text-transform: uppercase;
+	margin: 10px 6px;
+	display: block;
+}
+
+.imports-categories .imports-category a.active {
+	background-color: #00bcd4;
+	color: #fff;
+}
+.imports-categories .imports-category a.active span {
+	background-color: #fff;
+}
+.imports-filter form.imports-search-form {
+	position: relative;
+}
+.imports-categories .imports-category a,
+.thegem-importer-header > .thegem-importer-remover a {
+	transition: all 0.3s linear;
+	-moz-transition: all 0.3s linear;
+	-webkit-transition: all 0.3s linear;
+}
+
+.thegem-importer-header > .thegem-importer-remover a:hover {
+	background-color: #5f727f;
+}
+
+.imports-categories .imports-category a:hover {
+	background-color: #00bcd4;
+	color: #fff;
+}
+
+.imports-categories .imports-category a:focus {
+	border: 0 none;
+	outline: 0 none;
+	box-shadow: none;
+}
+
+.imports-search button:after {
+	content: "\e60b";
+	font-family: 'thegem-admin-icons';
+	top: 2px;
+	left: 2px;
+	width: 20px;
+	height: 20px;
+	font-size: 24px;
+	z-index: 999;
+	color: #5f727f;
+}
+
+.imports-search button {
+	height: 29px;
+	width: 29px;
+	top: 7px;
+	left: 10px;
+	font-size: 0;
+	border: none;
+	position: absolute;
+	cursor: pointer;
+	float: left;
+	background-color: #dfe5e8;
+	padding: 0;
+}
+
+.imports-search input[type="text"] {
+	font-family: "Source Sans Pro";
+	background-color: #dfe5e8;
+	color: #5f727f;
+	padding-left: 14px;
+	padding-right: 12px;
+	border: none;
+	box-shadow: none;
+	font-size: 16px;
+	font-weight: 300;
+	padding-left: 40px;
+	border-radius: 20px;
+	width: 320px;
+	max-width: 100%;
+	min-width: 250px;
+	height: 40px;
+	line-height: 40px;
+}
+.imports-search {
+	margin-bottom: 25px;
+}
+.imports-search input[type="text"]::-webkit-input-placeholder {
+	color: #99a9b5;
+}
+
+.imports-search input[type="text"]::-moz-placeholder {
+	color: #99a9b5;
+}
+
+.thegem-importer-wrap input[type=checkbox]:checked:before {
+	content: "\e60c";
+	color: #1e8cbe;
+	font-family: 'thegem-admin-icons';
+}
+
+.thegem-importer-wrap input[type=checkbox] {
+	width: 24px;
+	height: 24px;
+	border-radius: 3px;
+	border: 2px solid #99a9b5;
+	box-shadow: none;
+}
+
+.thegem-importer-wrap input[type=checkbox]:checked:before {
+	content: "\e60c";
+	color: #99a9b5;
+	font-family: 'thegem-admin-icons';
+	margin: 0px;
+	font-size: 22px;
+	margin-top: 9px;
+	margin-left: -1px;
+}
+
+
+.thegem-importer-wrap input[type=radio] {
+	width: 18px;
+	height: 18px;
+	border: 2px solid #3c3950;
+	box-shadow: none;
+	background-color: transparent;
+}
+
+.thegem-importer-wrap input[type=radio]:checked:before {
+	width: 8px;
+	height: 8px;
+	margin: 3px;
+	line-height: 16px;
+	background-color: #3c3950;
+}
+.thegem-importer-header > .thegem-importer-title {
+	font-family: 'Montserrat';
+	font-size: 24px;
+	font-weight: 400;
+	letter-spacing: 1.2px;
+	margin-left: 30px;
+	line-height: 1;
+}
+
+.import-item .import-title {
+	font-family: 'Montserrat';
+	font-size: 14px;
+	font-weight: 700;
+	letter-spacing: 0.76px;
+	text-transform: uppercase;
+	margin-bottom: 2px;
+	position: relative;
+	display: inline-block;
+}
+
+.imports-list {
+	margin-top: 45px;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+}
+
+.import-item {
+	-ms-flex: 0 0 25%;
+	flex: 0 0 25%;
+	max-width: 25%;
+	text-align: center;
+	margin-bottom: 40px;
+	position: relative;
+	margin-bottom: 63px;
+}
+import-item.hidden {
+	display: none;
+}
+
+.import-item-wrap {
+	padding: 0px 15px
+}
+
+.import-item .import-image img {
+	-webkit-box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.15);
+	-moz-box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.15);
+	box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.15);
+	max-width: 100%;
+	height: auto;
+	border-radius: 3px;
+	vertical-align: middle;
+}
+
+.import-item a:after {
+	content: '';
+	display: inline-block;
+	height: 1px;
+	width: 60px;
+	background-color: #02bcd3;
+	top: 100%;
+	position: absolute;
+	left: 50%;
+	margin-left: -30px;
+}
+.import-image {
+	position: relative;
+	margin-bottom: 15px;
+}
+.import-image:before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	background: rgba(163,231,240,0.5);
+	-webkit-transition: opacity 0.5s cubic-bezier(0.165, 0.840, 0.440, 1.000);
+	transition: opacity 0.5s cubic-bezier(0.165, 0.840, 0.440, 1.000);
+}
+.import-item:hover .import-image:before {
+	opacity: 1;
+}
+
+.import-image .import-popup-preview-link:after {
+	content: '';
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	transition: all 0.3s linear;
+	-moz-transition: all 0.3s linear;
+	-webkit-transition: all 0.3s linear;
+}
+.import-popup-title:hover .import-popup-preview-link:after {
+	background-color: rgba(163, 231, 240, 0.7);
+}
+
+
+.import-image .import-popup-preview-link.import-popup-preview-link span {
+	border-radius: 15px;
+	background-color: #23282d;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	padding: 6px 22px;
+	color: #ffffff;
+	font-family: Montserrat;
+	font-size: 14px;
+	font-weight: 700;
+	text-transform: uppercase;
+	z-index: 1;
+	letter-spacing: 0.7px;
+	opacity: 0;
+	transition: all 0.2s linear;
+	-moz-transition: all 0.2s linear;
+	-webkit-transition: all 0.2s linear;
+	white-space: nowrap;
+}
+.import-popup-title:hover .import-popup-preview-link.import-popup-preview-link span {
+	opacity: 1;
+}
+.import-item .import-link {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0%;
+	left: 0;
+	box-shadow: none;
+	padding-bottom: 15px;
+}
+
+.import-item .import-title {
+	max-width: 60%;
+}
+.import-description span.marker {
+	font-family: 'Montserrat';
+	position: absolute;
+	top: -10px;
+	right: -54px;
+	height: 16px;
+	border-radius: 16px;
+	letter-spacing: 0.6px;
+	color: #fff;
+	font-size: 11px;
+	padding: 0px 11px;
+	line-height: 16px;
+	background-color: #f44336;
+}
+
+.import-description span.marker.most-used {
+	background-color: #23282d;
+	right: -105px;
+}
+
+.import-description span.marker.popular {
+	background-color: #00bcd4;
+	right: -88px;
+}
+
+body .thegem-importer-wrap {
+	padding: 0;
+}
+
+.thegem-importer-step-1 {
+	width: 550px;
+}
+
+.thegem-importer-wrap .fancybox-close-small:after {
+	background-color: transparent;
+	font-size: 32px;
+	transition: all 0.3s linear;
+	-moz-transition: all 0.3s linear;
+	-webkit-transition: all 0.3s linear;
+}
+
+.thegem-importer-wrap .fancybox-close-small:hover:after {
+	color: #fff;
+	background: transparent;
+}
+
+.thegem-importer-wrap .fancybox-close-small {
+	top: 12px;
+	right: 12px;
+}
+
+.import-popup-title {
+	background-color: #23282d;
+	padding: 58px 58px 0 58px;
+}
+
+.import-popup-title .import-image {
+	width: 390px;
+	border-radius: 3px;
+	overflow: hidden;
+	margin: 0 auto;
+}
+.import-popup-title .import-image img {
+	width: 100%;
+	display: block;
+	height: auto;
+}
+
+.import-type-wrap.active {
+	background-color: #e9eaea;
+}
+
+.import-select-type .import-type-wrap {
+	padding: 20px 25px;
+}
+
+.import-popup-title .import-title {
+	text-align: center;
+	font-family: 'Montserrat';
+	color: #fff;
+	letter-spacing: 0.76px;
+	font-size: 14px;
+	font-weight: 700;
+	text-transform: uppercase;
+	padding-top: 22px;
+	padding-bottom: 22px;
+}
+
+.import-select-type .import-type-wrap label {
+	font-family: 'Montserrat';
+	font-size: 14px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 0.76px;
+	color: #3c3950;
+}
+
+.import-data-select .description,
+.import-select-type .import-type-wrap .description {
+	padding-left: 25px;
+	padding-top: 10px;
+	font-family: "Source Sans Pro";
+	font-size: 14px;
+	color: #99a9b5;
+}
+
+.import-data-select .description .note,
+.import-select-type .import-type-wrap .note {
+	color: #f44336
+}
+
+.import-select-title {
+	font-family: 'Montserrat';
+	font-size: 24px;
+	font-weight: 400;
+	letter-spacing: 1.3px;
+	color: #3c3950;
+	text-align: center;
+	padding-top: 31px;
+	padding-bottom: 20px;
+}
+
+.submit-buttons {
+	padding: 15px 40px;
+	padding-bottom: 50px;
+	text-align: center;
+}
+
+.submit-buttons button,
+.submit-buttons a {
+	border: none;
+	padding: 12px 15px;
+	border-radius: 3px;
+	font-size: 14px;
+	font-weight: 400;
+	font-family: 'Montserrat';
+	text-transform: uppercase;
+	text-align: center;
+	min-width: 188px;
+	margin: 0 12px;
+	text-decoration: none;
+	display: inline-block;
+	vertical-align: middle;
+	box-sizing: border-box;
+}
+.submit-buttons button.submit-import,
+.submit-buttons a.submit-import,
+.submit-buttons button.cancel-import {
+	transition: all 0.3s linear;
+	-moz-transition: all 0.3s linear;
+	-webkit-transition: all 0.3s linear;
+	cursor: pointer;
+}
+.submit-buttons button.cancel-import {
+	background-color: #e9e9ea;
+	color: #5f727f;
+}
+
+.submit-buttons button.submit-import,
+.submit-buttons a.submit-import {
+	background-color: #00bcd4;
+	color: #fff;
+}
+
+.submit-buttons button.submit-import:hover,
+.submit-buttons a.submit-import:hover,
+.submit-buttons button.cancel-import:hover {
+	background-color: #3c3950;
+	color: #ffffff;
+}
+
+.import-select-type .import-type-wrap .submit-buttons {
+	padding: 20px 25px;
+	margin: 0 10px;
+}
+
+.import-data-wrap {
+	padding-bottom: 20px;
+}
+
+.import-select-data-title {
+	font-family: 'Montserrat';
+	font-size: 24px;
+	font-weight: 400;
+	padding-bottom: 20px;
+	text-align: center;
+	letter-spacing: 1.3px;
+	padding-top: 31px;
+	color: #fff;
+	background-color: #23282d;
+}
+
+.thegem-importer-step-2 .basic-data-select .import-data-wrap label {
+	font-family: 'Montserrat';
+	font-size: 14px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 0.76px;
+	color: #3c3950;
+}
+
+.thegem-importer-step-2 .basic-data-select {
+	padding-top: 70px;
+	padding-bottom: 50px
+}
+
+.thegem-importer-step-2 .import-data-select.full .import-data-wrap,
+.thegem-importer-step-2 .import-data-select.mixed .import-data-wrap {
+	padding-left: 77px;
+	padding-top: 20px;
+	padding-bottom: 0;
+	padding-right: 20px;
+}
+
+.thegem-importer-step-2 .basic-data-select .description {
+	padding-left: 35px;
+}
+
+.thegem-importer-step-2 form.import-data-select.part .basic-data-select {
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	align-items: flex-start;
+}
+
+.thegem-importer-step-2 form.import-data-select.part .import-data-wrap {
+	-ms-flex-preferred-size: 0;
+	flex-basis: 0;
+	-ms-flex-positive: 1;
+	flex-grow: 1;
+	min-width: 320px;
+	padding: 0;
+}
+
+.thegem-importer-step-2 form.import-data-select.part .basic-data-select {
+	padding: 30px;
+	background-color: #dfe5e8;
+}
+
+.thegem-importer-step-2 form.import-data-select.part .basic-data-select label {
+	white-space: nowrap;
+}
+
+.thegem-importer-step-2 form.import-data-select.part .description {
+	position: absolute;
+	padding: 20px;
+	background-color: #fff;
+	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+	top: -10px;
+}
+
+.thegem-importer-step-2 form.import-data-select.part .part-data-select {
+	padding: 30px;
+	padding-bottom: 0;
+}
+
+.thegem-importer-step-2 form.import-data-select.part .column-title {
+	color: #3c3950;
+	font-family: Montserrat;
+	font-size: 24px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 1.3px;
+	padding-bottom: 30px;
+	padding-top: 10px;
+}
+
+.thegem-importer-step-2 form.import-data-select.part .column-group-parent label {
+	font-family: Montserrat;
+	font-size: 14px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 0.76px;
+}
+
+.thegem-importer-step-2 form.import-data-select.part a {
+	color: #00bcd4;
+	font-family: "Source Sans Pro";
+	text-decoration: none;
+	vertical-align: middle;
+}
+
+.thegem-importer-step-2 form.import-data-select.part .column-group {
+	margin-bottom: 25px;
+}
+
+.thegem-importer-step-2 form.import-data-select.part .column-group-child {
+	padding-top: 10px;
+}
+
+.thegem-importer-step-2 form.import-data-select.part .submit-buttons {
+	text-align: center;
+}
+
+.thegem-importer-wrap.thegem-importer-step-3 .import-progress-bar {
+	margin: 0 50px;
+	position: relative;
+	border-radius: 3px;
+	background-color: #dfe5e8;
+	height: 25px;
+	overflow: hidden;
+}
+
+.thegem-importer-wrap.thegem-importer-step-3 .import-progress-bar .import-progress-bar-line {
+	background-color: #00bcd4;
+	height: 30px;
+	background-image: -webkit-gradient(linear, 0 100%, 100% 0, color-stop(.25, rgba(255, 255, 255, .15)), color-stop(.25, transparent), color-stop(.5, transparent), color-stop(.5, rgba(255, 255, 255, .15)), color-stop(.75, rgba(255, 255, 255, .15)), color-stop(.75, transparent), to(transparent));
+	background-image: -webkit-linear-gradient(-45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
+	background-image: -moz-linear-gradient(-45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
+	background-image: -o-linear-gradient(-45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
+	background-image: linear-gradient(-45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
+	-webkit-background-size: 20px 20px;
+	-moz-background-size: 20px 20px;
+	-o-background-size: 20px 20px;
+	background-size: 20px 20px;
+	-webkit-animation: progress-bar-stripes 2s linear infinite;
+	-moz-animation: progress-bar-stripes 2s linear infinite;
+	-ms-animation: progress-bar-stripes 2s linear infinite;
+	-o-animation: progress-bar-stripes 2s linear infinite;
+	animation: progress-bar-stripes 2s linear infinite;
+}
+
+@-webkit-keyframes progress-bar-stripes {
+	from {
+		background-position: 0 0;
+	}
+	to {
+		background-position: 0 40px;
+	}
+}
+
+@-moz-keyframes progress-bar-stripes {
+	from {
+		background-position: 0 0;
+	}
+	to {
+		background-position: 0 40px;
+	}
+}
+
+@-ms-keyframes progress-bar-stripes {
+	from {
+		background-position: 0 0;
+	}
+	to {
+		background-position: 40px 0;
+	}
+}
+
+@-o-keyframes progress-bar-stripes {
+	from {
+		background-position: 0 0;
+	}
+	to {
+		background-position: 40px 0;
+	}
+}
+
+@keyframes progress-bar-stripes {
+	from {
+		background-position: 0 0;
+	}
+	to {
+		background-position: 40px 0;
+	}
+}
+
+.thegem-importer-step-3 .import-select-data-desription {
+	text-align: center;
+	color: #99a9b5;
+	padding-top: 15px;
+	padding-bottom: 20px;
+}
+
+.thegem-importer-step-3 .submit-buttons {
+	text-align: center;
+}
+
+body .thegem-importer-step-4 {
+	padding: 0;
+	padding-bottom: 20px;
+}
+
+.thegem-importer-step-4 .import-select-title {
+	letter-spacing: 0;
+	padding-top: 45px;
+}
+
+.thegem-importer-step-4 .import-select-title.bold {
+	font-weight: 800;
+	padding: 0;
+	margin-top: -4px;
+	padding-bottom: 35px;
+}
+
+.thegem-importer-step-4 .import-select-data-text {
+	text-align: center;
+	font-size: 18px;
+	font-family: "Source Sans Pro";
+	color: #5f727f;
+	font-weight: 100;
+}
+
+.thegem-importer-step-4 .import-popup-title {
+	background-color: #23282d;
+	padding: 58px 110px 0 110px;
+}
+
+.thegem-importer-step-4 .submit-buttons {
+	text-align: center;
+	padding-top: 35px;
+	padding-bottom: 25px;
+}
+
+.thegem-importer-step-4 .submit-buttons a {
+	border: none;
+	padding: 12px 0;
+	border-radius: 3px;
+	font-size: 14px;
+	font-weight: 400;
+	font-family: 'Montserrat';
+	text-transform: uppercase;
+	text-align: center;
+	min-width: 215px;
+	margin: 0 12px;
+	display: inline-block;
+	text-decoration: none;
+	transition: all 0.3s linear;
+	-moz-transition: all 0.3s linear;
+	-webkit-transition: all 0.3s linear;
+	box-shadow: none;
+}
+
+.thegem-importer-step-4 .submit-buttons a:first-child {
+	background-color: #dfe5e8;
+	color: #5f727f;
+
+}
+
+.thegem-importer-step-4 .submit-buttons a {
+	background-color: #00bcd4;
+	color: #fff;
+}
+
+.thegem-importer-step-4 .submit-buttons a:hover {
+	background-color: #3c3950;
+	color: #fff;
+}
+
+.thegem-importer-step-4 .import-select-data-text.bottom-text {
+	margin-bottom: 20px;
+}
+
+.thegem-importer-step-4 .import-select-data-text.bottom-text a {
+	text-decoration: none;
+	color: #00bcd4;
+}
+
+.thegem-importer-wrap.thegem-importer-step-2 .import-data-select.part .basic-data-select input[type=checkbox] {
+	background-color: #dfe5e8;
+}
+
+@media screen and (max-width: 1024px) {
+	.import-item {
+		-ms-flex: 0 0 50%;
+		flex: 0 0 50%;
+		max-width: 50%;
+	}
+
+	.part-data-select .import-data-part-column {
+		flex: 0 0 50%;
+	}
+
+	.thegem-importer-step-2 form.import-data-select.part .import-data-wrap {
+		margin: 10px 0;
+	}
+}
+
+@media screen and (max-width: 782px) {
+	input[type=checkbox], input[type=radio] {
+		height: 16px;
+		width: 16px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.thegem-importer-header > .thegem-importer-title {
+		flex-grow: 1;
+		margin-left: 0;
+	}
+
+	.import-item {
+		-ms-flex: 0 0 100%;
+		flex: 0 0 100%;
+		max-width: 100%;
+	}
+
+	.part-data-select .import-data-part-column {
+		flex: 0 0 100%;
+	}
+
+	.imports-filter {
+		display: block;
+	}
+
+	.thegem-importer-header > div {
+		flex-basis: auto;
+		width: 100%;
+		margin: 5px 0;
+	}
+
+	.imports-categories {
+		text-align: left;
+		margin: 5px 0;
+	}
+
+	.imports-search {
+		text-align: left;
+	}
+
+	form.imports-search-form {
+		display: inline-block;
+		margin: 5px;
+	}
+
+	.thegem-importer-step-2 form.import-data-select.part .submit-buttons {
+		text-align: left;
+	}
+
+	.thegem-importer-step-4 .import-popup-title {
+		padding: 0;
+		text-align: center;
+		padding-top: 58px;
+	}
+
+	.thegem-importer-step-4 .submit-buttons a {
+		margin-bottom: 10px;
+	}
+}
+
+.imports-category.imports-category-other {
+	position: relative;
+}
+
+.imports-category.imports-category-other span {
+	position: absolute;
+	left: 21px;
+	top: 21px;
+	width: 11px;
+	height: 2px;
+	background-color: #5f727f;
+}
+
+.imports-category.imports-category-other span {
+	transition: all 0.3s linear;
+	-moz-transition: all 0.3s linear;
+	-webkit-transition: all 0.3s linear;
+}
+
+.imports-category.imports-category-other a:hover span {
+	background-color: #fff;
+}
+
+.imports-category.imports-category-other a {
+	padding-left: 30px;
+}
+
+.imports-category.imports-category-other span.import-line-1 {
+	top: 17px;
+}
+
+.imports-category.imports-category-other span.import-line-3 {
+	top: 25px;
+}
+
+.imports-category-other-list {
+	position: fixed;
+	visibility: hidden;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	transition: all 0.5s linear;
+	-moz-transition: all 0.5s linear;
+	-webkit-transition: all 0.5s linear;
+	background: rgba(33, 35, 49, 0.93);
+	z-index: 99999;
+	text-align: center;
+	box-sizing: border-box;
+	overflow-y: auto;
+}
+.imports-category-other-list-inner {
+	padding: 100px 40px;
+}
+.imports-category-other-list.visible {
+	opacity: 1;
+	visibility: visible;
+}
+.imports-category-other-list .imports-category {
+	display: block;
+}
+.imports-category-other-list .imports-category a {
+	background: transparent;
+	color: #ffffff;
+	font-size: 32px;
+	line-height: 1;
+	display: inline-block;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+.imports-category-other-list .imports-category a:hover,
+.imports-category-other-list .imports-category a.active {
+	background: transparent;
+	color: #00bcd4;
+}
+
+.imports-category.imports-category-other .imports-category-other-list .imports-category-other-close {
+	position: fixed;
+	top: 40px;
+	right: 40px;
+	width: 30px;
+	height: 30px;
+	background: transparent;
+	padding: 0;
+	margin: 0;
+	z-index: 1;
+}
+.imports-category.imports-category-other .imports-category-other-list .imports-category-other-close span {
+	position: absolute;
+	left: 0px;
+	width: 30px;
+	height: 4px;
+	background-color: #ffffff;
+	top: 50%;
+	margin-top: -2px;
+}
+.imports-category.imports-category-other .imports-category-other-list .imports-category-other-close span.import-line-1 {
+	transform: rotate(45deg);
+}
+.imports-category.imports-category-other .imports-category-other-list .imports-category-other-close span.import-line-3 {
+	transform: rotate(-45deg);
+}
+
+
+
+.thegem-importer-wrap.thegem-importer-step-2 {
+	overflow: visible;
+}
+
+.thegem-importer-step-2 form.import-data-select.part .description {
+	max-width: 240px;
+}
+
+.thegem-importer-step-2 form.import-data-select.part .description:before,
+.thegem-importer-step-2 form.import-data-select.part .description:after {
+	content: '';
+	position: absolute;
+	left: 50%;
+	bottom: -30px;
+	border: 15px solid transparent;
+	border-top: 15px solid #fff;
+	margin-left: -15px;
+}
+
+.thegem-importer-step-2 form.import-data-select.part .description:after {
+	border-top: 10px solid #fff;
+	bottom: -19px;
+}
+
+.thegem-importer-step-2 form.import-data-select.full .description,
+.thegem-importer-step-2 form.import-data-select.mixed .description {
+	padding-left: 35px;
+	max-width: 290px;
+}
+.thegem-importer-step-2 label.column-title-select-all {
+	margin-top: -18px;
+	display: block;
+	padding-bottom: 23px;
+	color: #99a9b5;
+	margin-right: 8px;
+}
+.thegem-importer-step-2 label.column-title-select-all input[type=checkbox]:checked:before {
+	font-size: 14px;
+	margin-top: 6px;
+	margin-left: -3px;
+}
+.thegem-importer-step-2 .column-title-select-all input[type=checkbox] {
+	border-width: 1px;
+	width: 16px;
+	height: 16px;
+	margin-top: -2px;
+}
+
+
+.thegem-importer-step-css {
+	max-width: 500px;
+}
+.thegem-importer-filesystem-credentials-form-wrap {
+	padding: 25px 50px 45px;
+}
+.thegem-importer-filesystem-credentials-form-wrap #request-filesystem-credentials-title,
+.thegem-importer-filesystem-credentials-form-wrap #request-filesystem-credentials-desc {
+	display: none;
+}
+.import-popup-title.import-popup-filesystem-credentials-title {
+	font-family: 'Source Sans Pro';
+	font-weight: 400;
+	background-color: #31363c;
+	color: #99a9b5;
+	padding: 35px 80px;
+	font-size: 16px;
+	line-height: 25px;
+	text-align: center;
+}
+.import-popup-title.import-popup-filesystem-credentials-form-title {
+	padding: 15px 80px;
+	color: #ffffff;
+	font-family: 'Montserrat';
+	font-size: 24px;
+	line-height: 30px;
+	font-weight: 300;
+	letter-spacing: 0.76px;
+	text-align: center;
+}
+.thegem-importer-filesystem-credentials-form-desc,
+.thegem-importer-filesystem-credentials-form-wrap .ftp-password em {
+	font-family: 'Source Sans Pro';
+	font-weight: 400;
+	color: #99a9b5;
+	font-size: 14px;
+	font-style: normal;
+}
+.thegem-importer-filesystem-credentials-form-wrap .request-filesystem-credentials-form > div {
+	margin-top: 10px;
+}
+.thegem-importer-filesystem-credentials-form-wrap .field-title,
+.thegem-importer-filesystem-credentials-form-wrap fieldset legend,
+.thegem-importer-filesystem-credentials-form-wrap fieldset label {
+	font-family: 'Montserrat';
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 30px;
+	color: #3c3950;
+	text-transform: uppercase;
+}
+.thegem-importer-filesystem-credentials-form-wrap fieldset label {
+	margin-right: 15px;
+}
+.thegem-importer-filesystem-credentials-form-wrap input[type="text"],
+.thegem-importer-filesystem-credentials-form-wrap input[type="password"] {
+	font-family: 'Source Sans Pro';
+	font-weight: 400;
+	width: 100%;
+	border: 1px solid dfe5e8;
+	background: #f5f7f6;
+	border-radius: 3px;
+	color: #5f727f;
+	font-size: 16px;
+	height: 38px;
+	line-height: 38px;
+	padding: 0 20px;
+	margin-top: 5px;
+}
+.thegem-importer-filesystem-credentials-form-wrap #request-filesystem-credentials-form .cancel-button,
+.thegem-importer-filesystem-credentials-form-wrap .request-filesystem-credentials-action-buttons input[type="submit"] {
+	border: none;
+	padding: 7px 40px;
+	border-radius: 3px;
+	font-size: 14px;
+	font-weight: 400;
+	font-family: 'Montserrat';
+	text-transform: uppercase;
+	text-align: center;
+	text-decoration: none;
+	transition: all 0.3s linear;
+	-moz-transition: all 0.3s linear;
+	-webkit-transition: all 0.3s linear;
+	height: auto;
+	box-shadow: none;
+}
+.thegem-importer-filesystem-credentials-form-wrap #request-filesystem-credentials-form .cancel-button {
+	background-color: #e9e9ea;
+	color: #5f727f;
+	margin-right: 20px;
+}
+.thegem-importer-filesystem-credentials-form-wrap .request-filesystem-credentials-action-buttons input[type="submit"] {
+	background-color: #00bcd4;
+	color: #ffffff;
+}
+.thegem-importer-filesystem-credentials-form-wrap .request-filesystem-credentials-action-buttons input[type="submit"]:hover {
+	background-color: #3c3950;
+}
+.thegem-importer-filesystem-credentials-form-wrap #request-filesystem-credentials-form .cancel-button {
+	display: inline-block;
+}
+.thegem-importer-filesystem-credentials-error {
+	font-family: 'Source Sans Pro';
+	font-weight: 400;
+	color: #f44336;
+	font-size: 14px;
+	line-height: 1.5;
+	font-style: normal;
+	padding-left: 30px;
+	background: url('../images/ftp-error-icon.png') no-repeat 0 0;
+}
+.thegem-importer-step-2 form.import-data-select.part a:hover {
+	color: #3c3950;
+}
+.thegem-importer-step-2 .import-data-select.full .description a,
+.thegem-importer-step-2 .import-data-select.mixed .description a {
+	text-decoration: none;
+	color: #00bcd4;
+}
+.thegem-importer-step-2 .import-data-select.full .description a:hover,
+.thegem-importer-step-2 .import-data-select.mixed .description a:hover {
+	color: #3c3950;
+}
+
+body .thegem-importer-remove-demo,
+body .thegem-importer-remove-demo-confirm {
+	padding: 50px 50px 20px;
+	text-align: center;
+	max-width: 50%;
+}
+.thegem-importer-remove-demo-confirm .import-remove-demo-text {
+	text-align: center;
+	font-size: 18px;
+	font-family: "Source Sans Pro";
+	color: #5f727f;
+	font-weight: 100;
+	line-height: 1.5;
+}
+.thegem-importer-remove-demo-confirm .import-remove-demo-text p {
+	font: inherit;
+}
+.submit-buttons button.remove-demo-confirm {
+	background-color: #00bcd4;
+	color: #fff;
+	cursor: pointer;
+}
+.submit-buttons button.remove-demo-confirm:hover {
+	background-color: #f44336;
+	color: #fff;
+}
+
+.import-select-warning {
+	text-align: center;
+	font-size: 19px;
+	font-family: "Source Sans Pro";
+	color: #5f727f;
+	font-weight: 300;
+	padding: 20px;
+	line-height: 28px;
+}
+
+.column-group-children-children {
+	margin-left: 32px;
+}
+.thegem-importer-wrap .column-group-children-children input[type="checkbox"] {
+	border-width: 1px;
+	width: 16px;
+	height: 16px;
+	border-radius: 2px;
+}
+.thegem-importer-wrap .column-group-children-children input[type="checkbox"]:before {
+	font-size: 14px;
+	margin-top: 6px;
+	margin-left: -3px;
+}
+
+.thegem-importer-wrap.thegem-importer-error {
+	width: 550px;
+}
+.thegem-importer-error .import-select-data-title {
+	padding-top: 20px;
+}
+.thegem-importer-error .import-error-info {
+	text-align: center;
+	padding: 40px 52px 0;
+}
+.thegem-importer-error .import-error-title {
+	font-family: "Source Sans Pro";
+	font-weight: 300;
+	font-size: 24px;
+	line-height: 38px;
+	margin-bottom: 30px;
+}
+.thegem-importer-error .import-error-text,
+.thegem-importer-error .import-error-text p {
+	font-family: "Source Sans Pro";
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 25px;
+	color: #5f727f;
+}
+.thegem-importer-error .import-error-text p {
+	margin-bottom: 30px;
+	margin-top: 0;
+	color: #5f727f;
+}
+.thegem-importer-content .thegem-importer-error {
+	margin: 0 auto;
+	width: 550px;
+	max-width: 100%;
+}
+.thegem-importer-content .thegem-importer-error .import-error-info {
+	padding: 0;
+}
+.thegem-importer-content .thegem-importer-error .import-select-data-title,
+.thegem-importer-content .thegem-importer-error .submit-buttons {
+	display: none;
+}
+.thegem-importer-content .thegem-importer-error .import-select-data-title,
+.thegem-importer-content .thegem-importer-error .submit-buttons {
+	display: none;
+}
+
+.thegem-importer-content button:focus,
+.thegem-importer-content a:focus,
+.thegem-importer-wrap button:focus,
+.thegem-importer-wrap a:focus {
+	outline: 0 none;
+	box-shadow: none;
+}
+
+.import-select-woocommerce-required-table {
+	padding: 10px 25px 25px;
+	max-width: 360px;
+	margin: 0 auto;
+}
+.import-select-woocommerce-required-table .required-table-row {
+	display: flex;
+	width: 100%;
+	border-bottom: 1px solid #dfe5e8;
+	align-items: center;
+	padding: 5px 0;
+	justify-content: space-between;
+}
+.import-select-woocommerce-required-table .required-table-row:first-child {
+	border-top: 1px solid #dfe5e8;
+}
+.import-select-woocommerce-required-table .required-table-title .plugin-name {
+	text-align: center;
+	font-family: 'Montserrat';
+	letter-spacing: 0.76px;
+	font-size: 14px;
+	font-weight: 700;
+	color: #3c3950;
+}
+.import-select-woocommerce-required-table .required-table-title .required-plugin {
+	color: #f44336;
+	margin-left: 10px;
+}
+.import-select-woocommerce-required-table .required-table-title .recommended-plugin {
+	color: #eba540;
+	margin-left: 10px;
+}
+.import-select-woocommerce-required-table .required-table-button .plugin-install,
+.import-select-woocommerce-required-table .required-table-button .plugin-installed {
+	border: none;
+	padding: 5px 15px;
+	border-radius: 15px;
+	font-size: 14px;
+	line-height: 20px;
+	font-weight: 400;
+	font-family: 'Montserrat';
+	text-transform: uppercase;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	vertical-align: middle;
+	box-sizing: border-box;
+	color: #ffffff;
+	background-color: #00bcd4;
+	transition: all 0s;
+}
+.import-select-woocommerce-required-table .required-table-button .plugin-install:hover {
+	background-color: #e9e9ea;
+	color: #5f727f;
+}
+.import-select-woocommerce-required-table .required-table-button .plugin-installed {
+	background-color: #62b707;
+}
+
+.submit-buttons button.plugins-proceed-import {
+	border: none;
+	padding: 12px 15px;
+	border-radius: 3px;
+	font-size: 14px;
+	font-weight: 400;
+	font-family: 'Montserrat';
+	text-transform: uppercase;
+	text-align: center;
+	min-width: 188px;
+	margin: 0 12px;
+	text-decoration: none;
+	display: inline-block;
+	vertical-align: middle;
+	box-sizing: border-box;
+	background-color: #00bcd4;
+	color: #fff;
+	transition: all 0s;
+	cursor: pointer;
+}
+.submit-buttons button.plugins-proceed-import:hover {
+	background-color: #3c3950;
+	color: #ffffff;
+}
+.submit-buttons button.plugins-cancel-import {
+	transition: all 0s;
+}

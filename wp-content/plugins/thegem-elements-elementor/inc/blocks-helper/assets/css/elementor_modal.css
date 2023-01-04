@@ -1,0 +1,15 @@
+.elementor-add-new-section .elementor-add-thegem-blocks-button {
+    position: relative;
+    top: 2px;
+
+    background-color: #00bcd4;
+    margin-left: 5px;
+}
+
+.elementor-add-new-section .elementor-add-thegem-blocks-button i:before {
+    content: url(../img/icon-logo.svg);
+    display: inline-block;
+
+    width: 18px;
+    height: 18px;
+}

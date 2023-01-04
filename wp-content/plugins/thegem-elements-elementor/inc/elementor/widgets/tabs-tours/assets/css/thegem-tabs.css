@@ -1,0 +1,242 @@
+.gem-tta-tabs.gem-tta-tabs-position-left,
+.gem-tta-tabs.gem-tta-tabs-position-right,
+.gem-tta-tabs.gem-tta-tabs-position-top,
+.gem-tta-tabs.gem-tta-tabs-position-bottom{
+  display: flex;
+}
+
+.gem-tta-tabs.gem-tta-tabs-position-left,
+.gem-tta-tabs.gem-tta-tabs-position-right{
+  flex-direction: row;
+}
+
+.gem-tta-tabs.gem-tta-tabs-position-top,
+.gem-tta-tabs.gem-tta-tabs-position-bottom{
+  flex-direction: column;
+}
+
+.gem-tta-panels-container{
+  order: 2;
+}
+
+.gem-tta-tabs.gem-tta-tabs-position-left .gem-tta-tabs-container,
+.gem-tta-tabs.gem-tta-tabs-position-top .gem-tta-tabs-container{
+  order: 1;
+}
+
+.gem-tta-tabs.gem-tta-tabs-position-right .gem-tta-tabs-container,
+.gem-tta-tabs.gem-tta-tabs-position-bottom .gem-tta-tabs-container{
+  order: 3;
+}
+
+.gem-tta-general.gem-tta-tabs.gem-tta-tabs-position-left .gem-tta-tabs-container, 
+.gem-tta-general.gem-tta-tabs.gem-tta-tabs-position-right .gem-tta-tabs-container {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+/*.gem-tta-general.gem-tta-tabs.gem-tta-tabs-position-left .gem-tta-tabs-container,
+.gem-tta-general.gem-tta-tabs.gem-tta-tabs-position-right .gem-tta-tabs-container {
+  margin-top: 0;
+  margin-bottom: 0; 
+}*/
+
+.gem-tta-tabs.gem-tta-tabs-position-top.gem-tta-controls-align-left .gem-tta-tab.gem-tta-active>a::after,
+.gem-tta-tabs.gem-tta-tabs-position-top.gem-tta-controls-align-right .gem-tta-tab.gem-tta-active>a::before,
+.gem-tta-tabs.gem-tta-tabs-position-top.gem-tta-controls-align-center .gem-tta-tab.gem-tta-active>a::after,
+.gem-tta-tabs.gem-tta-tabs-position-top.gem-tta-controls-align-center .gem-tta-tab.gem-tta-active>a::before,
+.gem-tta-tabs.gem-tta-tabs-position-left.gem-tta-controls-align-left .gem-tta-tab.gem-tta-active>a::after,
+.gem-tta-tabs.gem-tta-tabs-position-left.gem-tta-controls-align-right .gem-tta-tab.gem-tta-active>a::before,
+.gem-tta-tabs.gem-tta-tabs-position-left.gem-tta-controls-align-center .gem-tta-tab.gem-tta-active>a::after,
+.gem-tta-tabs.gem-tta-tabs-position-left.gem-tta-controls-align-center .gem-tta-tab.gem-tta-active>a::before,
+.gem-tta-tabs.gem-tta-tabs-position-right.gem-tta-controls-align-left .gem-tta-tab.gem-tta-active>a::after,
+.gem-tta-tabs.gem-tta-tabs-position-right.gem-tta-controls-align-right .gem-tta-tab.gem-tta-active>a::before,
+.gem-tta-tabs.gem-tta-tabs-position-right.gem-tta-controls-align-center .gem-tta-tab.gem-tta-active>a::after,
+.gem-tta-tabs.gem-tta-tabs-position-right.gem-tta-controls-align-center .gem-tta-tab.gem-tta-active>a::before,
+.gem-tta-tabs.gem-tta-tabs-position-bottom.gem-tta-controls-align-left .gem-tta-tab.gem-tta-active>a::after,
+.gem-tta-tabs.gem-tta-tabs-position-bottom.gem-tta-controls-align-right .gem-tta-tab.gem-tta-active>a::before,
+.gem-tta-tabs.gem-tta-tabs-position-bottom.gem-tta-controls-align-center .gem-tta-tab.gem-tta-active>a::after,
+.gem-tta-tabs.gem-tta-tabs-position-bottom.gem-tta-controls-align-center .gem-tta-tab.gem-tta-active>a::before{
+  opacity: 0;
+}
+
+.vc_non_responsive .gem-tta.gem-tta-style-outline .gem-tta-panel-body::after,
+.vc_non_responsive .gem-tta.gem-tta-style-outline .gem-tta-panel-body::before,
+.gem-tta-o-non-responsive .gem-tta.gem-tta-style-outline .gem-tta-panel-body::after,
+.gem-tta-o-non-responsive .gem-tta.gem-tta-style-outline .gem-tta-panel-body::before,
+.gem-tta.gem-tta-style-outline .gem-tta-panel-body::after,
+.gem-tta.gem-tta-style-outline .gem-tta-panel-body::before {
+    display: none;
+}
+
+.gem-tta-tabs.gem-tta-controls-align-stretch.gem-tta-tabs.gem-tta-tabs-position-top .gem-tta-tabs-list,
+.gem-tta-tabs.gem-tta-controls-align-stretch.gem-tta-tabs.gem-tta-tabs-position-bottom .gem-tta-tabs-list {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.gem-tta-tabs.gem-tta-controls-align-stretch.gem-tta-tabs.gem-tta-tabs-position-left .gem-tta-tabs-list,
+.gem-tta-tabs.gem-tta-controls-align-stretch.gem-tta-tabs.gem-tta-tabs-position-right .gem-tta-tabs-list {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.gem-tta-tabs.gem-tta-controls-align-center.gem-tta-tabs.gem-tta-tabs-position-left .gem-tta-tabs-list,
+.gem-tta-tabs.gem-tta-controls-align-center.gem-tta-tabs.gem-tta-tabs-position-right .gem-tta-tabs-list {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.gem-tta-tabs.gem-tta-controls-align-left.gem-tta-tabs.gem-tta-tabs-position-left .gem-tta-tabs-list,
+.gem-tta-tabs.gem-tta-controls-align-left.gem-tta-tabs.gem-tta-tabs-position-right .gem-tta-tabs-list {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.gem-tta-tabs.gem-tta-controls-align-right.gem-tta-tabs.gem-tta-tabs-position-left .gem-tta-tabs-list,
+.gem-tta-tabs.gem-tta-controls-align-right.gem-tta-tabs.gem-tta-tabs-position-right .gem-tta-tabs-list {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+} 
+
+.gem-tta.gem-tta-general .gem-tta-tab>a{
+  display: flex;
+}
+
+.gem-tta.gem-tta-general .gem-tta-tab>a .gem-tta-title-text{
+  order: 2;
+}
+
+.gem-tta-tabs-icon-position-left a,
+.gem-tta-tabs-icon-position-right a {
+  flex-direction: row;
+}
+
+.gem-tta-tabs-icon-position-top a,
+.gem-tta-tabs-icon-position-bottom a {
+  flex-direction: column;
+}
+
+.gem-tta-tabs-icon-position-top a .gem-tta-icon,
+.gem-tta-tabs-icon-position-bottom a .gem-tta-icon {
+  align-self: center;
+}
+
+.gem-tta-tabs-icon-position-top a .gem-tta-icon,
+.gem-tta-tabs-icon-position-left a .gem-tta-icon {
+  order: 1;
+}
+
+.gem-tta-tabs-icon-position-bottom a .gem-tta-icon,
+.gem-tta-tabs-icon-position-right a .gem-tta-icon {
+  order: 3;
+}
+
+.gem-tta.gem-tta-general.gem-tta-tabs .gem-tta-tabs-icon-position-left .gem-tta-icon i,
+.gem-tta.gem-tta-general.gem-tta-tabs .gem-tta-tabs-icon-position-left .gem-tta-icon svg{
+  margin-right: 10px;
+}
+
+.gem-tta.gem-tta-general.gem-tta-tabs .gem-tta-tabs-icon-position-right .gem-tta-icon i,
+.gem-tta.gem-tta-general.gem-tta-tabs .gem-tta-tabs-icon-position-right .gem-tta-icon svg{
+  margin-left: 10px;
+}
+
+.gem-tta-tabs .gem-tta-panel .gem-tta-panel-heading a i,
+.gem-tta-tabs .gem-tta-panel .gem-tta-panel-heading a svg{
+  margin-right: 10px;
+}
+
+.gem-tta-tabs .gem-tta-panel .gem-tta-panel-heading a i{
+  display: flex;
+  align-self: center;
+}
+
+.gem-tta-tabs .gem-tta-panel .gem-tta-panel-heading a svg{
+  width: 16px;
+  height: 16px;
+  display: flex;
+  align-self: center;
+}
+
+@media (max-width: 767px) {
+  .gem-tta-nogap.gem-tta-tabs .gem-tta-panels {
+    border-radius: inherit!important;
+  }
+
+  .gem-tta-tabs .gem-tta-panels {
+    border-style: unset!important;
+    border-width: unset!important;
+  }
+
+  .gem-tta-tabs.gem-tta-tabs-position-top .gem-tta-panels {
+    margin-top: unset!important;
+  }
+
+  .gem-tta-tabs.gem-tta-tabs-position-left .gem-tta-panels {
+    margin-left: unset!important;
+  }
+
+  .gem-tta-tabs.gem-tta-tabs-position-right .gem-tta-panels {
+    margin-right: unset!important;
+  }
+
+  .gem-tta-tabs.gem-tta-tabs-position-bottom .gem-tta-panels {
+    margin-bottom: unset!important;
+  }
+
+  .gem-tta-tabs .gem-tta-panels {
+    box-shadow: none!important;
+}
+
+}
+
+@media (min-width: 768px){
+
+  .gem-tta.gem-tta-tabs .gem-tta-panels .gem-tta-panel-respbody {
+    border: none;
+    border-style: unset!important;
+    margin: 1px!important;
+  }
+
+}
+
+
+.gem-tta.gem-tta-general .gem-tta-tab .gem-tta-icon,
+.gem-tta.gem-tta-general .gem-tta-tab .gem-tta-title-text {
+  display: flex;
+  align-self: center;
+}
+
+.gem-tta-tab svg {
+  width: 18px;
+    height: 18px;
+    display: inline;
+    vertical-align: middle;
+}
+
+.gem-tta.gem-tta-general .gem-text-output{
+  overflow: hidden;
+}
+
+.gem-tta-tabs.gem-tta-style-flat .gem-tta-panels-container{
+  margin-top: -1px;
+}
+
+/*.gem-tta-tab{
+  position: relative;
+}
+
+.gem-tta.gem-tta-tabs-position-top .gem-tta-tabs-container .gem-tta-active:after{
+  content: '';
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 3px;
+  background: transparent;
+}*/

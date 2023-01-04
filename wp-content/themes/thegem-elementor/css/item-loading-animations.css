@@ -1,0 +1,11 @@
+.item-animations-not-inited {
+    visibility: hidden !important;
+    opacity: 0 !important;
+
+    -webkit-transition: none !important;
+	-moz-transition: none !important;
+	-o-transition: none !important;
+	transition: none !important;
+
+    transform: none !important;
+}

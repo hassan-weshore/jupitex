@@ -1,0 +1,114 @@
+.vc_row_thegem-ken-burns,
+.fullwidth-block-ken-burns,
+.page-title-ken-burns-block,
+.custom-title-ken-burns-block {
+    position: relative;
+    overflow: hidden;
+}
+
+.vc_row_thegem-ken-burns .thegem-ken-burns-bg,
+.fullwidth-block-ken-burns .thegem-ken-burns-bg,
+.page-title-ken-burns-block .thegem-ken-burns-bg,
+.custom-title-ken-burns-block .thegem-ken-burns-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: 0;
+    background-size: cover;
+    background-position: center;
+    -webkit-animation-timing-function: ease;
+    animation-timing-function: ease;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    z-index: 0;
+}
+
+.vc_row_thegem-ken-burns .thegem-ken-burns-bg.thegem-ken-burns-zoom-out,
+.fullwidth-block-ken-burns .thegem-ken-burns-bg.thegem-ken-burns-zoom-out,
+.page-title-ken-burns-block .thegem-ken-burns-bg.thegem-ken-burns-zoom-out,
+.custom-title-ken-burns-block .thegem-ken-burns-bg.thegem-ken-burns-zoom-out {
+    -webkit-transform: scale(1.15);
+    transform: scale(1.15);
+}
+
+.vc_row_thegem-ken-burns .thegem-ken-burns-zoom-in.thegem-ken-burns-inited,
+.fp-section.fp-completely.vc_row_thegem-ken-burns .thegem-ken-burns-zoom-in,
+.fp-section.fp-completely.active.vc_row_thegem-ken-burns .thegem-ken-burns-zoom-in,
+.fullwidth-block-ken-burns .thegem-ken-burns-zoom-in.thegem-ken-burns-inited,
+.page-title-ken-burns-block .thegem-ken-burns-zoom-in.thegem-ken-burns-inited,
+.custom-title-ken-burns-block .thegem-ken-burns-zoom-in.thegem-ken-burns-inited {
+    -webkit-animation-name: thegemKenburnsZoomIn;
+    animation-name: thegemKenburnsZoomIn;
+}
+
+.vc_row_thegem-ken-burns .thegem-ken-burns-zoom-out.thegem-ken-burns-inited,
+.fp-section.fp-completely.vc_row_thegem-ken-burns .thegem-ken-burns-zoom-out,
+.fp-section.fp-completely.active.vc_row_thegem-ken-burns .thegem-ken-burns-zoom-out,
+.fullwidth-block-ken-burns .thegem-ken-burns-zoom-out.thegem-ken-burns-inited,
+.page-title-ken-burns-block .thegem-ken-burns-zoom-out.thegem-ken-burns-inited,
+.custom-title-ken-burns-block .thegem-ken-burns-zoom-out.thegem-ken-burns-inited {
+    -webkit-animation-name: thegemKenburnsZoomOut;
+    animation-name: thegemKenburnsZoomOut;
+}
+
+@-webkit-keyframes thegemKenburnsZoomOut {
+    0% {
+        -webkit-transform: scale(1.15);
+        transform: scale(1.15);
+    }
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+@keyframes thegemKenburnsZoomOut {
+    0% {
+        -webkit-transform: scale(1.15);
+        transform: scale(1.15);
+    }
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+@-webkit-keyframes thegemKenburnsZoomIn {
+    0% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+    100% {
+        -webkit-transform: scale(1.2);
+        transform: scale(1.2);
+    }
+}
+
+@keyframes thegemKenburnsZoomIn {
+    0% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+    100% {
+        -webkit-transform: scale(1.15);
+        transform: scale(1.15);
+    }
+}
+
+.compose-mode .vc_row_thegem-ken-burns .vc_element,
+.view-mode .vc_row_thegem-ken-burns .vc_element {
+    z-index: 1;
+}
+
+.compose-mode .vc_row_thegem-ken-burns .thegem-ken-burns-bg:not(:first-child),
+.view-mode .vc_row_thegem-ken-burns .thegem-ken-burns-bg:not(:first-child) {
+    display: none;
+}
+
+.page-title-ken-burns-block .thegem-ken-burns-bg + *:not(.page-title-background-overlay) {
+    position: relative;
+}

@@ -1,0 +1,247 @@
+.hover-default-gradient .portfolio-item .image .image-inner img {
+	overflow: hidden;
+	-webkit-transform: translate(0,0) scale(1);
+	transform: translate(0,0) scale(1);
+	-webkit-transition: -webkit-transform 0.3s;
+	transition: transform 0.3s;
+}
+
+.hover-default-gradient .portfolio-item:hover .image .image-inner img {
+	-webkit-transform: translate(0,0) scale(1.12);
+	transform: translate(0,0) scale(1.12);
+	-webkit-transition: -webkit-transform 0.3s;
+	transition: transform 0.3s;
+}
+
+.hover-default-gradient .portfolio-item:hover .image.format-video.has-post-thumbnail .image-inner img {
+	-webkit-transform: translate(0,0) scale(1);
+	transform: translate(0,0) scale(1);
+}
+
+.hover-default-gradient .portfolio-item .image .overlay,
+.hover-default-gradient .portfolio-item:hover .image .overlay {
+	display: block;
+	-webkit-transition: background 0.3s;
+	transition: background 0.3s;
+}
+
+.hover-default-gradient .portfolio-item .image .overlay:before,
+.portfolio.hover-default-gradient .portfolio-item .gem-simple-gallery .gem-gallery-item a:before {
+	content: '';
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: -2;
+	opacity: 0;
+	-webkit-transition: opacity 0.3s;
+	transition: opacity 0.3s;
+
+	background: -moz-linear-gradient(left,  rgba(255,43,88,0.8) 0%, rgba(255,216,0,0.8) 100%) !important;
+	background: -webkit-linear-gradient(left,  rgba(255,43,88,0.8) 0%,rgba(255,216,0,0.8) 100%) !important;
+	background: linear-gradient(to right,  rgba(255,43,88,0.8) 0%,rgba(255,216,0,0.8) 100%) !important;
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ccff2b58', endColorstr='#ccffd800',GradientType=1 ) !important;
+}
+
+.portfolio.hover-default-gradient .portfolio-item .gem-simple-gallery .gem-gallery-item a:before {
+	z-index: 5;
+}
+
+.hover-default-gradient .portfolio-item:hover .image .overlay:before,
+.portfolio.hover-default-gradient .portfolio-item .gem-simple-gallery .gem-gallery-item a:hover:before {
+	opacity: 1;
+	-webkit-transition: opacity 0.3s;
+	transition: opacity 0.3s;
+}
+
+.version-default.news-grid.hover-default-gradient .portfolio-item .image .overlay:after {
+	display: block;
+	background: -moz-linear-gradient(top,  rgba(30,87,153,0) 65%, rgba(0,0,0,0.5) 100%);
+	background: -webkit-linear-gradient(top,  rgba(30,87,153,0) 65%,rgba(0,0,0,0.5) 100%);
+	background: linear-gradient(to bottom,  rgba(30,87,153,0) 65%,rgba(0,0,0,0.5) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#001e5799', endColorstr='#80000000',GradientType=0 );
+	opacity: 1;
+	-webkit-transition: opacity 0.3s;
+	transition: opacity 0.3s;
+}
+
+.version-default.news-grid.hover-default-gradient .portfolio-item:hover .image .overlay:after {
+	opacity: 0;
+}
+
+.version-default.news-grid.hover-default-gradient.title-style-dark .portfolio-item .image .overlay:after {
+	display: none;
+}
+
+.version-default.news-grid.hover-default-gradient .portfolio-item .image .links .caption .slide-content-hidden {
+    margin: 0 !important;
+}
+
+.version-default.news-grid.hover-default-gradient .portfolio-item .image .links .caption {
+    text-align: left;
+}
+
+.version-default.news-grid.hover-default-gradient .portfolio-item .image .links .caption .slide-content {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+	padding: 24px 25% 24px 30px;
+}
+
+.version-default.news-grid.hover-default-gradient .portfolio-item .image .links .caption .grid-post-meta {
+	opacity: 0;
+	top: 200px;
+	position: relative;
+	-webkit-transition: opacity 0.3s 0.12s, top 0.3s 0.12s;
+	transition: opacity 0.3s 0.12s, top 0.3s 0.12s;
+}
+
+.version-default.news-grid.hover-default-gradient .portfolio-item .image .links .caption .description {
+	opacity: 0;
+	top: 200px;
+	position: relative;
+	-webkit-transition: opacity 0.3s 0.08s, top 0.3s 0.08s;
+	transition: opacity 0.3s 0.08s, top 0.3s 0.08s;
+}
+
+.version-default.news-grid.hover-default-gradient .portfolio-item .image .links .caption .info {
+	opacity: 0;
+	top: 200px;
+	position: relative;
+	-webkit-transition: opacity 0.3s 0.04s, top 0.3s 0.04s;
+	transition: opacity 0.3s 0.04s, top 0.3s 0.04s;
+}
+
+.version-default.news-grid.hover-default-gradient .portfolio-item .image .links .caption .author {
+	opacity: 0;
+	top: 200px;
+	position: relative;
+	-webkit-transition: opacity 0.3s, top 0.3s;
+	transition: opacity 0.3s, top 0.3s;
+}
+
+.version-default.news-grid.hover-default-gradient .portfolio-item .image .links .caption .post-date {
+	opacity: 0;
+	top: 30px;
+	position: relative;
+	-webkit-transition: opacity 0.3s, top 0.3s;
+	transition: opacity 0.3s, top 0.3s;
+}
+
+.version-default.news-grid.hover-default-gradient .portfolio-item:hover .image .links .caption .grid-post-meta {
+	opacity: 1;
+	top: 0;
+    -webkit-transition: opacity 0.3s, top 0.3s;
+	transition: opacity 0.3s, top 0.3s;
+}
+
+.version-default.news-grid.hover-default-gradient .portfolio-item:hover .image .links .caption .description {
+	opacity: 1;
+	top: 0;
+    -webkit-transition: opacity 0.3s 0.04s, top 0.3s 0.04s;
+	transition: opacity 0.3s 0.04s, top 0.3s 0.04s;
+}
+
+.version-default.news-grid.hover-default-gradient .portfolio-item:hover .image .links .caption .info {
+	opacity: 1;
+	top: 0;
+    -webkit-transition: opacity 0.3s 0.08s, top 0.3s 0.08s;
+	transition: opacity 0.3s 0.08s, top 0.3s 0.08s;
+}
+
+.version-default.news-grid.hover-default-gradient .portfolio-item:hover .image .links .caption .author {
+	opacity: 1;
+	top: 0;
+	-webkit-transition: opacity 0.3s 0.08s, top 0.3s 0.08s;
+	transition: opacity 0.3s 0.08s, top 0.3s 0.08s;
+}
+
+.version-default.news-grid.hover-default-gradient .portfolio-item:hover .image .links .caption .post-date {
+	opacity: 1;
+	top: 0;
+    -webkit-transition: opacity 0.3s 0.12s, top 0.3s 0.12s;
+	transition: opacity 0.3s 0.12s, top 0.3s 0.12s;
+}
+
+.version-default.news-grid.hover-default-gradient .portfolio-item:hover .image.format-video.has-post-thumbnail .links .caption .post-date {
+	display: none;
+	opacity: 0;
+}
+
+.hover-default-gradient .portfolio-item .image .overlay .links .portfolio-icons > .icon {
+	display: inline-block;
+	opacity: 0;
+	-webkit-transform: translateY(-200px);
+	transform: translateY(-200px);
+	-webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+	transition: opacity 0.3s, transform 0.3s;
+}
+
+.hover-default-gradient .portfolio-item:hover .image .overlay .links .portfolio-icons > .icon {
+	opacity: 1;
+	-webkit-transform: translateY(0);
+	transform: translateY(0);
+	-webkit-transition: opacity 0.3s, transform 0.3s;
+	transition: opacity 0.3s, transform 0.3s;
+}
+
+.portfolio.hover-default-gradient .portfolio-item .gem-simple-gallery .gem-gallery-item a:after {
+	font-size: 48px;
+    position: absolute;
+	left: 50%;
+    top: 50%;
+	opacity: 0;
+	-webkit-transform: translateY(-200px);
+	transform: translateY(-200px);
+	-webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+	transition: opacity 0.3s, transform 0.3s;
+}
+
+.portfolio.hover-default-gradient .portfolio-item .gem-simple-gallery .gem-gallery-item a:hover:after {
+	opacity: 1;
+	-webkit-transform: translateY(0);
+	transform: translateY(0);
+	-webkit-transition: opacity 0.3s, transform 0.3s;
+	transition: opacity 0.3s, transform 0.3s;
+}
+
+.version-default.news-grid.hover-default-gradient .portfolio-item .image .links .caption .slide-content-visible {
+	padding-bottom: 0;
+}
+
+.version-default.news-grid.hover-default-gradient .portfolio-item .image .links .caption .post-date {
+	margin-bottom: 0;
+	padding-bottom: 10px;
+}
+
+.version-default.news-grid.hover-default-gradient .portfolio-item .image .links .caption .title {
+	margin-bottom: 0 !important;
+}
+
+.version-default.news-grid.hover-default-gradient .portfolio-item .image .links .caption .grid-post-meta {
+	margin-bottom: 0;
+}
+
+.version-default.news-grid.hover-default-gradient .portfolio-item .image .links .caption .description {
+	margin-top: 11px;
+}
+
+.version-default.news-grid.hover-default-gradient .portfolio-item .image .links .caption .info {
+	padding-top: 11px !important;
+}
+
+.version-default.news-grid.hover-default-gradient .portfolio-item .image .links .caption .author {
+	padding-top: 11px;
+}
+
+@media only screen and (min-width: 551px) {
+	.hover-default-gradient.title-on-hover .portfolio-item.double-item-style-alternative .image .overlay:after {
+		display: none;
+	}
+}

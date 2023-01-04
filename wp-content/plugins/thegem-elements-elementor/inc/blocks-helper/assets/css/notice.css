@@ -1,0 +1,51 @@
+.thegem-blocks-notice-inner {
+    display: flex;
+    align-items: center;
+    padding: 15px 0;
+}
+
+.thegem-blocks-notice-logo {
+    margin-right: 17px;
+    margin-left: 5px;
+    overflow: hidden;
+}
+
+.thegem-blocks-notice-logo img {
+    width: 42px;
+    display: block;
+}
+
+.thegem-blocks-notice-info {
+    flex: 1;
+}
+
+.thegem-blocks-notice-info p {
+    padding: 0;
+    margin: 0 0 7px 0;
+}
+
+.thegem-blocks-notice-info p:last-child {
+    margin-bottom: 0;
+}
+
+.thegem-blocks-notice-info .thegem-blocks-notice-title {
+    font-weight: bold;
+}
+
+.thegem-blocks-notice-info p a {
+    color: #0073aa;
+}
+
+.thegem-blocks-notice .button-primary {
+    background-color: #00aadc;
+    border: none;
+    border-bottom: 2px solid #0087be;
+    box-shadow: none;
+}
+
+.thegem-blocks-notice .button-primary:hover,
+.thegem-blocks-notice .button-primary:focus,
+.thegem-blocks-notice .button-primary:active {
+    background-color: #00aadc;
+    box-shadow: none;
+}

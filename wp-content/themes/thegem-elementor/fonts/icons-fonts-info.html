@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script type="text/javascript" src="//code.jquery.com/jquery-latest.min.js"></script>
+	<script type="text/javascript">
+	(function($) {
+		$(function() {
+			$('#icons-font-name').change(function() {
+				var fontName = $(this).val();
+				$.ajax({
+					url: fontName + '.svg'
+				}).done(function(data) {
+					var $glyphs = $('glyph', data);
+					$('.icons').html('');
+					$glyphs.each(function() {
+						var code = $(this).attr('unicode').charCodeAt(0).toString(16);
+						var $iconBox = $('<div class="icon-box">').appendTo($('.icons'));
+						$iconBox.append('<div class="icon '+fontName+'">'+$(this).attr('unicode')+'</div>');
+						$iconBox.append('<div class="html-version">HTML: &amp;#x'+code+';</div>');
+						$iconBox.append('<div class="css-version">CSS: content: \'\\'+code+'\';</div>');
+						$iconBox.append('<div class="admin-version">Admin: '+code+'</div>');
+						//$('.icons').append('<div>'+$(this).attr('unicode')+'</div>');
+					});
+				});
+			}).trigger('change');
+		});
+	})(jQuery);
+	</script>
+	<link rel="stylesheet" type="text/css" href="../css/icons.css" media="all" />
+	<style type="text/css">
+		.icons .icon {
+			font-size: 50px;
+		}
+		.icons .thegem-icons {
+			font-family: 'thegem-icons';
+			font-style: normal;
+		}
+		.icons .thegem-socials {
+			font-family: 'thegem-socials';
+		}
+		.icons .thegem-user-icons {
+			font-family: 'thegem-user-icons';
+		}
+		.icon-box {
+			float: left;
+			margin: 15px;
+			text-align: center;
+		}
+	</style>
+</head>
+<body>
+<div class="icons-font-selector">
+	<select name="icons-font-name" id="icons-font-name">
+		<option value="thegem-icons">thegem-icons</option>
+		<option value="thegem-socials">thegem-socials</option>
+		<option value="thegem-user-icons">thegem-user-icons</option>
+	</select>
+</div>
+<div class="icons"></div>
+<div style="clear: both;"></div>
+</body>
+</html>

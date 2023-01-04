@@ -1,0 +1,162 @@
+
+
+#primary-navigation.responsive #primary-menu > li > a,
+#primary-navigation.responsive #primary-menu > li > .menu-item-parent-toggle,
+#primary-navigation.responsive ul.dl-submenu.level1 > li > a,
+.primary-navigation.responsive .minisearch .sf-input,
+.mobile-menu-layout-overlay #primary-navigation.responsive #primary-menu > li.menu-item-search > .minisearch input[type="text"],
+.mobile-menu-layout-overlay #primary-navigation.responsive #primary-menu > li.menu-item-search > .minisearch .sf-submit-icon:before,
+.mobile-cart-position-top .menu-overlay.mobile.active + #site-header .mobile-cart > a:before {
+	color: #99a9b5;
+}
+.primary-navigation.responsive .minisearch .sf-input::placeholder,
+.mobile-menu-layout-overlay #primary-navigation.responsive #primary-menu > li.menu-item-search > .minisearch input[type="text"]::placeholder {
+	color: #99a9b5;
+}
+.primary-navigation.responsive .minisearch .sf-input::-webkit-input-placeholder,
+.mobile-menu-layout-overlay #primary-navigation.responsive #primary-menu > li.menu-item-search > .minisearch input[type="text"]::-webkit-input-placeholder{
+	color: #99a9b5;
+}
+
+#page #site-header.mobile-menu-layout-overlay .header-main #primary-navigation.overlay-active:not(.close) .menu-toggle .menu-line-1,
+#page #site-header.mobile-menu-layout-overlay .header-main #primary-navigation.overlay-active:not(.close) .menu-toggle .menu-line-2,
+#page #site-header.mobile-menu-layout-overlay .header-main #primary-navigation.overlay-active:not(.close) .menu-toggle .menu-line-3,
+#page #site-header.mobile-menu-layout-overlay .header-main #perspective-menu-buttons.overlay-active:not(.close) .menu-toggle .menu-line-1,
+#page #site-header.mobile-menu-layout-overlay .header-main #perspective-menu-buttons.overlay-active:not(.close) .menu-toggle .menu-line-2,
+#page #site-header.mobile-menu-layout-overlay .header-main #perspective-menu-buttons.overlay-active:not(.close) .menu-toggle .menu-line-3 {
+	background-color: #99a9b5;
+}
+
+.mobile-menu-layout-overlay #primary-navigation.responsive #primary-menu > li.menu-item-search > .minisearch input[type="text"] {
+	border-color: #99a9b5;
+}
+
+.mobile-menu-layout-slide-horizontal #primary-navigation.responsive #primary-menu,
+.mobile-menu-layout-slide-vertical #primary-navigation.responsive #primary-menu,
+#primary-navigation.responsive #primary-menu > li > a,
+#primary-navigation.responsive ul.dl-submenu.level1 > li > a,
+#primary-navigation.responsive #primary-menu li.menu-item-search,
+#primary-navigation.responsive #primary-menu li.menu-item-search .minisearch {
+	background-color: #212331;
+}
+
+#primary-navigation.responsive #primary-menu > li.menu-item-current > a,
+#primary-navigation.responsive #primary-menu > li.menu-item-active > a,
+#primary-navigation.responsive #primary-menu > li.opened > a,
+#primary-navigation.responsive #primary-menu > li.menu-item-current > .menu-item-parent-toggle,
+#primary-navigation.responsive #primary-menu > li.menu-item-active > .menu-item-parent-toggle,
+#primary-navigation.responsive #primary-menu > li.opened > .menu-item-parent-toggle,
+#primary-navigation.responsive ul.dl-submenu.level1 > li.menu-item-current > a,
+#primary-navigation.responsive ul.dl-submenu.level1 > li.menu-item-active > a,
+#primary-navigation.responsive #primary-menu > li.menu-overlay-item-open > a,
+#primary-navigation.responsive #primary-menu > li.menu-overlay-item-open > .menu-item-parent-toggle {
+	color: #ffffff;
+}
+
+#primary-navigation.responsive #primary-menu > li.menu-item-current > a,
+#primary-navigation.responsive #primary-menu > li.menu-item-active > a,
+#primary-navigation.responsive #primary-menu > li.opened > a,
+#primary-navigation.responsive ul.dl-submenu.level1 > li.menu-item-current > a,
+#primary-navigation.responsive ul.dl-submenu.level1 > li.menu-item-active > a {
+	background-color: #181828;
+}
+
+#primary-navigation.responsive #primary-menu > li > ul > li > a,
+#primary-navigation.responsive #primary-menu > li > ul > li > .menu-item-parent-toggle,
+#primary-navigation.responsive #primary-menu > li > ul > li > span.megamenu-column-header > a,
+#primary-navigation.responsive ul.dl-submenu.level2 > li > a,
+#primary-navigation.responsive ul.dl-submenu.level2 > li > span.megamenu-column-header > a {
+	color: #99a9b5;
+}
+
+#primary-navigation.responsive #primary-menu > li > ul > li > a,
+#primary-navigation.responsive #primary-menu > li > ul > li > span.megamenu-column-header > a,
+#primary-navigation.responsive ul.dl-submenu.level2 > li > a,
+#primary-navigation.responsive ul.dl-submenu.level2 > li > span.megamenu-column-header > a,
+.mobile-menu-layout-slide-horizontal #primary-navigation.responsive #primary-menu li.menu-item-search .minisearch input[type="text"],
+.mobile-menu-layout-slide-vertical #primary-navigation.responsive #primary-menu li.menu-item-search .minisearch input[type="text"] {
+	background-color: #212331;
+}
+
+#primary-navigation.responsive #primary-menu > li > ul > li.menu-item-current > a,
+#primary-navigation.responsive #primary-menu > li > ul > li.menu-item-active > a,
+#primary-navigation.responsive #primary-menu > li > ul > li.opened > a,
+#primary-navigation.responsive #primary-menu > li > ul > li.menu-item-current > .menu-item-parent-toggle,
+#primary-navigation.responsive #primary-menu > li > ul > li.menu-item-active > .menu-item-parent-toggle,
+#primary-navigation.responsive #primary-menu > li > ul > li.opened > .menu-item-parent-toggle,
+#primary-navigation.responsive #primary-menu > li > ul > li.menu-item-current > span.megamenu-column-header > a,
+#primary-navigation.responsive #primary-menu > li > ul > li.menu-item-active > span.megamenu-column-header > a,
+#primary-navigation.responsive #primary-menu > li > ul > li.opened > span.megamenu-column-header > a,
+#primary-navigation.responsive ul.dl-submenu.level2 > li.menu-item-current > a,
+#primary-navigation.responsive ul.dl-submenu.level2 > li.menu-item-active > a,
+#primary-navigation.responsive ul.dl-submenu.level2 > li.menu-item-current > span.megamenu-column-header > a,
+#primary-navigation.responsive ul.dl-submenu.level2 > li.menu-item-active > span.megamenu-column-header > a,
+#primary-navigation.responsive #primary-menu > li > ul > li.menu-overlay-item-open > a,
+#primary-navigation.responsive #primary-menu > li > ul > li.menu-overlay-item-open > span.megamenu-column-header > a,
+#primary-navigation.responsive #primary-menu > li > ul > li.menu-overlay-item-open > .menu-item-parent-toggle {
+	color: #ffffff;
+}
+
+#primary-navigation.responsive #primary-menu > li > ul > li.menu-item-current > a,
+#primary-navigation.responsive #primary-menu > li > ul > li.menu-item-active > a,
+#primary-navigation.responsive #primary-menu > li > ul > li.opened > a,
+#primary-navigation.responsive #primary-menu > li > ul > li.menu-item-current > span.megamenu-column-header > a,
+#primary-navigation.responsive #primary-menu > li > ul > li.menu-item-active > span.megamenu-column-header > a,
+#primary-navigation.responsive #primary-menu > li > ul > li.opened > span.megamenu-column-header > a,
+#primary-navigation.responsive ul.dl-submenu.level2 > li.menu-item-current > a,
+#primary-navigation.responsive ul.dl-submenu.level2 > li.menu-item-active > a,
+#primary-navigation.responsive ul.dl-submenu.level2 > li.menu-item-current > span.megamenu-column-header > a,
+#primary-navigation.responsive ul.dl-submenu.level2 > li.menu-item-active > span.megamenu-column-header > a {
+	background-color: #181828;
+}
+
+#primary-navigation.responsive #primary-menu > li > ul > li > ul li > a,
+#primary-navigation.responsive #primary-menu > li > ul > li > ul li > .menu-item-parent-toggle,
+#primary-navigation.responsive #primary-menu > li > ul > li > ul li > span.megamenu-column-header > a,
+#primary-navigation.responsive ul.dl-submenu.level3 > li > a {
+	color: #99a9b5;
+}
+
+#primary-navigation.responsive #primary-menu > li > ul > li > ul li > a,
+#primary-navigation.responsive #primary-menu > li > ul > li > ul li > span.megamenu-column-header > a,
+#primary-navigation.responsive ul.dl-submenu.level3 > li > a {
+	background-color: #212331;
+}
+
+#primary-navigation.responsive #primary-menu > li > ul > li > ul li.menu-item-current > a,
+#primary-navigation.responsive #primary-menu > li > ul > li > ul li.menu-item-active > a,
+#primary-navigation.responsive #primary-menu > li > ul > li > ul li.opened > a,
+#primary-navigation.responsive #primary-menu > li > ul > li > ul li.menu-item-current > .menu-item-parent-toggle,
+#primary-navigation.responsive #primary-menu > li > ul > li > ul li.menu-item-active > .menu-item-parent-toggle,
+#primary-navigation.responsive #primary-menu > li > ul > li > ul li.opened > .menu-item-parent-toggle,
+#primary-navigation.responsive #primary-menu > li > ul > li > ul li.menu-item-current > span.megamenu-column-header > a,
+#primary-navigation.responsive #primary-menu > li > ul > li > ul li.menu-item-active > span.megamenu-column-header > a,
+#primary-navigation.responsive #primary-menu > li > ul > li > ul li.opened > span.megamenu-column-header > a,
+#primary-navigation.responsive ul.dl-submenu.level3 > li.menu-item-current > a,
+#primary-navigation.responsive ul.dl-submenu.level3 > li.menu-item-active > a,
+#primary-navigation.responsive #primary-menu > li > ul > li > ul li.menu-overlay-item-open > a,
+#primary-navigation.responsive #primary-menu > li > ul > li > ul li.menu-overlay-item-open > span.megamenu-column-header > a,
+#primary-navigation.responsive #primary-menu > li > ul > li > ul li.menu-overlay-item-open > .menu-item-parent-toggle {
+	color: #3c3950;
+}
+
+#primary-navigation.responsive #primary-menu > li > ul > li > ul li.menu-item-current > a,
+#primary-navigation.responsive #primary-menu > li > ul > li > ul li.menu-item-active > a,
+#primary-navigation.responsive #primary-menu > li > ul > li > ul li.opened > a,
+#primary-navigation.responsive #primary-menu > li > ul > li > ul li.menu-item-current > span.megamenu-column-header > a,
+#primary-navigation.responsive #primary-menu > li > ul > li > ul li.menu-item-active > span.megamenu-column-header > a,
+#primary-navigation.responsive #primary-menu > li > ul > li > ul li.opened > span.megamenu-column-header > a,
+#primary-navigation.responsive ul.dl-submenu.level3 > li.menu-item-current > a,
+#primary-navigation.responsive ul.dl-submenu.level3 > li.menu-item-active > a {
+	background-color: #181828;
+}
+
+.mobile-menu-layout-default #primary-navigation.responsive ul li.menu-item,
+.mobile-menu-layout-default #primary-navigation.responsive ul li.dl-back,
+.mobile-menu-layout-default #primary-navigation.responsive ul,
+.mobile-menu-layout-slide-horizontal #primary-navigation.responsive #primary-menu li,
+.mobile-menu-layout-slide-vertical #primary-navigation.responsive #primary-menu li,
+.mobile-menu-layout-slide-horizontal #primary-navigation.responsive #primary-menu li.menu-item-search .minisearch input[type="text"],
+.mobile-menu-layout-slide-vertical #primary-navigation.responsive #primary-menu li.menu-item-search .minisearch input[type="text"] {
+	border-color: #494c64;
+}

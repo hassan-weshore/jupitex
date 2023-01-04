@@ -1,0 +1,87 @@
+@import "./variables.scss";
+
+@mixin secondary-button() {
+	cursor: pointer;
+	font-weight: 400;
+	border: $border-width solid;
+	border-radius: $radius;
+	background: none;
+	box-shadow: none;
+	transition: $transition;
+}
+
+@mixin active-secondary-button() {
+	@include secondary-button();
+	color: $color-accent;
+	border-color: $color-accent;
+
+	&:hover {
+		color: $color-accent;
+		background-color: lighten($color-accent, 60%);
+	}
+}
+
+@mixin remove-secondary-button() {
+	@include secondary-button();
+	color: $color-error;
+	border-color: $color-error;
+
+	&:hover {
+		color: $color-error;
+		background-color: lighten($color-error, 42%);
+	}
+}
+
+@mixin transparent-button() {
+	cursor: pointer;
+	padding: 0;
+	font-size: 13px;
+	line-height: 20px;
+	border: none;
+	background: none;
+	box-shadow: none;
+	transition: $transition;
+
+	svg {
+		margin-right: 4px;
+		vertical-align: top;
+	}
+
+	&:hover {
+		background: none;
+	}
+}
+
+@mixin active-transparent-button() {
+	@include transparent-button();
+	color: $color-accent;
+
+	svg path {
+		fill: $color-accent;
+	}
+
+	&:hover {
+		color: $button-color-bg-hover;
+	}
+
+	&:hover svg path {
+		fill: darken($button-color-bg-hover, 5%);
+	}
+}
+
+@mixin remove-transparent-button() {
+	@include transparent-button();
+	color: $color-error;
+
+	svg path {
+		fill: $color-error;
+	}
+
+	&:hover {
+		color: darken($color-error, 5%);
+	}
+
+	&:hover svg path {
+		fill: darken($color-error, 5%);
+	}
+}

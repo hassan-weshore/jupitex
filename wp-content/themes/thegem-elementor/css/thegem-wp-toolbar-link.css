@@ -1,0 +1,12 @@
+#wp-admin-bar-thegem-theme-options > a {
+	background: #3A96A3;
+	color: #ffffff;
+}
+#wp-admin-bar-thegem-support-center > a {
+	background: #0073AA;
+	color: #ffffff;
+}
+#wp-admin-bar-thegem-documentation > a {
+	background: #47B39C;
+	color: #ffffff;
+}

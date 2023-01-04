@@ -1,0 +1,309 @@
+.thegem-gdpr-admin-tabs {
+	display: flex;
+	list-style: none;
+	padding: 0;
+	margin: 20px 0 0 0;
+}
+
+.thegem-gdpr-admin-tabs li {
+	margin: 0;
+}
+
+.thegem-gdpr-admin-tabs li a {
+	padding: 15px 30px;
+	font-size: 16px;
+	font-weight: bold;
+	line-height: normal;
+	display: block;
+	text-decoration: none;
+	color: #23282d;
+	outline: none;
+	background: #eaeaea;
+	box-shadow: none;
+	transition: .3s all;
+}
+
+.thegem-gdpr-admin-tabs li a:hover,
+.thegem-gdpr-admin-tabs li a:focus {
+	background: #dddddd;
+}
+
+.thegem-gdpr-admin-tabs li a.active,
+.thegem-gdpr-admin-tabs li a.active:hover {
+	background-color: #ffffff;
+}
+
+.thegem-gdpr-admin-content {
+	background: #ffffff;
+	padding: 15px 20px;
+}
+
+.thegem-gdpr-consent-bar-fields {
+	display: none;
+}
+
+.thegem-gdpr-consent-bar-fields.active {
+	display: block;
+}
+
+.thegem-gdpr-consent-bar-custom-styles-box {
+	display: none;
+}
+
+.thegem-gdpr-consent-bar-custom-styles-box.active {
+	display: block;
+}
+
+.thegem-gdpr-forms .thegem-gdpr-forms-item {
+	border-bottom: 1px solid #e1e1e1;
+	padding: 15px 0;
+}
+
+.thegem-gdpr-forms .thegem-gdpr-forms-item:last-child {
+	border-bottom: 0;
+}
+
+.thegem-gdpr-forms-item-head {
+	display: flex;
+	align-items: center;
+}
+
+.thegem-gdpr-forms-item-head label {
+	width: 220px;
+	line-height: 1.3;
+	font-weight: 600;
+	font-size: 15px;
+}
+
+.thegem-gdpr-forms-item-content {
+	display: none;
+	padding: 15px;
+	background-color: #fafafa;
+	margin-top: 20px;
+}
+
+.thegem-gdpr-forms-item.active .thegem-gdpr-forms-item-content {
+	display: block;
+}
+
+.thegem-gdpr-consent-type-item {
+	margin-top: 20px;
+	background-color: #ffffff;
+	border: 1px solid #e1e1e1;
+}
+
+.thegem-gdpr-consent-type-head {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: 1px solid #e1e1e1;
+	padding: 10px 15px;
+}
+
+.thegem-gdpr-consent-type-head:hover {
+	cursor: move;
+}
+
+.thegem-gdpr-consent-type-title {
+	font-size: 14px;
+	line-height: 1.5em;
+	font-weight: bold;
+}
+
+.thegem-gdpr-consent-type-body {
+	padding: 15px;
+}
+
+.thegem-gdpr-consent-state-field.hide {
+	display: none;
+}
+
+#thegem-gdpr-consent-type-item-template {
+	display: none;
+}
+
+.thegem-gdpr-overlay-custom-styles-box {
+	display: none;
+}
+.thegem-gdpr-overlay-custom-styles-box.active {
+	display: block;
+}
+
+.thegem-gdpr-form-box {
+	margin-top: 20px;
+}
+
+.thegem-gdpr-field-box {
+	display: flex;
+	margin-bottom: 15px;
+	align-items: flex-start;
+	flex-wrap: wrap;
+}
+
+.thegem-gdpr-field-box > label {
+	width: 230px;
+	font-weight: 600;
+	font-size: 14px;
+	padding-right: 30px;
+}
+
+.thegem-gdpr-field-box .field,
+.thegem-gdpr-field-box .field {
+	max-width: 400px;
+	width: 100%;
+	display: flex;
+	align-items: flex-start;
+}
+
+.thegem-gdpr-field-box .field .wp-picker-container {
+	margin: 0;
+}
+
+.thegem-gdpr-field-box .field input[type=text],
+.thegem-gdpr-field-box .field textarea,
+.thegem-gdpr-field-box .field select {
+	width: 100%;
+	margin: 0;
+	padding: 0 15px;
+	background-color: #f1f1f1;
+	border: 1px solid #cbcbcb;
+	border-bottom-color: #e5e5e5;
+	border-right-color: #e5e5e5;
+	border-radius: 4px;
+}
+
+.thegem-gdpr-field-box .field input[type=text] {
+	height: 28px;
+}
+
+.thegem-gdpr-field-box .field textarea {
+	padding: 10px 15px;
+}
+
+.thegem-gdpr-field-box .field input[type=checkbox],
+.thegem-gdpr-field-box .field input[type=radio] {
+	margin: 0;
+}
+
+.thegem-gdpr-field-box .fixed-number .slider {
+	margin-left: 15px;
+	width: 100%;
+}
+
+.thegem-gdpr-field-box .fixed-number input[type=number]::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+}
+
+.thegem-gdpr-field-box .wp-picker-container .wp-color-result.button,
+.thegem-gdpr-field-box .wp-picker-container input[type=text].wp-color-picker,
+.thegem-gdpr-field-box .wp-picker-container .wp-picker-clear {
+	height: 28px;
+	line-height: 26px;
+}
+
+.thegem-gdpr-field-box .wp-picker-container .wp-color-result.button,
+.thegem-gdpr-field-box .wp-picker-container .wp-picker-clear {
+	box-shadow: none;
+}
+
+.thegem-gdpr-field-box .wp-picker-container .wp-color-result.button {
+	margin: 0 7px 0 0;
+}
+
+.thegem-gdpr-field-box .wp-picker-container input[type=text].wp-color-picker {
+	width: 85px;
+}
+
+.thegem-gdpr-field-box .wp-color-result-text {
+	line-height: 26px;
+}
+
+.thegem-gdpr-field-box .field button {
+	margin-left: 15px;
+}
+
+.thegem-gdpr-fieldset {
+	padding: 20px 0;
+}
+
+.thegem-gdpr-fieldset>div {
+	display: flex;
+	align-items: center;
+	margin-bottom: 10px;
+}
+
+.thegem-gdpr-fieldset label {
+	min-width: 100px;
+}
+
+.thegem-gdpr-fieldset .field {
+	max-width: 300px;
+}
+
+.thegem-gdpr-field-box .field .picture-select-button {
+	height: 28px;
+	color: #555;
+	background: #f7f7f7;
+	box-shadow: 0 1px 0 #cccccc;
+	font-size: 13px;
+	line-height: 26px;
+	padding: 0 10px 1px;
+	border: 1px solid #cccccc;
+	border-radius: 3px;
+	margin-left: 15px;
+	cursor: pointer;
+}
+
+.thegem-gdpr-field-box select:disabled,
+.thegem-gdpr-field-box input:disabled {
+	background-color: #f7f7f7;
+}
+
+
+.thegem-gdpr-field-box .thegem-gdpr-field-notice {
+	width: 100%;
+	color: #7e7e7e;
+}
+
+
+.thegem-gdpr-allowed-tag {
+	font-size: 12px;
+	color: #999999;
+	margin-bottom: 30px;
+}
+
+.thegem-gdpr-allowed-tag pre {
+	padding: 0;
+	margin: 0;
+	display: inline-block;
+}
+
+.thegem-gdpr-cf7-item-box {
+	padding: 20px;
+	border: 1px solid #e1e1e1;
+	margin-bottom: 20px;
+}
+
+.thegem-gdpr-cf7-item-title {
+	margin-bottom: 20px;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.thegem-gdpr-consent-type-added {
+	display: flex;
+}
+
+.thegem-gdpr-consent-type-added .field {
+	max-width: 200px;
+	width: 100%;
+	margin-right: 15px;
+}
+
+.thegem-gdpr-consent-bar-custom-styles-box,
+.thegem-gdpr-overlay-custom-styles-box {
+	background-color: #fafafa;
+	padding: 20px;
+}

@@ -1,0 +1,142 @@
+#site-header,
+#site-header-wrapper,
+.header-layout-fullwidth_hamburger #primary-menu.no-responsive,
+#thegem-perspective .perspective-navigation:not(.responsive) {
+	background-color: #ffffff;
+}
+#site-header.fixed.shrink {
+	background-color: rgba(255, 255, 255, 0.95);
+}
+#primary-menu.no-responsive > li > a {
+	color: #3c3950;
+}
+#page.vertical-header .vertical-toggle > span,
+#thegem-perspective #primary-navigation .perspective-menu-close:before,
+#thegem-perspective #primary-navigation .perspective-menu-close:after {
+	background-color: #3c3950;
+}
+#primary-menu.no-responsive > li:hover > a {
+	color: #00bcd4;
+}
+#primary-menu.no-responsive > li.megamenu-enable.megamenu-style-default > ul li > a:hover {
+	background-color: #00bcd4;
+}
+#primary-menu.no-responsive > li.menu-item-current > a,
+#primary-menu.no-responsive > li.menu-item-active > a {
+	color: #3c3950;
+}
+.header-style-1 #primary-menu.no-responsive > li.menu-item-current > a,
+.header-style-1 #primary-menu.no-responsive > li.menu-item-active > a {
+	background-color: #3c3950;
+}
+.header-style-3:not(.header-layout-overlay) #primary-menu.no-responsive > li.menu-item-current > a,
+.header-style-3:not(.header-layout-overlay) #primary-menu.no-responsive > li.menu-item-active > a,
+.header-style-4:not(.header-layout-overlay) #primary-menu.no-responsive > li.menu-item-current > a,
+.header-style-4:not(.header-layout-overlay) #primary-menu.no-responsive > li.menu-item-active > a {
+	border: 2px solid #3c3950;
+}
+#primary-menu.no-responsive > li > ul > li > a,
+#primary-menu.no-responsive > li.megamenu-enable.megamenu-style-grid > ul li > a {
+	color: #5f727f;
+}
+#primary-menu.no-responsive > li > ul > li > a,
+#primary-menu.no-responsive > li.megamenu-enable > ul,
+#primary-menu.no-responsive > li.megamenu-enable.megamenu-style-grid > ul li > a,
+#primary-menu.no-responsive > li.megamenu-enable.megamenu-style-grid > ul li > span.megamenu-column-header > a,
+.header-style-2 .minisearch .sf-input,
+.header-style-3 .minisearch .sf-input,
+.header-style-1 .minisearch,
+.header-style-4 .minisearch {
+	background-color: #f4f6f7;
+}
+#primary-menu.no-responsive > li > ul > li:hover > a,
+#primary-menu.no-responsive > li.megamenu-enable.megamenu-style-grid > ul li:hover > a {
+	color: #3c3950;
+}
+#primary-menu.no-responsive > li > ul > li:hover > a,
+#primary-menu.no-responsive > li.megamenu-enable.megamenu-style-grid > ul li:hover > a {
+	background-color: #ffffff;
+}
+#primary-menu.no-responsive > li > ul > li.menu-item-current > a,
+#primary-menu.no-responsive > li > ul > li.menu-item-active > a,
+.minisearch .sf-submit-icon:before,
+.minisearch .sf-input {
+	color: #3c3950;
+}
+#primary-menu.no-responsive > li > ul > li.menu-item-current > a,
+#primary-menu.no-responsive > li > ul > li.menu-item-active > a,
+.header-style-2 .minisearch,
+.header-style-3 .minisearch,
+.header-style-1 .minisearch .sf-input,
+.header-style-4 .minisearch .sf-input {
+	background-color: #ffffff;
+}
+#primary-menu.no-responsive > li.megamenu-enable > ul > li span.megamenu-column-header a,
+#primary-menu.no-responsive > li.megamenu-enable > ul > li span.megamenu-column-header a.mega-no-link {
+	color: #3c3950;
+}
+#primary-menu.no-responsive > li.megamenu-enable > ul > li span.megamenu-column-header a:hover {
+	color: #00bcd4;
+}
+#primary-menu.no-responsive > li.megamenu-enable > ul > li.menu-item-active > span.megamenu-column-header a {
+	color: #00bcd4;
+}
+#primary-menu.no-responsive > li li li > a {
+	color: #5f727f;
+}
+#primary-menu.no-responsive > li li li > a {
+	background-color: #ffffff;
+}
+#primary-menu.no-responsive > li li li:hover > a {
+	color: #ffffff;
+}
+#primary-menu.no-responsive > li li li:hover > a {
+	background-color: #494c64;
+}
+#primary-menu.no-responsive > li li li.menu-item-current > a,
+#primary-menu.no-responsive > li li li.menu-item-active > a {
+	color: #00bcd4;
+}
+#primary-menu.no-responsive > li li li.menu-item-current > a,
+#primary-menu.no-responsive > li li li.menu-item-active > a {
+	background-color: #ffffff;
+}
+#primary-menu.no-responsive ul > li,
+#primary-menu.no-responsive > li.megamenu-enable > ul > li span.megamenu-column-header,
+.minisearch,
+.minisearch .sf-input {
+	border-top: 1px solid #dfe5e8;
+}
+#primary-menu.no-responsive ul,
+#primary-menu.no-responsive > li.megamenu-enable.megamenu-style-grid > ul > li,
+.minisearch,
+.minisearch .sf-input {
+	border-bottom: 1px solid #dfe5e8;
+	border-left: 1px solid #dfe5e8;
+	border-right: 1px solid #dfe5e8;
+}
+#primary-menu.no-responsive > li.megamenu-enable > ul > li span.megamenu-column-header {
+	border-bottom: 1px solid #dfe5e8;
+}
+#primary-menu.no-responsive > li.megamenu-enable > ul {
+	border-top: 1px solid #dfe5e8;
+}
+#primary-menu.no-responsive ul ul {
+	margin-top: -1px;
+}
+#site-header:not(.shrink) .header-colors-light:not(.header-layout-fullwidth_hamburger) #primary-menu.no-responsive > li > a {
+	color: #ffffff;
+}
+#site-header:not(.shrink) .header-colors-light:not(.header-layout-fullwidth_hamburger) #primary-menu.no-responsive > li:hover > a {
+	color: #ffffff;
+}
+#site-header:not(.shrink) .header-colors-light:not(.header-layout-fullwidth_hamburger) #primary-menu.no-responsive > li.menu-item-current > a,
+#site-header:not(.shrink) .header-colors-light:not(.header-layout-fullwidth_hamburger) #primary-menu.no-responsive > li.menu-item-active > a {
+	color: #ffffff;
+}
+#site-header:not(.shrink) .header-colors-light.header-style-3:not(.header-layout-fullwidth_hamburger):not(.header-layout-overlay) #primary-menu.no-responsive > li.menu-item-current > a,
+#site-header:not(.shrink) .header-colors-light.header-style-3:not(.header-layout-fullwidth_hamburger):not(.header-layout-overlay) #primary-menu.no-responsive > li.menu-item-active > a,
+#site-header:not(.shrink) .header-colors-light.header-style-4:not(.header-layout-fullwidth_hamburger):not(.header-layout-overlay) #primary-menu.no-responsive > li.menu-item-current > a,
+#site-header:not(.shrink) .header-colors-light.header-style-4:not(.header-layout-fullwidth_hamburger):not(.header-layout-overlay) #primary-menu.no-responsive > li.menu-item-active > a {
+	border: 2px solid #ffffff;
+}

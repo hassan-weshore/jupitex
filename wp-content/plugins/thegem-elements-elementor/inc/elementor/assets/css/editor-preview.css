@@ -1,0 +1,55 @@
+.elementor-edit-area-active .elementor-container.elementor-column-gap-thegem .elementor-column-wrap.elementor-element-empty .elementor-widget-wrap {
+	margin-left: 21px;
+	margin-right: 21px;
+}
+
+.custom-page-title, .custom-footer {
+	position: relative;
+}
+
+.edit-template-overlay {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: rgba(244, 246, 247, 0.8);
+	z-index: 99;
+}
+
+.edit-template-overlay .buttons {
+	display: flex;
+}
+
+.edit-template-overlay .buttons a {
+	position: initial;
+	display: block;
+	font-family: 'Montserrat UltraLight', sans-serif;
+	font-size: 14px;
+	color: #ffffff;
+	text-transform: uppercase;
+	height: 40px;
+	line-height: 40px;
+	background: #6e7882;
+	border: 1px solid #6e7882;
+	padding: 0 17px;
+	transition: all 0.2s;
+}
+
+.edit-template-overlay .buttons a:hover {
+	background: #99a4a8;
+	border-color: #99a4a8;
+}
+
+.edit-template-overlay .buttons a.doc {
+	color: #6e7882;
+	background: transparent;
+	margin-left: 10px;
+}
+
+.edit-template-overlay .buttons a.doc:hover {
+	color: #99a4a8;
+}

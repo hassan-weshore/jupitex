@@ -1,0 +1,153 @@
+/* STYLED Project Info */
+
+.gem-project-info {
+	display: inline-block;
+	width: 100%;
+	overflow: hidden;
+}
+.gem-project-info:not(.gem-gaps-container) {
+	overflow: inherit;
+}
+
+.gem-project-info,
+.gem-project-info-item,
+.gem-project-info-item:before,
+.gem-project-info-item .title,
+.gem-project-info-item .description,
+.gem-project-info-item .icon,
+.gem-project-info-item .icon:before,
+.gem-project-info-item .icon i,
+.gem-project-info-item .icon svg {
+	-o-transition: all .3s linear;
+	-webkit-transition: all .3s linear;
+	transition: all .3s linear;
+}
+
+.gem-project-info-item {
+	width: 100%;
+	float: left;
+	position: relative;
+	overflow: hidden;
+}
+
+.gem-project-info-item .project-info-item-link {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 5;
+}
+
+.gem-project-info-item.gem-gaps {
+	margin-bottom: 0 !important;
+}
+.gem-project-info-item.gem-gaps:last-child {
+	border-bottom: none !important;
+}
+
+.gem-project-info-item .title {
+	color: #3c3950;
+	text-transform: uppercase;
+	float: left;
+	margin: 0;
+}
+
+.gem-project-info-item .icon.gem-svg-icon svg {
+	width: 25px;
+	height: 25px;
+	display: block;
+	position: relative;
+}
+
+.gem-project-info-item .gem-wrapper-project-info {
+	z-index: 1;
+}
+
+.gem-project-info-item .icon {
+	position: relative;
+	overflow: hidden;
+}
+
+.gem-project-info-item::before,
+.gem-project-info-item .icon::before {
+	position: absolute;
+	content: "";
+	display: block;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	opacity: 0;
+	border-radius: inherit;
+}
+
+.gem-project-info-item:hover::before,
+.gem-project-info-item:hover .icon::before {
+	opacity: 1;
+}
+
+
+	/*** Style 1 ***/
+.gem-project-info-style-1 .gem-project-info-item {
+	padding: 20px;
+	background-color: #f4f6f7;
+	display: flex;
+	margin-bottom: 20px;
+}
+
+.gem-project-info-style-1 .gem-wrapper-project-info {
+	display: flex;
+	flex-direction: column;
+	padding-left: 20px;
+}
+
+.gem-project-info-style-1 .gem-project-info-item .title {
+	display: flex;
+	align-items: center;
+	line-height: 1;
+	margin-bottom: 15px;
+}
+
+
+.gem-project-info-style-1 .gem-project-info-item .icon {
+	height: max-content;
+	display: flex;
+	margin-top: -1px;
+	min-width: fit-content;
+}
+
+
+/*** Style 2 ***/
+.gem-project-info-style-2 .gem-project-info-item {
+	padding: 28px 0;
+	border-bottom: 1px solid #dfe5e8;
+	background-color: #f4f6f7;
+	display: flex;
+	align-items: center;
+	margin-bottom: 20px;
+}
+
+.gem-project-info-style-2 .gem-wrapper-project-info {
+	display: flex;
+	flex-direction: column;
+	padding-left: 20px;
+}
+
+.gem-project-info-style-2 .gem-project-info-item .icon {
+	color: #ffffff;
+	background-color:#59569e;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	overflow: unset;
+}
+
+.gem-project-info-style-2 .gem-project-info-item .icon i {
+	padding: 18px;
+	z-index: 1;
+}
+
+.gem-project-info-style-2 .gem-project-info-item .icon.gem-svg-icon {
+	padding: 14px;
+}

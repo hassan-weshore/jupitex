@@ -1,0 +1,184 @@
+.diagram-wrapper.style-3 .digram-line-box .skill-title span {
+	color: #fff;
+}
+
+.skill-element + .skill-element {
+	margin: 8px 0 0 0;
+}
+
+.skill-title {
+	font-size: 89.5%;
+	line-height: 1.421;
+	margin: 0 0 5px 0;
+}
+
+.skill-amount {
+	float: right;
+	font-size: 126.3%;
+	margin-top: -11px;
+}
+
+.skill-line {
+	font-size: 0;
+	line-height: 1;
+	height: 10px;
+	margin-right: 55px;
+}
+
+.skill-line div {
+	display: inline-block;
+	font-size: 0;
+	line-height: 1;
+	height: 10px;
+}
+
+.skill-line div.animation {
+	-moz-transition: width 1.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+	-ms-transition: width 1.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+	-o-transition: width 1.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+	-webkit-transition: width 1.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+	transition: width 1.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.diagram-summary {
+	font-size: 89.5%;
+	line-height: 1.471;
+	margin: 0 0 0.766667em 0;
+}
+
+.widget .diagram-summary {
+	font-size: 100%;
+}
+
+.diagram-summary-text {
+	margin: 0 0 0.766667em 0;
+}
+
+.diagram-circle {
+	text-align: center;
+}
+
+.diagram-circle {
+	position: relative;
+}
+
+.diagram-circle .box-wrapper {
+	max-width: 550px;
+	position: relative;
+	text-align: left;
+}
+
+.tab_wrapper .diagram-circle .box-wrapper {
+	margin: 0 auto;
+}
+
+.diagram-circle .box {
+	position: relative;
+}
+
+.diagram-circle .skills {
+	display: none;
+}
+
+.diagram-circle .text {
+	font-size: 89.5%;
+	line-height: 1.471;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 1;
+}
+
+.widget .diagram-circle .text {
+	font-size: 100%;
+}
+
+.diagram-circle .text div {
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 1.2;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+
+.diagram-circle .text div span {
+	display: block;
+	text-align: center;
+	padding: 0 0 0 5px;
+	margin: 0;
+}
+
+.widget .diagram-circle .text div,
+.widget .diagram-circle .text div span.title {
+	font-size: inherit;
+}
+
+.diagram-legend {
+	display: inline-block;
+	position: absolute;
+	left: 0;
+	top: 50%;
+	z-index: 1;
+	text-align: left;
+}
+
+.diagram-legend .legend-element {
+	margin: 0 0 26px 0;
+}
+
+.diagram-legend .legend-element .color {
+	display: block;
+	float: left;
+	width: 16px;
+	height: 16px;
+}
+
+.sidebar .diagram-legend .legend-element .color {
+	width: 12px;
+	height: 12px;
+}
+
+.diagram-legend .legend-element .title {
+	display: block;
+	line-height: 1;
+	margin: 0 0 0 30px;
+}
+
+.widget .diagram-legend .legend-element .title {
+	margin-left: 23px;
+	margin-top: -2px;
+}
+
+.diagram-wrapper.style-3 .digram-line-box .skill-title span.diagram-skill-title {
+	margin-left: 0;
+}
+
+.diagram-wrapper.style-3 .digram-line-box .skill-title span.diagram-skill-amount {
+	margin-left: 8px;
+}
+
+.diagram-wrapper .digram-line-box {
+	background-color: inherit;
+}
+
+.diagram-wrapper.style-3 .digram-line-box .skill-element {
+	position: relative;
+	padding-top: 0;
+}
+.diagram-wrapper.style-3 .digram-line-box .skill-element + .skill-element {
+	margin-top: 18px;
+}
+
+.diagram-wrapper.style-3 .skill-title {
+	position: absolute;
+	top: 50%;
+	margin-bottom: 0;
+}
+
+.diagram-wrapper.style-3 .skill-title {
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+}

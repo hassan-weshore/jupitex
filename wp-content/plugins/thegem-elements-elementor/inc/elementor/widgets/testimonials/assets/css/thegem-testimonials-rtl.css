@@ -1,0 +1,18 @@
+.gem-testimonials.style2 .gem-testimonial-wrapper p:after {
+	float: right;
+}
+.gem-testimonials.style2 .testimonials_svg {
+	right: 64px;
+}
+.teams_page_testimonial_grid .quickfinder-item-box {
+	text-align: right;
+}
+.gem-testimonials.style2 .gem-testimonial-content * {
+	text-align: right;
+}
+body .gem-testimonials.style2 .gem-testimonial-wrapper * {
+	text-align: right;
+}
+.gem-testimonials.style2 .gem-testimonial-wrapper p:after {
+	float: left;
+}

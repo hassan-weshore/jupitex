@@ -1,0 +1,357 @@
+.quickfinder-style-vertical .quickfinder-item {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	display: -webkit-flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+}
+
+@media(min-width: 768px) {
+	.quickfinder-style-vertical .quickfinder-item-info-wrapper {
+		-webkit-box-flex: 1;
+		-ms-flex-positive: 1;
+		flex-grow: 1;
+		-webkit-flex-grow: 1;
+		-ms-flex-preferred-size: 0;
+		flex-basis: 0;
+	}
+}
+
+.quickfinder.quickfinder-style-vertical .gem-qf-icon-image-wrapper {
+	height: auto;
+	height: 100%;
+	margin-bottom: 0;
+}
+
+.quickfinder-style-vertical .quickfinder-icon-container {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	display: -webkit-flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+}
+
+.connector-container {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	display: -webkit-flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-flex: 1;
+	-ms-flex-positive: 1;
+	flex-grow: 1;
+}
+
+.connector-container span {
+	width: 1px;
+	min-height: 100%;
+}
+
+.quickfinder-style-vertical .gem-icon {
+	background-color: inherit;
+}
+
+.quickfinder-style-vertical .quickfinder-title {
+	margin-top: 0;
+}
+
+
+/*********************************/
+
+.qf-svg-arrow-left,
+.qf-svg-arrow-right {
+	position: absolute;
+	width: 50px;
+	height: 100px;
+}
+
+body .quickfinder-style-vertical .quickfinder-item.odd .qf-svg-arrow-right {
+	-ms-transform: rotate(180deg);
+	transform: rotate(180deg);
+	-webkit-transform: rotate(180deg);
+}
+
+
+/* Vertical 1 - Bubbles Centered */
+
+.quickfinder-style-vertical-1 .quickfinder-item.odd::after,
+.quickfinder-style-vertical-1 .quickfinder-item.even::before {
+	-webkit-box-flex: 1;
+	-ms-flex-positive: 1;
+	flex-grow: 1;
+	-ms-flex-preferred-size: 0;
+	flex-basis: 0;
+	content: '';
+	padding-right: 60px;
+}
+
+.quickfinder-style-vertical-1 .quickfinder-item-info-wrapper {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	display: -webkit-flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+
+.quickfinder-style-vertical-1 .quickfinder-item-info {
+	border-radius: 60px;
+	display: block;
+}
+
+.quickfinder-style-vertical-1 .quickfinder-item.odd .quickfinder-item-info-wrapper {
+	padding-right: 60px;
+	position: relative;
+	-webkit-box-pack: end;
+	-ms-flex-pack: end;
+	justify-content: flex-end;
+}
+
+.quickfinder-style-vertical-1 .quickfinder-item.even .quickfinder-item-info-wrapper {
+	padding-left: 60px;
+	position: relative;
+}
+
+.quickfinder-style-vertical-1 .quickfinder-item.odd .qf-svg-arrow-right {
+	top: 50%;
+	margin-top: -50px;
+	right: 10px;
+}
+
+.quickfinder-style-vertical-1 .quickfinder-item.even .qf-svg-arrow-left {
+	top: 50%;
+	margin-top: -50px;
+	left: 10px;
+}
+
+.quickfinder-style-vertical-1 .quickfinder-item.odd .quickfinder-item-info.align-to-icon {
+	text-align: right;
+}
+
+.quickfinder-style-vertical-1 .quickfinder-item.even .quickfinder-item-info.align-to-icon {
+	text-align: left;
+}
+
+.quickfinder-style-vertical-1 .quickfinder-item.odd .quickfinder-item-info.align-to-border {
+	text-align: left;
+}
+
+.quickfinder-style-vertical-1 .quickfinder-item.even .quickfinder-item-info.align-to-border {
+	text-align: right;
+}
+
+.quickfinder-style-vertical-1 .quickfinder-item .quickfinder-item-info.align-to-border {
+	text-align: center;
+}
+
+.quickfinder-style-vertical-1 .quickfinder-item:first-child .connector-container:first-child,
+.quickfinder-style-vertical-1 .quickfinder-item:last-child .connector-container:last-child {
+	visibility: hidden;
+}
+
+
+/* Vertical 2 - Bubbles Left Align */
+
+.quickfinder-style-vertical-2 .quickfinder-item-info-wrapper {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	display: -webkit-flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+
+.quickfinder-style-vertical-2 .qf-svg-arrow-left,
+.quickfinder-style-vertical-2 .qf-svg-arrow-right {
+	position: relative;
+	width: 50px;
+	height: 100px;
+}
+
+.quickfinder-style-vertical-2 .quickfinder-item-info {
+	border-radius: 60px;
+}
+
+.quickfinder-style-vertical-2 .quickfinder-item .qf-svg-arrow-left,
+.quickfinder-style-vertical-2 .quickfinder-item .qf-svg-arrow-right,
+.quickfinder-style-vertical-2 .quickfinder-item.even .qf-svg-arrow-left,
+.quickfinder-style-vertical-2 .quickfinder-item.odd .qf-svg-arrow-left {
+	left: 8px;
+}
+
+.quickfinder-style-vertical-2 .quickfinder-item:first-child .connector-container:first-child,
+.quickfinder-style-vertical-2 .quickfinder-item:last-child .connector-container:last-child {
+	visibility: hidden;
+}
+
+
+/* Vertical 2 - Bubbles Right Align */
+
+.quickfinder-style-vertical-2.quickfinder-alignment-right .quickfinder-item-info-wrapper {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	display: -webkit-flex;
+	-webkit-box-pack: end;
+	-ms-flex-pack: end;
+	justify-content: flex-end;
+}
+
+.quickfinder-style-vertical-2.quickfinder-alignment-right .qf-svg-arrow-left,
+.quickfinder-style-vertical-2.quickfinder-alignment-right .qf-svg-arrow-right {
+	position: relative;
+	width: 50px;
+	height: 100px;
+}
+
+.quickfinder-style-vertical-2.quickfinder-alignment-right .quickfinder-item .qf-svg-arrow-right,
+.quickfinder-style-vertical-2.quickfinder-alignment-right .quickfinder-item .qf-svg-arrow-right,
+.quickfinder-style-vertical-2.quickfinder-alignment-right .quickfinder-item.odd .qf-svg-arrow-right {
+	left: -6px;
+}
+
+.quickfinder-style-vertical-2.quickfinder-alignment-right .quickfinder-item:first-child .connector-container:first-child,
+.quickfinder-style-vertical-1.quickfinder-alignment-right .quickfinder-item:last-child .connector-container:last-child {
+	visibility: hidden;
+}
+
+
+/* Vertical 3 */
+
+.quickfinder-style-vertical-3 .quickfinder-item:first-child .connector-container:first-child,
+.quickfinder-style-vertical-3 .quickfinder-item:last-child .connector-container:last-child,
+.quickfinder-style-vertical-3.quickfinder-alignment-right .quickfinder-item:first-child .connector-container:first-child,
+.quickfinder-style-vertical-3.quickfinder-alignment-right .quickfinder-item:last-child .connector-container:last-child {
+	visibility: hidden;
+}
+
+
+/* Vertical 4 */
+
+.quickfinder-style-vertical-4 .quickfinder-item.odd::after,
+.quickfinder-style-vertical-4 .quickfinder-item.even::before {
+	-webkit-box-flex: 1;
+	-ms-flex-positive: 1;
+	flex-grow: 1;
+	-ms-flex-preferred-size: 0;
+	flex-basis: 0;
+	content: '';
+}
+
+.quickfinder-style-vertical-4 .quickfinder-item:first-child .connector-container:first-child,
+.quickfinder-style-vertical-4 .quickfinder-item:last-child .connector-container:last-child {
+	visibility: hidden;
+}
+
+.quickfinder-style-vertical-4 .quickfinder-item.odd .quickfinder-item-info.align-to-icon {
+	text-align: right;
+}
+
+.quickfinder-style-vertical-4 .quickfinder-item.even .quickfinder-item-info.align-to-icon {
+	text-align: left;
+}
+
+.quickfinder-style-vertical-4 .quickfinder-item.odd .quickfinder-item-info.align-to-border {
+	text-align: left;
+}
+
+.quickfinder-style-vertical-4 .quickfinder-item.even .quickfinder-item-info.align-to-border {
+	text-align: right;
+}
+
+.quickfinder-style-vertical-4 .quickfinder-item .quickfinder-item-info.align-to-border {
+	text-align: center;
+}
+
+@media(max-width: 767px) {
+
+	.quickfinder-style-vertical .connector-container,
+	.quickfinder-style-vertical .qf-svg-arrow-right,
+	.quickfinder-style-vertical .qf-svg-arrow-left {
+		display: none;
+	}
+
+	.quickfinder-style-vertical .quickfinder-item.odd .quickfinder-item-info {
+		border-top-right-radius: 0;
+	}
+
+	.quickfinder-style-vertical .quickfinder-item.even .quickfinder-item-info {
+		border-top-left-radius: 0;
+	}
+
+	.quickfinder-style-vertical-4 .quickfinder-item-info,
+	.quickfinder-style-vertical-3 .quickfinder-item-info {
+		padding-left: 0 !important;
+		padding-right: 0 !important;
+	}
+
+	.quickfinder-style-vertical-4 .quickfinder-item.odd,
+	.quickfinder-style-vertical-1 .quickfinder-item.odd,
+	.quickfinder-style-vertical-2.quickfinder-alignment-right .quickfinder-item.odd {
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: reverse;
+		-ms-flex-direction: column-reverse;
+		flex-direction: column-reverse;
+	}
+
+	.quickfinder-style-vertical-4 .quickfinder-item.odd .quickfinder-icon-container,
+	.quickfinder-style-vertical-1 .quickfinder-item.odd .quickfinder-icon-container {
+		text-align: right;
+	}
+
+	.quickfinder-style-vertical-4 .quickfinder-item.even,
+	.quickfinder-style-vertical-2 .quickfinder-item.even,
+	.quickfinder-style-vertical-2 .quickfinder-item.odd,
+	.quickfinder-style-vertical-1 .quickfinder-item.even {
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-ms-flex-direction: column;
+		flex-direction: column;
+	}
+
+	.quickfinder-style-vertical-4 .quickfinder-item.even .quickfinder-icon-container,
+	.quickfinder-style-vertical-1 .quickfinder-item.even .quickfinder-icon-container {
+		text-align: left;
+	}
+
+	.quickfinder-style-vertical-3 .quickfinder-item {
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-ms-flex-direction: column;
+		flex-direction: column;
+	}
+
+	.quickfinder-style-vertical-3.quickfinder-alignment-right .quickfinder-item {
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: reverse;
+		-ms-flex-direction: column-reverse;
+		flex-direction: column-reverse;
+	}
+
+	.quickfinder-style-vertical-3 .quickfinder-item-info {
+		padding-right: 0 !important;
+	}
+
+	.quickfinder-style-vertical-1 .quickfinder-item-info-wrapper,
+	.quickfinder-style-vertical-2 .quickfinder-item-info-wrapper {
+		padding-left: 0 !important;
+		padding-right: 0 !important;
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+}
+
+@media (min-width: 1025px) and (max-width: 1310px) { 
+	.quickfinder.quickfinder-style-vertical .gem-qf-icon-image-wrapper {
+		height: auto;
+	}
+}

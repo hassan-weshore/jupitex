@@ -1,0 +1,544 @@
+/* Counter */
+
+.elementor-widget-thegem-counter:not(:last-child) {
+	margin-bottom: 0;
+}
+.gem-counter-box {
+	margin-bottom: 0;
+}
+.gem-counter {
+	position: relative;
+	display: inline-block;
+	text-align: center;
+	width: 100%;
+}
+@media (max-width: 549px) {
+	.gem-counter {
+		width: 100%;
+	}
+}
+.gem-counter-inner {
+	position: relative;
+}
+.gem-counter .gem-counter-number .gem-counter-odometer,
+.gem-counter-suffix {
+	vertical-align: middle;
+	white-space: nowrap;
+}
+.gem-counter-number {
+	margin-bottom: 0;
+	display: flex;
+	justify-content: center;
+}
+.gem-counter-suffix-spacing {
+	margin-left: 10px;
+}
+
+
+.gem-counter-icon-circle-1 {
+	display: inline-block;
+	vertical-align: top;
+	border-radius: 50%;
+	border-width: 4px;
+	border-style: solid;
+	padding: 9px;
+}
+.gem-counter-icon-circle-2 {
+	width: 146px;
+	height: 146px;
+	line-height: 146px;
+	border-radius: 50%;
+	text-align: center;
+	border-width: 2px;
+	border-style: solid;
+}
+.gem-counter-style-vertical .gem-counter,
+.gem-counter-style-vertical .gem-counter-inner {
+	position: relative;
+}
+.gem-counter-style-vertical .gem-counter {
+	margin-top: 50px;
+}
+.gem-counter-style-vertical .gem-counter-connector {
+	position: absolute;
+	width: 3px;
+	top: -50px;
+	left: 50%;
+	margin-left: -1px;
+}
+.gem-counter-style-vertical .gem-counters-list:first-child .gem-counter:first-child {
+	margin-top: 0;
+}
+.gem-counter-style-vertical .gem-counters-list:first-child .gem-counter:first-child .gem-counter-connector {
+	display: none;
+}
+.gem-counter-style-vertical .gem-counter.gem-counter-size-small {
+	padding-top: 25px;
+}
+.gem-counter-style-vertical .gem-counter.gem-counter-size-small .gem-counter-inner {
+	padding-top: 60px;
+}
+.gem-counter-style-vertical .gem-counter.gem-counter-size-small .gem-counter-connector {
+	height: 75px;
+}
+.gem-counter-style-vertical .gem-counter.gem-counter-size-medium {
+	padding-top: 40px;
+}
+.gem-counter-style-vertical .gem-counter.gem-counter-size-medium .gem-counter-inner {
+	padding-top: 75px;
+}
+.gem-counter-style-vertical .gem-counter.gem-counter-size-medium .gem-counter-connector {
+	height: 90px;
+}
+.gem-counter-style-vertical .gem-counter.gem-counter-size-large {
+	padding-top: 80px;
+}
+.gem-counter-style-vertical .gem-counter.gem-counter-size-large .gem-counter-inner {
+	padding-top: 115px;
+}
+.gem-counter-style-vertical .gem-counter.gem-counter-size-large .gem-counter-connector {
+	height: 130px;
+}
+.gem-counter-style-vertical .gem-counter.gem-counter-size-xlarge {
+	padding-top: 120px;
+}
+.gem-counter-style-vertical .gem-counter.gem-counter-size-xlarge .gem-counter-inner {
+	padding-top: 170px;
+}
+.gem-counter-style-vertical .gem-counter.gem-counter-size-xlarge .gem-counter-connector {
+	height: 185px;
+}
+.gem-counter-style-vertical .gem-counter-icon {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	-o-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+.gem-counter-team .gem-team .inline-column {
+	margin-bottom: 0;
+}
+.gem-counter-team .team-person .team-person-image {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	-o-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+	text-align: center;
+}
+.gem-counter-team .team-person .team-person-image img {
+	display: inline-block;
+}
+.gem-counter-team.image-size-small {
+	padding-top: 25px;
+}
+.gem-counter-team.image-size-small .team-person {
+	padding-top: 60px;
+}
+.gem-counter-team.image-size-small .team-person .team-person-image img {
+	width: 50px;
+	height: 50px;
+}
+.gem-counter-team.image-size-medium {
+	padding-top: 40px;
+}
+.gem-counter-team.image-size-medium .team-person {
+	padding-top: 60px;
+}
+.gem-counter-team.image-size-medium .team-person .team-person-image img {
+	width: 80px;
+	height: 80px;
+}
+.gem-counter-team.image-size-large {
+	padding-top: 80px;
+}
+.gem-counter-team.image-size-large .team-person {
+	padding-top: 115px;
+}
+.gem-counter-team.image-size-large .team-person .team-person-image img {
+	width: 160px;
+	height: 160px;
+}
+.gem-counter-team.image-size-xlarge {
+	padding-top: 120px;
+}
+.gem-counter-team.image-size-xlarge .team-person {
+	padding-top: 170px;
+}
+.gem-counter-team.image-size-xlarge .team-person .team-person-image img {
+	width: 240px;
+	height: 240px;
+}
+.gem-counter-link {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.gem-counter .gem-icon-inner .wrapper-icon-inner svg,
+.gem-counter .gem-icon-inner svg {
+	width: 1em;
+	height: 1em;
+	display: block;
+}
+
+.gem-counter .gem-icon {
+	overflow: visible;
+}
+.gem-counter .gem-counter-animation {
+	position: absolute;
+	left: -1px;
+	right: -1px;
+	top: -1px;
+	bottom: -1px;
+	-o-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
+}
+.gem-icon-shape-circle .gem-counter-animation {
+	border-radius: 50%;
+}
+.gem-counter-effect-background-reverse .gem-counter-animation {
+	transform: scale(0);
+	-o-transform: scale(0);
+	-ms-transform: scale(0);
+	-moz-transform: scale(0);
+	-webkit-transform: scale(0);
+}
+.gem-counter-effect-background-reverse.hover .gem-counter-animation {
+	transform: scale(1);
+	-o-transform: scale(1);
+	-ms-transform: scale(1);
+	-moz-transform: scale(1);
+	-webkit-transform: scale(1);
+}
+.gem-counter-effect-border-reverse .gem-counter-animation {
+	transform: scale(1);
+	-o-transform: scale(1);
+	-ms-transform: scale(1);
+	-moz-transform: scale(1);
+	-webkit-transform: scale(1);
+}
+.gem-counter-effect-border-reverse.hover .gem-counter-animation {
+	transform: scale(0);
+	-o-transform: scale(0);
+	-ms-transform: scale(0);
+	-moz-transform: scale(0);
+	-webkit-transform: scale(0);
+}
+.gem-counter-bottom {
+	position: absolute;
+	bottom: -10px;
+	height: 10px;
+	left: 0;
+	width: 100%;
+}
+.gem-counter-bottom-left,
+.gem-counter-bottom-right,
+.gem-counter-bottom svg {
+	position: absolute;
+	top: 0;
+	height: 100%;
+}
+.gem-counter-bottom-left {
+	left: 0;
+	right: 50%;
+	margin-right: 10px;
+}
+.gem-counter-bottom-right {
+	right: 0;
+	left: 50%;
+	margin-left: 10px;
+}
+.gem-counter-bottom svg {
+	left: 50%;
+	margin-left: -10px;
+}
+
+.gem-counter-box {
+	position: relative;
+	z-index: 1;
+}
+
+.gem-counter-box::before {
+	position: absolute;
+	content: "";
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: -1;
+	transition: opacity 0.5s linear;
+	opacity: 0;
+}
+.gem-counter-box:hover::before {
+	opacity: 1;
+}
+
+
+/*** Custom Style WHA ***/
+
+.gem-counter-container .gem-icon {
+	border-style: none;
+}
+
+.gem-counter-box:hover {
+	/*background-color: transparent !important;*/
+}
+
+.counter-preset1 .gem-counter-container .gem-icon .gem-icon-inner .icon-hover-bg,
+.counter-preset3 .gem-counter-container .gem-icon .gem-icon-inner .icon-hover-bg {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	transform: scale(0);
+	-o-transform: scale(0);
+	-ms-transform: scale(0);
+	-moz-transform: scale(0);
+	-webkit-transform: scale(0);
+	transition: .5s;
+	z-index: -1;
+	border-radius: inherit;
+}
+.counter-preset1 .gem-counter-container .gem-counter-box:hover .icon-hover-bg,
+.counter-preset3 .gem-counter-container .gem-counter-box:hover .icon-hover-bg {
+	transform: scale(1);
+	-o-transform: scale(1);
+	-ms-transform: scale(1);
+	-moz-transform: scale(1);
+	-webkit-transform: scale(1);
+	transition: .5s;
+	z-index: -1;
+}
+
+
+/*** Style for Style 1 ***/
+
+.counter-preset1 .gem-counter-box,
+.counter-preset1 .gem-counter-box:hover,
+.counter-preset1 .gem-counter-box .gem-counter-inner,
+.counter-preset1 .gem-counter-box:hover .gem-counter-inner,
+.counter-preset1 .gem-counter-box .gem-icon,
+.counter-preset1 .gem-counter .gem-icon-inner svg,
+.counter-preset1 .gem-counter-box:hover .gem-icon,
+.counter-preset1 .gem-counter-box .gem-icon-inner,
+.counter-preset1 .gem-counter-box:hover .gem-icon-inner,
+.counter-preset1 .gem-counter-box .gem-icon-inner i,
+.counter-preset1 .gem-counter-box:hover .gem-icon-inner i,
+.counter-preset1 .gem-counter-box .gem-counter-number,
+.counter-preset1 .gem-counter-box:hover .gem-counter-number,
+.counter-preset1 .gem-counter-box .gem-counter-text,
+.counter-preset1 .gem-counter-box:hover .gem-counter-text
+{
+	-o-transition: all .5s;
+	-webkit-transition: all .5s;
+	transition: all .5s;
+}
+
+.counter-preset1 .gem-counter-inner {
+	padding: 0;
+}
+.counter-preset1 .gem-counter-box {
+	overflow: hidden;
+}
+.counter-preset1 .gem-icon .gem-icon-inner {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	overflow: hidden;
+	margin: 0;
+	width: auto;
+	height: auto;
+}
+.counter-preset1 .gem-counter-box:hover .gem-icon .gem-icon-inner {
+	background: none;
+}
+.counter-preset1 .gem-counter-icon {
+	margin-bottom: 0;
+}
+/*** End Style 1 ***/
+
+
+/*** Style for Style 2***/
+
+.counter-preset2 .gem-counter-box,
+.counter-preset2 .gem-counter-box:hover,
+.counter-preset2 .gem-counter-box .gem-counter-inner,
+.counter-preset2 .gem-counter-box:hover .gem-counter-inner,
+.counter-preset2 .gem-counter-box .gem-counter-icon-circle-1,
+.counter-preset2 .gem-counter-box:hover .gem-counter-icon-circle-1,
+.counter-preset2 .gem-counter-box .gem-counter-icon-circle-2,
+.counter-preset2 .gem-counter-box:hover .gem-counter-icon-circle-2,
+.counter-preset2 .gem-counter-box .gem-icon,
+.counter-preset2 .gem-counter .gem-icon-inner svg,
+.counter-preset2 .gem-counter-box:hover .gem-icon,
+.counter-preset2 .gem-counter-box .gem-icon-inner,
+.counter-preset2 .gem-counter-box:hover .gem-icon-inner,
+.counter-preset2 .gem-counter-box .gem-icon-inner i,
+.counter-preset2 .gem-counter-box:hover .gem-icon-inner i,
+.counter-preset2 .gem-counter-box .gem-counter-number,
+.counter-preset2 .gem-counter-box:hover .gem-counter-number,
+.counter-preset2 .gem-counter-box .gem-counter-text,
+.counter-preset2 .gem-counter-box:hover .gem-counter-text
+{
+	-o-transition: all .5s;
+	-webkit-transition: all .5s;
+	transition: all .5s;
+}
+
+.counter-preset2 .gem-counter-box {
+	overflow: hidden;
+}
+.counter-preset2 .gem-counter-icon-circle-2 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.counter-preset2 .gem-icon-inner {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.counter-preset2 .gem-icon-size-medium.gem-simple-icon {
+	width: 100%;
+}
+.counter-preset2 .gem-counter-number {
+	margin-top: 30px;
+}
+/*** End Style 2 ***/
+
+
+/*** Style for Vertical ***/
+
+.counter-preset3 .gem-counter-box,
+.counter-preset3 .gem-counter-box:hover,
+.counter-preset3 .gem-counter-box .gem-counter-inner,
+.counter-preset3 .gem-counter-box:hover .gem-counter-inner,
+.counter-preset3 .gem-counter-box .gem-icon,
+.counter-preset3 .gem-counter-box:hover .gem-icon,
+.counter-preset3 .gem-counter-box .gem-icon-inner svg,
+.counter-preset3 .gem-counter-box:hover .gem-icon-inner svg,
+.counter-preset3 .gem-counter-box .gem-icon-inner,
+.counter-preset3 .gem-counter-box:hover .gem-icon-inner,
+.counter-preset3 .gem-counter-box .gem-icon-inner i,
+.counter-preset3 .gem-counter-box:hover .gem-icon-inner i,
+.counter-preset3 .gem-counter-box .gem-counter-number,
+.counter-preset3 .gem-counter-box:hover .gem-counter-number,
+.counter-preset3 .gem-counter-box .gem-counter-text,
+.counter-preset3 .gem-counter-box:hover .gem-counter-text,
+.counter-preset3 .team-person-info,
+.counter-preset3 .team-person-info:hover,
+.counter-preset3 .team-person-info .team-person-email a,
+.counter-preset3 .team-person-info:hover .team-person-email a,
+.counter-preset3 .team-person-info .team-person-socials a i,
+.counter-preset3 .team-person-info:hover .team-person-socials a i
+{
+	-o-transition: all .5s;
+	-webkit-transition: all .5s;
+	transition: all .5s;
+}
+
+.counter-preset3 .gem-counter-box:hover .gem-icon .gem-icon-inner {
+	-o-transition: all .5s;
+	-webkit-transition: all .5s;
+	transition: all .5s;
+}
+
+.counter-preset3 .divider-counter {
+	display: flex;
+	justify-content: center;
+}
+.counter-preset3 .divider-counter span {
+	border: 3px solid #f4f6f7;
+	display: block;
+}
+.counter-preset3 .gem-counter-container .gem-icon {
+	border-style: none;
+	width: max-content;
+	justify-content: center;
+	height: 100%;
+}
+.counter-preset3 .gem-counter-box {
+	text-align: center;
+	width: 100%;
+}
+
+.counter-preset3 .gem-counter-box::before {
+	border-radius: inherit;
+}
+
+.counter-preset3 .gem-icon .gem-icon-inner {
+	overflow: hidden;
+	margin: 0;
+}
+
+.counter-preset3 .gem-icon .gem-icon-inner i {
+	width: 55px;
+	height: 55px;
+}
+
+
+
+.counter-preset3 .team-person-info {
+	position: relative;
+	text-align: center;
+	padding: 40px;
+	margin-bottom: 0;
+}
+
+.counter-preset3 .team-person-socials {
+	display: inline-flex;
+	align-items: center;
+	flex-direction: row;
+	justify-content: space-around;
+	margin: 0 auto;
+}
+.counter-preset3 .team-person-socials a {
+	padding: 0 5px;
+}
+.counter-preset3 .team-person-socials a i {
+	color: #b6c6c9;
+}
+.counter-preset3 .team-person-image {
+	position: absolute;
+	top: 0;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 100%;
+	padding: 0 40px;
+}
+.counter-preset3 .gem-counter-icon {
+	margin-bottom: 20px;
+}
+.counter-preset3 .gem-icon-inner {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #fff;
+	border-radius: 50% !important;
+}
+.counter-preset3 .team-person-image img {
+	border-radius: 50%;
+	max-width: 18%;
+	width: 100%;
+}
+
+.counter-preset3 .team-person-email a:before {
+	font-family: 'thegem-icons';
+	font-weight: normal;
+	content: '\e607';
+	font-size: 16px;
+	margin-right: 10px;
+	color: inherit;
+	vertical-align: top;
+}
+/** End Style Vertical **/

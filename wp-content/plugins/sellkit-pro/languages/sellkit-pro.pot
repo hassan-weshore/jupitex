@@ -1,0 +1,2312 @@
+# Copyright (c) $(date +'%Y') Jupiter X Core.
+msgid ""
+msgstr ""
+"Project-Id-Version: Sellkit Pro 1.5.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/sellkit-pro\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2022-12-12T10:52:35+01:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.6.0\n"
+"X-Domain: sellkit-pro\n"
+
+#. Plugin Name of the plugin
+msgid "Sellkit Pro"
+msgstr ""
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://artbees.net"
+msgstr ""
+
+#. Description of the plugin
+msgid "Upgrade your WooCommerce shopper experience with professional checkout templates. advanced product filters and product variation swatches. Introduce new heights of simplicity and dramatically fasten the checkout process with express checkout, pre-filled and auto-populated forms, auto-apply coupons, address auto-complete, sign up with a checkbox, and more. SellKit Pro provides advanced customer segmentation based on in-site activity, RFM values, geolocation, referral source and more so you can hyper-target your customers with dynamic discounts, personalised coupons, effective checkout alerts, and drastically boost engagement and loyalty. You can measure your success with advanced analytics not only for critical sales metrics but also funnel engagement, promotions, and more and enjoy standard support from Artbees experts."
+msgstr ""
+
+#. Author of the plugin
+msgid "Artbees"
+msgstr ""
+
+#: includes/admin/class-notices.php:100
+msgid "Welcome to SellKit Pro"
+msgstr ""
+
+#. Translators: 1: bold SellKit Pro 2: bold SellKit Free
+#: includes/admin/class-notices.php:103
+msgid "The %1$s plugin requires the %2$s plugin to be installed & activated as well."
+msgstr ""
+
+#: includes/admin/class-personalised-coupons.php:37
+msgid "something went wrong"
+msgstr ""
+
+#: includes/admin/class-personalised-coupons.php:43
+msgid "The new coupon was added"
+msgstr ""
+
+#: includes/admin/components/class-list-table.php:164
+msgid "Clone"
+msgstr ""
+
+#: includes/admin/license/classes/class-sellkit-extras.php:52
+msgid "Sellkit License"
+msgstr ""
+
+#: includes/admin/license/classes/class-sellkit-extras.php:53
+msgid "License"
+msgstr ""
+
+#: includes/admin/license/classes/class-sellkit-extras.php:215
+#: includes/admin/license/classes/class-sellkit-license.php:390
+msgid "Welcome to Sellkit Pro"
+msgstr ""
+
+#: includes/admin/license/classes/class-sellkit-extras.php:217
+#: includes/admin/license/classes/class-sellkit-extras.php:241
+msgid "Please activate your license to get plugin updates, premium support, and access to premium funnel templates."
+msgstr ""
+
+#: includes/admin/license/classes/class-sellkit-extras.php:225
+#: includes/admin/license/classes/class-sellkit-license.php:400
+#: includes/admin/license/partials/license-not-connected.php:12
+msgid "Connect & Activate"
+msgstr ""
+
+#: includes/admin/license/classes/class-sellkit-extras.php:239
+#: includes/admin/license/classes/class-sellkit-license.php:414
+msgid "Your License has expired!"
+msgstr ""
+
+#: includes/admin/license/classes/class-sellkit-extras.php:248
+#: includes/admin/license/classes/class-sellkit-license.php:423
+msgid "Renew License"
+msgstr ""
+
+#: includes/admin/license/classes/class-sellkit-extras.php:263
+#: includes/admin/license/classes/class-sellkit-license.php:438
+msgid "Your License seems to be invalid!!"
+msgstr ""
+
+#: includes/admin/license/classes/class-sellkit-extras.php:265
+#: includes/admin/license/classes/class-sellkit-license.php:440
+msgid "Your license details(Site Key, Secret Token, Account Email) does not match our records. Please deactivate the license and then reactivate it again to resolve this problem."
+msgstr ""
+
+#: includes/admin/license/classes/class-sellkit-extras.php:273
+#: includes/admin/license/classes/class-sellkit-license.php:448
+msgid "Deactivate & Activate"
+msgstr ""
+
+#: includes/admin/license/classes/class-sellkit-license.php:238
+msgid "Invalid request."
+msgstr ""
+
+#: includes/admin/license/classes/class-sellkit-license.php:392
+msgid "Please activate your license to get plugin updates, premium support and access to some locked features."
+msgstr ""
+
+#: includes/admin/license/classes/class-sellkit-license.php:416
+msgid "Please renew your license to continue getting plugin updates, premium support and access to some locked features."
+msgstr ""
+
+#: includes/admin/license/partials/license-connected.php:9
+msgid "Status"
+msgstr ""
+
+#: includes/admin/license/partials/license-connected.php:11
+msgid "Expired"
+msgstr ""
+
+#: includes/admin/license/partials/license-connected.php:13
+msgid "Invalid"
+msgstr ""
+
+#: includes/admin/license/partials/license-connected.php:15
+#: includes/elementor/modules/product-filter/widgets/product-filter.php:1369
+#: includes/elementor/modules/product-filter/widgets/product-filter.php:2175
+#: includes/elementor/modules/product-filter/widgets/product-filter.php:2309
+msgid "Active"
+msgstr ""
+
+#: includes/admin/license/partials/license-connected.php:18
+msgid "View Dashboard"
+msgstr ""
+
+#. Translators: %s: user email
+#: includes/admin/license/partials/license-connected.php:26
+msgid "You are connected as %s."
+msgstr ""
+
+#: includes/admin/license/partials/license-connected.php:31
+msgid "Would you like to switch your license via another Sellkit Account?"
+msgstr ""
+
+#: includes/admin/license/partials/license-connected.php:33
+msgid "Switch Account"
+msgstr ""
+
+#: includes/admin/license/partials/license-connected.php:36
+msgid "Do you want to remove your license from this website?"
+msgstr ""
+
+#: includes/admin/license/partials/license-connected.php:37
+msgid "Deactivate Licence"
+msgstr ""
+
+#: includes/admin/license/partials/license-not-connected.php:8
+msgid "Activate License"
+msgstr ""
+
+#: includes/admin/license/partials/license-not-connected.php:9
+msgid "Please activate your license to get access to plugin updates."
+msgstr ""
+
+#: includes/admin/notices/geolocation-service.php:30
+msgid "SellKit Geolocation Service"
+msgstr ""
+
+#: includes/admin/notices/geolocation-service.php:31
+msgid "In order to use Geolocation service you will need to create an API key from your Sellkit dashboard. This feature is free for Sellkit Pro users."
+msgstr ""
+
+#: includes/admin/notices/geolocation-service.php:33
+msgid "Go to SellKit Settings"
+msgstr ""
+
+#: includes/alerts/class.php:492
+msgid "The click log has been added."
+msgstr ""
+
+#: includes/attribute-swatches/includes/class-attribute-term-fields.php:194
+#: includes/attribute-swatches/includes/class-attributes.php:178
+#: includes/attribute-swatches/includes/class-attributes.php:197
+#: includes/elementor/modules/product-filter/filters/custom-attribute.php:116
+msgid "Image Swatch"
+msgstr ""
+
+#: includes/attribute-swatches/includes/class-attribute-term-fields.php:221
+#: includes/attribute-swatches/includes/class-attributes.php:177
+#: includes/attribute-swatches/includes/class-attributes.php:196
+#: includes/elementor/modules/product-filter/filters/custom-attribute.php:97
+msgid "Color Swatch"
+msgstr ""
+
+#: includes/attribute-swatches/includes/class-attribute-term-fields.php:319
+#: includes/elementor/modules/product-filter/widgets/product-filter.php:2082
+msgid "Swatch"
+msgstr ""
+
+#: includes/attribute-swatches/includes/class-attributes.php:34
+#: includes/attribute-swatches/includes/class-attributes.php:57
+#: includes/attribute-swatches/includes/class-products.php:217
+msgid "Swatch type"
+msgstr ""
+
+#: includes/attribute-swatches/includes/class-attributes.php:42
+#: includes/attribute-swatches/includes/class-attributes.php:75
+msgid "Choose the type of swatches to use for this attribute."
+msgstr ""
+
+#: includes/attribute-swatches/includes/class-attributes.php:176
+msgid "None"
+msgstr ""
+
+#: includes/attribute-swatches/includes/class-attributes.php:179
+#: includes/attribute-swatches/includes/class-attributes.php:198
+msgid "Radio Swatch"
+msgstr ""
+
+#: includes/attribute-swatches/includes/class-attributes.php:180
+#: includes/attribute-swatches/includes/class-attributes.php:199
+msgid "Text Swatch"
+msgstr ""
+
+#: includes/attribute-swatches/includes/class-attributes.php:195
+msgid "Default"
+msgstr ""
+
+#: includes/attribute-swatches/includes/class-products.php:39
+msgid "Swatches"
+msgstr ""
+
+#: includes/attribute-swatches/includes/class-products.php:71
+msgid " Swatch"
+msgstr ""
+
+#: includes/attribute-swatches/includes/class-products.php:81
+msgid "Click to toggle"
+msgstr ""
+
+#: includes/attribute-swatches/includes/class-products.php:83
+msgid " Default"
+msgstr ""
+
+#: includes/attribute-swatches/includes/fields/class-color.php:125
+#: includes/attribute-swatches/includes/fields/class-image.php:126
+#: includes/elementor/modules/product-filter/widgets/product-filter.php:909
+#: includes/elementor/modules/product-filter/widgets/product-filter.php:1086
+#: includes/elementor/modules/product-filter/widgets/product-filter.php:1735
+#: includes/elementor/modules/product-filter/widgets/product-filter.php:2090
+msgid "Size"
+msgstr ""
+
+#: includes/attribute-swatches/includes/fields/class-color.php:128
+#: includes/attribute-swatches/includes/fields/class-image.php:129
+msgid "Size will cover both width and height of the swatch box. 20px-100px will be the range and 30px will be the default size"
+msgstr ""
+
+#: includes/attribute-swatches/includes/fields/class-color.php:131
+#: includes/attribute-swatches/includes/fields/class-image.php:132
+#: includes/attribute-swatches/includes/fields/class-text.php:124
+msgid "Swatch shape"
+msgstr ""
+
+#: includes/attribute-swatches/includes/fields/class-color.php:134
+#: includes/attribute-swatches/includes/fields/class-image.php:135
+#: includes/attribute-swatches/includes/fields/class-text.php:127
+msgid "Circle"
+msgstr ""
+
+#: includes/attribute-swatches/includes/fields/class-color.php:135
+#: includes/attribute-swatches/includes/fields/class-image.php:136
+#: includes/attribute-swatches/includes/fields/class-text.php:128
+msgid "Square"
+msgstr ""
+
+#: includes/attribute-swatches/includes/fields/class-color.php:139
+#: includes/attribute-swatches/includes/fields/class-image.php:140
+#: includes/attribute-swatches/includes/fields/class-radio.php:124
+#: includes/attribute-swatches/includes/fields/class-text.php:132
+msgid "Show in catalog"
+msgstr ""
+
+#: includes/attribute-swatches/includes/fields/class-color.php:143
+#: includes/attribute-swatches/includes/fields/class-image.php:144
+#: includes/attribute-swatches/includes/fields/class-radio.php:128
+#: includes/attribute-swatches/includes/fields/class-text.php:136
+#: includes/elementor/modules/product-filter/filters/category.php:77
+#: includes/elementor/modules/product-filter/filters/category.php:104
+#: includes/elementor/modules/product-filter/filters/category.php:132
+#: includes/elementor/modules/product-filter/filters/category.php:218
+#: includes/elementor/modules/product-filter/filters/price.php:92
+#: includes/elementor/modules/product-filter/filters/rating.php:91
+#: includes/elementor/modules/product-filter/filters/tag.php:77
+#: includes/elementor/modules/product-filter/filters/tag.php:179
+#: includes/elementor/modules/product-filter/widgets/product-filter.php:116
+msgid "No"
+msgstr ""
+
+#: includes/attribute-swatches/includes/fields/class-color.php:144
+#: includes/attribute-swatches/includes/fields/class-image.php:145
+#: includes/attribute-swatches/includes/fields/class-radio.php:129
+#: includes/attribute-swatches/includes/fields/class-text.php:137
+#: includes/elementor/modules/product-filter/filters/category.php:78
+#: includes/elementor/modules/product-filter/filters/category.php:105
+#: includes/elementor/modules/product-filter/filters/category.php:133
+#: includes/elementor/modules/product-filter/filters/category.php:219
+#: includes/elementor/modules/product-filter/filters/price.php:93
+#: includes/elementor/modules/product-filter/filters/rating.php:92
+#: includes/elementor/modules/product-filter/filters/tag.php:78
+#: includes/elementor/modules/product-filter/filters/tag.php:180
+#: includes/elementor/modules/product-filter/widgets/product-filter.php:117
+msgid "Yes"
+msgstr ""
+
+#: includes/attribute-swatches/includes/fields/class-color.php:148
+#: includes/attribute-swatches/includes/fields/class-image.php:149
+#: includes/attribute-swatches/includes/fields/class-radio.php:133
+#: includes/attribute-swatches/includes/fields/class-text.php:141
+msgid "Click behaviour in catalog"
+msgstr ""
+
+#: includes/attribute-swatches/includes/fields/class-color.php:152
+#: includes/attribute-swatches/includes/fields/class-image.php:153
+#: includes/attribute-swatches/includes/fields/class-radio.php:137
+#: includes/attribute-swatches/includes/fields/class-text.php:145
+msgid "Link to the variable product"
+msgstr ""
+
+#: includes/attribute-swatches/includes/fields/class-color.php:153
+#: includes/attribute-swatches/includes/fields/class-image.php:154
+#: includes/attribute-swatches/includes/fields/class-radio.php:138
+#: includes/attribute-swatches/includes/fields/class-text.php:146
+msgid "Switch product image"
+msgstr ""
+
+#: includes/attribute-swatches/includes/fields/class-color.php:155
+#: includes/attribute-swatches/includes/fields/class-image.php:156
+#: includes/attribute-swatches/includes/fields/class-radio.php:140
+#: includes/attribute-swatches/includes/fields/class-text.php:148
+msgid "will be shown when \"Show in catalog\" is enabled"
+msgstr ""
+
+#: includes/attribute-swatches/includes/fields/class-color.php:158
+#: includes/attribute-swatches/includes/fields/class-image.php:159
+#: includes/attribute-swatches/includes/fields/class-radio.php:143
+#: includes/attribute-swatches/includes/fields/class-text.php:151
+#: includes/elementor/modules/product-filter/filters/category.php:183
+#: includes/elementor/modules/product-filter/filters/custom-attribute.php:203
+#: includes/elementor/modules/product-filter/filters/tag.php:144
+#: includes/elementor/modules/product-filter/widgets/product-filter.php:132
+msgid "Layout"
+msgstr ""
+
+#: includes/attribute-swatches/includes/fields/class-color.php:162
+#: includes/attribute-swatches/includes/fields/class-image.php:163
+#: includes/attribute-swatches/includes/fields/class-radio.php:147
+#: includes/attribute-swatches/includes/fields/class-text.php:155
+#: includes/elementor/modules/product-filter/filters/category.php:187
+#: includes/elementor/modules/product-filter/filters/custom-attribute.php:207
+#: includes/elementor/modules/product-filter/filters/tag.php:148
+#: includes/elementor/modules/product-filter/widgets/product-filter.php:64
+msgid "Horizontal"
+msgstr ""
+
+#: includes/attribute-swatches/includes/fields/class-color.php:163
+#: includes/attribute-swatches/includes/fields/class-image.php:164
+#: includes/attribute-swatches/includes/fields/class-radio.php:148
+#: includes/attribute-swatches/includes/fields/class-text.php:156
+#: includes/elementor/modules/product-filter/filters/category.php:188
+#: includes/elementor/modules/product-filter/filters/custom-attribute.php:208
+#: includes/elementor/modules/product-filter/filters/tag.php:149
+#: includes/elementor/modules/product-filter/widgets/product-filter.php:65
+msgid "Vertical"
+msgstr ""
+
+#: includes/attribute-swatches/includes/fields/class-color.php:164
+#: includes/attribute-swatches/includes/fields/class-image.php:165
+#: includes/attribute-swatches/includes/fields/class-radio.php:149
+#: includes/attribute-swatches/includes/fields/class-text.php:157
+msgid "Column"
+msgstr ""
+
+#: includes/attribute-swatches/includes/fields/class-color.php:168
+#: includes/attribute-swatches/includes/fields/class-image.php:169
+#: includes/attribute-swatches/includes/fields/class-radio.php:153
+#: includes/attribute-swatches/includes/fields/class-text.php:161
+msgid "Column count"
+msgstr ""
+
+#: includes/attribute-swatches/includes/fields/class-color.php:172
+#: includes/attribute-swatches/includes/fields/class-image.php:173
+#: includes/attribute-swatches/includes/fields/class-radio.php:157
+#: includes/attribute-swatches/includes/fields/class-text.php:165
+#: includes/elementor/modules/product-filter/filters/category.php:202
+#: includes/elementor/modules/product-filter/filters/custom-attribute.php:221
+#: includes/elementor/modules/product-filter/filters/tag.php:163
+msgid "2"
+msgstr ""
+
+#: includes/attribute-swatches/includes/fields/class-color.php:173
+#: includes/attribute-swatches/includes/fields/class-image.php:174
+#: includes/attribute-swatches/includes/fields/class-radio.php:158
+#: includes/attribute-swatches/includes/fields/class-text.php:166
+#: includes/elementor/modules/product-filter/filters/category.php:203
+#: includes/elementor/modules/product-filter/filters/custom-attribute.php:222
+#: includes/elementor/modules/product-filter/filters/tag.php:164
+msgid "3"
+msgstr ""
+
+#: includes/attribute-swatches/includes/fields/class-color.php:174
+#: includes/attribute-swatches/includes/fields/class-image.php:175
+#: includes/attribute-swatches/includes/fields/class-radio.php:159
+#: includes/attribute-swatches/includes/fields/class-text.php:167
+#: includes/elementor/modules/product-filter/filters/category.php:204
+#: includes/elementor/modules/product-filter/filters/custom-attribute.php:223
+#: includes/elementor/modules/product-filter/filters/tag.php:165
+msgid "4"
+msgstr ""
+
+#: includes/attribute-swatches/includes/fields/class-color.php:175
+#: includes/attribute-swatches/includes/fields/class-image.php:176
+#: includes/attribute-swatches/includes/fields/class-radio.php:160
+#: includes/attribute-swatches/includes/fields/class-text.php:168
+#: includes/elementor/modules/product-filter/filters/category.php:205
+#: includes/elementor/modules/product-filter/filters/custom-attribute.php:224
+#: includes/elementor/modules/product-filter/filters/tag.php:166
+msgid "5"
+msgstr ""
+
+#: includes/attribute-swatches/includes/fields/class-color.php:176
+#: includes/attribute-swatches/includes/fields/class-image.php:177
+#: includes/attribute-swatches/includes/fields/class-radio.php:161
+#: includes/attribute-swatches/includes/fields/class-text.php:169
+#: includes/elementor/modules/product-filter/filters/category.php:206
+#: includes/elementor/modules/product-filter/filters/custom-attribute.php:225
+#: includes/elementor/modules/product-filter/filters/tag.php:167
+msgid "6"
+msgstr ""
+
+#: includes/attribute-swatches/includes/frontend/class-attributes-frontend.php:88
+msgid "No selection"
+msgstr ""
+
+#: includes/attribute-swatches/includes/frontend/class-attributes-frontend.php:102
+msgid "Clear"
+msgstr ""
+
+#: includes/attribute-swatches/includes/product-fields/class-product-fields.php:69
+msgid "Upload/Add Image"
+msgstr ""
+
+#: includes/attribute-swatches/includes/product-fields/class-product-fields.php:71
+msgid "Insert Image"
+msgstr ""
+
+#: includes/attribute-swatches/includes/product-fields/class-product-fields.php:79
+msgid "Remove Image"
+msgstr ""
+
+#: includes/contact-segmentation/conditions.php:127
+msgid "Please send a condition name"
+msgstr ""
+
+#: includes/contact-segmentation/conditions/billing-city-checkout.php:32
+msgid "Billing City on Checkout"
+msgstr ""
+
+#: includes/contact-segmentation/conditions/billing-country-checkout.php:32
+msgid "Billing Country on Checkout"
+msgstr ""
+
+#: includes/contact-segmentation/conditions/customer-value.php:43
+msgid "RFM Segments"
+msgstr ""
+
+#: includes/contact-segmentation/conditions/customer-value.php:73
+msgid "Champions"
+msgstr ""
+
+#: includes/contact-segmentation/conditions/customer-value.php:74
+msgid "Bought recently, order often and spend the most. These customers are responsible for a big share of your revenue so put a lot of effort into keeping them happy."
+msgstr ""
+
+#: includes/contact-segmentation/conditions/customer-value.php:77
+msgid "Loyal"
+msgstr ""
+
+#: includes/contact-segmentation/conditions/customer-value.php:78
+msgid "Orders regularly. Responsive to promotions. These are very active and therefore very valuable customers."
+msgstr ""
+
+#: includes/contact-segmentation/conditions/customer-value.php:81
+msgid "Potential Loyalist"
+msgstr ""
+
+#: includes/contact-segmentation/conditions/customer-value.php:82
+msgid "These customers already bought from you more than once but the size of their basket was not too big."
+msgstr ""
+
+#: includes/contact-segmentation/conditions/customer-value.php:85
+msgid "New Customers"
+msgstr ""
+
+#: includes/contact-segmentation/conditions/customer-value.php:86
+msgid "These customers bought from you relatively recently for average or below-average price and they have not been frequent customers - possibly this is their first purchase from your website."
+msgstr ""
+
+#: includes/contact-segmentation/conditions/customer-value.php:89
+msgid "Promising"
+msgstr ""
+
+#: includes/contact-segmentation/conditions/customer-value.php:90
+msgid "Spends frequently and a good amount. But the last purchase was long time ago."
+msgstr ""
+
+#: includes/contact-segmentation/conditions/customer-value.php:93
+msgid "Customers Needing Attention"
+msgstr ""
+
+#: includes/contact-segmentation/conditions/customer-value.php:94
+msgid "Above average customer values whose last purchase happened in a relatively long time."
+msgstr ""
+
+#: includes/contact-segmentation/conditions/customer-value.php:97
+msgid "About To Sleep"
+msgstr ""
+
+#: includes/contact-segmentation/conditions/customer-value.php:98
+msgid "Below average recency, frequency and monetary values. Will lose them if not reactivated."
+msgstr ""
+
+#: includes/contact-segmentation/conditions/customer-value.php:101
+msgid "Cannot Lose Them"
+msgstr ""
+
+#: includes/contact-segmentation/conditions/customer-value.php:102
+msgid "who used to visit and purchase quite often, but haven’t been visiting recently. The customer value of the members of this segment is above average but they have not made a purchase recently."
+msgstr ""
+
+#: includes/contact-segmentation/conditions/customer-value.php:105
+msgid "At Risk"
+msgstr ""
+
+#: includes/contact-segmentation/conditions/customer-value.php:106
+msgid "Spent big money and purchased often. But long time ago. Need to bring them back!"
+msgstr ""
+
+#: includes/contact-segmentation/conditions/customer-value.php:109
+msgid "Hibernating customers"
+msgstr ""
+
+#: includes/contact-segmentation/conditions/customer-value.php:110
+msgid "Last purchase was long back, low spenders and low number of orders. Do not overspend on advertising for this group as the return on your investment is not likely to be positive."
+msgstr ""
+
+#: includes/contact-segmentation/conditions/customer-value.php:113
+msgid "Lost customers"
+msgstr ""
+
+#: includes/contact-segmentation/conditions/customer-value.php:114
+msgid "Made last purchase long time ago and didn’t engage at all recently. Do not waste resources on them as they are very unlikely to come back."
+msgstr ""
+
+#: includes/contact-segmentation/conditions/days-of-week.php:32
+msgid "Day of the Week"
+msgstr ""
+
+#: includes/contact-segmentation/conditions/days-of-week.php:52
+msgid "Saturday"
+msgstr ""
+
+#: includes/contact-segmentation/conditions/days-of-week.php:53
+msgid "Sunday"
+msgstr ""
+
+#: includes/contact-segmentation/conditions/days-of-week.php:54
+msgid "Monday"
+msgstr ""
+
+#: includes/contact-segmentation/conditions/days-of-week.php:55
+msgid "Tuesday"
+msgstr ""
+
+#: includes/contact-segmentation/conditions/days-of-week.php:56
+msgid "Wednesday"
+msgstr ""
+
+#: includes/contact-segmentation/conditions/days-of-week.php:57
+msgid "Thursday"
+msgstr ""
+
+#: includes/contact-segmentation/conditions/days-of-week.php:58
+msgid "Friday"
+msgstr ""
+
+#: includes/contact-segmentation/conditions/first-order-date.php:32
+msgid "First Order Date"
+msgstr ""
+
+#: includes/contact-segmentation/conditions/last-order-date.php:32
+msgid "Last Order Date"
+msgstr ""
+
+#: includes/contact-segmentation/conditions/purchased-category.php:32
+msgid "Purchased Categories"
+msgstr ""
+
+#: includes/contact-segmentation/conditions/purchased-product.php:32
+msgid "Purchased Products"
+msgstr ""
+
+#: includes/contact-segmentation/conditions/shipping-city-checkout.php:32
+msgid "Shipping City on Checkout"
+msgstr ""
+
+#: includes/contact-segmentation/conditions/shipping-country-checkout.php:32
+msgid "Shipping Country on Checkout"
+msgstr ""
+
+#: includes/contact-segmentation/conditions/time-deadline.php:32
+msgid "Time Deadline"
+msgstr ""
+
+#: includes/contact-segmentation/conditions/total-spent.php:32
+msgid "Total Spent"
+msgstr ""
+
+#: includes/contact-segmentation/conditions/url-query-string.php:32
+msgid "URL Query String Key"
+msgstr ""
+
+#: includes/contact-segmentation/conditions/viewed-category.php:32
+msgid "Viewed Categories"
+msgstr ""
+
+#: includes/contact-segmentation/conditions/viewed-product.php:32
+msgid "Viewed Products"
+msgstr ""
+
+#: includes/contact-segmentation/conditions/visitor-city.php:32
+msgid "Visitor City & Region"
+msgstr ""
+
+#: includes/contact-segmentation/conditions/visitor-country.php:32
+msgid "Visitor Country"
+msgstr ""
+
+#: includes/contact-segmentation/conditions/visitor-currency.php:32
+msgid "Visitor's Local Currency"
+msgstr ""
+
+#: includes/contact-segmentation/conditions/visitor-timezone.php:32
+msgid "Visitor's Timezone"
+msgstr ""
+
+#: includes/contact-segmentation/conditions/whitin-date-range.php:32
+msgid "Whitin Date Range"
+msgstr ""
+
+#: includes/contact-segmentation/conditions/whitin-time-period.php:32
+msgid "Whitin Time Period"
+msgstr ""
+
+#: includes/elementor/class.php:81
+#: sellkit-pro.php:370
+msgid "Sellkit"
+msgstr ""
+
+#: includes/elementor/modules/checkout-pro/module.php:16
+msgid "Custom Field"
+msgstr ""
+
+#: includes/elementor/modules/checkout-pro/module.php:166
+msgid "Express Checkout"
+msgstr ""
+
+#: includes/elementor/modules/checkout-pro/module.php:168
+#: includes/elementor/modules/personalised-coupons/widgets/personalised-coupons.php:80
+#: includes/elementor/modules/personalised-coupons/widgets/personalised-coupons.php:116
+#: includes/elementor/modules/product-filter/filters/category.php:116
+msgid "Show"
+msgstr ""
+
+#: includes/elementor/modules/checkout-pro/module.php:169
+#: includes/elementor/modules/personalised-coupons/widgets/personalised-coupons.php:81
+#: includes/elementor/modules/personalised-coupons/widgets/personalised-coupons.php:117
+#: includes/elementor/modules/product-filter/filters/category.php:115
+msgid "Hide"
+msgstr ""
+
+#: includes/elementor/modules/checkout-pro/module.php:187
+msgid "Address Autocomplete"
+msgstr ""
+
+#: includes/elementor/modules/checkout-pro/module.php:194
+msgid "Google Address Autocomplete"
+msgstr ""
+
+#: includes/elementor/modules/checkout-pro/module.php:196
+#: includes/elementor/modules/checkout-pro/module.php:232
+#: includes/elementor/modules/checkout-pro/module.php:244
+msgid "Enable"
+msgstr ""
+
+#: includes/elementor/modules/checkout-pro/module.php:197
+#: includes/elementor/modules/checkout-pro/module.php:233
+#: includes/elementor/modules/checkout-pro/module.php:245
+msgid "Disable"
+msgstr ""
+
+#: includes/elementor/modules/checkout-pro/module.php:211
+msgid ""
+"Display automated address suggestions to your customers as they are entering their shipping/billing address. %1$s\n"
+"\t\t\t\t\t\tYou need to obtain a %2$s Google Places API %3$s to be able to use this feature.\n"
+"\t\t\t\t\t\t%4$s Click here %5$s to add your API to Sellkit settings page"
+msgstr ""
+
+#: includes/elementor/modules/checkout-pro/module.php:230
+msgid "Auto-populate State"
+msgstr ""
+
+#: includes/elementor/modules/checkout-pro/module.php:242
+msgid "State And City Lookup By Postcode"
+msgstr ""
+
+#: includes/elementor/modules/personalised-coupons/widgets/personalised-coupons.php:20
+msgid "Smart Coupon"
+msgstr ""
+
+#: includes/elementor/modules/personalised-coupons/widgets/personalised-coupons.php:42
+#: includes/elementor/modules/product-filter/filters/search-text.php:98
+#: includes/elementor/modules/product-filter/widgets/product-filter.php:52
+msgid "Content"
+msgstr ""
+
+#: includes/elementor/modules/personalised-coupons/widgets/personalised-coupons.php:49
+#: includes/elementor/modules/personalised-coupons/widgets/personalised-coupons.php:266
+#: includes/elementor/modules/product-filter/widgets/product-filter.php:607
+msgid "Heading"
+msgstr ""
+
+#: includes/elementor/modules/personalised-coupons/widgets/personalised-coupons.php:51
+#: includes/elementor/modules/product-filter/filters/on-sale.php:77
+#: includes/elementor/modules/product-filter/widgets/product-filter.php:101
+msgid "Enter your text..."
+msgstr ""
+
+#: includes/elementor/modules/personalised-coupons/widgets/personalised-coupons.php:52
+msgid "You unlocked a new coupon!"
+msgstr ""
+
+#: includes/elementor/modules/personalised-coupons/widgets/personalised-coupons.php:63
+#: includes/elementor/modules/personalised-coupons/widgets/personalised-coupons.php:348
+msgid "Description"
+msgstr ""
+
+#: includes/elementor/modules/personalised-coupons/widgets/personalised-coupons.php:65
+msgid "Enter your description..."
+msgstr ""
+
+#: includes/elementor/modules/personalised-coupons/widgets/personalised-coupons.php:77
+msgid "Show Expiration Date"
+msgstr ""
+
+#: includes/elementor/modules/personalised-coupons/widgets/personalised-coupons.php:88
+msgid "Prefix text"
+msgstr ""
+
+#: includes/elementor/modules/personalised-coupons/widgets/personalised-coupons.php:90
+msgid "Expires on : "
+msgstr ""
+
+#: includes/elementor/modules/personalised-coupons/widgets/personalised-coupons.php:105
+msgid "Call To Action Button"
+msgstr ""
+
+#: includes/elementor/modules/personalised-coupons/widgets/personalised-coupons.php:113
+msgid "Show Button"
+msgstr ""
+
+#: includes/elementor/modules/personalised-coupons/widgets/personalised-coupons.php:124
+#: assets/dist/admin/sellkit.js:251
+msgid "Button Text"
+msgstr ""
+
+#: includes/elementor/modules/personalised-coupons/widgets/personalised-coupons.php:126
+msgid "SHOP NOW"
+msgstr ""
+
+#: includes/elementor/modules/personalised-coupons/widgets/personalised-coupons.php:136
+#: assets/dist/admin/sellkit.js:251
+msgid "Button URL"
+msgstr ""
+
+#: includes/elementor/modules/personalised-coupons/widgets/personalised-coupons.php:149
+msgid "Hero image"
+msgstr ""
+
+#: includes/elementor/modules/personalised-coupons/widgets/personalised-coupons.php:157
+msgid "Choose Image"
+msgstr ""
+
+#: includes/elementor/modules/personalised-coupons/widgets/personalised-coupons.php:177
+msgid "Box"
+msgstr ""
+
+#: includes/elementor/modules/personalised-coupons/widgets/personalised-coupons.php:185
+#: includes/elementor/modules/personalised-coupons/widgets/personalised-coupons.php:294
+#: includes/elementor/modules/personalised-coupons/widgets/personalised-coupons.php:376
+#: includes/elementor/modules/personalised-coupons/widgets/personalised-coupons.php:458
+#: includes/elementor/modules/personalised-coupons/widgets/personalised-coupons.php:687
+#: includes/elementor/modules/product-filter/widgets/product-filter.php:1262
+msgid "Alignment"
+msgstr ""
+
+#: includes/elementor/modules/personalised-coupons/widgets/personalised-coupons.php:190
+#: includes/elementor/modules/personalised-coupons/widgets/personalised-coupons.php:298
+#: includes/elementor/modules/personalised-coupons/widgets/personalised-coupons.php:380
+#: includes/elementor/modules/personalised-coupons/widgets/personalised-coupons.php:462
+#: includes/elementor/modules/personalised-coupons/widgets/personalised-coupons.php:691
+#: includes/elementor/modules/product-filter/filters/search-text.php:115
+#: includes/elementor/modules/product-filter/widgets/product-filter.php:776
+#: includes/elementor/modules/product-filter/widgets/product-filter.php:1268
+msgid "Left"
+msgstr ""
+
+#: includes/elementor/modules/personalised-coupons/widgets/personalised-coupons.php:194
+#: includes/elementor/modules/personalised-coupons/widgets/personalised-coupons.php:302
+#: includes/elementor/modules/personalised-coupons/widgets/personalised-coupons.php:384
+#: includes/elementor/modules/personalised-coupons/widgets/personalised-coupons.php:466
+#: includes/elementor/modules/personalised-coupons/widgets/personalised-coupons.php:695
+#: includes/elementor/modules/product-filter/widgets/product-filter.php:780
+#: includes/elementor/modules/product-filter/widgets/product-filter.php:1272
+msgid "Center"
+msgstr ""
+
+#: includes/elementor/modules/personalised-coupons/widgets/personalised-coupons.php:198
+#: includes/elementor/modules/personalised-coupons/widgets/personalised-coupons.php:306
+#: includes/elementor/modules/personalised-coupons/widgets/personalised-coupons.php:388
+#: includes/elementor/modules/personalised-coupons/widgets/personalised-coupons.php:470
+#: includes/elementor/modules/personalised-coupons/widgets/personalised-coupons.php:699
+#: includes/elementor/modules/product-filter/filters/search-text.php:114
+#: includes/elementor/modules/product-filter/widgets/product-filter.php:784
+#: includes/elementor/modules/product-filter/widgets/product-filter.php:1276
+msgid "Right"
+msgstr ""
+
+#: includes/elementor/modules/personalised-coupons/widgets/personalised-coupons.php:238
+#: includes/elementor/modules/personalised-coupons/widgets/personalised-coupons.php:320
+#: includes/elementor/modules/personalised-coupons/widgets/personalised-coupons.php:402
+#: includes/elementor/modules/personalised-coupons/widgets/personalised-coupons.php:484
+#: includes/elementor/modules/personalised-coupons/widgets/personalised-coupons.php:577
+#: includes/elementor/modules/product-filter/widgets/product-filter.php:223
+#: includes/elementor/modules/product-filter/widgets/product-filter.php:275
+#: includes/elementor/modules/product-filter/widgets/product-filter.php:487
+#: includes/elementor/modules/product-filter/widgets/product-filter.php:575
+#: includes/elementor/modules/product-filter/widgets/product-filter.php:679
+#: includes/elementor/modules/product-filter/widgets/product-filter.php:1237
+#: includes/elementor/modules/product-filter/widgets/product-filter.php:1781
+#: includes/elementor/modules/product-filter/widgets/product-filter.php:1854
+#: includes/elementor/modules/product-filter/widgets/product-filter.php:2038
+#: includes/elementor/modules/product-filter/widgets/product-filter.php:2354
+msgid "Padding"
+msgstr ""
+
+#: includes/elementor/modules/personalised-coupons/widgets/personalised-coupons.php:250
+#: includes/elementor/modules/personalised-coupons/widgets/personalised-coupons.php:332
+#: includes/elementor/modules/personalised-coupons/widgets/personalised-coupons.php:414
+#: includes/elementor/modules/personalised-coupons/widgets/personalised-coupons.php:496
+#: includes/elementor/modules/personalised-coupons/widgets/personalised-coupons.php:589
+#: includes/elementor/modules/personalised-coupons/widgets/personalised-coupons.php:1026
+#: includes/elementor/modules/product-filter/widgets/product-filter.php:236
+#: includes/elementor/modules/product-filter/widgets/product-filter.php:291
+#: includes/elementor/modules/product-filter/widgets/product-filter.php:504
+#: includes/elementor/modules/product-filter/widgets/product-filter.php:591
+#: includes/elementor/modules/product-filter/widgets/product-filter.php:695
+#: includes/elementor/modules/product-filter/widgets/product-filter.php:954
+#: includes/elementor/modules/product-filter/widgets/product-filter.php:1249
+#: includes/elementor/modules/product-filter/widgets/product-filter.php:2367
+msgid "Margin"
+msgstr ""
+
+#: includes/elementor/modules/personalised-coupons/widgets/personalised-coupons.php:283
+#: includes/elementor/modules/personalised-coupons/widgets/personalised-coupons.php:365
+#: includes/elementor/modules/personalised-coupons/widgets/personalised-coupons.php:447
+#: includes/elementor/modules/personalised-coupons/widgets/personalised-coupons.php:557
+#: includes/elementor/modules/personalised-coupons/widgets/personalised-coupons.php:743
+#: includes/elementor/modules/personalised-coupons/widgets/personalised-coupons.php:811
+#: includes/elementor/modules/product-filter/widgets/product-filter.php:370
+#: includes/elementor/modules/product-filter/widgets/product-filter.php:425
+#: includes/elementor/modules/product-filter/widgets/product-filter.php:651
+msgid "Text Color"
+msgstr ""
+
+#: includes/elementor/modules/personalised-coupons/widgets/personalised-coupons.php:430
+msgid "Expiration Date"
+msgstr ""
+
+#: includes/elementor/modules/personalised-coupons/widgets/personalised-coupons.php:512
+msgid "Coupon Box"
+msgstr ""
+
+#: includes/elementor/modules/personalised-coupons/widgets/personalised-coupons.php:537
+#: includes/elementor/modules/personalised-coupons/widgets/personalised-coupons.php:789
+#: includes/elementor/modules/personalised-coupons/widgets/personalised-coupons.php:857
+#: includes/elementor/modules/product-filter/widgets/product-filter.php:211
+#: includes/elementor/modules/product-filter/widgets/product-filter.php:343
+#: includes/elementor/modules/product-filter/widgets/product-filter.php:545
+#: includes/elementor/modules/product-filter/widgets/product-filter.php:1059
+#: includes/elementor/modules/product-filter/widgets/product-filter.php:1426
+#: includes/elementor/modules/product-filter/widgets/product-filter.php:1616
+#: includes/elementor/modules/product-filter/widgets/product-filter.php:1676
+#: includes/elementor/modules/product-filter/widgets/product-filter.php:1834
+#: includes/elementor/modules/product-filter/widgets/product-filter.php:2066
+#: includes/elementor/modules/product-filter/widgets/product-filter.php:2132
+#: includes/elementor/modules/product-filter/widgets/product-filter.php:2161
+#: includes/elementor/modules/product-filter/widgets/product-filter.php:2190
+#: includes/elementor/modules/product-filter/widgets/product-filter.php:2482
+msgid "Border Radius"
+msgstr ""
+
+#: includes/elementor/modules/personalised-coupons/widgets/personalised-coupons.php:605
+#: includes/elementor/modules/product-filter/filters/category.php:94
+#: includes/elementor/modules/product-filter/filters/custom-attribute.php:81
+#: includes/elementor/modules/product-filter/filters/custom-attribute.php:99
+#: includes/elementor/modules/product-filter/filters/custom-attribute.php:118
+#: includes/elementor/modules/product-filter/filters/price.php:82
+#: includes/elementor/modules/product-filter/filters/stock-status.php:81
+#: includes/elementor/modules/product-filter/filters/tag.php:94
+msgid "Button"
+msgstr ""
+
+#: includes/elementor/modules/personalised-coupons/widgets/personalised-coupons.php:613
+#: includes/elementor/modules/personalised-coupons/widgets/personalised-coupons.php:933
+msgid "Width"
+msgstr ""
+
+#: includes/elementor/modules/personalised-coupons/widgets/personalised-coupons.php:644
+#: includes/elementor/modules/personalised-coupons/widgets/personalised-coupons.php:995
+msgid "Height"
+msgstr ""
+
+#: includes/elementor/modules/personalised-coupons/widgets/personalised-coupons.php:675
+msgid "Spacing"
+msgstr ""
+
+#: includes/elementor/modules/personalised-coupons/widgets/personalised-coupons.php:715
+#: includes/elementor/modules/product-filter/widgets/product-filter.php:360
+#: includes/elementor/modules/product-filter/widgets/product-filter.php:968
+#: includes/elementor/modules/product-filter/widgets/product-filter.php:1145
+#: includes/elementor/modules/product-filter/widgets/product-filter.php:1291
+#: includes/elementor/modules/product-filter/widgets/product-filter.php:1472
+#: includes/elementor/modules/product-filter/widgets/product-filter.php:1579
+#: includes/elementor/modules/product-filter/widgets/product-filter.php:1938
+#: includes/elementor/modules/product-filter/widgets/product-filter.php:2117
+#: includes/elementor/modules/product-filter/widgets/product-filter.php:2278
+#: includes/elementor/modules/product-filter/widgets/product-filter.php:2399
+msgid "Normal"
+msgstr ""
+
+#: includes/elementor/modules/personalised-coupons/widgets/personalised-coupons.php:726
+#: includes/elementor/modules/product-filter/widgets/product-filter.php:415
+#: includes/elementor/modules/product-filter/widgets/product-filter.php:1330
+#: includes/elementor/modules/product-filter/widgets/product-filter.php:1502
+#: includes/elementor/modules/product-filter/widgets/product-filter.php:1987
+#: includes/elementor/modules/product-filter/widgets/product-filter.php:2146
+#: includes/elementor/modules/product-filter/widgets/product-filter.php:2431
+msgid "Hover"
+msgstr ""
+
+#: includes/elementor/modules/personalised-coupons/widgets/personalised-coupons.php:879
+msgid "Hero Image"
+msgstr ""
+
+#: includes/elementor/modules/personalised-coupons/widgets/personalised-coupons.php:887
+msgid "Hero Image Location"
+msgstr ""
+
+#: includes/elementor/modules/personalised-coupons/widgets/personalised-coupons.php:891
+msgid "Top of the content"
+msgstr ""
+
+#: includes/elementor/modules/personalised-coupons/widgets/personalised-coupons.php:892
+msgid "Left side"
+msgstr ""
+
+#: includes/elementor/modules/personalised-coupons/widgets/personalised-coupons.php:893
+msgid "Right side"
+msgstr ""
+
+#: includes/elementor/modules/personalised-coupons/widgets/personalised-coupons.php:894
+msgid "Bottom of the content"
+msgstr ""
+
+#: includes/elementor/modules/personalised-coupons/widgets/personalised-coupons.php:902
+msgid "Image Coulmn Size"
+msgstr ""
+
+#: includes/elementor/modules/personalised-coupons/widgets/personalised-coupons.php:964
+msgid "Max Width"
+msgstr ""
+
+#: includes/elementor/modules/product-filter/filters/category.php:49
+#: includes/elementor/modules/product-filter/filters/filter-base.php:827
+#: includes/elementor/modules/product-filter/module.php:40
+#: assets/dist/admin/sellkit.js:251
+msgid "Category"
+msgstr ""
+
+#: includes/elementor/modules/product-filter/filters/category.php:75
+msgid "Show product count"
+msgstr ""
+
+#: includes/elementor/modules/product-filter/filters/category.php:86
+#: includes/elementor/modules/product-filter/filters/custom-attribute.php:76
+#: includes/elementor/modules/product-filter/filters/custom-attribute.php:93
+#: includes/elementor/modules/product-filter/filters/custom-attribute.php:112
+#: includes/elementor/modules/product-filter/filters/price.php:76
+#: includes/elementor/modules/product-filter/filters/rating.php:75
+#: includes/elementor/modules/product-filter/filters/stock-status.php:75
+#: includes/elementor/modules/product-filter/filters/tag.php:86
+msgid "Display as"
+msgstr ""
+
+#: includes/elementor/modules/product-filter/filters/category.php:90
+#: includes/elementor/modules/product-filter/filters/rating.php:79
+#: includes/elementor/modules/product-filter/filters/tag.php:90
+#: includes/elementor/modules/product-filter/widgets/product-filter.php:1078
+msgid "Radio List"
+msgstr ""
+
+#: includes/elementor/modules/product-filter/filters/category.php:91
+#: includes/elementor/modules/product-filter/filters/price.php:80
+#: includes/elementor/modules/product-filter/filters/rating.php:80
+#: includes/elementor/modules/product-filter/filters/stock-status.php:79
+#: includes/elementor/modules/product-filter/filters/tag.php:91
+#: includes/elementor/modules/product-filter/widgets/product-filter.php:901
+msgid "Checkbox List"
+msgstr ""
+
+#: includes/elementor/modules/product-filter/filters/category.php:93
+#: includes/elementor/modules/product-filter/filters/custom-attribute.php:80
+#: includes/elementor/modules/product-filter/filters/custom-attribute.php:98
+#: includes/elementor/modules/product-filter/filters/custom-attribute.php:117
+#: includes/elementor/modules/product-filter/filters/tag.php:93
+#: includes/elementor/modules/product-filter/widgets/product-filter.php:1569
+msgid "Dropdown"
+msgstr ""
+
+#: includes/elementor/modules/product-filter/filters/category.php:102
+msgid "Include children"
+msgstr ""
+
+#: includes/elementor/modules/product-filter/filters/category.php:113
+msgid "Show/hide sub-categories"
+msgstr ""
+
+#: includes/elementor/modules/product-filter/filters/category.php:130
+msgid "Show category hierarchy"
+msgstr ""
+
+#: includes/elementor/modules/product-filter/filters/category.php:141
+#: includes/elementor/modules/product-filter/filters/custom-attribute.php:131
+#: includes/elementor/modules/product-filter/filters/price.php:113
+#: includes/elementor/modules/product-filter/filters/rating.php:101
+#: includes/elementor/modules/product-filter/filters/stock-status.php:89
+#: includes/elementor/modules/product-filter/filters/tag.php:102
+msgid "Logic"
+msgstr ""
+
+#: includes/elementor/modules/product-filter/filters/category.php:145
+#: includes/elementor/modules/product-filter/filters/custom-attribute.php:135
+#: includes/elementor/modules/product-filter/filters/price.php:117
+#: includes/elementor/modules/product-filter/filters/rating.php:105
+#: includes/elementor/modules/product-filter/filters/stock-status.php:93
+#: includes/elementor/modules/product-filter/filters/tag.php:106
+msgid "And"
+msgstr ""
+
+#: includes/elementor/modules/product-filter/filters/category.php:146
+#: includes/elementor/modules/product-filter/filters/custom-attribute.php:136
+#: includes/elementor/modules/product-filter/filters/price.php:118
+#: includes/elementor/modules/product-filter/filters/rating.php:106
+#: includes/elementor/modules/product-filter/filters/stock-status.php:94
+#: includes/elementor/modules/product-filter/filters/tag.php:107
+msgid "Or"
+msgstr ""
+
+#: includes/elementor/modules/product-filter/filters/category.php:155
+#: includes/elementor/modules/product-filter/filters/custom-attribute.php:175
+#: includes/elementor/modules/product-filter/filters/tag.php:116
+msgid "Order by"
+msgstr ""
+
+#: includes/elementor/modules/product-filter/filters/category.php:159
+#: includes/elementor/modules/product-filter/filters/custom-attribute.php:179
+#: includes/elementor/modules/product-filter/filters/tag.php:120
+#: assets/dist/admin/sellkit.js:237
+msgid "Name"
+msgstr ""
+
+#: includes/elementor/modules/product-filter/filters/category.php:160
+#: includes/elementor/modules/product-filter/filters/custom-attribute.php:180
+#: includes/elementor/modules/product-filter/filters/tag.php:121
+msgid "Count"
+msgstr ""
+
+#: includes/elementor/modules/product-filter/filters/category.php:161
+#: includes/elementor/modules/product-filter/filters/custom-attribute.php:181
+#: includes/elementor/modules/product-filter/filters/tag.php:122
+msgid "ID"
+msgstr ""
+
+#: includes/elementor/modules/product-filter/filters/category.php:162
+#: includes/elementor/modules/product-filter/filters/custom-attribute.php:182
+#: includes/elementor/modules/product-filter/filters/tag.php:123
+msgid "Custom"
+msgstr ""
+
+#: includes/elementor/modules/product-filter/filters/category.php:170
+#: includes/elementor/modules/product-filter/filters/custom-attribute.php:190
+#: includes/elementor/modules/product-filter/filters/tag.php:131
+#: assets/dist/admin/sellkit.js:251
+msgid "Order"
+msgstr ""
+
+#: includes/elementor/modules/product-filter/filters/category.php:174
+#: includes/elementor/modules/product-filter/filters/custom-attribute.php:194
+#: includes/elementor/modules/product-filter/filters/tag.php:135
+msgid "ASC"
+msgstr ""
+
+#: includes/elementor/modules/product-filter/filters/category.php:175
+#: includes/elementor/modules/product-filter/filters/custom-attribute.php:195
+#: includes/elementor/modules/product-filter/filters/tag.php:136
+msgid "DESC"
+msgstr ""
+
+#: includes/elementor/modules/product-filter/filters/category.php:189
+#: includes/elementor/modules/product-filter/filters/custom-attribute.php:209
+#: includes/elementor/modules/product-filter/filters/tag.php:150
+msgid "Columns"
+msgstr ""
+
+#: includes/elementor/modules/product-filter/filters/category.php:198
+#: includes/elementor/modules/product-filter/filters/custom-attribute.php:217
+#: includes/elementor/modules/product-filter/filters/tag.php:159
+msgid "Coulmns"
+msgstr ""
+
+#: includes/elementor/modules/product-filter/filters/category.php:216
+#: includes/elementor/modules/product-filter/filters/tag.php:177
+msgid "Show items without products"
+msgstr ""
+
+#: includes/elementor/modules/product-filter/filters/category.php:227
+#: includes/elementor/modules/product-filter/filters/tag.php:188
+msgid "Exclude"
+msgstr ""
+
+#: includes/elementor/modules/product-filter/filters/custom-attribute.php:66
+msgid "Select attribute"
+msgstr ""
+
+#: includes/elementor/modules/product-filter/filters/custom-attribute.php:82
+#: includes/elementor/modules/product-filter/filters/custom-attribute.php:100
+#: includes/elementor/modules/product-filter/filters/custom-attribute.php:119
+#: includes/elementor/modules/product-filter/filters/price.php:81
+msgid "Links"
+msgstr ""
+
+#: includes/elementor/modules/product-filter/filters/custom-attribute.php:83
+#: includes/elementor/modules/product-filter/filters/custom-attribute.php:101
+#: includes/elementor/modules/product-filter/filters/custom-attribute.php:120
+msgid "Radio"
+msgstr ""
+
+#: includes/elementor/modules/product-filter/filters/custom-attribute.php:84
+#: includes/elementor/modules/product-filter/filters/custom-attribute.php:102
+#: includes/elementor/modules/product-filter/filters/custom-attribute.php:121
+msgid "Checkbox"
+msgstr ""
+
+#: includes/elementor/modules/product-filter/filters/filter-base.php:404
+msgid "Select one..."
+msgstr ""
+
+#: includes/elementor/modules/product-filter/filters/filter-base.php:829
+#: includes/elementor/modules/product-filter/module.php:41
+msgid "Tag"
+msgstr ""
+
+#: includes/elementor/modules/product-filter/filters/filter-base.php:831
+#: includes/elementor/modules/product-filter/filters/price.php:50
+#: includes/elementor/modules/product-filter/module.php:42
+msgid "Price"
+msgstr ""
+
+#: includes/elementor/modules/product-filter/filters/filter-base.php:833
+#: includes/elementor/modules/product-filter/filters/rating.php:49
+#: includes/elementor/modules/product-filter/module.php:43
+msgid "Rating"
+msgstr ""
+
+#: includes/elementor/modules/product-filter/filters/filter-base.php:835
+#: includes/elementor/modules/product-filter/module.php:44
+msgid "Search Text"
+msgstr ""
+
+#: includes/elementor/modules/product-filter/filters/filter-base.php:837
+#: includes/elementor/modules/product-filter/filters/stock-status.php:49
+#: includes/elementor/modules/product-filter/module.php:45
+msgid "Stock Status"
+msgstr ""
+
+#: includes/elementor/modules/product-filter/filters/filter-base.php:839
+#: includes/elementor/modules/product-filter/filters/on-sale.php:49
+#: includes/elementor/modules/product-filter/module.php:46
+msgid "On Sale"
+msgstr ""
+
+#: includes/elementor/modules/product-filter/filters/on-sale.php:75
+#: includes/elementor/modules/product-filter/widgets/product-filter.php:2206
+msgid "Label"
+msgstr ""
+
+#: includes/elementor/modules/product-filter/filters/on-sale.php:78
+msgid "Show only on sales"
+msgstr ""
+
+#: includes/elementor/modules/product-filter/filters/price.php:90
+msgid "Include custom range"
+msgstr ""
+
+#: includes/elementor/modules/product-filter/filters/price.php:101
+msgid "Range distance"
+msgstr ""
+
+#: includes/elementor/modules/product-filter/filters/rating.php:89
+msgid "Enable stars"
+msgstr ""
+
+#: includes/elementor/modules/product-filter/filters/rating.php:131
+msgid "5 only"
+msgstr ""
+
+#: includes/elementor/modules/product-filter/filters/rating.php:132
+msgid "4 and up"
+msgstr ""
+
+#: includes/elementor/modules/product-filter/filters/rating.php:133
+msgid "3 and up"
+msgstr ""
+
+#: includes/elementor/modules/product-filter/filters/rating.php:134
+msgid "2 and up"
+msgstr ""
+
+#: includes/elementor/modules/product-filter/filters/rating.php:135
+msgid "1 and up"
+msgstr ""
+
+#: includes/elementor/modules/product-filter/filters/search-text.php:48
+msgid "Search"
+msgstr ""
+
+#: includes/elementor/modules/product-filter/filters/search-text.php:74
+msgid "Input label"
+msgstr ""
+
+#: includes/elementor/modules/product-filter/filters/search-text.php:76
+msgid "Search for something"
+msgstr ""
+
+#: includes/elementor/modules/product-filter/filters/search-text.php:83
+msgid "Input placeholder"
+msgstr ""
+
+#: includes/elementor/modules/product-filter/filters/search-text.php:85
+msgid "Type a keyword"
+msgstr ""
+
+#: includes/elementor/modules/product-filter/filters/search-text.php:92
+msgid "Search by"
+msgstr ""
+
+#: includes/elementor/modules/product-filter/filters/search-text.php:97
+msgid "Title"
+msgstr ""
+
+#: includes/elementor/modules/product-filter/filters/search-text.php:99
+msgid "Categories"
+msgstr ""
+
+#: includes/elementor/modules/product-filter/filters/search-text.php:100
+#: includes/elementor/modules/product-filter/filters/tag.php:49
+msgid "Tags"
+msgstr ""
+
+#: includes/elementor/modules/product-filter/filters/search-text.php:101
+msgid "Attributes"
+msgstr ""
+
+#: includes/elementor/modules/product-filter/filters/search-text.php:110
+msgid "Search icon location"
+msgstr ""
+
+#: includes/elementor/modules/product-filter/filters/search-text.php:123
+#: includes/elementor/modules/product-filter/widgets/product-filter.php:814
+#: includes/elementor/modules/product-filter/widgets/product-filter.php:860
+#: includes/elementor/modules/product-filter/widgets/product-filter.php:1709
+msgid "Icon"
+msgstr ""
+
+#: includes/elementor/modules/product-filter/filters/stock-status.php:118
+msgid "In Stock"
+msgstr ""
+
+#: includes/elementor/modules/product-filter/filters/stock-status.php:119
+msgid "Out of Stock"
+msgstr ""
+
+#: includes/elementor/modules/product-filter/filters/stock-status.php:120
+msgid "On Backorder"
+msgstr ""
+
+#: includes/elementor/modules/product-filter/filters/tag.php:75
+msgid "Show Product Count"
+msgstr ""
+
+#: includes/elementor/modules/product-filter/module.php:47
+msgid "Custom Attribute"
+msgstr ""
+
+#: includes/elementor/modules/product-filter/module.php:642
+msgid "No Products Found..."
+msgstr ""
+
+#: includes/elementor/modules/product-filter/widgets/product-filter.php:25
+msgid "Product Filter"
+msgstr ""
+
+#: includes/elementor/modules/product-filter/widgets/product-filter.php:59
+msgid "Style"
+msgstr ""
+
+#: includes/elementor/modules/product-filter/widgets/product-filter.php:73
+msgid "Applied Filters"
+msgstr ""
+
+#: includes/elementor/modules/product-filter/widgets/product-filter.php:82
+msgid "Location"
+msgstr ""
+
+#: includes/elementor/modules/product-filter/widgets/product-filter.php:87
+msgid "Top of product list"
+msgstr ""
+
+#: includes/elementor/modules/product-filter/widgets/product-filter.php:88
+msgid "Top of filters"
+msgstr ""
+
+#: includes/elementor/modules/product-filter/widgets/product-filter.php:99
+msgid "Reset Text"
+msgstr ""
+
+#: includes/elementor/modules/product-filter/widgets/product-filter.php:102
+msgid "Clear All"
+msgstr ""
+
+#: includes/elementor/modules/product-filter/widgets/product-filter.php:114
+msgid "Allow field groups toggle-able"
+msgstr ""
+
+#: includes/elementor/modules/product-filter/widgets/product-filter.php:142
+msgid "Type"
+msgstr ""
+
+#: includes/elementor/modules/product-filter/widgets/product-filter.php:184
+msgid "Widget"
+msgstr ""
+
+#: includes/elementor/modules/product-filter/widgets/product-filter.php:192
+#: includes/elementor/modules/product-filter/widgets/product-filter.php:385
+#: includes/elementor/modules/product-filter/widgets/product-filter.php:442
+#: includes/elementor/modules/product-filter/widgets/product-filter.php:531
+#: includes/elementor/modules/product-filter/widgets/product-filter.php:561
+#: includes/elementor/modules/product-filter/widgets/product-filter.php:665
+#: includes/elementor/modules/product-filter/widgets/product-filter.php:975
+#: includes/elementor/modules/product-filter/widgets/product-filter.php:1014
+#: includes/elementor/modules/product-filter/widgets/product-filter.php:1152
+#: includes/elementor/modules/product-filter/widgets/product-filter.php:1191
+#: includes/elementor/modules/product-filter/widgets/product-filter.php:1597
+#: includes/elementor/modules/product-filter/widgets/product-filter.php:1657
+#: includes/elementor/modules/product-filter/widgets/product-filter.php:1815
+#: includes/elementor/modules/product-filter/widgets/product-filter.php:1956
+#: includes/elementor/modules/product-filter/widgets/product-filter.php:2005
+#: includes/elementor/modules/product-filter/widgets/product-filter.php:2296
+#: includes/elementor/modules/product-filter/widgets/product-filter.php:2327
+#: includes/elementor/modules/product-filter/widgets/product-filter.php:2418
+#: includes/elementor/modules/product-filter/widgets/product-filter.php:2450
+msgid "Background Color"
+msgstr ""
+
+#: includes/elementor/modules/product-filter/widgets/product-filter.php:255
+msgid "Filter Group"
+msgstr ""
+
+#: includes/elementor/modules/product-filter/widgets/product-filter.php:265
+msgid "Group Button"
+msgstr ""
+
+#: includes/elementor/modules/product-filter/widgets/product-filter.php:318
+#: includes/elementor/modules/product-filter/widgets/product-filter.php:724
+msgid "Icon Size"
+msgstr ""
+
+#: includes/elementor/modules/product-filter/widgets/product-filter.php:399
+#: includes/elementor/modules/product-filter/widgets/product-filter.php:455
+#: includes/elementor/modules/product-filter/widgets/product-filter.php:1025
+msgid "Icon Color"
+msgstr ""
+
+#: includes/elementor/modules/product-filter/widgets/product-filter.php:476
+msgid "Group Content Field"
+msgstr ""
+
+#: includes/elementor/modules/product-filter/widgets/product-filter.php:712
+msgid "Toggle-able Icon"
+msgstr ""
+
+#: includes/elementor/modules/product-filter/widgets/product-filter.php:740
+msgid "Vertical Offset"
+msgstr ""
+
+#: includes/elementor/modules/product-filter/widgets/product-filter.php:755
+#: includes/elementor/modules/product-filter/widgets/product-filter.php:1764
+msgid "Horizontal Offset"
+msgstr ""
+
+#: includes/elementor/modules/product-filter/widgets/product-filter.php:770
+msgid "Heading Align"
+msgstr ""
+
+#: includes/elementor/modules/product-filter/widgets/product-filter.php:803
+msgid "Collapsed"
+msgstr ""
+
+#: includes/elementor/modules/product-filter/widgets/product-filter.php:831
+#: includes/elementor/modules/product-filter/widgets/product-filter.php:877
+#: includes/elementor/modules/product-filter/widgets/product-filter.php:922
+#: includes/elementor/modules/product-filter/widgets/product-filter.php:1099
+#: includes/elementor/modules/product-filter/widgets/product-filter.php:1298
+#: includes/elementor/modules/product-filter/widgets/product-filter.php:1337
+#: includes/elementor/modules/product-filter/widgets/product-filter.php:1376
+#: includes/elementor/modules/product-filter/widgets/product-filter.php:1488
+#: includes/elementor/modules/product-filter/widgets/product-filter.php:1518
+#: includes/elementor/modules/product-filter/widgets/product-filter.php:1549
+#: includes/elementor/modules/product-filter/widgets/product-filter.php:1586
+#: includes/elementor/modules/product-filter/widgets/product-filter.php:1646
+#: includes/elementor/modules/product-filter/widgets/product-filter.php:1723
+#: includes/elementor/modules/product-filter/widgets/product-filter.php:1875
+#: includes/elementor/modules/product-filter/widgets/product-filter.php:1904
+#: includes/elementor/modules/product-filter/widgets/product-filter.php:1945
+#: includes/elementor/modules/product-filter/widgets/product-filter.php:1994
+#: includes/elementor/modules/product-filter/widgets/product-filter.php:2285
+#: includes/elementor/modules/product-filter/widgets/product-filter.php:2316
+#: includes/elementor/modules/product-filter/widgets/product-filter.php:2406
+#: includes/elementor/modules/product-filter/widgets/product-filter.php:2438
+#: includes/elementor/modules/product-filter/widgets/product-filter.php:2513
+msgid "Color"
+msgstr ""
+
+#: includes/elementor/modules/product-filter/widgets/product-filter.php:849
+msgid "Expanded"
+msgstr ""
+
+#: includes/elementor/modules/product-filter/widgets/product-filter.php:942
+#: includes/elementor/modules/product-filter/widgets/product-filter.php:1119
+msgid "Space Between"
+msgstr ""
+
+#: includes/elementor/modules/product-filter/widgets/product-filter.php:1007
+#: includes/elementor/modules/product-filter/widgets/product-filter.php:1184
+msgid "Checked"
+msgstr ""
+
+#: includes/elementor/modules/product-filter/widgets/product-filter.php:1131
+msgid "Space"
+msgstr ""
+
+#: includes/elementor/modules/product-filter/widgets/product-filter.php:1229
+msgid "Button List"
+msgstr ""
+
+#: includes/elementor/modules/product-filter/widgets/product-filter.php:1410
+#: includes/elementor/modules/product-filter/widgets/product-filter.php:2465
+msgid "Border"
+msgstr ""
+
+#: includes/elementor/modules/product-filter/widgets/product-filter.php:1450
+msgid "Link List"
+msgstr ""
+
+#: includes/elementor/modules/product-filter/widgets/product-filter.php:1458
+msgid "Item Spacing"
+msgstr ""
+
+#: includes/elementor/modules/product-filter/widgets/product-filter.php:1533
+msgid "Selected"
+msgstr ""
+
+#: includes/elementor/modules/product-filter/widgets/product-filter.php:1639
+msgid "Focus"
+msgstr ""
+
+#: includes/elementor/modules/product-filter/widgets/product-filter.php:1747
+msgid "Vetical Offset"
+msgstr ""
+
+#: includes/elementor/modules/product-filter/widgets/product-filter.php:1798
+msgid "Search Forms"
+msgstr ""
+
+#: includes/elementor/modules/product-filter/widgets/product-filter.php:1806
+msgid "Form"
+msgstr ""
+
+#: includes/elementor/modules/product-filter/widgets/product-filter.php:1866
+msgid "Inputs"
+msgstr ""
+
+#: includes/elementor/modules/product-filter/widgets/product-filter.php:1895
+msgid "Placeholder"
+msgstr ""
+
+#: includes/elementor/modules/product-filter/widgets/product-filter.php:1927
+msgid "Submit Buttons"
+msgstr ""
+
+#: includes/elementor/modules/product-filter/widgets/product-filter.php:1967
+#: includes/elementor/modules/product-filter/widgets/product-filter.php:2016
+msgid "Button Size"
+msgstr ""
+
+#: includes/elementor/modules/product-filter/widgets/product-filter.php:2102
+msgid "Space between"
+msgstr ""
+
+#: includes/elementor/modules/product-filter/widgets/product-filter.php:2215
+#: includes/elementor/modules/product-filter/widgets/product-filter.php:2256
+msgid "Text color"
+msgstr ""
+
+#: includes/elementor/modules/product-filter/widgets/product-filter.php:2239
+msgid "Switch"
+msgstr ""
+
+#: includes/elementor/modules/product-filter/widgets/product-filter.php:2267
+msgid "Switch color"
+msgstr ""
+
+#: includes/elementor/modules/product-filter/widgets/product-filter.php:2346
+msgid "Applied Filter"
+msgstr ""
+
+#: includes/elementor/modules/product-filter/widgets/product-filter.php:2379
+msgid "Text"
+msgstr ""
+
+#: includes/elementor/modules/product-filter/widgets/product-filter.php:2495
+msgid "Reset Button"
+msgstr ""
+
+#: sellkit-pro.php:373
+#: assets/dist/admin/sellkit.js:251
+msgid "Discounts"
+msgstr ""
+
+#: sellkit-pro.php:374
+#: assets/dist/admin/sellkit.js:251
+msgid "Coupons"
+msgstr ""
+
+#: sellkit-pro.php:375
+msgid "Notices"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:237
+msgid "Logo"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:237
+msgid "Docs"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:237
+msgid "Sellkit requires"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:237
+msgid " to be installed and activated."
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:237
+msgid "Loading..."
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:237
+msgid "Add New"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:237
+msgid "Back"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:237
+msgid "Funnels"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:237
+msgid "Create your first sales funnel"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:237
+msgid "Customize and control your entire sales process. Optimize your checkout page using offers, order bumps, upsells and a lot more."
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:237
+msgid "Add Sales Funnel"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:237
+msgid "Submit"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:237
+#: assets/dist/admin/sellkit.js:251
+msgid "Discard"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:237
+msgid "OK"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:237
+msgid "Actions"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:237
+msgid "Inactive"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:237
+msgid "View"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:237
+#: assets/dist/admin/sellkit.js:251
+msgid "Edit"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:237
+msgid "Duplicate"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:237
+msgid "Deactivate"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:237
+msgid "Activate"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:237
+#: assets/dist/admin/sellkit.js:251
+msgid "Remove"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:237
+#: assets/dist/admin/sellkit.js:251
+msgid "Remove item"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:237
+#: assets/dist/admin/sellkit.js:251
+msgid "Are you sure you want to remove this item? This action can’t be undone."
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:237
+#: assets/dist/admin/sellkit.js:251
+msgid "Dynamic Discounts"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:237
+msgid "Create your first Dynamic Discount"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:237
+msgid "Increase your sales by creating conditional discounts based on your customer behavior. The right discount for the right customer!"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:237
+msgid "Add Dynamic Discount"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:251
+msgid "Select One"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:251
+msgid "Days"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:251
+msgid "Weeks"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:251
+msgid "Months"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:251
+msgid "Search..."
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:251
+msgid "Threshold Amount (%s)"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:251
+msgid "Target Subtotal Amount (%s)"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:251
+msgid "Applicable for which days of the week?"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:251
+msgid "Add Condition"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:251
+msgid "All"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:251
+msgid "Products"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:251
+msgid "Is"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:251
+msgid "Is not"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:251
+msgid "Add Filter"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:251
+msgid "Create"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:251
+msgid "Select priority"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:251
+msgid "Update"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:251
+msgid "Create Dynamic Discount Rule"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:251
+msgid "Update Dynamic Discount Rule"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:251
+msgid "1. What is the name of this discount?"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:251
+msgid "This field is required"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:251
+msgid "2. What items will be discounted? "
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:251
+msgid "Filter items that are going to be discounted using this coupon. If no filter is selected, the coupon will be applied to all products."
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:251
+msgid "3. What will trigger this discount?"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:251
+msgid "4. How much will be the discount?"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:251
+msgid "Set the amount that will be subtracted from the product price or your cart subtotal."
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:251
+msgid "Discount Type"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:251
+msgid "Percentage Discount"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:251
+msgid "Fixed Cart Discount"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:251
+msgid "Discount Amount"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:251
+msgid "This field must be a number"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:251
+msgid "Discount Label"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:251
+msgid "This label will be shown to customers in checkout as the purpose of discount applied."
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:251
+msgid "5. Additional Condition"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:251
+msgid "Can it be used in conjunction with other discounts?"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:251
+msgid "Repeat discount for the same customer?"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:251
+msgid "Enable this option if you want a customer ( If they meet the conditions ) to get this discount every time they place an order."
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:251
+msgid "Apply to products on sale?"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:251
+msgid "Select a priority for this discount"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:251
+msgid "Note that for a better user experience, we will only show the highest Dynamic discount on a page. Using this option, you can order your priority."
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:251
+msgid "This field must not be empty."
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:251
+msgid "Validity period"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:251
+msgid "From"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:251
+msgid "To"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:251
+msgid "Select Timezone"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:251
+msgid "Activate this discount rule immediately after it is created"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:251
+msgid "Saving…"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:251
+msgid "Removing..."
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:251
+msgid "There is no applied discounts."
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:251
+msgid "Applied Discounts"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:251
+msgid "Customer"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:251
+msgid "Order Total"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:251
+msgid "Applied at"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:251
+msgid "Abandoned"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:251
+msgid "Date"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:251
+msgid "Last 7 days"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:251
+msgid "Last 30 days"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:251
+msgid "Applied Discount"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:251
+msgid "Converted"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:251
+msgid "Conversion Rate"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:251
+msgid "Revenue"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:251
+msgid "Total Discounts"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:251
+msgid "Customers"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:251
+msgid "Analytics"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:251
+msgid "Date Range"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:251
+msgid "Discount Performance"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:251
+msgid "Create Smart Coupon"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:251
+msgid "Edit Smart Coupon Rule."
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:251
+msgid "1. What is the name of this coupon?"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:251
+msgid "2. For which products this coupon will be used?"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:251
+msgid "3. Who is eligible for this coupon?"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:251
+msgid "Set condition that enable this coupon."
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:251
+msgid "Set the amount that will be subtracted from the original product price."
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:251
+msgid "Fixed Product Discount"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:251
+msgid "Coupon amount"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:251
+msgid "5. Additional Conditions"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:251
+msgid "Who can use the coupon?"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:251
+msgid "Only This Customer"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:251
+msgid "Anyone"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:251
+msgid "How many times each user can use this coupon?"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:251
+msgid "Minimum subtotal is needed for this coupon to be valid"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:251
+msgid "This field must be a number."
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:251
+msgid "How many times can this coupon be used in total?"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:251
+msgid "Select a priority for this coupon"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:251
+msgid "Note that for a better user experience, we will only show the top first Dynamic Discount on a page. Using this option, you can order your priority."
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:251
+msgid "This field must not be empty"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:251
+msgid "Expires in"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:251
+msgid "Day(s)"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:251
+msgid "Week(s)"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:251
+msgid "Month(s)"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:251
+msgid "6. How to display this coupon to the customer?"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:251
+msgid "Add to the content in a page/post"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:251
+msgid "You should choose at least one method to display."
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:251
+msgid "How to use Coupons"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:251
+msgid "In the Elementor editor, you may insert the smart coupons widget to any page/post you wish to offer a coupon."
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:251
+msgid "Display in a Popup"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:251
+msgid "Coming Soon"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:251
+msgid "Activate this coupon immediately after it is created"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:251
+msgid "Yes please"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:251
+msgid "Nevermind"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:251
+msgid "Are you sure you want to remove it? Your changes will be lost!"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:251
+msgid "Are you sure you want to discard it? Your changes will be lost!"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:251
+msgid "Created Coupons"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:251
+msgid "Used Coupons"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:251
+msgid "Coupon Performance"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:251
+msgid "There is no coupons."
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:251
+msgid "Generated Coupons"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:251
+msgid "Coupon"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:251
+msgid "Usage / Limit"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:251
+msgid "Created at"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:251
+msgid "days"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:251
+msgid "Smart Coupons"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:251
+msgid "Create your first Smart Coupon"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:251
+msgid "Create smart discount coupons based on your customer behavior. Build a better relationship with your customers and increase repeat purchases."
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:251
+msgid "Add Smart Coupon"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:251
+msgid "Smart Notice"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:251
+msgid "Create your first Smart Notice"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:251
+msgid "Smart notices are offers and promotions that pop up while your customer is checking out their orders. They are great for increasing the chance of more purchases."
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:251
+msgid "Add Smart Notice"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:251
+msgid "Insert Dynamic Keyword"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:251
+msgid "Select Priority"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:251
+msgid "Create Smart Notice"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:251
+msgid "Edit Smart Notice"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:251
+msgid "1. What is the name of this notice?"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:251
+msgid "2. On what conditions should we display the notice?"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:251
+msgid "3. What is the content of this notice?"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:251
+msgid "Provide the content and customize the notice."
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:251
+msgid "Message"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:251
+msgid "This field is required."
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:251
+msgid "Preview"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:251
+msgid "Optional"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:251
+msgid "Skin"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:251
+msgid "Woocommerce Message"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:251
+msgid "Woocommerce Info"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:251
+msgid "Woocommerce Error"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:251
+msgid "4. In which priority this notice has to be displayed?"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:251
+msgid " Please set a priority for this notice rule. If there are more than three notice rules that match customers’ conditions only the three highest priority notices will be displayed to your customers."
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:251
+msgid "5. Where should we display the notice?"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:251
+msgid "Cart"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:251
+msgid "Catalog"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:251
+msgid "Product Single"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:251
+msgid "Order Received"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:251
+msgid "My Account"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:251
+msgid "Custom Location"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:251
+msgid "You should choose at least one page to display."
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:251
+msgid "Place following shortcode anywhere in your content, and the notice will be displayed if the conditions meet."
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:251
+msgid "Activate this notice immediately after it is created"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:251
+msgid "Impression"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:251
+msgid "Click"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:251
+msgid "Notice Performance"
+msgstr ""
+
+#: assets/dist/admin/sellkit.js:251
+msgid "Smart Notices"
+msgstr ""

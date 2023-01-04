@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'thegem-blocks';
+    src:  url('../font/icons/thegem-blocks.eot?wi5vuq');
+    src:  url('../font/icons/thegem-blocks.eot?wi5vuq#iefix') format('embedded-opentype'),
+    url('../font/icons/thegem-blocks.ttf?wi5vuq') format('truetype'),
+    url('../font/icons/thegem-blocks.woff?wi5vuq') format('woff'),
+    url('../font/icons/thegem-blocks.svg?wi5vuq#thegem-blocks') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+[class^="tgb-icon-"], [class*=" tgb-icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'thegem-blocks' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.tgb-icon-arrow-down:before {
+    content: "\e900";
+}
+.tgb-icon-search:before {
+    content: "\e901";
+}
+.tgb-icon-presentation:before {
+    content: "\e902";
+}
+.tgb-icon-star:before {
+    content: "\e903";
+}
+.tgb-icon-star-outline:before {
+    content: "\e904";
+}
+.tgb-icon-info-outline:before {
+    content: "\e905";
+}
+.tgb-icon-key:before {
+    content: "\e906";
+}
+.tgb-icon-close-network:before {
+    content: "\e907";
+}
+.tgb-icon-checkbox-marked-outline:before {
+    content: "\e908";
+}

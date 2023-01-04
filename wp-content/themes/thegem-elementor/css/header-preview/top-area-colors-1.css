@@ -1,0 +1,34 @@
+.top-area {
+	background-color: #f0f3f2;
+}
+.top-area {
+	border-top: 5px solid #00bcd4;
+}
+.top-area {
+	border-bottom: 1px solid #dfe5e8;
+}
+.top-area-contacts:after,
+.top-area-socials:after {
+	border-right: 1px solid #dfe5e8;
+}
+.top-area {
+	color: #5f727f;
+}
+.top-area a {
+	color: #5f727f;
+}
+.top-area a:hover {
+	color: #00bcd4;
+}
+.top-area .gem-button {
+	color: #ffffff;
+}
+.top-area .gem-button {
+	background-color: #494c64;
+}
+.top-area .gem-button:hover {
+	color: #ffffff;
+}
+.top-area .gem-button:hover {
+	background-color: #00bcd4;
+}

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="23.751" height="42.527" viewBox="0 0 23.751 42.527">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_931" data-name="Rectangle 931" width="23.751" height="42.527" transform="translate(0 0)" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="upsell_icon" data-name="upsell icon" transform="translate(0 0)">
+    <g id="Group_2915" data-name="Group 2915" clip-path="url(#clip-path)">
+      <path id="Path_2408" data-name="Path 2408" d="M11.875,18.776A11.876,11.876,0,1,0,23.751,30.651,11.888,11.888,0,0,0,11.875,18.776" fill="#ccf"/>
+      <path id="Path_2409" data-name="Path 2409" d="M15.7,32.614c0-2.094-1.567-2.566-3.377-3.012-1.513-.378-2.094-.621-2.094-1.365,0-.621.595-1.053,1.473-1.053a1.473,1.473,0,0,1,1.675,1.58h2.012A2.859,2.859,0,0,0,12.6,25.657V24.231H10.926v1.438a2.889,2.889,0,0,0-2.738,2.785c0,2.107,1.647,2.539,3.458,3,1.364.352,1.985.514,1.985,1.365,0,.756-.648,1.229-1.661,1.229-1.229,0-1.864-.608-1.864-1.77H8.053a3.126,3.126,0,0,0,2.873,3.287v1.508H12.6V35.608c1.872-.218,3.1-1.357,3.1-2.994" fill="#fff"/>
+      <path id="Path_2410" data-name="Path 2410" d="M11.875,7.441,3.417,16.4H20.334Zm0-7.441L6.183,6.026H17.567Z" fill="#635cff"/>
+    </g>
+  </g>
+</svg>

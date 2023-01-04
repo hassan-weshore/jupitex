@@ -1,0 +1,138 @@
+.artbees-form-field {
+    display: none;
+    visibility: hidden;
+}
+
+.artbees-form-field.active {
+    display: revert;
+    visibility: visible;
+}
+
+.artbees-was-dimensions {
+    display: flex;
+    align-items: center;
+}
+
+.artbees-was-dimensions .artbees-was-dimensions-item {
+    width: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.artbees-was-dimensions .artbees-was-dimensions-item input {
+    width: 85px !important;
+    min-width: 85px !important;
+}
+
+.artbees-was-dimensions .artbees-was-dimensions-item {
+    margin: auto 10px;
+}
+
+.artbees-was-dimensions .artbees-was-dimensions-item label {
+    margin-right: 10px;
+}
+
+/****** Upload Image ******/
+.artbees-was-image-picker {
+    position: relative;
+    width: 50px;
+    border: 1px solid #ddd;
+    margin: 10px 0 0;
+}
+
+.artbees-was-image-picker:after {
+    content: " ";
+    display: block;
+    clear: both;
+}
+
+.artbees-was-image-picker__preview {
+    float: left;
+    min-height: 50px;
+    width: 50px;
+    background: #ddd;
+}
+
+.artbees-was-image-picker__preview img {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    display: block;
+}
+
+.artbees-was-image-picker__button {
+    position: absolute;
+    width: 19px;
+    height: 19px;
+    font-weight: normal;
+    text-decoration: none;
+    color: #8a8a8a;
+    text-align: center;
+    -webkit-box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.2);
+            box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.2);
+    background: #fff;
+    border-radius: 50%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+.artbees-was-image-picker__button .dashicons {
+    font-size: 16px;
+    line-height: 19px;
+    width: 19px;
+    height: 19px;
+}
+
+.artbees-was-image-picker__button .dashicons.dashicons-plus:before {
+    display: inline-block;
+    width: 19px;
+    overflow: hidden;
+    height: 19px;
+    text-indent: -1px;
+    line-height: 21px;
+    font-size: 13px;
+}
+
+.artbees-was-image-picker__remove {
+    top: -8px;
+    right: -8px;
+}
+
+.artbees-was-image-picker__upload {
+    top: 50%;
+    left: 50%;
+    margin: -10px 0 0 -10px;
+}
+
+.artbees-was-image-picker__upload .dashicons-edit {
+    display: none;
+}
+
+.artbees-was-image-picker__upload--edit {
+    top: 15px;
+    right: -8px;
+    margin: 0;
+    left: auto;
+}
+
+.artbees-was-image-picker__upload--edit .dashicons-edit {
+    display: block;
+}
+
+.artbees-was-image-picker__upload--edit .dashicons-plus {
+    display: none;
+}
+
+/****** Custom column ******/
+.artbees-was-color-content {
+    width: 30px;
+    height: 30px;
+    display: block;
+}
+
+.artbees-was-image-content img {
+    width: 30px;
+    height: auto;
+    display: block;
+}

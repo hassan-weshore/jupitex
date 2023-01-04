@@ -1,0 +1,21 @@
+@font-face {
+	font-family: 'thegem-icons';
+	src:url('../fonts/thegem-icons.eot?-yiqymz');
+	src:url('../fonts/thegem-icons.eot?#iefix-yiqymz') format('embedded-opentype'),
+		url('../fonts/thegem-icons.woff?-yiqymz') format('woff'),
+		url('../fonts/thegem-icons.ttf?-yiqymz') format('truetype'),
+		url('../fonts/thegem-icons.svg?-yiqymz#thegem-icons') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'thegem-socials';
+	src:url('../fonts/thegem-socials.eot');
+	src:url('../fonts/thegem-socials.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/thegem-socials.ttf') format('truetype'),
+		url('../fonts/thegem-socials.woff') format('woff'),
+		url('../fonts/thegem-socials.svg#thegem-socials') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}

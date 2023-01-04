@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="55" height="44" viewBox="0 0 55 44">
+  <g id="Group_2970" data-name="Group 2970" transform="translate(-836 -393)">
+    <g id="optin_icon" data-name="optin icon" transform="translate(836 405.21)">
+      <path id="Path_2401" data-name="Path 2401" d="M2,2H38.989V29.79H2ZM0,31.79H40.99V0H0Z" fill="#ccf"/>
+      <path id="Path_2402" data-name="Path 2402" d="M20.495,16.564,1.655.243.346,1.755,20.495,19.211,40.644,1.755,39.336.243Z" fill="#ccf"/>
+    </g>
+    <circle id="Ellipse_117" data-name="Ellipse 117" cx="12.5" cy="12.5" r="12.5" transform="translate(866 393)" fill="#635cff"/>
+    <path id="Path_2429" data-name="Path 2429" d="M13.445,0,5.871,7.573,2.029,3.731,0,5.761l5.872,5.872,9.6-9.6Z" transform="translate(871.001 400)" fill="#fff"/>
+  </g>
+</svg>

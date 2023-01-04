@@ -1,0 +1,62 @@
+<?php
+
+namespace Sellkit\Contact_Segmentation\Operators;
+
+use Sellkit\Contact_Segmentation\Operator_Base;
+
+defined( 'ABSPATH' ) || die();
+
+/**
+ * Class After.
+ *
+ * @package Sellkit\Contact_Segmentation\Conditions
+ * @since 1.1.0
+ */
+class After extends Operator_Base {
+
+	/**
+	 * Condition name.
+	 *
+	 * @since 1.1.0
+	 */
+	public function get_name() {
+		return 'after';
+	}
+
+	/**
+	 * Condition title.
+	 *
+	 * @since 1.1.0
+	 */
+	public function get_title() {
+		return __( 'after...', 'sellkit' );
+	}
+
+	/**
+	 * Conditions.
+	 *
+	 * @since 1.1.0
+	 */
+	public function get_conditions() {
+		return [
+			'first-order-date',
+			'last-order-date',
+			'signup-date',
+		];
+	}
+
+	/**
+	 * Condition title.
+	 *
+	 * @since 1.1.0
+	 * @param mixed $value            mixed The value of current value.
+	 * @param mixed $condition_value  The value of condition input.
+	 */
+	public function is_valid( $value, $condition_value ) {
+		if ( $value > $condition_value ) {
+			return true;
+		}
+
+		return false;
+	}
+}

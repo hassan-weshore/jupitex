@@ -1,0 +1,295 @@
+.hover-new-horizontal-sliding .portfolio-item .image .image-inner img {
+	overflow: hidden;
+	-webkit-transform: translateX(0);
+	transform: translateX(0);
+	-webkit-transition: -webkit-transform 0.3s;
+	transition: transform 0.3s;
+}
+
+.hover-new-horizontal-sliding .portfolio-item:hover .image .image-inner img {
+	-webkit-transform: translateX(-9%);
+	transform: translateX(-9%);
+}
+
+.hover-new-horizontal-sliding .portfolio-item .image.format-video.has-post-thumbnail .image-inner img {
+	-webkit-transform: translateX(-5%);
+	transform: translateX(-5%);
+}
+
+.hover-new-horizontal-sliding .portfolio-item .image .overlay {
+	display: block;
+}
+
+.hover-new-horizontal-sliding .portfolio-item .image .overlay:before {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
+	content: '';
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	-webkit-transition: opacity 0.3s, background-color 0.3s;
+	transition: opacity 0.3s, background-color 0.3s;
+}
+
+.hover-new-horizontal-sliding .portfolio-item:hover .image .overlay:before {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
+	content: '';
+	width: 100%;
+	height: 100%;
+	opacity: 1;
+	-webkit-transition: opacity 0.3s, background-color 0.3s;
+	transition: opacity 0.3s, background-color 0.3s;
+}
+
+.hover-new-horizontal-sliding.title-on-hover .portfolio-item .image .overlay:after {
+	background: -moz-linear-gradient(top,  rgba(30,87,153,0) 65%, rgba(0,0,0,0.5) 100%);
+	background: -webkit-linear-gradient(top,  rgba(30,87,153,0) 65%,rgba(0,0,0,0.5) 100%);
+	background: linear-gradient(to bottom,  rgba(30,87,153,0) 65%,rgba(0,0,0,0.5) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#001e5799', endColorstr='#80000000',GradientType=0 );
+	opacity: 1;
+	-webkit-transition: opacity 0.3s;
+	transition: opacity 0.3s;
+}
+
+.hover-new-horizontal-sliding.title-on-hover .portfolio-item:hover .image .overlay:after {
+	opacity: 0;
+}
+
+.hover-new-horizontal-sliding.title-on-hover .portfolio-item .image .links .overlay-line {
+	overflow: hidden;
+	position: relative;
+	background: transparent;
+}
+
+.hover-new-horizontal-sliding.title-on-hover .portfolio-item .image .links .overlay-line:after {
+	position: absolute;
+	content: '';
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 1px;
+	background-color: #fff;
+	-webkit-transform: translateX(-100%);
+	transform: translateX(-100%);
+	-webkit-transition: -webkit-transform 0.35s;
+	transition: transform 0.35s;
+}
+
+.hover-new-horizontal-sliding.title-on-hover .portfolio-item:hover .image .links .overlay-line:after {
+	-webkit-transform: translateX(0);
+	transform: translateX(0);
+	-webkit-transition: -webkit-transform 0.35s;
+	transition: transform 0.35s;
+}
+
+.hover-new-horizontal-sliding .portfolio-item .image .overlay .links .portfolio-icons > .icon {
+	display: inline-block;
+	opacity: 0;
+	-webkit-transform: translateY(-200px);
+	transform: translateY(-200px);
+	-webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+	transition: opacity 0.3s, transform 0.3s;
+}
+
+.hover-new-horizontal-sliding .portfolio-item:hover .image .overlay .links .portfolio-icons > .icon {
+	opacity: 1;
+	-webkit-transform: translateY(0);
+	transform: translateY(0);
+	-webkit-transition: opacity 0.3s, transform 0.3s;
+	transition: opacity 0.3s, transform 0.3s;
+}
+
+.portfolio.hover-new-horizontal-sliding .portfolio-item .gem-simple-gallery .gem-gallery-item a:before {
+	-o-transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.portfolio.hover-new-horizontal-sliding .portfolio-item .gem-simple-gallery .gem-gallery-item a:after {
+    position: absolute;
+	left: 50%;
+    top: 50%;
+	opacity: 0;
+	-webkit-transform: translateY(-200px);
+	transform: translateY(-200px);
+	-webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+	transition: opacity 0.3s, transform 0.3s;
+}
+
+.portfolio.hover-new-horizontal-sliding .portfolio-item .gem-simple-gallery .gem-gallery-item a:hover:after {
+	opacity: 1;
+	-webkit-transform: translateY(0);
+	transform: translateY(0);
+	-webkit-transition: opacity 0.3s, transform 0.3s;
+	transition: opacity 0.3s, transform 0.3s;
+}
+
+.version-new.news-grid.hover-new-horizontal-sliding .portfolio-item .image .links .caption .slide-content-hidden {
+    margin: 0 !important;
+}
+
+.version-new.news-grid.hover-new-horizontal-sliding .portfolio-item .image .links .caption .grid-post-meta {
+	opacity: 0;
+    transform: translateX(-100%);
+	position: relative;
+	-webkit-transition: opacity 0.3s 0.08s, transform 0.3s 0.08s;
+	transition: opacity 0.3s 0.08s, transform 0.3s 0.08s;
+}
+
+.version-new.news-grid.hover-new-horizontal-sliding .portfolio-item .image .links .caption .description {
+	opacity: 0;
+	transform: translateX(-100%);
+	position: relative;
+	-webkit-transition: opacity 0.3s 0.04s, transform 0.3s 0.04s;
+	transition: opacity 0.3s 0.04s, transform 0.3s 0.04s;
+}
+
+.version-new.news-grid.hover-new-horizontal-sliding.title-on-hover .portfolio-item .image .links .caption .info {
+    display: block;
+	opacity: 0;
+	transform: translateX(-100%);
+	position: relative;
+	-webkit-transition: opacity 0.3s, transform 0.3s;
+	transition: opacity 0.3s, transform 0.3s;
+}
+
+.version-new.news-grid.hover-new-horizontal-sliding .portfolio-item:hover .image .links .caption .grid-post-meta {
+	opacity: 1;
+	transform: translateX(0);
+	-webkit-transition: opacity 0.3s 0.18s, transform 0.3s 0.18s;
+	transition: opacity 0.3s 0.18s, transform 0.3s 0.18s;
+}
+
+.version-new.news-grid.hover-new-horizontal-sliding .portfolio-item:hover .image .links .caption .description {
+	opacity: 1;
+	transform: translateX(0);
+	-webkit-transition: opacity 0.3s 0.14s, transform 0.3s 0.14s;
+	transition: opacity 0.3s 0.14s, transform 0.3s 0.14s;
+}
+
+.version-new.news-grid.hover-new-horizontal-sliding.title-on-hover .portfolio-item:hover .image .links .caption .info {
+	opacity: 1;
+	transform: translateX(0);
+	-webkit-transition: opacity 0.3s 0.1s, transform 0.3s 0.1s;
+	transition: opacity 0.3s 0.1s, transform 0.3s 0.1s;
+}
+
+.version-new.news-grid.hover-new-horizontal-sliding .portfolio-item .image .links .caption .title {
+	opacity: 1;
+	transform: translateX(0);
+	position: relative;
+	-webkit-transition: opacity 0.3s 0.18s, transform 0.3s 0.18s;
+	transition: opacity 0.3s 0.18s, transform 0.3s 0.18s;
+}
+
+.version-new.news-grid.hover-new-horizontal-sliding .portfolio-item:hover .image .links .caption .title {
+	opacity: 0;
+	transform: translateX(100%);
+	-webkit-transition: opacity 0.3s, transform 0.3s;
+	transition: opacity 0.3s, transform 0.3s;
+}
+
+.version-new.news-grid.hover-new-horizontal-sliding .portfolio-item:hover .image.format-video.has-post-thumbnail .links .caption .title {
+	opacity: 1;
+	transform: translateX(0);
+}
+
+.version-new.news-grid.hover-new-horizontal-sliding .portfolio-item .image .links .caption .author {
+	position: relative;
+	-webkit-transition: top 0.2s 0.18s;
+	transition: top 0.2s 0.18s;
+}
+
+.version-new.news-grid.hover-new-horizontal-sliding .portfolio-item:hover .image .links .caption .author {
+	-webkit-transition: top 0.2s;
+	transition: top 0.2s;
+}
+
+.hover-new-horizontal-sliding.title-on-hover .portfolio-item .image .links .overlay-line:after {
+	-webkit-transition: -webkit-transform 0.3s;
+	transition: transform 0.3s;
+}
+
+.hover-new-horizontal-sliding.title-on-hover .portfolio-item:hover .image .links .overlay-line:after {
+	-webkit-transition: opacity 0.3s 0.1s, transform 0.3s 0.1s;
+	transition: opacity 0.3s 0.1s, transform 0.3s 0.1s;
+}
+
+.version-new.news-grid.hover-new-horizontal-sliding .portfolio-item:not(:hover) .image .links .caption .author {
+	top: 0 !important;
+}
+
+.version-new.news-grid.hover-new-horizontal-sliding .portfolio-item.format-video.has-post-thumbnail .image .links .caption .author {
+	top: 0 !important;
+}
+
+.version-new.news-grid.hover-new-horizontal-sliding .portfolio-item .image .links .caption .description {
+	margin: 0 0 7px 0;
+}
+
+.version-new.news-grid.hover-new-horizontal-sliding.title-on-hover .portfolio-item .image .links .caption .info {
+	margin: 0 0 8px 0;
+	padding: 0;
+}
+
+.version-new.news-grid.hover-new-horizontal-sliding .portfolio-item .image .links .caption .title {
+	margin: 0 !important;
+}
+
+.version-new.news-grid.hover-new-horizontal-sliding .portfolio-item .image .links .caption .author {
+    padding: 0;
+	margin: 0 0 3px 0;
+}
+
+.version-new.news-grid.hover-new-horizontal-sliding .portfolio-item .image .overlay .overlay-line {
+	display: block;
+}
+
+.version-new.news-grid.hover-new-horizontal-sliding.title-on-page .portfolio-item .image .overlay .overlay-line {
+	margin-top: 15px;
+}
+
+.version-new.news-grid.hover-new-horizontal-sliding.title-on-hover .portfolio-item .image .overlay .overlay-line {
+	margin: 0 0 8px 0;
+}
+
+.version-new.news-grid.hover-new-horizontal-sliding .portfolio-item .image .links .caption {
+	padding: 0;
+}
+
+.portfolio.hover-new-horizontal-sliding.title-on-page .overlay .links {
+    padding: 0 30px;
+}
+
+.version-new.news-grid.hover-new-horizontal-sliding .portfolio-item .image .links .caption .slide-content-visible {
+	padding: 0 !important;
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+
+.version-new.news-grid.hover-new-horizontal-sliding .portfolio-item .image .links .caption .slide-content-hidden {
+	padding-top: 12px;
+	padding-bottom: 5px;
+}
+
+.version-new.news-grid.hover-new-horizontal-sliding .portfolio-item.double-item-style-alternative .image .links .caption .slide-content-hidden {
+	padding-bottom: 0px;
+}
+
+.version-new.news-grid.hover-new-horizontal-sliding .portfolio-item.double-item-style-alternative .highlight-item-alternate-box .highlight-item-alternate-box-content {
+	justify-content: flex-end;
+	align-items: flex-start;
+}
+
+@media only screen and (min-width: 551px) {
+	.hover-new-horizontal-sliding.title-on-hover .portfolio-item.double-item-style-alternative:not(.post-has-author) .image .overlay:after {
+		display: none;
+	}
+}

@@ -1,0 +1,159 @@
+/* Clients Widget */
+.gem-clients {
+	margin: 0;
+}
+.gem-clients-type-carousel-grid .gem-clients-slide {
+	float: left;
+	width: 100%;
+}
+.disable-grayscale.gem-clients-type-carousel-grid .gem-client-item a  {
+	background-color: transparent;
+}
+.gem-clients-type-carousel-grid .gem-client-item {
+	padding: 0;
+	display: flex;
+	justify-content: center;
+}
+.gem-clients-slide-inner.clearfix {
+	margin-left: -5px;
+	margin-right: -5px;
+}
+
+.gem-clients-type-carousel-grid .gem-client-item a {
+	display: block;
+	width: 100%;
+	text-align: center;
+	transition: all 0.3s linear;
+	-moz-transition: all 0.3s linear;
+	-webkit-transition: all 0.3s linear;
+}
+.gem-clients-type-carousel-grid .gem-client-item a img {
+	display: inline-block;
+	opacity: 0.5;
+}
+.gem-clients-type-carousel-grid .gem-client-item a:hover img {
+	opacity: 1;
+}
+
+
+/*** Style General CSS ***/
+
+.gem-clients .gem-client-item a {
+	background: none;
+}
+
+.gem-clients .gem-client-item a img.gem-grayscale-normal {
+	filter: grayscale(1);
+}
+.gem-clients .gem-client-item a:hover img.gem-grayscale-hover {
+	filter: grayscale(1);
+}
+
+.gem-clients .gem-client-item a img,
+.gem-clients .gem-client-item a:hover img {
+	filter: grayscale(0);
+}
+
+.gem-client-item a img {
+	transition: all 0.3s linear;
+	-moz-transition: all 0.3s linear;
+	-webkit-transition: all 0.3s linear;
+}
+
+
+/*** Style Preset 1 (Grid) ***/
+
+.clients-grid .gem-clients-slide-inner {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-items: stretch;
+}
+
+.clients-grid .gem-clients-type-carousel-grid .gem-client-item a {
+	overflow: hidden;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	margin: 0 5px 10px 5px;
+	max-height: 200px;
+}
+
+.clients-grid .gem-clients-slide .col-xs-1-5 {
+	width: 20%;
+}
+
+@media (min-width: 768px) {
+	.clients-grid .gem-clients-slide .col-sm-1-5 {
+		width: 20%;
+	}
+}
+
+@media (min-width: 992px) {
+	.clients-grid .gem-clients-slide .col-md-1-5 {
+		width: 20%;
+	}
+}
+
+.clients-grid .caroufredsel_wrapper {
+	height: auto !important;
+}
+.clients-grid .gem-clients-grid-carousel {
+	height: auto !important;
+	position: inherit !important;
+}
+
+
+
+/*** Style Preset 2 (Carousel) ***/
+
+.clients-carousel .gem_client-carousel {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 2000px;
+}
+
+.clients-carousel .gem_client-carousel.fullwidth-block {
+	width: 100%;
+}
+
+body.elementor-editor-active .clients-carousel .gem_client-carousel {
+	width: 100%;
+}
+.clients-carousel .gem-clients-slide-inner {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-items: stretch;
+}
+
+.clients-carousel .gem-client-item a {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	overflow: hidden;
+}
+
+.clients-carousel .gem-client-item a:hover {
+	background: none;
+}
+
+.clients-carousel .gem-client-carousel-navigation a {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: absolute;
+}
+
+.clients-carousel .gem-client-carousel-navigation a:after {
+	top: auto;
+	margin-top: auto;
+	width: 100px;
+	left: 0;
+	position: relative;
+	margin-left: 0;
+	margin-right: 0;
+}
+
+
+

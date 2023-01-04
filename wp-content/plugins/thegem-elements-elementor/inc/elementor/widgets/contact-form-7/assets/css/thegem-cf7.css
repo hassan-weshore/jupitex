@@ -1,0 +1,94 @@
+form.wpcf7-form.thegem-cf7 .with-label {
+  display: flex;
+}
+form.wpcf7-form.thegem-cf7 .with-label .wpcf7-form-control-wrap {
+  margin-bottom: 0;
+}
+form.wpcf7-form.thegem-cf7.label-left .with-label {
+  flex-direction: row;
+  align-items: center;
+}
+form.wpcf7-form.thegem-cf7.label-left .with-label label {
+  flex: none;
+}
+form.wpcf7-form.thegem-cf7.label-right .with-label {
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: flex-end;
+}
+form.wpcf7-form.thegem-cf7.label-right .with-label label {
+  flex: none;
+}
+form.wpcf7-form.thegem-cf7.label-top .with-label {
+  flex-direction: column;
+}
+form.wpcf7-form.thegem-cf7.label-bottom .with-label {
+  flex-direction: column-reverse;
+}
+form.wpcf7-form.thegem-cf7.label-bottom .with-label .wpcf7-form-control-wrap, form.wpcf7-form.thegem-cf7.label-bottom .with-label .wpcf7-form-control, form.wpcf7-form.thegem-cf7.label-bottom .with-label .combobox-wrapper {
+  margin-bottom: 0 !important;
+}
+form.wpcf7-form.thegem-cf7 input[type=submit] {
+  height: auto;
+  margin-right: 0;
+  margin-left: 0;
+  border: none;
+}
+form.wpcf7-form.thegem-cf7 .combobox-wrapper {
+  height: auto;
+}
+form.wpcf7-form.thegem-cf7 .combobox-wrapper .combobox-text {
+  line-height: inherit;
+  border: none;
+  padding: 12px 20px;
+}
+form.wpcf7-form.thegem-cf7 .combobox-wrapper .combobox-button {
+  height: 100%;
+  border: none;
+}
+form.wpcf7-form.thegem-cf7 .checkbox-sign.checked:before, form.wpcf7-form.thegem-cf7 .radio-sign.checked:before {
+  margin: 0;
+  transform: translate(-50%, -50%);
+  font-size: 24px;
+  width: 24px;
+  height: 24px;
+  line-height: 24px;
+}
+form.wpcf7-form.thegem-cf7 p {
+  margin-bottom: 0;
+}
+form.wpcf7-form.thegem-cf7 p:nth-last-of-type(1), form.wpcf7-form.thegem-cf7 .submit-outer {
+  display: flex;
+  flex-direction: column;
+}
+form.wpcf7-form.thegem-cf7 .wpcf7-form-control {
+  display: inline-block;
+}
+form.wpcf7-form.thegem-cf7 .wpcf7-form-control-wrap:after {
+  top: 50%;
+  transform: translateY(-50%);
+}
+form.wpcf7-form.thegem-cf7 .form-line {
+  margin: 0;
+}
+
+.wpcf7-form.gem-contact-form-white .combobox-wrapper,
+.wpcf7-form.gem-contact-form-white input:not(.gem-button-wpcf-custom),
+.wpcf7-form.gem-contact-form-white .combobox-wrapper .combobox-button,
+.wpcf7-form.gem-contact-form-white .combobox-wrapper .combobox-text,
+.wpcf7-form.gem-contact-form-white .checkbox-sign,
+.wpcf7-form.gem-contact-form-white span.radio-sign,
+.wpcf7-form.gem-contact-form-white textarea {
+  border: 1px solid #ffffff;
+  background-color: #ffffff;
+}
+
+.wpcf7-warning {
+  line-height: 1.2;
+}
+
+.not-empty {
+  height: 1px;
+}
+
+/*# sourceMappingURL=thegem-cf7.css.map */

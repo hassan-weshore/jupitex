@@ -1,0 +1,470 @@
+/*** COUNDOWN STYLE 3 ***/
+
+.countdown-style-3 .countdown-wrapper {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.countdown-style-3 .countdown-wrapper .countdown-item {
+	-ms-flex-preferred-size: 0;
+	flex-basis: 0;
+	-webkit-box-flex: 1;
+	-ms-flex-positive: 1;
+	flex-grow: 1;
+	text-align: center;
+}
+
+.countdown-style-3 .wrap > span {
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+
+/*** COUNDOWN STYLE 4 ***/
+.countdown-container.countdown-style-4 {
+	width: 100%;
+}
+
+.countdown-container.countdown-style-4.align-left .countdown-info {
+	float: left;
+}
+
+.countdown-container.countdown-style-4.align-right .countdown-info {
+	float: right;
+}
+
+.countdown-container.countdown-style-4.align-center .countdown-info {
+	width: 480px;
+	margin: auto;
+}
+
+.countdown-style-4 .countdown-item {
+	display: block;
+	float: left;
+	width: 120px;
+}
+
+.countdown-style-4 .wrap {
+	height: 85px;
+}
+
+.countdown-style-4 .countdown-item:not(:last-child) .wrap {
+	border-right: 1px solid;
+}
+
+.countdown-style-4 .item-count {
+	font-size: 36px;
+	line-height: 53px;
+	display: block !important;
+	width: inherit;
+	text-align: center;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.countdown-style-4 .item-title {
+	display: block;
+	width: inherit;
+	text-align: center;
+}
+
+@media (max-width: 768px) {
+
+}
+
+@media (max-width: 480px) {
+	.countdown-style-4 .countdown-item .wrap {
+		border: none !important;
+	}
+
+	.countdown-style-4 .item-count {
+		font-size: 24px;
+		line-height: 28px;
+	}
+}
+
+
+/*** COUNDOWN STYLE 5 ***/
+.countdown-container.countdown-style-5 {
+	width: 100%;
+	text-align: center;
+}
+
+.countdown-style-5 .countdown-item {
+	display: inline-block;
+	width: 25%;
+	min-width: 245px;
+	height: 308px;
+	position: relative;
+	padding-top: 0;
+
+}
+
+.countdown-style-5 .wrap {
+
+}
+
+.countdown-style-5 .item-count {
+	font-size: 50px;
+	line-height: 69px;
+	display: block !important;
+	width: inherit;
+	text-align: center;
+	margin: 0;
+	top: 50%;
+	transform: translateY(-50%);
+	z-index: 20;
+}
+
+.countdown-style-5 .item-title {
+	display: block;
+	width: inherit;
+	text-align: center;
+}
+
+.countdown-style-5 .circle-raphael-days,
+.countdown-style-5 .circle-raphael-hours,
+.countdown-style-5 .circle-raphael-minutes,
+.countdown-style-5 .circle-raphael-seconds {
+	position: absolute;
+	z-index: 20;
+}
+
+@media (max-width: 768px) {
+	.countdown-style-5 .countdown-item {
+		width: 50%;
+	}
+}
+
+
+/*** COUNTDOWN STYLE 6 ***/
+.countdown-container.countdown-style-6 {
+	width: 280px;
+}
+
+.countdown-container.countdown-style-6.align-left {
+	float: left;
+}
+
+.countdown-container.countdown-style-6.align-right {
+	float: right;
+}
+
+.countdown-container.countdown-style-6.align-center {
+	margin: auto;
+}
+
+.countdown-style-6 .countdown-item {
+	display: block;
+	float: left;
+	width: 130px;
+	height: 130px;
+}
+
+.countdown-style-6 .countdown-item.count-1 {
+	width: 150px;
+}
+
+.countdown-style-6 .countdown-item.count-3 {
+	width: 150px;
+}
+
+.countdown-style-6 .countdown-item-border-1 {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 130px;
+	height: 1px;
+	background: #b5bcc1;
+}
+
+.countdown-style-6 .countdown-item-border-2 {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 1px;
+	height: 130px;
+	background: #b5bcc1;
+}
+
+.countdown-style-6 .countdown-item-border-3 {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 1px;
+	height: 130px;
+	background: #b5bcc1;
+}
+
+.countdown-style-6 .countdown-item-border-4 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 130px;
+	height: 1px;
+	background: #b5bcc1;
+}
+
+.countdown-style-6 .countdown-item.count-1 .item-title,
+.countdown-style-6 .countdown-item.count-3 .item-title {
+	position: absolute;
+	right: 37px;
+}
+
+.countdown-style-6 .countdown-item.count-1 .item-count,
+.countdown-style-6 .countdown-item.count-3 .item-count {
+	position: absolute;
+	right: 30px;
+}
+
+.countdown-style-6 .countdown-item.count-2 .item-title,
+.countdown-style-6 .countdown-item.count-4 .item-title {
+	position: absolute;
+	right: 7px;
+}
+
+.countdown-style-6 .countdown-item.count-2 .item-count,
+.countdown-style-6 .countdown-item.count-4 .item-count {
+	position: absolute;
+	right: 0;
+}
+
+.countdown-style-6 .wrap {
+	position: relative;
+	width: 134px;
+	height: 130px;
+}
+
+.countdown-style-6 .count-1 .wrap,
+.countdown-style-6 .count-3 .wrap {
+	width: 150px;
+}
+
+.countdown-style-6 .item-title {
+	display: block;
+	top: 15px;
+}
+
+.countdown-style-6 .item-count {
+	display: block;
+	top: 32px;
+	margin: 0;
+}
+
+@media (max-width: 570px) {
+	.countdown-style-6 .countdown-item {
+		width: 120px;
+		height: 120px;
+	}
+
+	.countdown-style-6 .wrap {
+		width: 120px;
+		height: 120px;
+	}
+
+	.countdown-style-6 .countdown-item.count-1 .item-title,
+	.countdown-style-6 .countdown-item.count-3 .item-title {
+		position: absolute;
+		right: 27px;
+	}
+
+	.countdown-style-6 .countdown-item.count-1 .item-count,
+	.countdown-style-6 .countdown-item.count-3 .item-count {
+		position: absolute;
+		right: 20px;
+	}
+
+	.countdown-style-6 .item-count {
+		font-size: 60px;
+		font-weight: 700;
+		line-height: 60px;
+		top: 37px;
+	}
+}
+
+
+/*** COUNTDOWN STYLE 7 ***/
+.countdown-container.countdown-style-7 {
+	width: inherit;
+}
+
+.countdown-container.countdown-style-7.align-left {
+	float: left;
+	clear: left;
+}
+
+.countdown-container.countdown-style-7.align-right {
+	float: right;
+	clear: right;
+}
+
+.countdown-container.countdown-style-7.align-center {
+	text-align: center;
+}
+
+.countdown-container.countdown-style-7 .item-count {
+	font-size: 100px;
+	line-height: 100px;
+	display: block;
+	height: 120px;
+	margin: 0;
+}
+
+/* Display first numbers */
+.countdown-container .countdown-hours .odometer-inside .odometer-digit:first-child,
+.countdown-container .countdown-minutes .odometer-inside .odometer-digit:first-child,
+.countdown-container .countdown-seconds .odometer-inside .odometer-digit:first-child {
+	display: none;
+}
+
+
+.countdown-container .odometer.odometer-theme-minimal {
+	display: inline-block;
+	vertical-align: middle;
+	*vertical-align: auto;
+	*zoom: 1;
+	*display: inline;
+	position: relative;
+}
+
+.countdown-container.countdown-style-6 .odometer.odometer-theme-minimal .odometer-inside {
+	display: flex;
+}
+
+.countdown-container .odometer.odometer-theme-minimal .odometer-digit {
+	display: inline-block;
+	vertical-align: middle;
+	*vertical-align: auto;
+	*zoom: 1;
+	*display: inline;
+	position: relative;
+}
+
+.countdown-container .odometer.odometer-theme-minimal .odometer-digit .odometer-digit-spacer {
+	display: inline-block;
+	vertical-align: middle;
+	*vertical-align: auto;
+	*zoom: 1;
+	*display: inline;
+	visibility: hidden;
+}
+
+.countdown-container .odometer.odometer-theme-minimal .odometer-digit .odometer-digit-inner {
+	text-align: center;
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	overflow: hidden;
+}
+
+.countdown-container .odometer.odometer-theme-minimal .odometer-digit .odometer-ribbon {
+	display: block;
+}
+
+.countdown-container .odometer.odometer-theme-minimal .odometer-digit .odometer-ribbon-inner {
+	display: block;
+	-webkit-backface-visibility: hidden;
+}
+
+.countdown-container .odometer.odometer-theme-minimal .odometer-digit .odometer-value {
+	display: block;
+	-webkit-transform: translateZ(0);
+}
+
+.countdown-container .odometer.odometer-theme-minimal .odometer-digit .odometer-value.odometer-last-value {
+	position: absolute;
+	width: 100%;
+}
+
+.countdown-container .odometer.odometer-theme-minimal.odometer-animating-up .odometer-ribbon-inner {
+	-webkit-transition: -webkit-transform 1s;
+	-moz-transition: -moz-transform 1s;
+	-ms-transition: -ms-transform 1s;
+	-o-transition: -o-transform 1s;
+	transition: transform 1s;
+}
+
+.countdown-container .odometer.odometer-theme-minimal.odometer-animating-up.odometer-animating .odometer-ribbon-inner {
+	-webkit-transform: translateY(-100%);
+	-moz-transform: translateY(-100%);
+	-ms-transform: translateY(-100%);
+	-o-transform: translateY(-100%);
+	transform: translateY(-100%);
+}
+
+.countdown-container .odometer.odometer-theme-minimal.odometer-animating-down .odometer-ribbon-inner {
+	-webkit-transform: translateY(-100%);
+	-moz-transform: translateY(-100%);
+	-ms-transform: translateY(-100%);
+	-o-transform: translateY(-100%);
+	transform: translateY(-100%);
+}
+
+.countdown-container .odometer.odometer-theme-minimal.odometer-animating-down.odometer-animating .odometer-ribbon-inner {
+	-webkit-transition: -webkit-transform 1s;
+	-moz-transition: -moz-transform 1s;
+	-ms-transition: -ms-transform 1s;
+	-o-transition: -o-transform 1s;
+	transition: transform 1s;
+	-webkit-transform: translateY(0);
+	-moz-transform: translateY(0);
+	-ms-transform: translateY(0);
+	-o-transform: translateY(0);
+	transform: translateY(0);
+}
+
+.countdown-wrap-link, .countdown-wrap-link:hover {
+	color: inherit;
+}
+
+.countdown-wrap-link {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	z-index: 999;
+}
+
+.elementor-widget-container .countdown-container.countdown-style-4 .countdown-wrapper {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+}
+
+.countdown-style-5 .countdown-item {
+	width: auto;
+	min-width: auto;
+	height: auto;
+	vertical-align: top;
+}
+
+.countdown-style-6,
+.countdown-style-7 {
+	color: #333;
+}
+
+.countdown-container .wrap {
+	position: relative;
+}
+.countdown-container .wrap,
+.countdown-container .item-title,
+.countdown-container .item-count {
+	transition: all 0.3s linear;
+	-moz-transition: all 0.3s linear;
+	-webkit-transition: all 0.3s linear;
+}

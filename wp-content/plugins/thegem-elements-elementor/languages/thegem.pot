@@ -1,0 +1,6251 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: TheGem Theme Elements\n"
+"POT-Creation-Date: 2019-09-12 10:10+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: \n"
+"Language-Team: Codex Themes\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: thegem-elements.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: inc/additional.php:105
+msgid "The Gem Basic Grid 1"
+msgstr ""
+
+#: inc/additional.php:138 inc/additional.php:178
+msgid "Read more"
+msgstr ""
+
+#: inc/additional.php:145
+msgid "The Gem Basic Grid 2"
+msgstr ""
+
+#: inc/additional.php:185
+msgid "The Gem Media Grid 1"
+msgstr ""
+
+#: inc/additional.php:220
+msgid "The Gem Media Grid 2"
+msgstr ""
+
+#: inc/additional.php:335
+msgid "Elegant Icons"
+msgstr ""
+
+#: inc/additional.php:336 inc/post-types/titles.php:213
+#: inc/shortcodes/shortcodes.php:2297 inc/shortcodes/shortcodes.php:2630
+#: inc/shortcodes/shortcodes.php:2849 inc/shortcodes/shortcodes.php:3188
+#: inc/shortcodes/shortcodes.php:3539 inc/shortcodes/shortcodes.php:3997
+#: inc/shortcodes/shortcodes.php:4699 inc/shortcodes/shortcodes.php:5000
+#: inc/shortcodes/shortcodes.php:5326 inc/shortcodes/shortcodes.php:6022
+#: inc/shortcodes/shortcodes.php:6733 inc/shortcodes/shortcodes.php:7466
+#: inc/shortcodes/shortcodes.php:7590 inc/shortcodes/shortcodes.php:8151
+#: inc/shortcodes/shortcodes.php:8721 inc/shortcodes/shortcodes.php:9970
+#: inc/shortcodes/shortcodes.php:11156 thegem-elements.php:99
+msgid "Material Design"
+msgstr ""
+
+#: inc/content.php:528 inc/content.php:1433 inc/content.php:2102
+#: inc/shortcodes/shortcodes.php:6415 inc/shortcodes/shortcodes.php:7827
+#: inc/shortcodes/shortcodes.php:11513 inc/shortcodes/shortcodes.php:11756
+msgid "Show All"
+msgstr ""
+
+#: inc/content.php:538 inc/content.php:1552 inc/content.php:2149
+#: inc/shortcodes/shortcodes.php:5813 inc/shortcodes/shortcodes.php:5883
+#: inc/shortcodes/shortcodes.php:6098 inc/shortcodes/shortcodes.php:6446
+#: inc/shortcodes/shortcodes.php:6809 inc/shortcodes/shortcodes.php:7864
+#: inc/shortcodes/shortcodes.php:8227 inc/shortcodes/shortcodes.php:10870
+#: inc/shortcodes/shortcodes.php:11232
+msgid "Load More"
+msgstr ""
+
+#: inc/content.php:799 inc/content.php:1431
+msgid "Portfolio filters"
+msgstr ""
+
+#: inc/content.php:813 inc/content.php:1445 inc/content.php:2506
+#: inc/shortcodes/shortcodes.php:6211 inc/shortcodes/shortcodes.php:10622
+msgid "Date"
+msgstr ""
+
+#: inc/content.php:815 inc/content.php:1447 inc/content.php:2508
+#: inc/post-types/teams.php:81 inc/post-types/testimonials.php:79
+#: inc/shortcodes/shortcodes.php:9773 inc/shortcodes/shortcodes.php:12061
+msgid "Name"
+msgstr ""
+
+#: inc/content.php:819 inc/content.php:1451 inc/content.php:2512
+msgid "Desc"
+msgstr ""
+
+#: inc/content.php:821 inc/content.php:1453 inc/content.php:2514
+msgid "Asc"
+msgstr ""
+
+#: inc/content.php:945 inc/post-types/portfolios.php:41
+#: inc/shortcodes/shortcodes.php:7651
+msgid "Portfolio"
+msgstr ""
+
+#: inc/content.php:1425
+msgid "All"
+msgstr ""
+
+#: inc/content.php:1824
+msgid "Unable to communicate with Instagram."
+msgstr ""
+
+#: inc/content.php:1827
+msgid "Instagram did not return a 200."
+msgstr ""
+
+#: inc/content.php:1834 inc/content.php:1839 inc/content.php:1843
+msgid "Instagram has returned invalid data."
+msgstr ""
+
+#: inc/content.php:1873
+msgid "Instagram Image"
+msgstr ""
+
+#: inc/content.php:1901
+msgid "Instagram did not return any images."
+msgstr ""
+
+#: inc/content.php:2492
+msgid "News filters"
+msgstr ""
+
+#: inc/content.php:2624 inc/shortcodes/shortcodes.php:7188
+msgid "Read More"
+msgstr ""
+
+#: inc/content.php:2742
+msgid "No featured posts to display are selected."
+msgstr ""
+
+#: inc/diagram.php:14 inc/diagram.php:15
+msgid "diagram"
+msgstr ""
+
+#: inc/diagram.php:55 inc/diagram.php:77 inc/widgets/widgets.php:1829
+msgid "Title:"
+msgstr ""
+
+#: inc/diagram.php:57
+msgid "Amount (in percents):"
+msgstr ""
+
+#: inc/diagram.php:59
+msgid "Color:"
+msgstr ""
+
+#: inc/diagram.php:80
+msgid "Summary:"
+msgstr ""
+
+#: inc/diagram.php:83
+msgid "Type:"
+msgstr ""
+
+#: inc/diagram.php:85 inc/post-types/quickfinders.php:148
+#: inc/post-types/titles.php:265 inc/shortcodes/shortcodes.php:2356
+#: inc/shortcodes/shortcodes.php:3594 inc/shortcodes/shortcodes.php:4048
+#: inc/shortcodes/shortcodes.php:4751 inc/shortcodes/shortcodes.php:5052
+#: inc/shortcodes/shortcodes.php:10028
+msgid "Circle"
+msgstr ""
+
+#: inc/diagram.php:86
+msgid "Lines"
+msgstr ""
+
+#: inc/diagram.php:91 inc/shortcodes/shortcodes.php:3243
+#: inc/shortcodes/shortcodes.php:3310 inc/shortcodes/shortcodes.php:3740
+#: inc/shortcodes/shortcodes.php:4144 inc/shortcodes/shortcodes.php:5644
+#: inc/shortcodes/shortcodes.php:5869 inc/shortcodes/shortcodes.php:8379
+#: inc/shortcodes/shortcodes.php:9048 inc/shortcodes/shortcodes.php:9570
+#: inc/shortcodes/shortcodes.php:9622 inc/shortcodes/shortcodes.php:10313
+#: inc/shortcodes/shortcodes.php:10495 inc/shortcodes/shortcodes.php:11352
+#: inc/widgets/widgets.php:736 inc/widgets/widgets.php:1601
+msgid "Lazy loading enabled"
+msgstr ""
+
+#: inc/diagram.php:94
+msgid "Skills"
+msgstr ""
+
+#: inc/gdpr/inc/classes/thegem-gdpr-admin.php:27
+#: inc/gdpr/inc/views/admin/index.php:2
+msgid "Privacy & GDPR"
+msgstr ""
+
+#: inc/gdpr/inc/classes/thegem-gdpr-admin.php:248
+#: inc/gdpr/inc/classes/thegem-gdpr-admin.php:660
+msgid "You have read and agreed to our privacy policy"
+msgstr ""
+
+#: inc/gdpr/inc/classes/thegem-gdpr-admin.php:249
+msgid "This website uses YouTube service to provide video content streaming."
+msgstr ""
+
+#: inc/gdpr/inc/classes/thegem-gdpr-admin.php:250
+msgid ""
+"This website includes videos, provided by Vimeo - a video content streaming "
+"service."
+msgstr ""
+
+#: inc/gdpr/inc/classes/thegem-gdpr-admin.php:251
+msgid ""
+"This site uses so-called web fonts provided by Google for the uniform font "
+"representation."
+msgstr ""
+
+#: inc/gdpr/inc/classes/thegem-gdpr-admin.php:252
+msgid ""
+"This website uses Google Maps service, allowing to display interactive maps."
+msgstr ""
+
+#: inc/gdpr/inc/classes/thegem-gdpr-admin.php:253
+msgid ""
+"This website uses functions of the web analytics service Google Analytics."
+msgstr ""
+
+#: inc/gdpr/inc/classes/thegem-gdpr-admin.php:362
+#, php-format
+msgid "Form: %s"
+msgstr ""
+
+#: inc/gdpr/inc/classes/thegem-gdpr-admin.php:366
+msgid "Activate for this form"
+msgstr ""
+
+#: inc/gdpr/inc/classes/thegem-gdpr-admin.php:371
+#: inc/gdpr/inc/classes/thegem-gdpr-integration.php:76
+#: inc/gdpr/inc/views/admin/integrations.php:42
+msgid ""
+"By using this form you agree with the storage and handling of your data by "
+"this website."
+msgstr ""
+
+#: inc/gdpr/inc/classes/thegem-gdpr-admin.php:373
+#: inc/gdpr/inc/views/admin/integrations.php:43
+msgid "Checkbox text"
+msgstr ""
+
+#: inc/gdpr/inc/classes/thegem-gdpr-admin.php:376
+#: inc/gdpr/inc/views/admin/consent-bar.php:23
+#: inc/gdpr/inc/views/admin/integrations.php:48
+#: inc/gdpr/inc/views/admin/settings.php:162
+#: inc/gdpr/inc/views/admin/settings.php:507
+msgid "You can use"
+msgstr ""
+
+#: inc/gdpr/inc/classes/thegem-gdpr-admin.php:379
+#: inc/gdpr/inc/classes/thegem-gdpr-integration.php:80
+#: inc/gdpr/inc/views/admin/integrations.php:51
+msgid "Please accept the privacy checkbox."
+msgstr ""
+
+#: inc/gdpr/inc/classes/thegem-gdpr-admin.php:381
+#: inc/gdpr/inc/views/admin/integrations.php:52
+msgid "Error message"
+msgstr ""
+
+#: inc/gdpr/inc/classes/thegem-gdpr-admin.php:568
+msgid "Something went wrong: custom.css could not be created."
+msgstr ""
+
+#: inc/gdpr/inc/classes/thegem-gdpr-admin.php:570
+msgid "File could not be created. Connection error."
+msgstr ""
+
+#: inc/gdpr/inc/classes/thegem-gdpr-admin.php:572
+#, php-format
+msgid "File could not be created. Cannot write custom css to \"%s\"."
+msgstr ""
+
+#: inc/gdpr/inc/classes/thegem-gdpr-admin.php:574
+msgid "File could not be created. Problem with access."
+msgstr ""
+
+#: inc/gdpr/inc/classes/thegem-gdpr-admin.php:595
+#, php-format
+msgid "te %s directory in uploads directory."
+msgstr ""
+
+#: inc/gdpr/inc/classes/thegem-gdpr-admin.php:651
+#: inc/gdpr/inc/classes/thegem-gdpr.php:168
+#: inc/gdpr/inc/views/admin/settings.php:20
+msgid "Privacy Policy"
+msgstr ""
+
+#: inc/gdpr/inc/classes/thegem-gdpr-admin.php:653
+#: inc/gdpr/inc/views/admin/settings.php:40
+msgid "Cookies Policy"
+msgstr ""
+
+#: inc/gdpr/inc/classes/thegem-gdpr-admin.php:654
+#: inc/gdpr/inc/classes/thegem-gdpr.php:160
+#: inc/gdpr/inc/views/admin/consent-bar.php:27
+#: inc/gdpr/inc/views/admin/settings.php:48
+msgid "Privacy Preferences"
+msgstr ""
+
+#: inc/gdpr/inc/classes/thegem-gdpr-admin.php:655
+#: inc/gdpr/inc/views/admin/settings.php:56
+msgid ""
+"When you visit our website, it may store information through your browser "
+"from specific services, usually in form of cookies. Here you can change your "
+"privacy preferences. Please note that blocking some types of cookies may "
+"impact your experience on our website and the services we offer."
+msgstr ""
+
+#: inc/gdpr/inc/classes/thegem-gdpr-admin.php:656
+#: inc/gdpr/inc/views/admin/settings.php:64
+msgid ""
+"This content is blocked. Please review your "
+"[gem_privacy_settings_link]Privacy Preferences[/gem_privacy_settings_link]."
+msgstr ""
+
+#: inc/gdpr/inc/classes/thegem-gdpr-admin.php:657
+#: inc/gdpr/inc/views/admin/settings.php:73
+msgid "Save Preferences"
+msgstr ""
+
+#: inc/gdpr/inc/classes/thegem-gdpr-integration.php:29
+msgid "Contact Form 7"
+msgstr ""
+
+#: inc/gdpr/inc/classes/thegem-gdpr-integration.php:30
+msgid "A GDPR checkbox will be automatically added to every form you activate."
+msgstr ""
+
+#: inc/gdpr/inc/classes/thegem-gdpr-public.php:65
+msgid "We could not verify the the security key. Please try again."
+msgstr ""
+
+#: inc/gdpr/inc/classes/thegem-gdpr-public.php:434
+msgctxt " font: on or off"
+msgid "on"
+msgstr ""
+
+#: inc/gdpr/inc/classes/thegem-gdpr-wp.php:48
+#, php-format
+msgid "<strong>ERROR</strong>: %s"
+msgstr ""
+
+#: inc/gdpr/inc/classes/thegem-gdpr-wp.php:49
+msgid "Comment Submission Failure"
+msgstr ""
+
+#: inc/gdpr/inc/classes/thegem-gdpr.php:100 inc/post-types/titles.php:402
+#: inc/shortcodes/shortcodes.php:2459 inc/shortcodes/shortcodes.php:3102
+#: inc/shortcodes/shortcodes.php:3884 inc/shortcodes/shortcodes.php:4332
+#: inc/shortcodes/shortcodes.php:4452 inc/shortcodes/shortcodes.php:4537
+#: inc/shortcodes/shortcodes.php:4794 inc/shortcodes/shortcodes.php:4901
+#: inc/shortcodes/shortcodes.php:5094 inc/shortcodes/shortcodes.php:5201
+#: inc/shortcodes/shortcodes.php:5420 inc/shortcodes/shortcodes.php:5527
+#: inc/shortcodes/shortcodes.php:6661 inc/shortcodes/shortcodes.php:7406
+#: inc/shortcodes/shortcodes.php:8079 inc/shortcodes/shortcodes.php:8884
+#: inc/shortcodes/shortcodes.php:10166 inc/shortcodes/shortcodes.php:10228
+#: inc/shortcodes/shortcodes.php:11084
+msgid "Bottom"
+msgstr ""
+
+#: inc/gdpr/inc/classes/thegem-gdpr.php:101 inc/post-types/titles.php:400
+#: inc/shortcodes/shortcodes.php:2457 inc/shortcodes/shortcodes.php:3101
+#: inc/shortcodes/shortcodes.php:3883 inc/shortcodes/shortcodes.php:4331
+#: inc/shortcodes/shortcodes.php:4451 inc/shortcodes/shortcodes.php:4535
+#: inc/shortcodes/shortcodes.php:4793 inc/shortcodes/shortcodes.php:4900
+#: inc/shortcodes/shortcodes.php:5093 inc/shortcodes/shortcodes.php:5200
+#: inc/shortcodes/shortcodes.php:5419 inc/shortcodes/shortcodes.php:5526
+#: inc/shortcodes/shortcodes.php:6660 inc/shortcodes/shortcodes.php:7405
+#: inc/shortcodes/shortcodes.php:8078 inc/shortcodes/shortcodes.php:8883
+#: inc/shortcodes/shortcodes.php:10165 inc/shortcodes/shortcodes.php:10226
+#: inc/shortcodes/shortcodes.php:11083
+msgid "Top"
+msgstr ""
+
+#: inc/gdpr/inc/classes/thegem-gdpr.php:169
+msgid "Google Fonts"
+msgstr ""
+
+#: inc/gdpr/inc/classes/thegem-gdpr.php:170
+#: inc/shortcodes/vc_shortcodes/init.php:240
+msgid "Google Maps"
+msgstr ""
+
+#: inc/gdpr/inc/classes/thegem-gdpr.php:171
+msgid "Tracking"
+msgstr ""
+
+#: inc/gdpr/inc/classes/thegem-gdpr.php:172 inc/post-types/titles.php:417
+#: inc/shortcodes/shortcodes.php:3940 inc/shortcodes/shortcodes.php:4591
+msgid "YouTube"
+msgstr ""
+
+#: inc/gdpr/inc/classes/thegem-gdpr.php:173 inc/post-types/titles.php:418
+#: inc/shortcodes/shortcodes.php:3941 inc/shortcodes/shortcodes.php:4592
+#: inc/shortcodes/shortcodes.php:10377
+msgid "Vimeo"
+msgstr ""
+
+#: inc/gdpr/inc/classes/thegem-gdpr.php:174
+#: inc/gdpr/inc/views/admin/settings.php:126
+#: inc/gdpr/inc/views/admin/settings.php:481
+#: inc/gdpr/inc/views/public/privacy-preferences.php:27
+msgid "Required"
+msgstr ""
+
+#: inc/gdpr/inc/classes/thegem-gdpr.php:267
+msgid ""
+"This content is blocked. Please review your "
+"[gem_privacy_settings_link]Privacy Settings[/gem_privacy_settings_link]."
+msgstr ""
+
+#: inc/gdpr/inc/views/admin/consent-bar.php:7
+msgid "Activate Cookies Consent Bar"
+msgstr ""
+
+#: inc/gdpr/inc/views/admin/consent-bar.php:16
+msgid ""
+"Our website uses cookies from third party services to improve your browsing "
+"experience. Read more about this and how you can control cookies by clicking "
+"\"Privacy Preferences\"."
+msgstr ""
+
+#: inc/gdpr/inc/views/admin/consent-bar.php:17
+msgid "Text For Cookies Consent Bar"
+msgstr ""
+
+#: inc/gdpr/inc/views/admin/consent-bar.php:28
+msgid "\"Privacy Preferences\" Link Text"
+msgstr ""
+
+#: inc/gdpr/inc/views/admin/consent-bar.php:36
+msgid "I Agree"
+msgstr ""
+
+#: inc/gdpr/inc/views/admin/consent-bar.php:37
+msgid "\"I Agree\" Button Text"
+msgstr ""
+
+#: inc/gdpr/inc/views/admin/consent-bar.php:45
+msgid "Cookies Consent Bar Position"
+msgstr ""
+
+#: inc/gdpr/inc/views/admin/consent-bar.php:57
+msgid "Cookies Consent Bar Styling"
+msgstr ""
+
+#: inc/gdpr/inc/views/admin/consent-bar.php:61
+#: inc/gdpr/inc/views/admin/settings.php:191 inc/shortcodes/shortcodes.php:8499
+msgid "Use custom styles"
+msgstr ""
+
+#: inc/gdpr/inc/views/admin/consent-bar.php:71
+msgid "Bar Background Color"
+msgstr ""
+
+#: inc/gdpr/inc/views/admin/consent-bar.php:79
+msgid "Background Opacity (0-100%)"
+msgstr ""
+
+#: inc/gdpr/inc/views/admin/consent-bar.php:86
+#: inc/gdpr/inc/views/admin/settings.php:305
+msgid "Text font"
+msgstr ""
+
+#: inc/gdpr/inc/views/admin/consent-bar.php:92
+#: inc/gdpr/inc/views/admin/consent-bar.php:158
+#: inc/gdpr/inc/views/admin/settings.php:239
+#: inc/gdpr/inc/views/admin/settings.php:311
+msgid "Font Family"
+msgstr ""
+
+#: inc/gdpr/inc/views/admin/consent-bar.php:105
+#: inc/gdpr/inc/views/admin/consent-bar.php:171
+#: inc/gdpr/inc/views/admin/settings.php:252
+#: inc/gdpr/inc/views/admin/settings.php:324
+msgid "Font Style"
+msgstr ""
+
+#: inc/gdpr/inc/views/admin/consent-bar.php:117
+#: inc/gdpr/inc/views/admin/consent-bar.php:183
+#: inc/gdpr/inc/views/admin/settings.php:264
+#: inc/gdpr/inc/views/admin/settings.php:336
+msgid "Font Sets"
+msgstr ""
+
+#: inc/gdpr/inc/views/admin/consent-bar.php:120
+#: inc/gdpr/inc/views/admin/consent-bar.php:186
+#: inc/gdpr/inc/views/admin/settings.php:267
+#: inc/gdpr/inc/views/admin/settings.php:339
+msgid "Get all from font"
+msgstr ""
+
+#: inc/gdpr/inc/views/admin/consent-bar.php:126
+#: inc/gdpr/inc/views/admin/consent-bar.php:192
+#: inc/gdpr/inc/views/admin/settings.php:273
+#: inc/gdpr/inc/views/admin/settings.php:345
+msgid "Font Size"
+msgstr ""
+
+#: inc/gdpr/inc/views/admin/consent-bar.php:134
+#: inc/gdpr/inc/views/admin/consent-bar.php:200
+#: inc/gdpr/inc/views/admin/settings.php:281
+#: inc/gdpr/inc/views/admin/settings.php:353
+msgid "Line Height"
+msgstr ""
+
+#: inc/gdpr/inc/views/admin/consent-bar.php:145
+#: inc/shortcodes/shortcodes.php:2416 inc/shortcodes/shortcodes.php:3527
+#: inc/shortcodes/shortcodes.php:3671
+msgid "Text Color"
+msgstr ""
+
+#: inc/gdpr/inc/views/admin/consent-bar.php:152
+msgid "Link font"
+msgstr ""
+
+#: inc/gdpr/inc/views/admin/consent-bar.php:211
+#: inc/gdpr/inc/views/admin/settings.php:449
+msgid "Link color"
+msgstr ""
+
+#: inc/gdpr/inc/views/admin/consent-bar.php:220
+#: inc/gdpr/inc/views/admin/settings.php:458
+msgid "Link hover color"
+msgstr ""
+
+#: inc/gdpr/inc/views/admin/consent-bar.php:229
+#: inc/gdpr/inc/views/admin/settings.php:395
+msgid "Button text color"
+msgstr ""
+
+#: inc/gdpr/inc/views/admin/consent-bar.php:238
+#: inc/gdpr/inc/views/admin/settings.php:404
+msgid "Button text hover color"
+msgstr ""
+
+#: inc/gdpr/inc/views/admin/consent-bar.php:246
+#: inc/gdpr/inc/views/admin/settings.php:413
+msgid "Button background color"
+msgstr ""
+
+#: inc/gdpr/inc/views/admin/consent-bar.php:255
+#: inc/gdpr/inc/views/admin/settings.php:422
+msgid "Button background hover color"
+msgstr ""
+
+#: inc/gdpr/inc/views/admin/consent-bar.php:264
+#: inc/gdpr/inc/views/admin/settings.php:431
+msgid "Button border color"
+msgstr ""
+
+#: inc/gdpr/inc/views/admin/consent-bar.php:273
+#: inc/gdpr/inc/views/admin/settings.php:440
+msgid "Button border hover color"
+msgstr ""
+
+#: inc/gdpr/inc/views/admin/index.php:7
+msgid "Cookies Consent Bar"
+msgstr ""
+
+#: inc/gdpr/inc/views/admin/index.php:8
+msgid "Forms"
+msgstr ""
+
+#: inc/gdpr/inc/views/admin/index.php:9
+msgid "Privacy Preferences & Consents"
+msgstr ""
+
+#: inc/gdpr/inc/views/admin/integrations.php:21
+#, php-format
+msgid "This plugin is outdated. %s supports version %s and up."
+msgstr ""
+
+#: inc/gdpr/inc/views/admin/integrations.php:31
+msgid "WordPress Comments"
+msgstr ""
+
+#: inc/gdpr/inc/views/admin/integrations.php:37
+msgid ""
+"When activated the GDPR checkbox will be added automatically just above the "
+"submit button."
+msgstr ""
+
+#: inc/gdpr/inc/views/admin/settings.php:4
+msgid "General Settings"
+msgstr ""
+
+#: inc/gdpr/inc/views/admin/settings.php:8
+msgid "Privacy Policy Page"
+msgstr ""
+
+#: inc/gdpr/inc/views/admin/settings.php:11
+#: inc/gdpr/inc/views/admin/settings.php:31
+#: inc/gdpr/inc/views/admin/settings.php:89
+msgid "— Select —"
+msgstr ""
+
+#: inc/gdpr/inc/views/admin/settings.php:21
+msgid "Privacy Policy Link Text"
+msgstr ""
+
+#: inc/gdpr/inc/views/admin/settings.php:28
+msgid "Cookies Policy Page"
+msgstr ""
+
+#: inc/gdpr/inc/views/admin/settings.php:41
+msgid "Cookies Policy Link Text"
+msgstr ""
+
+#: inc/gdpr/inc/views/admin/settings.php:49
+msgid "Privacy Preferences Modal Title"
+msgstr ""
+
+#: inc/gdpr/inc/views/admin/settings.php:57
+msgid "Privacy Excerpt Text For Privacy Modal"
+msgstr ""
+
+#: inc/gdpr/inc/views/admin/settings.php:65
+msgid "Consent Notice Text In Content"
+msgstr ""
+
+#: inc/gdpr/inc/views/admin/settings.php:69
+msgid ""
+"Important: No HTML code is allowed. Use the shortcode "
+"[gem_privacy_settings_link]Your Text[/gem_privacy_settings_link] to print a "
+"link that opens the preferences box."
+msgstr ""
+
+#: inc/gdpr/inc/views/admin/settings.php:74
+msgid "\"Save Preferences\" Button Text"
+msgstr ""
+
+#: inc/gdpr/inc/views/admin/settings.php:84
+msgid "Consents"
+msgstr ""
+
+#: inc/gdpr/inc/views/admin/settings.php:95
+msgid "Add"
+msgstr ""
+
+#: inc/gdpr/inc/views/admin/settings.php:119
+#: inc/gdpr/inc/views/admin/settings.php:474 inc/post-types/teams.php:110
+#: inc/post-types/teams.php:123
+msgid "Remove"
+msgstr ""
+
+#: inc/gdpr/inc/views/admin/settings.php:136
+#: inc/gdpr/inc/views/admin/settings.php:495
+msgid "Consent title"
+msgstr ""
+
+#: inc/gdpr/inc/views/admin/settings.php:146
+#: inc/gdpr/inc/views/admin/settings.php:488
+msgid "Active by default"
+msgstr ""
+
+#: inc/gdpr/inc/views/admin/settings.php:156
+#: inc/gdpr/inc/views/admin/settings.php:502
+msgid "Consent description"
+msgstr ""
+
+#: inc/gdpr/inc/views/admin/settings.php:167
+#: inc/gdpr/inc/views/admin/settings.php:510
+msgid "Consent Poster"
+msgstr ""
+
+#: inc/gdpr/inc/views/admin/settings.php:175
+#: inc/gdpr/inc/views/admin/settings.php:516
+msgid "No fallback fonts are selected."
+msgstr ""
+
+#: inc/gdpr/inc/views/admin/settings.php:175
+#: inc/gdpr/inc/views/admin/settings.php:516
+msgid "Setup fallback fonts"
+msgstr ""
+
+#: inc/gdpr/inc/views/admin/settings.php:187
+msgid "Privacy Preferences Overlay Styling"
+msgstr ""
+
+#: inc/gdpr/inc/views/admin/settings.php:203
+msgid "Website Background Fill Color"
+msgstr ""
+
+#: inc/gdpr/inc/views/admin/settings.php:211
+msgid "Website Background Fill Opacity (0-100%)"
+msgstr ""
+
+#: inc/gdpr/inc/views/admin/settings.php:219
+msgid "Overlay Background Color"
+msgstr ""
+
+#: inc/gdpr/inc/views/admin/settings.php:227
+msgid "Bottom Bar Background Color"
+msgstr ""
+
+#: inc/gdpr/inc/views/admin/settings.php:233
+msgid "Title font"
+msgstr ""
+
+#: inc/gdpr/inc/views/admin/settings.php:291 inc/shortcodes/shortcodes.php:4169
+#: inc/shortcodes/shortcodes.php:5590
+msgid "Title color"
+msgstr ""
+
+#: inc/gdpr/inc/views/admin/settings.php:299
+msgid "Title icon color"
+msgstr ""
+
+#: inc/gdpr/inc/views/admin/settings.php:363 inc/shortcodes/shortcodes.php:2580
+#: inc/shortcodes/shortcodes.php:2787 inc/shortcodes/shortcodes.php:2993
+#: inc/shortcodes/shortcodes.php:3398 inc/shortcodes/shortcodes.php:5959
+#: inc/shortcodes/shortcodes.php:6522 inc/shortcodes/shortcodes.php:7265
+#: inc/shortcodes/shortcodes.php:7940 inc/shortcodes/shortcodes.php:8677
+#: inc/shortcodes/shortcodes.php:9120 inc/shortcodes/shortcodes.php:9903
+#: inc/shortcodes/shortcodes.php:10946
+msgid "Text color"
+msgstr ""
+
+#: inc/gdpr/inc/views/admin/settings.php:371
+msgid "Separator color"
+msgstr ""
+
+#: inc/gdpr/inc/views/admin/settings.php:379
+msgid "\"Disabled\" background color"
+msgstr ""
+
+#: inc/gdpr/inc/views/admin/settings.php:387
+msgid "\"Enabled\" background color"
+msgstr ""
+
+#: inc/post-types/clients.php:5 inc/post-types/clients.php:7
+#: inc/shortcodes/shortcodes.php:3251
+msgid "Clients"
+msgstr ""
+
+#: inc/post-types/clients.php:6 inc/post-types/clients.php:8
+msgid "Client"
+msgstr ""
+
+#: inc/post-types/clients.php:9 inc/post-types/footers.php:9
+#: inc/post-types/galleries.php:9 inc/post-types/news.php:11
+#: inc/post-types/portfolios.php:11 inc/post-types/quickfinders.php:9
+#: inc/post-types/slideshows.php:10 inc/post-types/teams.php:9
+#: inc/post-types/testimonials.php:9 inc/post-types/titles.php:9
+msgid "Add New"
+msgstr ""
+
+#: inc/post-types/clients.php:10
+msgid "Add New Client"
+msgstr ""
+
+#: inc/post-types/clients.php:11
+msgid "New Client"
+msgstr ""
+
+#: inc/post-types/clients.php:12
+msgid "Edit Client"
+msgstr ""
+
+#: inc/post-types/clients.php:13
+msgid "View Client"
+msgstr ""
+
+#: inc/post-types/clients.php:14
+msgid "All Clients"
+msgstr ""
+
+#: inc/post-types/clients.php:15
+msgid "Search Clients"
+msgstr ""
+
+#: inc/post-types/clients.php:16
+msgid "No clients found."
+msgstr ""
+
+#: inc/post-types/clients.php:17
+msgid "No clients found in Trash."
+msgstr ""
+
+#: inc/post-types/clients.php:37 inc/post-types/clients.php:50
+#: inc/shortcodes/shortcodes.php:3265
+msgid "Clients Sets"
+msgstr ""
+
+#: inc/post-types/clients.php:38
+msgid "Clients Set"
+msgstr ""
+
+#: inc/post-types/clients.php:39
+msgid "Search Clients Sets"
+msgstr ""
+
+#: inc/post-types/clients.php:40
+msgid "Popular Clients Sets"
+msgstr ""
+
+#: inc/post-types/clients.php:41
+msgid "All Clients Sets"
+msgstr ""
+
+#: inc/post-types/clients.php:42
+msgid "Edit Clients Set"
+msgstr ""
+
+#: inc/post-types/clients.php:43
+msgid "Update Clients Set"
+msgstr ""
+
+#: inc/post-types/clients.php:44
+msgid "Add New Clients Set"
+msgstr ""
+
+#: inc/post-types/clients.php:45
+msgid "New Clients Set Name"
+msgstr ""
+
+#: inc/post-types/clients.php:46
+msgid "Separate Clients Sets with commas"
+msgstr ""
+
+#: inc/post-types/clients.php:47
+msgid "Add or remove Clients Sets"
+msgstr ""
+
+#: inc/post-types/clients.php:48
+msgid "Choose from the most used Clients Sets"
+msgstr ""
+
+#: inc/post-types/clients.php:49
+msgid "No clients sets found."
+msgstr ""
+
+#: inc/post-types/clients.php:72
+msgid "Client Image"
+msgstr ""
+
+#: inc/post-types/clients.php:73
+msgid "Client Settings"
+msgstr ""
+
+#: inc/post-types/clients.php:82 inc/post-types/quickfinders.php:89
+#: inc/post-types/slideshows.php:83 inc/post-types/teams.php:96
+#: inc/post-types/teams.php:116 inc/post-types/teams.php:129
+#: inc/post-types/testimonials.php:91 inc/shortcodes/shortcodes.php:4959
+#: inc/shortcodes/shortcodes.php:5601 inc/widgets/widgets.php:96
+#: inc/widgets/widgets.php:306
+msgid "Link"
+msgstr ""
+
+#: inc/post-types/clients.php:85 inc/post-types/portfolios.php:94
+#: inc/post-types/quickfinders.php:95 inc/post-types/slideshows.php:86
+#: inc/post-types/teams.php:99 inc/post-types/testimonials.php:94
+#: inc/shortcodes/shortcodes.php:4964
+msgid "Link target"
+msgstr ""
+
+#: inc/post-types/clients.php:143 inc/post-types/clients.php:154
+#: inc/post-types/portfolios.php:259 inc/post-types/portfolios.php:282
+#: inc/post-types/quickfinders.php:115 inc/post-types/quickfinders.php:128
+#: inc/post-types/titles.php:202 inc/post-types/titles.php:218
+#: inc/post-types/titles.php:228 inc/post-types/titles.php:239
+#: inc/post-types/titles.php:251 inc/shortcodes/shortcodes.php:2301
+#: inc/shortcodes/shortcodes.php:2311 inc/shortcodes/shortcodes.php:2321
+#: inc/shortcodes/shortcodes.php:2333 inc/shortcodes/shortcodes.php:2636
+#: inc/shortcodes/shortcodes.php:2647 inc/shortcodes/shortcodes.php:2658
+#: inc/shortcodes/shortcodes.php:2671 inc/shortcodes/shortcodes.php:2859
+#: inc/shortcodes/shortcodes.php:2870 inc/shortcodes/shortcodes.php:2881
+#: inc/shortcodes/shortcodes.php:2894 inc/shortcodes/shortcodes.php:3193
+#: inc/shortcodes/shortcodes.php:3203 inc/shortcodes/shortcodes.php:3213
+#: inc/shortcodes/shortcodes.php:3225 inc/shortcodes/shortcodes.php:3540
+#: inc/shortcodes/shortcodes.php:3544 inc/shortcodes/shortcodes.php:3551
+#: inc/shortcodes/shortcodes.php:3555 inc/shortcodes/shortcodes.php:3562
+#: inc/shortcodes/shortcodes.php:3566 inc/shortcodes/shortcodes.php:3573
+#: inc/shortcodes/shortcodes.php:3579 inc/shortcodes/shortcodes.php:3586
+#: inc/shortcodes/shortcodes.php:3595 inc/shortcodes/shortcodes.php:3602
+#: inc/shortcodes/shortcodes.php:3609 inc/shortcodes/shortcodes.php:3616
+#: inc/shortcodes/shortcodes.php:3623 inc/shortcodes/shortcodes.php:3630
+#: inc/shortcodes/shortcodes.php:3637 inc/shortcodes/shortcodes.php:4002
+#: inc/shortcodes/shortcodes.php:4012 inc/shortcodes/shortcodes.php:4022
+#: inc/shortcodes/shortcodes.php:4034 inc/shortcodes/shortcodes.php:4689
+#: inc/shortcodes/shortcodes.php:4704 inc/shortcodes/shortcodes.php:4714
+#: inc/shortcodes/shortcodes.php:4725 inc/shortcodes/shortcodes.php:4737
+#: inc/shortcodes/shortcodes.php:5005 inc/shortcodes/shortcodes.php:5015
+#: inc/shortcodes/shortcodes.php:5026 inc/shortcodes/shortcodes.php:5038
+#: inc/shortcodes/shortcodes.php:5331 inc/shortcodes/shortcodes.php:5341
+#: inc/shortcodes/shortcodes.php:5352 inc/shortcodes/shortcodes.php:5364
+#: inc/shortcodes/shortcodes.php:6032 inc/shortcodes/shortcodes.php:6043
+#: inc/shortcodes/shortcodes.php:6054 inc/shortcodes/shortcodes.php:6067
+#: inc/shortcodes/shortcodes.php:6743 inc/shortcodes/shortcodes.php:6754
+#: inc/shortcodes/shortcodes.php:6765 inc/shortcodes/shortcodes.php:6778
+#: inc/shortcodes/shortcodes.php:7476 inc/shortcodes/shortcodes.php:7487
+#: inc/shortcodes/shortcodes.php:7498 inc/shortcodes/shortcodes.php:7511
+#: inc/shortcodes/shortcodes.php:7594 inc/shortcodes/shortcodes.php:7604
+#: inc/shortcodes/shortcodes.php:7614 inc/shortcodes/shortcodes.php:7626
+#: inc/shortcodes/shortcodes.php:8161 inc/shortcodes/shortcodes.php:8172
+#: inc/shortcodes/shortcodes.php:8183 inc/shortcodes/shortcodes.php:8196
+#: inc/shortcodes/shortcodes.php:8726 inc/shortcodes/shortcodes.php:8736
+#: inc/shortcodes/shortcodes.php:8746 inc/shortcodes/shortcodes.php:8758
+#: inc/shortcodes/shortcodes.php:9979 inc/shortcodes/shortcodes.php:9990
+#: inc/shortcodes/shortcodes.php:10001 inc/shortcodes/shortcodes.php:10014
+#: inc/shortcodes/shortcodes.php:11166 inc/shortcodes/shortcodes.php:11177
+#: inc/shortcodes/shortcodes.php:11188 inc/shortcodes/shortcodes.php:11201
+#: inc/widgets/widgets.php:1488
+msgid "Icon"
+msgstr ""
+
+#: inc/post-types/clients.php:145 inc/post-types/clients.php:157
+#: thegem-elements.php:111
+msgid "Enter icon code"
+msgstr ""
+
+#: inc/post-types/clients.php:145 inc/post-types/clients.php:157
+#: thegem-elements.php:112 thegem-elements.php:113 thegem-elements.php:114
+#: thegem-elements.php:116
+msgid "Icons info"
+msgstr ""
+
+#: inc/post-types/clients.php:145 inc/post-types/clients.php:157
+msgid "Show Icon Codes"
+msgstr ""
+
+#: inc/post-types/footers.php:5
+msgid "Footers"
+msgstr ""
+
+#: inc/post-types/footers.php:6 inc/post-types/footers.php:8
+msgid "Footer"
+msgstr ""
+
+#: inc/post-types/footers.php:7
+msgid "Custom Footers"
+msgstr ""
+
+#: inc/post-types/footers.php:10
+msgid "Add New Footer"
+msgstr ""
+
+#: inc/post-types/footers.php:11
+msgid "New Footer"
+msgstr ""
+
+#: inc/post-types/footers.php:12
+msgid "Edit Footer"
+msgstr ""
+
+#: inc/post-types/footers.php:13
+msgid "View Footer"
+msgstr ""
+
+#: inc/post-types/footers.php:14
+msgid "All Footers"
+msgstr ""
+
+#: inc/post-types/footers.php:15
+msgid "Search Footers"
+msgstr ""
+
+#: inc/post-types/footers.php:16
+msgid "No footers found."
+msgstr ""
+
+#: inc/post-types/footers.php:17
+msgid "No footers found in Trash."
+msgstr ""
+
+#: inc/post-types/galleries.php:5 inc/post-types/galleries.php:7
+msgid "Galleries"
+msgstr ""
+
+#: inc/post-types/galleries.php:6 inc/post-types/galleries.php:8
+#: inc/shortcodes/shortcodes.php:9343
+msgid "Gallery"
+msgstr ""
+
+#: inc/post-types/galleries.php:10
+msgid "Add New Gallery"
+msgstr ""
+
+#: inc/post-types/galleries.php:11
+msgid "New Gallery"
+msgstr ""
+
+#: inc/post-types/galleries.php:12
+msgid "Edit Gallery"
+msgstr ""
+
+#: inc/post-types/galleries.php:13
+msgid "View Gallery"
+msgstr ""
+
+#: inc/post-types/galleries.php:14
+msgid "All Galleries"
+msgstr ""
+
+#: inc/post-types/galleries.php:15
+msgid "Search Galleries"
+msgstr ""
+
+#: inc/post-types/galleries.php:16
+msgid "No galleries found."
+msgstr ""
+
+#: inc/post-types/galleries.php:17
+msgid "No galleries found in Trash."
+msgstr ""
+
+#: inc/post-types/galleries.php:41
+#, php-format
+msgid "Gallery Manager (ID = %s)"
+msgstr ""
+
+#: inc/post-types/galleries.php:56
+msgid "Add images"
+msgstr ""
+
+#: inc/post-types/news.php:7 inc/post-types/news.php:8
+#: inc/post-types/news.php:9 inc/post-types/news.php:10
+#: inc/shortcodes/shortcodes.php:5728 inc/shortcodes/shortcodes.php:11860
+#: inc/widgets/widgets.php:841
+msgid "News"
+msgstr ""
+
+#: inc/post-types/news.php:12
+msgid "Add New News"
+msgstr ""
+
+#: inc/post-types/news.php:13
+msgid "New News"
+msgstr ""
+
+#: inc/post-types/news.php:14
+msgid "Edit News"
+msgstr ""
+
+#: inc/post-types/news.php:15
+msgid "View News"
+msgstr ""
+
+#: inc/post-types/news.php:16 inc/widgets/widgets.php:875
+msgid "All News"
+msgstr ""
+
+#: inc/post-types/news.php:17
+msgid "Search News"
+msgstr ""
+
+#: inc/post-types/news.php:18
+msgid "No news found."
+msgstr ""
+
+#: inc/post-types/news.php:19
+msgid "No news found in Trash."
+msgstr ""
+
+#: inc/post-types/news.php:41 inc/post-types/news.php:54
+msgid "News Sets"
+msgstr ""
+
+#: inc/post-types/news.php:42
+msgid "News Set"
+msgstr ""
+
+#: inc/post-types/news.php:43
+msgid "Search News Sets"
+msgstr ""
+
+#: inc/post-types/news.php:44
+msgid "Popular News Sets"
+msgstr ""
+
+#: inc/post-types/news.php:45
+msgid "All News Sets"
+msgstr ""
+
+#: inc/post-types/news.php:46
+msgid "Edit News Set"
+msgstr ""
+
+#: inc/post-types/news.php:47
+msgid "Update News Set"
+msgstr ""
+
+#: inc/post-types/news.php:48
+msgid "Add New News Set"
+msgstr ""
+
+#: inc/post-types/news.php:49
+msgid "New News Set Name"
+msgstr ""
+
+#: inc/post-types/news.php:50
+msgid "Separate News Sets with commas"
+msgstr ""
+
+#: inc/post-types/news.php:51
+msgid "Add or remove News Sets"
+msgstr ""
+
+#: inc/post-types/news.php:52
+msgid "Choose from the most used News Sets"
+msgstr ""
+
+#: inc/post-types/news.php:53
+msgid "No news sets found."
+msgstr ""
+
+#: inc/post-types/news.php:80
+msgid "News Item Settings"
+msgstr ""
+
+#: inc/post-types/portfolios.php:3
+msgid "Portfolio Page"
+msgstr ""
+
+#: inc/post-types/portfolios.php:3
+msgid "Internal Link"
+msgstr ""
+
+#: inc/post-types/portfolios.php:3
+msgid "External Link"
+msgstr ""
+
+#: inc/post-types/portfolios.php:3
+msgid "Full-Size Image"
+msgstr ""
+
+#: inc/post-types/portfolios.php:3
+msgid "YouTube Video"
+msgstr ""
+
+#: inc/post-types/portfolios.php:3
+msgid "Vimeo Video"
+msgstr ""
+
+#: inc/post-types/portfolios.php:3
+msgid "Self-Hosted Video"
+msgstr ""
+
+#: inc/post-types/portfolios.php:7
+msgid "Portfolio Items"
+msgstr ""
+
+#: inc/post-types/portfolios.php:8 inc/post-types/portfolios.php:10
+msgid "Portfolio Item"
+msgstr ""
+
+#: inc/post-types/portfolios.php:9 inc/post-types/portfolios.php:40
+#: inc/post-types/portfolios.php:53 inc/shortcodes/shortcodes.php:7852
+#: inc/shortcodes/shortcodes.php:8313
+msgid "Portfolios"
+msgstr ""
+
+#: inc/post-types/portfolios.php:12
+msgid "Add New Portfolio Item"
+msgstr ""
+
+#: inc/post-types/portfolios.php:13
+msgid "New Portfolio Item"
+msgstr ""
+
+#: inc/post-types/portfolios.php:14
+msgid "Edit Portfolio Item"
+msgstr ""
+
+#: inc/post-types/portfolios.php:15
+msgid "View Portfolio Item"
+msgstr ""
+
+#: inc/post-types/portfolios.php:16
+msgid "All Portfolio Items"
+msgstr ""
+
+#: inc/post-types/portfolios.php:17
+msgid "Search Portfolio Items"
+msgstr ""
+
+#: inc/post-types/portfolios.php:18
+msgid "No portfolio items found."
+msgstr ""
+
+#: inc/post-types/portfolios.php:19
+msgid "No portfolio items found in Trash."
+msgstr ""
+
+#: inc/post-types/portfolios.php:42
+msgid "Search Portfolios"
+msgstr ""
+
+#: inc/post-types/portfolios.php:43
+msgid "Popular Portfolios"
+msgstr ""
+
+#: inc/post-types/portfolios.php:44
+msgid "All Portfolios"
+msgstr ""
+
+#: inc/post-types/portfolios.php:45
+msgid "Edit Portfolio"
+msgstr ""
+
+#: inc/post-types/portfolios.php:46
+msgid "Update Portfolio"
+msgstr ""
+
+#: inc/post-types/portfolios.php:47
+msgid "Add New Portfolio"
+msgstr ""
+
+#: inc/post-types/portfolios.php:48
+msgid "New Portfolio Name"
+msgstr ""
+
+#: inc/post-types/portfolios.php:49
+msgid "Separate Portfolios with commas"
+msgstr ""
+
+#: inc/post-types/portfolios.php:50
+msgid "Add or remove Portfolios"
+msgstr ""
+
+#: inc/post-types/portfolios.php:51
+msgid "Choose from the most used Portfolios"
+msgstr ""
+
+#: inc/post-types/portfolios.php:52
+msgid "No portfolios found."
+msgstr ""
+
+#: inc/post-types/portfolios.php:82
+msgid "Portfolio Item Settings"
+msgstr ""
+
+#: inc/post-types/portfolios.php:89
+msgid "Type of portfolio item"
+msgstr ""
+
+#: inc/post-types/portfolios.php:99
+msgid "Link to another page or video ID (for YouTube or Vimeo):"
+msgstr ""
+
+#: inc/post-types/portfolios.php:122
+msgid "100% page layout"
+msgstr ""
+
+#: inc/post-types/portfolios.php:126
+msgid "Show as Highlight?"
+msgstr ""
+
+#: inc/post-types/portfolios.php:129
+msgid "Highlight Type"
+msgstr ""
+
+#: inc/post-types/portfolios.php:133
+msgid "Overview title"
+msgstr ""
+
+#: inc/post-types/portfolios.php:137
+msgid "Project Preview Button Link"
+msgstr ""
+
+#: inc/post-types/portfolios.php:141
+msgid "Project Preview Button Text"
+msgstr ""
+
+#: inc/post-types/portfolios.php:145
+msgid "Back to overview URL"
+msgstr ""
+
+#: inc/post-types/portfolios.php:253 inc/post-types/portfolios.php:278
+#: inc/post-types/quickfinders.php:118
+msgid "Icon Pack"
+msgstr ""
+
+#: inc/post-types/portfolios.php:266 inc/post-types/portfolios.php:287
+msgid "Order"
+msgstr ""
+
+#: inc/post-types/quickfinders.php:5
+msgid "Quickfinder Items"
+msgstr ""
+
+#: inc/post-types/quickfinders.php:6 inc/post-types/quickfinders.php:8
+msgid "Quickfinder Item"
+msgstr ""
+
+#: inc/post-types/quickfinders.php:7 inc/post-types/quickfinders.php:37
+#: inc/post-types/quickfinders.php:50 inc/shortcodes/shortcodes.php:9054
+msgid "Quickfinders"
+msgstr ""
+
+#: inc/post-types/quickfinders.php:10
+msgid "Add New Quickfinder Item"
+msgstr ""
+
+#: inc/post-types/quickfinders.php:11
+msgid "New Quickfinder Item"
+msgstr ""
+
+#: inc/post-types/quickfinders.php:12
+msgid "Edit Quickfinder Item"
+msgstr ""
+
+#: inc/post-types/quickfinders.php:13
+msgid "View Quickfinder Item"
+msgstr ""
+
+#: inc/post-types/quickfinders.php:14
+msgid "All Quickfinder Items"
+msgstr ""
+
+#: inc/post-types/quickfinders.php:15
+msgid "Search Quickfinder Items"
+msgstr ""
+
+#: inc/post-types/quickfinders.php:16
+msgid "No quickfinder items found."
+msgstr ""
+
+#: inc/post-types/quickfinders.php:17
+msgid "No quickfinder items found in Trash."
+msgstr ""
+
+#: inc/post-types/quickfinders.php:38 inc/shortcodes/shortcodes.php:8798
+msgid "Quickfinder"
+msgstr ""
+
+#: inc/post-types/quickfinders.php:39
+msgid "Search Quickfinders"
+msgstr ""
+
+#: inc/post-types/quickfinders.php:40
+msgid "Popular Quickfinders"
+msgstr ""
+
+#: inc/post-types/quickfinders.php:41
+msgid "All Quickfinders"
+msgstr ""
+
+#: inc/post-types/quickfinders.php:42
+msgid "Edit Quickfinder"
+msgstr ""
+
+#: inc/post-types/quickfinders.php:43
+msgid "Update Quickfinder"
+msgstr ""
+
+#: inc/post-types/quickfinders.php:44
+msgid "Add New Quickfinder"
+msgstr ""
+
+#: inc/post-types/quickfinders.php:45
+msgid "New Quickfinder Name"
+msgstr ""
+
+#: inc/post-types/quickfinders.php:46
+msgid "Separate Quickfinders with commas"
+msgstr ""
+
+#: inc/post-types/quickfinders.php:47
+msgid "Add or remove Quickfinders"
+msgstr ""
+
+#: inc/post-types/quickfinders.php:48
+msgid "Choose from the most used Quickfinders"
+msgstr ""
+
+#: inc/post-types/quickfinders.php:49
+msgid "No quickfinders found."
+msgstr ""
+
+#: inc/post-types/quickfinders.php:71
+msgid "Quickfinder Item Settings"
+msgstr ""
+
+#: inc/post-types/quickfinders.php:77 inc/post-types/slideshows.php:80
+#: inc/post-types/titles.php:416 inc/shortcodes/shortcodes.php:1953
+#: inc/shortcodes/shortcodes.php:3172 inc/shortcodes/shortcodes.php:3939
+#: inc/shortcodes/shortcodes.php:4048 inc/shortcodes/shortcodes.php:4590
+#: inc/shortcodes/shortcodes.php:4657 inc/shortcodes/shortcodes.php:4673
+#: inc/shortcodes/shortcodes.php:6093 inc/shortcodes/shortcodes.php:6804
+#: inc/shortcodes/shortcodes.php:8222 inc/shortcodes/shortcodes.php:11227
+#: inc/shortcodes/shortcodes.php:12011
+msgid "None"
+msgstr ""
+
+#: inc/post-types/quickfinders.php:77
+msgid "45&deg; Left"
+msgstr ""
+
+#: inc/post-types/quickfinders.php:77
+msgid "45&deg; Right"
+msgstr ""
+
+#: inc/post-types/quickfinders.php:77
+msgid "90&deg;"
+msgstr ""
+
+#: inc/post-types/quickfinders.php:82
+msgid "Description & Link"
+msgstr ""
+
+#: inc/post-types/quickfinders.php:85 inc/widgets/widgets.php:303
+msgid "Description"
+msgstr ""
+
+#: inc/post-types/quickfinders.php:92
+msgid "Button text"
+msgstr ""
+
+#: inc/post-types/quickfinders.php:102 inc/shortcodes/shortcodes.php:6115
+#: inc/shortcodes/shortcodes.php:6126 inc/shortcodes/shortcodes.php:6137
+#: inc/shortcodes/shortcodes.php:6147 inc/shortcodes/shortcodes.php:6157
+#: inc/shortcodes/shortcodes.php:6167 inc/shortcodes/shortcodes.php:6177
+#: inc/shortcodes/shortcodes.php:6187 inc/shortcodes/shortcodes.php:6197
+#: inc/shortcodes/shortcodes.php:6207 inc/shortcodes/shortcodes.php:6217
+#: inc/shortcodes/shortcodes.php:6227 inc/shortcodes/shortcodes.php:6237
+#: inc/shortcodes/shortcodes.php:6247 inc/shortcodes/shortcodes.php:6838
+#: inc/shortcodes/shortcodes.php:6844 inc/shortcodes/shortcodes.php:6854
+#: inc/shortcodes/shortcodes.php:6864 inc/shortcodes/shortcodes.php:6870
+#: inc/shortcodes/shortcodes.php:6876 inc/shortcodes/shortcodes.php:6882
+#: inc/shortcodes/shortcodes.php:6888 inc/shortcodes/shortcodes.php:6894
+#: inc/shortcodes/shortcodes.php:6904 inc/shortcodes/shortcodes.php:6910
+#: inc/shortcodes/shortcodes.php:6916 inc/shortcodes/shortcodes.php:6922
+#: inc/shortcodes/shortcodes.php:6928 inc/shortcodes/shortcodes.php:7129
+#: inc/shortcodes/shortcodes.php:7136 inc/shortcodes/shortcodes.php:7146
+#: inc/shortcodes/shortcodes.php:7157 inc/shortcodes/shortcodes.php:7163
+#: inc/shortcodes/shortcodes.php:7169 inc/shortcodes/shortcodes.php:7175
+#: inc/shortcodes/shortcodes.php:7181 inc/shortcodes/shortcodes.php:7667
+#: inc/shortcodes/shortcodes.php:7677 inc/shortcodes/shortcodes.php:7687
+#: inc/shortcodes/shortcodes.php:7697 inc/shortcodes/shortcodes.php:7707
+#: inc/shortcodes/shortcodes.php:8265 inc/shortcodes/shortcodes.php:8275
+#: inc/shortcodes/shortcodes.php:8285 inc/shortcodes/shortcodes.php:8295
+#: inc/shortcodes/shortcodes.php:8305 inc/shortcodes/shortcodes.php:9703
+#: inc/shortcodes/shortcodes.php:9709 inc/shortcodes/shortcodes.php:9715
+#: inc/shortcodes/shortcodes.php:9725 inc/shortcodes/shortcodes.php:9735
+#: inc/shortcodes/shortcodes.php:9745 inc/shortcodes/shortcodes.php:9755
+#: inc/shortcodes/shortcodes.php:9765 inc/shortcodes/shortcodes.php:9775
+#: inc/shortcodes/shortcodes.php:9781 inc/shortcodes/shortcodes.php:9787
+#: inc/shortcodes/shortcodes.php:9793 inc/shortcodes/shortcodes.php:9799
+#: inc/shortcodes/shortcodes.php:9809 inc/shortcodes/shortcodes.php:9819
+#: inc/shortcodes/shortcodes.php:9825 inc/shortcodes/shortcodes.php:9831
+#: inc/shortcodes/shortcodes.php:9837 inc/shortcodes/shortcodes.php:9877
+#: inc/shortcodes/shortcodes.php:9887 inc/shortcodes/shortcodes.php:9893
+#: inc/shortcodes/shortcodes.php:9899 inc/shortcodes/shortcodes.php:9905
+#: inc/shortcodes/shortcodes.php:9911
+msgid "Colors"
+msgstr ""
+
+#: inc/post-types/quickfinders.php:105
+msgid "Title text color"
+msgstr ""
+
+#: inc/post-types/quickfinders.php:109
+msgid "Description text color"
+msgstr ""
+
+#: inc/post-types/quickfinders.php:131 inc/shortcodes/shortcodes.php:2370
+#: inc/shortcodes/shortcodes.php:3606 inc/shortcodes/shortcodes.php:3641
+#: inc/shortcodes/shortcodes.php:7638 inc/shortcodes/shortcodes.php:10048
+#: inc/widgets/widgets.php:1486
+msgid "Icon Color"
+msgstr ""
+
+#: inc/post-types/quickfinders.php:134 inc/shortcodes/shortcodes.php:2380
+#: inc/shortcodes/shortcodes.php:3613 inc/shortcodes/shortcodes.php:10059
+msgid "Icon Color 2"
+msgstr ""
+
+#: inc/post-types/quickfinders.php:137 inc/shortcodes/shortcodes.php:2360
+#: inc/shortcodes/shortcodes.php:3599 inc/shortcodes/shortcodes.php:10037
+msgid "Icon Style"
+msgstr ""
+
+#: inc/post-types/quickfinders.php:141
+msgid "Icon background color"
+msgstr ""
+
+#: inc/post-types/quickfinders.php:144
+msgid "Icon border color"
+msgstr ""
+
+#: inc/post-types/quickfinders.php:147
+msgid "Icon shape"
+msgstr ""
+
+#: inc/post-types/quickfinders.php:148 inc/post-types/titles.php:265
+#: inc/shortcodes/shortcodes.php:2356 inc/shortcodes/shortcodes.php:3174
+#: inc/shortcodes/shortcodes.php:3594 inc/shortcodes/shortcodes.php:4048
+#: inc/shortcodes/shortcodes.php:4751 inc/shortcodes/shortcodes.php:5052
+#: inc/shortcodes/shortcodes.php:6095 inc/shortcodes/shortcodes.php:6806
+#: inc/shortcodes/shortcodes.php:8224 inc/shortcodes/shortcodes.php:9190
+#: inc/shortcodes/shortcodes.php:9590 inc/shortcodes/shortcodes.php:10028
+#: inc/shortcodes/shortcodes.php:11229
+msgid "Square"
+msgstr ""
+
+#: inc/post-types/quickfinders.php:148 inc/post-types/titles.php:265
+#: inc/shortcodes/shortcodes.php:2356 inc/shortcodes/shortcodes.php:4048
+#: inc/shortcodes/shortcodes.php:4751 inc/shortcodes/shortcodes.php:5052
+#: inc/shortcodes/shortcodes.php:10028
+msgid "Rhombus"
+msgstr ""
+
+#: inc/post-types/quickfinders.php:148 inc/post-types/titles.php:265
+#: inc/shortcodes/shortcodes.php:2356 inc/shortcodes/shortcodes.php:4048
+#: inc/shortcodes/shortcodes.php:4751 inc/shortcodes/shortcodes.php:5052
+#: inc/shortcodes/shortcodes.php:10028
+msgid "Hexagon"
+msgstr ""
+
+#: inc/post-types/quickfinders.php:150
+msgid "Icon size"
+msgstr ""
+
+#: inc/post-types/quickfinders.php:151 inc/post-types/titles.php:297
+#: inc/shortcodes/shortcodes.php:2412 inc/shortcodes/shortcodes.php:2541
+#: inc/shortcodes/shortcodes.php:2732 inc/shortcodes/shortcodes.php:2959
+#: inc/shortcodes/shortcodes.php:3636 inc/shortcodes/shortcodes.php:3732
+#: inc/shortcodes/shortcodes.php:5652 inc/shortcodes/shortcodes.php:5904
+#: inc/shortcodes/shortcodes.php:6467 inc/shortcodes/shortcodes.php:6985
+#: inc/shortcodes/shortcodes.php:7210 inc/shortcodes/shortcodes.php:7885
+#: inc/shortcodes/shortcodes.php:8393 inc/shortcodes/shortcodes.php:8643
+#: inc/shortcodes/shortcodes.php:9926 inc/shortcodes/shortcodes.php:10094
+#: inc/shortcodes/shortcodes.php:10891 inc/shortcodes/shortcodes.php:11360
+msgid "Small"
+msgstr ""
+
+#: inc/post-types/quickfinders.php:151 inc/post-types/titles.php:297
+#: inc/shortcodes/shortcodes.php:2412 inc/shortcodes/shortcodes.php:2541
+#: inc/shortcodes/shortcodes.php:2732 inc/shortcodes/shortcodes.php:2959
+#: inc/shortcodes/shortcodes.php:3636 inc/shortcodes/shortcodes.php:3732
+#: inc/shortcodes/shortcodes.php:4267 inc/shortcodes/shortcodes.php:5904
+#: inc/shortcodes/shortcodes.php:6467 inc/shortcodes/shortcodes.php:7210
+#: inc/shortcodes/shortcodes.php:7885 inc/shortcodes/shortcodes.php:8643
+#: inc/shortcodes/shortcodes.php:9927 inc/shortcodes/shortcodes.php:10094
+#: inc/shortcodes/shortcodes.php:10891
+msgid "Medium"
+msgstr ""
+
+#: inc/post-types/quickfinders.php:151 inc/post-types/titles.php:297
+#: inc/shortcodes/shortcodes.php:2412 inc/shortcodes/shortcodes.php:2541
+#: inc/shortcodes/shortcodes.php:2732 inc/shortcodes/shortcodes.php:2959
+#: inc/shortcodes/shortcodes.php:3636 inc/shortcodes/shortcodes.php:3732
+#: inc/shortcodes/shortcodes.php:4085 inc/shortcodes/shortcodes.php:4955
+#: inc/shortcodes/shortcodes.php:5255 inc/shortcodes/shortcodes.php:5581
+#: inc/shortcodes/shortcodes.php:5904 inc/shortcodes/shortcodes.php:6467
+#: inc/shortcodes/shortcodes.php:6988 inc/shortcodes/shortcodes.php:7077
+#: inc/shortcodes/shortcodes.php:7210 inc/shortcodes/shortcodes.php:7885
+#: inc/shortcodes/shortcodes.php:8643 inc/shortcodes/shortcodes.php:9928
+#: inc/shortcodes/shortcodes.php:10094 inc/shortcodes/shortcodes.php:10891
+msgid "Large"
+msgstr ""
+
+#: inc/post-types/quickfinders.php:151
+msgid "xLarge"
+msgstr ""
+
+#: inc/post-types/slideshows.php:6
+msgid "Slides"
+msgstr ""
+
+#: inc/post-types/slideshows.php:7 inc/post-types/slideshows.php:9
+msgid "Slideshow Slide"
+msgstr ""
+
+#: inc/post-types/slideshows.php:8
+msgid "NivoSlider"
+msgstr ""
+
+#: inc/post-types/slideshows.php:11
+msgid "Add New Slide"
+msgstr ""
+
+#: inc/post-types/slideshows.php:12
+msgid "New Slide"
+msgstr ""
+
+#: inc/post-types/slideshows.php:13
+msgid "Edit Slide"
+msgstr ""
+
+#: inc/post-types/slideshows.php:14
+msgid "View Slide"
+msgstr ""
+
+#: inc/post-types/slideshows.php:15
+msgid "All Slides"
+msgstr ""
+
+#: inc/post-types/slideshows.php:16
+msgid "Search Slides"
+msgstr ""
+
+#: inc/post-types/slideshows.php:17
+msgid "No slides found."
+msgstr ""
+
+#: inc/post-types/slideshows.php:18
+msgid "No slides found in Trash."
+msgstr ""
+
+#: inc/post-types/slideshows.php:38 inc/post-types/slideshows.php:51
+msgid "Slideshows"
+msgstr ""
+
+#: inc/post-types/slideshows.php:39
+msgid "Slideshow"
+msgstr ""
+
+#: inc/post-types/slideshows.php:40
+msgid "Search Slideshows"
+msgstr ""
+
+#: inc/post-types/slideshows.php:41
+msgid "Popular Slideshows"
+msgstr ""
+
+#: inc/post-types/slideshows.php:42
+msgid "All Slideshows"
+msgstr ""
+
+#: inc/post-types/slideshows.php:43
+msgid "Edit Slideshow"
+msgstr ""
+
+#: inc/post-types/slideshows.php:44
+msgid "Update Slideshow"
+msgstr ""
+
+#: inc/post-types/slideshows.php:45
+msgid "Add New Slideshow"
+msgstr ""
+
+#: inc/post-types/slideshows.php:46
+msgid "New Slideshow Name"
+msgstr ""
+
+#: inc/post-types/slideshows.php:47
+msgid "Separate Slideshows with commas"
+msgstr ""
+
+#: inc/post-types/slideshows.php:48
+msgid "Add or remove Slideshows"
+msgstr ""
+
+#: inc/post-types/slideshows.php:49
+msgid "Choose from the most used Slideshows"
+msgstr ""
+
+#: inc/post-types/slideshows.php:50
+msgid "No slideshows found."
+msgstr ""
+
+#: inc/post-types/slideshows.php:73
+msgid "Slide Image"
+msgstr ""
+
+#: inc/post-types/slideshows.php:74
+msgid "Slide Settings"
+msgstr ""
+
+#: inc/post-types/slideshows.php:80 inc/post-types/titles.php:115
+#: inc/post-types/titles.php:177 inc/post-types/titles.php:391
+#: inc/shortcodes/shortcodes.php:2448 inc/shortcodes/shortcodes.php:2685
+#: inc/shortcodes/shortcodes.php:2908 inc/shortcodes/shortcodes.php:2947
+#: inc/shortcodes/shortcodes.php:3104 inc/shortcodes/shortcodes.php:3239
+#: inc/shortcodes/shortcodes.php:3362 inc/shortcodes/shortcodes.php:3808
+#: inc/shortcodes/shortcodes.php:3886 inc/shortcodes/shortcodes.php:4334
+#: inc/shortcodes/shortcodes.php:4454 inc/shortcodes/shortcodes.php:4526
+#: inc/shortcodes/shortcodes.php:4796 inc/shortcodes/shortcodes.php:4903
+#: inc/shortcodes/shortcodes.php:5096 inc/shortcodes/shortcodes.php:5203
+#: inc/shortcodes/shortcodes.php:5422 inc/shortcodes/shortcodes.php:5529
+#: inc/shortcodes/shortcodes.php:6081 inc/shortcodes/shortcodes.php:6285
+#: inc/shortcodes/shortcodes.php:6663 inc/shortcodes/shortcodes.php:6792
+#: inc/shortcodes/shortcodes.php:7408 inc/shortcodes/shortcodes.php:7525
+#: inc/shortcodes/shortcodes.php:7727 inc/shortcodes/shortcodes.php:8081
+#: inc/shortcodes/shortcodes.php:8210 inc/shortcodes/shortcodes.php:8772
+#: inc/shortcodes/shortcodes.php:8870 inc/shortcodes/shortcodes.php:9161
+#: inc/shortcodes/shortcodes.php:9216 inc/shortcodes/shortcodes.php:10217
+#: inc/shortcodes/shortcodes.php:10703 inc/shortcodes/shortcodes.php:11086
+#: inc/shortcodes/shortcodes.php:11215
+msgid "Left"
+msgstr ""
+
+#: inc/post-types/slideshows.php:80 inc/post-types/titles.php:115
+#: inc/post-types/titles.php:177 inc/post-types/titles.php:392
+#: inc/shortcodes/shortcodes.php:2449 inc/shortcodes/shortcodes.php:2685
+#: inc/shortcodes/shortcodes.php:2908 inc/shortcodes/shortcodes.php:2947
+#: inc/shortcodes/shortcodes.php:3103 inc/shortcodes/shortcodes.php:3239
+#: inc/shortcodes/shortcodes.php:3362 inc/shortcodes/shortcodes.php:3809
+#: inc/shortcodes/shortcodes.php:3885 inc/shortcodes/shortcodes.php:4333
+#: inc/shortcodes/shortcodes.php:4453 inc/shortcodes/shortcodes.php:4527
+#: inc/shortcodes/shortcodes.php:4795 inc/shortcodes/shortcodes.php:4902
+#: inc/shortcodes/shortcodes.php:5095 inc/shortcodes/shortcodes.php:5202
+#: inc/shortcodes/shortcodes.php:5421 inc/shortcodes/shortcodes.php:5528
+#: inc/shortcodes/shortcodes.php:6081 inc/shortcodes/shortcodes.php:6285
+#: inc/shortcodes/shortcodes.php:6662 inc/shortcodes/shortcodes.php:6792
+#: inc/shortcodes/shortcodes.php:7407 inc/shortcodes/shortcodes.php:7525
+#: inc/shortcodes/shortcodes.php:7727 inc/shortcodes/shortcodes.php:8080
+#: inc/shortcodes/shortcodes.php:8210 inc/shortcodes/shortcodes.php:8772
+#: inc/shortcodes/shortcodes.php:8871 inc/shortcodes/shortcodes.php:9162
+#: inc/shortcodes/shortcodes.php:9217 inc/shortcodes/shortcodes.php:10218
+#: inc/shortcodes/shortcodes.php:10703 inc/shortcodes/shortcodes.php:11085
+#: inc/shortcodes/shortcodes.php:11215
+msgid "Right"
+msgstr ""
+
+#: inc/post-types/slideshows.php:89
+msgid "Caption position"
+msgstr ""
+
+#: inc/post-types/teams.php:5
+msgid "Team Persons"
+msgstr ""
+
+#: inc/post-types/teams.php:6 inc/post-types/teams.php:8
+#: inc/shortcodes/shortcodes.php:3720
+msgid "Team Person"
+msgstr ""
+
+#: inc/post-types/teams.php:7 inc/post-types/teams.php:37
+#: inc/post-types/teams.php:50 inc/shortcodes/shortcodes.php:9841
+#: inc/widgets/widgets.php:1517 inc/widgets/widgets.php:1518
+msgid "Teams"
+msgstr ""
+
+#: inc/post-types/teams.php:10
+msgid "Add New Person"
+msgstr ""
+
+#: inc/post-types/teams.php:11
+msgid "New Person"
+msgstr ""
+
+#: inc/post-types/teams.php:12
+msgid "Edit Person"
+msgstr ""
+
+#: inc/post-types/teams.php:13
+msgid "View Person"
+msgstr ""
+
+#: inc/post-types/teams.php:14
+msgid "All Persons"
+msgstr ""
+
+#: inc/post-types/teams.php:15
+msgid "Search Persons"
+msgstr ""
+
+#: inc/post-types/teams.php:16
+msgid "No persons found."
+msgstr ""
+
+#: inc/post-types/teams.php:17
+msgid "No persons found in Trash."
+msgstr ""
+
+#: inc/post-types/teams.php:38 inc/shortcodes/shortcodes.php:9670
+msgid "Team"
+msgstr ""
+
+#: inc/post-types/teams.php:39
+msgid "Search Teams"
+msgstr ""
+
+#: inc/post-types/teams.php:40
+msgid "Popular Teams"
+msgstr ""
+
+#: inc/post-types/teams.php:41
+msgid "All Teams"
+msgstr ""
+
+#: inc/post-types/teams.php:42
+msgid "Edit Team"
+msgstr ""
+
+#: inc/post-types/teams.php:43
+msgid "Update Team"
+msgstr ""
+
+#: inc/post-types/teams.php:44
+msgid "Add New Team"
+msgstr ""
+
+#: inc/post-types/teams.php:45
+msgid "New Team Name"
+msgstr ""
+
+#: inc/post-types/teams.php:46
+msgid "Separate Teams with commas"
+msgstr ""
+
+#: inc/post-types/teams.php:47
+msgid "Add or remove Teams"
+msgstr ""
+
+#: inc/post-types/teams.php:48
+msgid "Choose from the most used Teams"
+msgstr ""
+
+#: inc/post-types/teams.php:49
+msgid "No teams found."
+msgstr ""
+
+#: inc/post-types/teams.php:71
+msgid "Person Settings"
+msgstr ""
+
+#: inc/post-types/teams.php:84 inc/post-types/testimonials.php:85
+#: inc/shortcodes/shortcodes.php:2945 inc/shortcodes/shortcodes.php:9327
+#: inc/shortcodes/shortcodes.php:9558 inc/shortcodes/shortcodes.php:9785
+#: inc/shortcodes/shortcodes.php:10369 inc/shortcodes/shortcodes.php:10425
+msgid "Position"
+msgstr ""
+
+#: inc/post-types/teams.php:87
+msgid "Phone"
+msgstr ""
+
+#: inc/post-types/teams.php:90
+msgid "Email"
+msgstr ""
+
+#: inc/post-types/teams.php:94 inc/widgets/widgets.php:1605
+msgid "Hide Email"
+msgstr ""
+
+#: inc/post-types/teams.php:112 inc/post-types/teams.php:125
+msgid "Social Network"
+msgstr ""
+
+#: inc/post-types/teams.php:113 inc/post-types/teams.php:126
+msgid "Select social"
+msgstr ""
+
+#: inc/post-types/teams.php:135
+msgid "+ Add more social"
+msgstr ""
+
+#: inc/post-types/teams.php:158 inc/widgets/widgets.php:1237
+#: inc/widgets/widgets.php:1238
+msgid "Facebook"
+msgstr ""
+
+#: inc/post-types/teams.php:159
+msgid "Google Plus"
+msgstr ""
+
+#: inc/post-types/teams.php:160
+msgid "Twitter"
+msgstr ""
+
+#: inc/post-types/teams.php:161
+msgid "LinkedIn"
+msgstr ""
+
+#: inc/post-types/teams.php:162 inc/shortcodes/shortcodes.php:5621
+msgid "Instagram"
+msgstr ""
+
+#: inc/post-types/teams.php:163
+msgid "Skype"
+msgstr ""
+
+#: inc/post-types/testimonials.php:5 inc/post-types/testimonials.php:7
+#: inc/shortcodes/shortcodes.php:9858 inc/shortcodes/shortcodes.php:9862
+msgid "Testimonials"
+msgstr ""
+
+#: inc/post-types/testimonials.php:6 inc/post-types/testimonials.php:8
+#: inc/widgets/widgets.php:665
+msgid "Testimonial"
+msgstr ""
+
+#: inc/post-types/testimonials.php:10
+msgid "Add New Testimonial"
+msgstr ""
+
+#: inc/post-types/testimonials.php:11
+msgid "New Testimonial"
+msgstr ""
+
+#: inc/post-types/testimonials.php:12
+msgid "Edit Testimonial"
+msgstr ""
+
+#: inc/post-types/testimonials.php:13
+msgid "View Testimonial"
+msgstr ""
+
+#: inc/post-types/testimonials.php:14 inc/widgets/widgets.php:706
+msgid "All Testimonials"
+msgstr ""
+
+#: inc/post-types/testimonials.php:15
+msgid "Search Testimonials"
+msgstr ""
+
+#: inc/post-types/testimonials.php:16
+msgid "No testimonials found."
+msgstr ""
+
+#: inc/post-types/testimonials.php:17
+msgid "No testimonials found in Trash."
+msgstr ""
+
+#: inc/post-types/testimonials.php:37 inc/post-types/testimonials.php:50
+#: inc/shortcodes/shortcodes.php:9915
+msgid "Testimonials Sets"
+msgstr ""
+
+#: inc/post-types/testimonials.php:38 inc/widgets/widgets.php:729
+msgid "Testimonials Set"
+msgstr ""
+
+#: inc/post-types/testimonials.php:39
+msgid "Search Testimonials Sets"
+msgstr ""
+
+#: inc/post-types/testimonials.php:40
+msgid "Popular Testimonials Sets"
+msgstr ""
+
+#: inc/post-types/testimonials.php:41
+msgid "All Testimonials Sets"
+msgstr ""
+
+#: inc/post-types/testimonials.php:42
+msgid "Edit Testimonials Set"
+msgstr ""
+
+#: inc/post-types/testimonials.php:43
+msgid "Update Testimonials Set"
+msgstr ""
+
+#: inc/post-types/testimonials.php:44
+msgid "Add New Testimonials Set"
+msgstr ""
+
+#: inc/post-types/testimonials.php:45
+msgid "New Testimonials Set Name"
+msgstr ""
+
+#: inc/post-types/testimonials.php:46
+msgid "Separate Testimonials Sets with commas"
+msgstr ""
+
+#: inc/post-types/testimonials.php:47
+msgid "Add or remove Testimonials Sets"
+msgstr ""
+
+#: inc/post-types/testimonials.php:48
+msgid "Choose from the most used Testimonials Sets"
+msgstr ""
+
+#: inc/post-types/testimonials.php:49
+msgid "No testimonials sets found."
+msgstr ""
+
+#: inc/post-types/testimonials.php:71
+msgid "Testimonial Settings"
+msgstr ""
+
+#: inc/post-types/testimonials.php:82
+msgid "Company"
+msgstr ""
+
+#: inc/post-types/titles.php:5
+msgid "Titles"
+msgstr ""
+
+#: inc/post-types/titles.php:6
+msgid "Titler"
+msgstr ""
+
+#: inc/post-types/titles.php:7
+msgid "Custom Titles"
+msgstr ""
+
+#: inc/post-types/titles.php:8 inc/post-types/titles.php:65
+#: inc/shortcodes/shortcodes.php:5585 inc/shortcodes/shortcodes.php:5616
+#: inc/shortcodes/shortcodes.php:7577 inc/shortcodes/shortcodes.php:7835
+#: inc/shortcodes/shortcodes.php:8258 inc/shortcodes/shortcodes.php:9479
+#: inc/shortcodes/shortcodes.php:9975 inc/shortcodes/shortcodes.php:9986
+#: inc/shortcodes/shortcodes.php:9997 inc/shortcodes/shortcodes.php:10008
+#: inc/shortcodes/shortcodes.php:10033 inc/shortcodes/shortcodes.php:10044
+#: inc/shortcodes/shortcodes.php:10055 inc/shortcodes/shortcodes.php:10066
+#: inc/shortcodes/shortcodes.php:10077 inc/shortcodes/shortcodes.php:10088
+#: inc/shortcodes/shortcodes.php:10099 inc/shortcodes/shortcodes.php:10109
+#: inc/shortcodes/shortcodes.php:10119 inc/shortcodes/shortcodes.php:10129
+#: inc/shortcodes/shortcodes.php:10139 inc/shortcodes/shortcodes.php:10149
+#: inc/shortcodes/shortcodes.php:10625 inc/shortcodes/shortcodes.php:10843
+#: inc/shortcodes/shortcodes.php:11264 inc/shortcodes/shortcodes.php:12103
+#: inc/shortcodes/vc_shortcodes/init.php:149
+#: inc/shortcodes/vc_shortcodes/init.php:228 inc/widgets/widgets.php:89
+#: inc/widgets/widgets.php:225 inc/widgets/widgets.php:299
+#: inc/widgets/widgets.php:360 inc/widgets/widgets.php:465
+#: inc/widgets/widgets.php:716 inc/widgets/widgets.php:882
+#: inc/widgets/widgets.php:997 inc/widgets/widgets.php:1125
+#: inc/widgets/widgets.php:1281 inc/widgets/widgets.php:1472
+#: inc/widgets/widgets.php:1482 inc/widgets/widgets.php:1577
+#: inc/widgets/widgets.php:1706 inc/widgets/widgets.php:1758
+msgid "Title"
+msgstr ""
+
+#: inc/post-types/titles.php:10
+msgid "Add New Title"
+msgstr ""
+
+#: inc/post-types/titles.php:11
+msgid "New Title"
+msgstr ""
+
+#: inc/post-types/titles.php:12
+msgid "Edit Title"
+msgstr ""
+
+#: inc/post-types/titles.php:13
+msgid "View Title"
+msgstr ""
+
+#: inc/post-types/titles.php:14
+msgid "All Titles"
+msgstr ""
+
+#: inc/post-types/titles.php:15
+msgid "Search Titles"
+msgstr ""
+
+#: inc/post-types/titles.php:16
+msgid "No titles found."
+msgstr ""
+
+#: inc/post-types/titles.php:17
+msgid "No titles found in Trash."
+msgstr ""
+
+#: inc/post-types/titles.php:68 inc/post-types/titles.php:149
+#: inc/post-types/titles.php:205 inc/post-types/titles.php:338
+#: inc/post-types/titles.php:508
+msgid "Custom Page Title"
+msgstr ""
+
+#: inc/post-types/titles.php:69
+msgid "Custom Title - Title"
+msgstr ""
+
+#: inc/post-types/titles.php:74 inc/post-types/titles.php:155
+msgid "Disable automatic page / post title"
+msgstr ""
+
+#: inc/post-types/titles.php:76 inc/post-types/titles.php:121
+#: inc/post-types/titles.php:157 inc/post-types/titles.php:346
+#: inc/post-types/titles.php:352 inc/post-types/titles.php:409
+#: inc/shortcodes/shortcodes.php:2556 inc/shortcodes/shortcodes.php:2693
+#: inc/shortcodes/shortcodes.php:2755 inc/shortcodes/shortcodes.php:2920
+#: inc/shortcodes/shortcodes.php:2972 inc/shortcodes/shortcodes.php:3037
+#: inc/shortcodes/shortcodes.php:3120 inc/shortcodes/shortcodes.php:3245
+#: inc/shortcodes/shortcodes.php:3302 inc/shortcodes/shortcodes.php:3312
+#: inc/shortcodes/shortcodes.php:3318 inc/shortcodes/shortcodes.php:3742
+#: inc/shortcodes/shortcodes.php:3840 inc/shortcodes/shortcodes.php:3979
+#: inc/shortcodes/shortcodes.php:3985 inc/shortcodes/shortcodes.php:3991
+#: inc/shortcodes/shortcodes.php:4146 inc/shortcodes/shortcodes.php:4288
+#: inc/shortcodes/shortcodes.php:4408 inc/shortcodes/shortcodes.php:4544
+#: inc/shortcodes/shortcodes.php:4550 inc/shortcodes/shortcodes.php:4560
+#: inc/shortcodes/shortcodes.php:4651 inc/shortcodes/shortcodes.php:4858
+#: inc/shortcodes/shortcodes.php:4972 inc/shortcodes/shortcodes.php:5158
+#: inc/shortcodes/shortcodes.php:5261 inc/shortcodes/shortcodes.php:5267
+#: inc/shortcodes/shortcodes.php:5273 inc/shortcodes/shortcodes.php:5279
+#: inc/shortcodes/shortcodes.php:5484 inc/shortcodes/shortcodes.php:5646
+#: inc/shortcodes/shortcodes.php:5694 inc/shortcodes/shortcodes.php:5700
+#: inc/shortcodes/shortcodes.php:5706 inc/shortcodes/shortcodes.php:5712
+#: inc/shortcodes/shortcodes.php:5837 inc/shortcodes/shortcodes.php:5843
+#: inc/shortcodes/shortcodes.php:5853 inc/shortcodes/shortcodes.php:5859
+#: inc/shortcodes/shortcodes.php:5865 inc/shortcodes/shortcodes.php:5871
+#: inc/shortcodes/shortcodes.php:5927 inc/shortcodes/shortcodes.php:6121
+#: inc/shortcodes/shortcodes.php:6132 inc/shortcodes/shortcodes.php:6367
+#: inc/shortcodes/shortcodes.php:6373 inc/shortcodes/shortcodes.php:6379
+#: inc/shortcodes/shortcodes.php:6385 inc/shortcodes/shortcodes.php:6391
+#: inc/shortcodes/shortcodes.php:6397 inc/shortcodes/shortcodes.php:6403
+#: inc/shortcodes/shortcodes.php:6409 inc/shortcodes/shortcodes.php:6430
+#: inc/shortcodes/shortcodes.php:6490 inc/shortcodes/shortcodes.php:6585
+#: inc/shortcodes/shortcodes.php:6680 inc/shortcodes/shortcodes.php:6965
+#: inc/shortcodes/shortcodes.php:6976 inc/shortcodes/shortcodes.php:7011
+#: inc/shortcodes/shortcodes.php:7018 inc/shortcodes/shortcodes.php:7025
+#: inc/shortcodes/shortcodes.php:7032 inc/shortcodes/shortcodes.php:7039
+#: inc/shortcodes/shortcodes.php:7046 inc/shortcodes/shortcodes.php:7128
+#: inc/shortcodes/shortcodes.php:7234 inc/shortcodes/shortcodes.php:7331
+#: inc/shortcodes/shortcodes.php:7422 inc/shortcodes/shortcodes.php:7809
+#: inc/shortcodes/shortcodes.php:7815 inc/shortcodes/shortcodes.php:7821
+#: inc/shortcodes/shortcodes.php:7842 inc/shortcodes/shortcodes.php:7848
+#: inc/shortcodes/shortcodes.php:7908 inc/shortcodes/shortcodes.php:8003
+#: inc/shortcodes/shortcodes.php:8098 inc/shortcodes/shortcodes.php:8369
+#: inc/shortcodes/shortcodes.php:8375 inc/shortcodes/shortcodes.php:8381
+#: inc/shortcodes/shortcodes.php:8387 inc/shortcodes/shortcodes.php:8429
+#: inc/shortcodes/shortcodes.php:8578 inc/shortcodes/shortcodes.php:8656
+#: inc/shortcodes/shortcodes.php:8906 inc/shortcodes/shortcodes.php:9050
+#: inc/shortcodes/shortcodes.php:9092 inc/shortcodes/shortcodes.php:9098
+#: inc/shortcodes/shortcodes.php:9369 inc/shortcodes/shortcodes.php:9379
+#: inc/shortcodes/shortcodes.php:9566 inc/shortcodes/shortcodes.php:9572
+#: inc/shortcodes/shortcodes.php:9624 inc/shortcodes/shortcodes.php:9658
+#: inc/shortcodes/shortcodes.php:9664 inc/shortcodes/shortcodes.php:9693
+#: inc/shortcodes/shortcodes.php:9936 inc/shortcodes/shortcodes.php:10177
+#: inc/shortcodes/shortcodes.php:10309 inc/shortcodes/shortcodes.php:10315
+#: inc/shortcodes/shortcodes.php:10466 inc/shortcodes/shortcodes.php:10472
+#: inc/shortcodes/shortcodes.php:10497 inc/shortcodes/shortcodes.php:10532
+#: inc/shortcodes/shortcodes.php:10543 inc/shortcodes/shortcodes.php:10549
+#: inc/shortcodes/shortcodes.php:10800 inc/shortcodes/shortcodes.php:10809
+#: inc/shortcodes/shortcodes.php:10815 inc/shortcodes/shortcodes.php:10821
+#: inc/shortcodes/shortcodes.php:10828 inc/shortcodes/shortcodes.php:10837
+#: inc/shortcodes/shortcodes.php:10850 inc/shortcodes/shortcodes.php:10914
+#: inc/shortcodes/shortcodes.php:11009 inc/shortcodes/shortcodes.php:11103
+#: inc/shortcodes/shortcodes.php:11339 inc/shortcodes/shortcodes.php:11348
+#: inc/shortcodes/shortcodes.php:11354
+msgid "Yes"
+msgstr ""
+
+#: inc/post-types/titles.php:80 inc/shortcodes/shortcodes.php:9588
+msgid "Type"
+msgstr ""
+
+#: inc/post-types/titles.php:82
+msgid "Simple text"
+msgstr ""
+
+#: inc/post-types/titles.php:82
+msgid "Rich text"
+msgstr ""
+
+#: inc/post-types/titles.php:90 inc/shortcodes/shortcodes.php:3507
+msgid "Text"
+msgstr ""
+
+#: inc/post-types/titles.php:99 inc/post-types/titles.php:161
+#: inc/shortcodes/shortcodes.php:3766 inc/shortcodes/shortcodes.php:4135
+#: inc/shortcodes/shortcodes.php:8570 inc/shortcodes/shortcodes.php:9072
+#: inc/shortcodes/shortcodes.php:9616 inc/shortcodes/shortcodes.php:9644
+#: inc/shortcodes/vc_shortcodes/init.php:46
+#: inc/shortcodes/vc_shortcodes/init.php:78
+#: inc/shortcodes/vc_shortcodes/init.php:110
+#: inc/shortcodes/vc_shortcodes/init.php:161
+#: inc/shortcodes/vc_shortcodes/init.php:193
+#: inc/shortcodes/vc_shortcodes/init.php:243
+msgid "Content"
+msgstr ""
+
+#: inc/post-types/titles.php:108 inc/post-types/titles.php:170
+#: inc/post-types/titles.php:275 inc/shortcodes/shortcodes.php:4058
+#: inc/shortcodes/shortcodes.php:4221 inc/shortcodes/shortcodes.php:4271
+#: inc/shortcodes/shortcodes.php:4396 inc/shortcodes/shortcodes.php:4761
+#: inc/shortcodes/shortcodes.php:5388 inc/shortcodes/shortcodes.php:9594
+msgid "Color"
+msgstr ""
+
+#: inc/post-types/titles.php:113 inc/post-types/titles.php:175
+#: inc/post-types/titles.php:301 inc/shortcodes/shortcodes.php:8866
+#: inc/shortcodes/shortcodes.php:9158 inc/shortcodes/shortcodes.php:9213
+msgid "Alignment"
+msgstr ""
+
+#: inc/post-types/titles.php:115 inc/post-types/titles.php:177
+#: inc/post-types/titles.php:390 inc/post-types/titles.php:401
+#: inc/shortcodes/shortcodes.php:2447 inc/shortcodes/shortcodes.php:2458
+#: inc/shortcodes/shortcodes.php:2947 inc/shortcodes/shortcodes.php:3105
+#: inc/shortcodes/shortcodes.php:3362 inc/shortcodes/shortcodes.php:3887
+#: inc/shortcodes/shortcodes.php:4335 inc/shortcodes/shortcodes.php:4455
+#: inc/shortcodes/shortcodes.php:4525 inc/shortcodes/shortcodes.php:4536
+#: inc/shortcodes/shortcodes.php:4797 inc/shortcodes/shortcodes.php:4904
+#: inc/shortcodes/shortcodes.php:5097 inc/shortcodes/shortcodes.php:5204
+#: inc/shortcodes/shortcodes.php:5423 inc/shortcodes/shortcodes.php:5530
+#: inc/shortcodes/shortcodes.php:6664 inc/shortcodes/shortcodes.php:7409
+#: inc/shortcodes/shortcodes.php:8082 inc/shortcodes/shortcodes.php:9163
+#: inc/shortcodes/shortcodes.php:9218 inc/shortcodes/shortcodes.php:10216
+#: inc/shortcodes/shortcodes.php:10227 inc/shortcodes/shortcodes.php:11087
+msgid "Center"
+msgstr ""
+
+#: inc/post-types/titles.php:119
+msgid "xLarge text"
+msgstr ""
+
+#: inc/post-types/titles.php:125 inc/post-types/titles.php:181
+msgid "Max width"
+msgstr ""
+
+#: inc/post-types/titles.php:130 inc/post-types/titles.php:186
+#: inc/shortcodes/shortcodes.php:4227
+msgid "Margin top"
+msgstr ""
+
+#: inc/post-types/titles.php:135 inc/post-types/titles.php:191
+#: inc/shortcodes/shortcodes.php:4232
+msgid "Margin bottom"
+msgstr ""
+
+#: inc/post-types/titles.php:140 inc/post-types/titles.php:196
+#: inc/post-types/titles.php:327 inc/post-types/titles.php:493
+msgid "Extra Class"
+msgstr ""
+
+#: inc/post-types/titles.php:146
+msgid "Excerpt"
+msgstr ""
+
+#: inc/post-types/titles.php:150
+msgid "Custom Title - Excerpt"
+msgstr ""
+
+#: inc/post-types/titles.php:206
+msgid "Custom Title - Icon"
+msgstr ""
+
+#: inc/post-types/titles.php:211 inc/shortcodes/shortcodes.php:2295
+#: inc/shortcodes/shortcodes.php:2628 inc/shortcodes/shortcodes.php:2847
+#: inc/shortcodes/shortcodes.php:3186 inc/shortcodes/shortcodes.php:3537
+#: inc/shortcodes/shortcodes.php:3995 inc/shortcodes/shortcodes.php:4697
+#: inc/shortcodes/shortcodes.php:4998 inc/shortcodes/shortcodes.php:5324
+#: inc/shortcodes/shortcodes.php:6020 inc/shortcodes/shortcodes.php:6731
+#: inc/shortcodes/shortcodes.php:7464 inc/shortcodes/shortcodes.php:7588
+#: inc/shortcodes/shortcodes.php:8149 inc/shortcodes/shortcodes.php:8719
+#: inc/shortcodes/shortcodes.php:9968 inc/shortcodes/shortcodes.php:11154
+msgid "Icon pack"
+msgstr ""
+
+#: inc/post-types/titles.php:213 inc/shortcodes/shortcodes.php:2297
+#: inc/shortcodes/shortcodes.php:2630 inc/shortcodes/shortcodes.php:2849
+#: inc/shortcodes/shortcodes.php:3188 inc/shortcodes/shortcodes.php:3336
+#: inc/shortcodes/shortcodes.php:3539 inc/shortcodes/shortcodes.php:3997
+#: inc/shortcodes/shortcodes.php:4699 inc/shortcodes/shortcodes.php:5000
+#: inc/shortcodes/shortcodes.php:5326 inc/shortcodes/shortcodes.php:6022
+#: inc/shortcodes/shortcodes.php:6733 inc/shortcodes/shortcodes.php:7466
+#: inc/shortcodes/shortcodes.php:7590 inc/shortcodes/shortcodes.php:8151
+#: inc/shortcodes/shortcodes.php:8721 inc/shortcodes/shortcodes.php:9970
+#: inc/shortcodes/shortcodes.php:11156 thegem-elements.php:99
+msgid "Elegant"
+msgstr ""
+
+#: inc/post-types/titles.php:213 inc/shortcodes/shortcodes.php:2297
+#: inc/shortcodes/shortcodes.php:2630 inc/shortcodes/shortcodes.php:2849
+#: inc/shortcodes/shortcodes.php:3188 inc/shortcodes/shortcodes.php:3539
+#: inc/shortcodes/shortcodes.php:3997 inc/shortcodes/shortcodes.php:4699
+#: inc/shortcodes/shortcodes.php:5000 inc/shortcodes/shortcodes.php:5326
+#: inc/shortcodes/shortcodes.php:6022 inc/shortcodes/shortcodes.php:6733
+#: inc/shortcodes/shortcodes.php:7466 inc/shortcodes/shortcodes.php:7590
+#: inc/shortcodes/shortcodes.php:8151 inc/shortcodes/shortcodes.php:8721
+#: inc/shortcodes/shortcodes.php:9970 inc/shortcodes/shortcodes.php:11156
+#: thegem-elements.php:99
+msgid "FontAwesome"
+msgstr ""
+
+#: inc/post-types/titles.php:263 inc/shortcodes/shortcodes.php:4046
+#: inc/shortcodes/shortcodes.php:4259 inc/shortcodes/shortcodes.php:4749
+#: inc/shortcodes/shortcodes.php:5050 inc/shortcodes/shortcodes.php:5376
+msgid "Shape"
+msgstr ""
+
+#: inc/post-types/titles.php:269 inc/shortcodes/shortcodes.php:2532
+#: inc/shortcodes/shortcodes.php:2719 inc/shortcodes/shortcodes.php:2951
+#: inc/shortcodes/shortcodes.php:3082 inc/shortcodes/shortcodes.php:3259
+#: inc/shortcodes/shortcodes.php:3332 inc/shortcodes/shortcodes.php:3694
+#: inc/shortcodes/shortcodes.php:3864 inc/shortcodes/shortcodes.php:4052
+#: inc/shortcodes/shortcodes.php:4150 inc/shortcodes/shortcodes.php:4206
+#: inc/shortcodes/shortcodes.php:4265 inc/shortcodes/shortcodes.php:4312
+#: inc/shortcodes/shortcodes.php:4432 inc/shortcodes/shortcodes.php:4755
+#: inc/shortcodes/shortcodes.php:4772 inc/shortcodes/shortcodes.php:4881
+#: inc/shortcodes/shortcodes.php:5056 inc/shortcodes/shortcodes.php:5072
+#: inc/shortcodes/shortcodes.php:5181 inc/shortcodes/shortcodes.php:5382
+#: inc/shortcodes/shortcodes.php:5398 inc/shortcodes/shortcodes.php:5507
+#: inc/shortcodes/shortcodes.php:5735 inc/shortcodes/shortcodes.php:5891
+#: inc/shortcodes/shortcodes.php:6261 inc/shortcodes/shortcodes.php:6454
+#: inc/shortcodes/shortcodes.php:6639 inc/shortcodes/shortcodes.php:6943
+#: inc/shortcodes/shortcodes.php:7196 inc/shortcodes/shortcodes.php:7384
+#: inc/shortcodes/shortcodes.php:7545 inc/shortcodes/shortcodes.php:7735
+#: inc/shortcodes/shortcodes.php:7872 inc/shortcodes/shortcodes.php:8057
+#: inc/shortcodes/shortcodes.php:8635 inc/shortcodes/shortcodes.php:8790
+#: inc/shortcodes/shortcodes.php:8806 inc/shortcodes/shortcodes.php:9077
+#: inc/shortcodes/shortcodes.php:9149 inc/shortcodes/shortcodes.php:9185
+#: inc/shortcodes/shortcodes.php:9408 inc/shortcodes/shortcodes.php:9638
+#: inc/shortcodes/shortcodes.php:9678 inc/shortcodes/shortcodes.php:9866
+#: inc/shortcodes/shortcodes.php:9958 inc/shortcodes/shortcodes.php:10476
+#: inc/shortcodes/shortcodes.php:10501 inc/shortcodes/shortcodes.php:10711
+#: inc/shortcodes/shortcodes.php:10878 inc/shortcodes/shortcodes.php:11062
+#: inc/shortcodes/shortcodes.php:11283
+msgid "Style"
+msgstr ""
+
+#: inc/post-types/titles.php:271 inc/post-types/titles.php:378
+#: inc/shortcodes/shortcodes.php:2362 inc/shortcodes/shortcodes.php:2435
+#: inc/shortcodes/shortcodes.php:2493 inc/shortcodes/shortcodes.php:2507
+#: inc/shortcodes/shortcodes.php:3601 inc/shortcodes/shortcodes.php:3824
+#: inc/shortcodes/shortcodes.php:4054 inc/shortcodes/shortcodes.php:4513
+#: inc/shortcodes/shortcodes.php:4757 inc/shortcodes/shortcodes.php:5058
+#: inc/shortcodes/shortcodes.php:5384 inc/shortcodes/shortcodes.php:5738
+#: inc/shortcodes/shortcodes.php:9080 inc/shortcodes/shortcodes.php:9188
+#: inc/shortcodes/shortcodes.php:9198 inc/shortcodes/shortcodes.php:9590
+#: inc/shortcodes/shortcodes.php:10039 inc/shortcodes/shortcodes.php:10204
+#: inc/shortcodes/shortcodes.php:10282 inc/shortcodes/shortcodes.php:10296
+#: inc/shortcodes/shortcodes.php:10504
+msgid "Default"
+msgstr ""
+
+#: inc/post-types/titles.php:271 inc/shortcodes/shortcodes.php:2362
+#: inc/shortcodes/shortcodes.php:3601 inc/shortcodes/shortcodes.php:4054
+#: inc/shortcodes/shortcodes.php:4757 inc/shortcodes/shortcodes.php:5058
+#: inc/shortcodes/shortcodes.php:5384 inc/shortcodes/shortcodes.php:10039
+msgid "45 degree Right"
+msgstr ""
+
+#: inc/post-types/titles.php:271 inc/shortcodes/shortcodes.php:2362
+#: inc/shortcodes/shortcodes.php:3601 inc/shortcodes/shortcodes.php:4054
+#: inc/shortcodes/shortcodes.php:4757 inc/shortcodes/shortcodes.php:5058
+#: inc/shortcodes/shortcodes.php:5384 inc/shortcodes/shortcodes.php:10039
+msgid "45 degree Left"
+msgstr ""
+
+#: inc/post-types/titles.php:271 inc/shortcodes/shortcodes.php:2362
+#: inc/shortcodes/shortcodes.php:3601 inc/shortcodes/shortcodes.php:4054
+#: inc/shortcodes/shortcodes.php:4757 inc/shortcodes/shortcodes.php:5058
+#: inc/shortcodes/shortcodes.php:5384 inc/shortcodes/shortcodes.php:10039
+msgid "90 degree"
+msgstr ""
+
+#: inc/post-types/titles.php:280 inc/shortcodes/shortcodes.php:4063
+#: inc/shortcodes/shortcodes.php:4766 inc/shortcodes/shortcodes.php:5393
+msgid "Color 2"
+msgstr ""
+
+#: inc/post-types/titles.php:285 inc/post-types/titles.php:360
+#: inc/shortcodes/shortcodes.php:2421 inc/shortcodes/shortcodes.php:3517
+#: inc/shortcodes/shortcodes.php:3651 inc/shortcodes/shortcodes.php:4068
+#: inc/shortcodes/shortcodes.php:4276 inc/shortcodes/shortcodes.php:4401
+#: inc/shortcodes/shortcodes.php:4846 inc/shortcodes/shortcodes.php:5146
+#: inc/shortcodes/shortcodes.php:5472
+msgid "Background Color"
+msgstr ""
+
+#: inc/post-types/titles.php:290 inc/shortcodes/shortcodes.php:2464
+#: inc/shortcodes/shortcodes.php:4073 inc/shortcodes/shortcodes.php:4281
+#: inc/shortcodes/shortcodes.php:4851 inc/shortcodes/shortcodes.php:5151
+#: inc/shortcodes/shortcodes.php:5477 inc/shortcodes/shortcodes.php:10253
+msgid "Border Color"
+msgstr ""
+
+#: inc/post-types/titles.php:295 inc/shortcodes/shortcodes.php:2539
+#: inc/shortcodes/shortcodes.php:2730 inc/shortcodes/shortcodes.php:2957
+#: inc/shortcodes/shortcodes.php:4083 inc/shortcodes/shortcodes.php:4953
+#: inc/shortcodes/shortcodes.php:5253 inc/shortcodes/shortcodes.php:5579
+#: inc/shortcodes/shortcodes.php:5902 inc/shortcodes/shortcodes.php:6465
+#: inc/shortcodes/shortcodes.php:7208 inc/shortcodes/shortcodes.php:7883
+#: inc/shortcodes/shortcodes.php:8641 inc/shortcodes/shortcodes.php:10889
+msgid "Size"
+msgstr ""
+
+#: inc/post-types/titles.php:297 inc/shortcodes/shortcodes.php:2412
+#: inc/shortcodes/shortcodes.php:3636 inc/shortcodes/shortcodes.php:3732
+#: inc/shortcodes/shortcodes.php:4085 inc/shortcodes/shortcodes.php:4955
+#: inc/shortcodes/shortcodes.php:5255 inc/shortcodes/shortcodes.php:5581
+#: inc/shortcodes/shortcodes.php:10094
+msgid "Extra Large"
+msgstr ""
+
+#: inc/post-types/titles.php:303
+msgid "Default position"
+msgstr ""
+
+#: inc/post-types/titles.php:303 inc/shortcodes/shortcodes.php:2918
+#: inc/shortcodes/shortcodes.php:3811 inc/shortcodes/shortcodes.php:4970
+#: inc/shortcodes/shortcodes.php:5265 inc/shortcodes/shortcodes.php:8869
+#: inc/shortcodes/shortcodes.php:9691 inc/shortcodes/shortcodes.php:10307
+msgid "Centered"
+msgstr ""
+
+#: inc/post-types/titles.php:303
+msgid "Left to content"
+msgstr ""
+
+#: inc/post-types/titles.php:303
+msgid "Right to content"
+msgstr ""
+
+#: inc/post-types/titles.php:307
+msgid "Margin left"
+msgstr ""
+
+#: inc/post-types/titles.php:317
+msgid "Margin right"
+msgstr ""
+
+#: inc/post-types/titles.php:333 inc/shortcodes/shortcodes.php:6109
+#: inc/shortcodes/shortcodes.php:7665 inc/shortcodes/shortcodes.php:8263
+#: inc/shortcodes/shortcodes.php:9701
+msgid "Background"
+msgstr ""
+
+#: inc/post-types/titles.php:339
+msgid "Custom Title - Background"
+msgstr ""
+
+#: inc/post-types/titles.php:344 inc/shortcodes/shortcodes.php:2947
+#: inc/shortcodes/shortcodes.php:3300 inc/shortcodes/shortcodes.php:4392
+#: inc/shortcodes/shortcodes.php:5775 inc/shortcodes/shortcodes.php:6275
+#: inc/shortcodes/shortcodes.php:7717 inc/shortcodes/shortcodes.php:9934
+#: inc/shortcodes/shortcodes.php:10693
+msgid "Fullwidth"
+msgstr ""
+
+#: inc/post-types/titles.php:350 inc/shortcodes/shortcodes.php:3977
+#: inc/shortcodes/shortcodes.php:4649 inc/shortcodes/shortcodes.php:5698
+#: inc/shortcodes/shortcodes.php:6952
+msgid "Container"
+msgstr ""
+
+#: inc/post-types/titles.php:365
+msgid "Default Text Color"
+msgstr ""
+
+#: inc/post-types/titles.php:370 inc/shortcodes/shortcodes.php:3816
+#: inc/shortcodes/shortcodes.php:4505
+msgid "Background image"
+msgstr ""
+
+#: inc/post-types/titles.php:375 inc/shortcodes/shortcodes.php:2432
+#: inc/shortcodes/shortcodes.php:3821 inc/shortcodes/shortcodes.php:4510
+#: inc/shortcodes/shortcodes.php:10201
+msgid "Background style"
+msgstr ""
+
+#: inc/post-types/titles.php:379 inc/shortcodes/shortcodes.php:2436
+#: inc/shortcodes/shortcodes.php:3825 inc/shortcodes/shortcodes.php:4514
+#: inc/shortcodes/shortcodes.php:10205
+msgid "Cover"
+msgstr ""
+
+#: inc/post-types/titles.php:380 inc/shortcodes/shortcodes.php:2437
+#: inc/shortcodes/shortcodes.php:3826 inc/shortcodes/shortcodes.php:4515
+#: inc/shortcodes/shortcodes.php:10206
+msgid "Contain"
+msgstr ""
+
+#: inc/post-types/titles.php:381 inc/shortcodes/shortcodes.php:2438
+#: inc/shortcodes/shortcodes.php:3827 inc/shortcodes/shortcodes.php:4516
+#: inc/shortcodes/shortcodes.php:10207
+msgid "No Repeat"
+msgstr ""
+
+#: inc/post-types/titles.php:382 inc/shortcodes/shortcodes.php:2439
+#: inc/shortcodes/shortcodes.php:3828 inc/shortcodes/shortcodes.php:4517
+#: inc/shortcodes/shortcodes.php:10208
+msgid "Repeat"
+msgstr ""
+
+#: inc/post-types/titles.php:387 inc/shortcodes/shortcodes.php:2444
+#: inc/shortcodes/shortcodes.php:4522 inc/shortcodes/shortcodes.php:10213
+msgid "Background horizontal position"
+msgstr ""
+
+#: inc/post-types/titles.php:397 inc/shortcodes/shortcodes.php:2454
+#: inc/shortcodes/shortcodes.php:4532 inc/shortcodes/shortcodes.php:10223
+msgid "Background vertical position"
+msgstr ""
+
+#: inc/post-types/titles.php:407 inc/shortcodes/shortcodes.php:4542
+msgid "Parallax"
+msgstr ""
+
+#: inc/post-types/titles.php:413 inc/shortcodes/shortcodes.php:3936
+#: inc/shortcodes/shortcodes.php:4587
+msgid "Background video type"
+msgstr ""
+
+#: inc/post-types/titles.php:419 inc/shortcodes/shortcodes.php:3942
+#: inc/shortcodes/shortcodes.php:4593 inc/shortcodes/shortcodes.php:4966
+msgid "Self"
+msgstr ""
+
+#: inc/post-types/titles.php:424 inc/shortcodes/shortcodes.php:3947
+#: inc/shortcodes/shortcodes.php:4598
+msgid "Video id (YouTube or Vimeo) or src"
+msgstr ""
+
+#: inc/post-types/titles.php:434 inc/shortcodes/shortcodes.php:3952
+#: inc/shortcodes/shortcodes.php:4604 inc/shortcodes/shortcodes.php:9292
+#: inc/shortcodes/shortcodes.php:10339 inc/shortcodes/shortcodes.php:10395
+msgid "Video Aspect ratio (16:9, 16:10, 4:3...)"
+msgstr ""
+
+#: inc/post-types/titles.php:444 inc/shortcodes/shortcodes.php:3958
+#: inc/shortcodes/shortcodes.php:4610
+msgid "Background video overlay color"
+msgstr ""
+
+#: inc/post-types/titles.php:453 inc/shortcodes/shortcodes.php:3963
+#: inc/shortcodes/shortcodes.php:4615
+msgid "Background video overlay opacity (0 - 1)"
+msgstr ""
+
+#: inc/post-types/titles.php:462 inc/shortcodes/shortcodes.php:3968
+#: inc/shortcodes/shortcodes.php:4620
+msgid "Video Poster"
+msgstr ""
+
+#: inc/post-types/titles.php:471 inc/shortcodes/shortcodes.php:4099
+#: inc/shortcodes/shortcodes.php:4629 inc/shortcodes/shortcodes.php:10233
+msgid "Padding top"
+msgstr ""
+
+#: inc/post-types/titles.php:477 inc/shortcodes/shortcodes.php:4104
+#: inc/shortcodes/shortcodes.php:4634 inc/shortcodes/shortcodes.php:10238
+msgid "Padding bottom"
+msgstr ""
+
+#: inc/post-types/titles.php:483 inc/shortcodes/shortcodes.php:4639
+#: inc/shortcodes/shortcodes.php:10243
+msgid "Padding left"
+msgstr ""
+
+#: inc/post-types/titles.php:488 inc/shortcodes/shortcodes.php:4644
+#: inc/shortcodes/shortcodes.php:10248
+msgid "Padding right"
+msgstr ""
+
+#: inc/remote_media_upload.php:16 inc/remote_media_upload.php:37
+msgid "Upload"
+msgstr ""
+
+#: inc/shortcodes/shortcodes-generator.php:4
+#: inc/shortcodes/shortcodes-generator.php:5
+msgid "Shortcodes Generator"
+msgstr ""
+
+#: inc/shortcodes/shortcodes-generator.php:14
+msgid "Select Shortcode"
+msgstr ""
+
+#: inc/shortcodes/shortcodes-generator.php:16
+msgid "-- Select Shortcode --"
+msgstr ""
+
+#: inc/shortcodes/shortcodes-generator.php:42
+msgid "Insert Shortcode"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:2265 thegem-elements.php:101
+msgid "UserPack"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:2285
+msgid "Alert Box / CTA"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:2290 inc/shortcodes/shortcodes.php:2929
+#: inc/shortcodes/shortcodes.php:3254 inc/shortcodes/shortcodes.php:3328
+#: inc/shortcodes/shortcodes.php:3492 inc/shortcodes/shortcodes.php:3689
+#: inc/shortcodes/shortcodes.php:3760 inc/shortcodes/shortcodes.php:4114
+#: inc/shortcodes/shortcodes.php:4201 inc/shortcodes/shortcodes.php:4249
+#: inc/shortcodes/shortcodes.php:4391 inc/shortcodes/shortcodes.php:4692
+#: inc/shortcodes/shortcodes.php:4993 inc/shortcodes/shortcodes.php:5319
+#: inc/shortcodes/shortcodes.php:5611 inc/shortcodes/shortcodes.php:5669
+#: inc/shortcodes/shortcodes.php:5721 inc/shortcodes/shortcodes.php:6256
+#: inc/shortcodes/shortcodes.php:6937 inc/shortcodes/shortcodes.php:7540
+#: inc/shortcodes/shortcodes.php:7654 inc/shortcodes/shortcodes.php:8253
+#: inc/shortcodes/shortcodes.php:8416 inc/shortcodes/shortcodes.php:8455
+#: inc/shortcodes/shortcodes.php:8566 inc/shortcodes/shortcodes.php:8587
+#: inc/shortcodes/shortcodes.php:8620 inc/shortcodes/shortcodes.php:8785
+#: inc/shortcodes/shortcodes.php:8801 inc/shortcodes/shortcodes.php:9067
+#: inc/shortcodes/shortcodes.php:9144 inc/shortcodes/shortcodes.php:9180
+#: inc/shortcodes/shortcodes.php:9277 inc/shortcodes/shortcodes.php:9338
+#: inc/shortcodes/shortcodes.php:9513 inc/shortcodes/shortcodes.php:9582
+#: inc/shortcodes/shortcodes.php:9633 inc/shortcodes/shortcodes.php:9673
+#: inc/shortcodes/shortcodes.php:9861 inc/shortcodes/shortcodes.php:9953
+#: inc/shortcodes/shortcodes.php:10324 inc/shortcodes/shortcodes.php:10380
+#: inc/shortcodes/shortcodes.php:11980
+msgid "The Gem"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:2291
+msgid "Catch visitors attention with alert box"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:2297 inc/shortcodes/shortcodes.php:2345
+#: inc/widgets/widgets.php:80
+msgid "Image"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:2354 inc/shortcodes/shortcodes.php:3592
+#: inc/shortcodes/shortcodes.php:10026
+msgid "Icon Shape"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:2390 inc/shortcodes/shortcodes.php:3620
+#: inc/shortcodes/shortcodes.php:10070
+msgid "Icon Background Color"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:2400 inc/shortcodes/shortcodes.php:3627
+#: inc/shortcodes/shortcodes.php:10081
+msgid "Icon Border Color"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:2410 inc/shortcodes/shortcodes.php:3634
+#: inc/shortcodes/shortcodes.php:10092
+msgid "Icon Size"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:2427
+msgid "Background Image"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:2469
+msgid "Border Width (px)"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:2474
+msgid "Border Radius (px)"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:2479 inc/shortcodes/shortcodes.php:10268
+msgid "Rectangle Corner"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:2482 inc/shortcodes/shortcodes.php:10271
+msgid "Left Top"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:2483 inc/shortcodes/shortcodes.php:10272
+msgid "Right Top"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:2484 inc/shortcodes/shortcodes.php:10273
+msgid "Right Bottom"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:2485 inc/shortcodes/shortcodes.php:10274
+msgid "Left Bottom"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:2490 inc/shortcodes/shortcodes.php:10279
+msgid "Top Arеа Style"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:2494 inc/shortcodes/shortcodes.php:2508
+#: inc/shortcodes/shortcodes.php:10283 inc/shortcodes/shortcodes.php:10297
+msgid "Flag"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:2495 inc/shortcodes/shortcodes.php:2509
+#: inc/shortcodes/shortcodes.php:10284 inc/shortcodes/shortcodes.php:10298
+msgid "Shield"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:2496 inc/shortcodes/shortcodes.php:2510
+#: inc/shortcodes/shortcodes.php:10285 inc/shortcodes/shortcodes.php:10299
+msgid "Ticket"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:2497 inc/shortcodes/shortcodes.php:2511
+#: inc/shortcodes/shortcodes.php:10286 inc/shortcodes/shortcodes.php:10300
+msgid "Sentence"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:2498 inc/shortcodes/shortcodes.php:2512
+#: inc/shortcodes/shortcodes.php:10287 inc/shortcodes/shortcodes.php:10301
+msgid "Note 1"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:2499 inc/shortcodes/shortcodes.php:2513
+#: inc/shortcodes/shortcodes.php:10288 inc/shortcodes/shortcodes.php:10302
+msgid "Note 2"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:2504 inc/shortcodes/shortcodes.php:10293
+msgid "Bottom Arеа Style"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:2519 inc/shortcodes/shortcodes.php:2698
+#: inc/shortcodes/shortcodes.php:2934 inc/shortcodes/shortcodes.php:5880
+#: inc/shortcodes/shortcodes.php:6443 inc/shortcodes/shortcodes.php:7861
+#: inc/shortcodes/shortcodes.php:8624 inc/shortcodes/shortcodes.php:10867
+#: inc/widgets/widgets.php:1509
+msgid "Button Text"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:2521 inc/shortcodes/shortcodes.php:2528
+#: inc/shortcodes/shortcodes.php:2535 inc/shortcodes/shortcodes.php:2543
+#: inc/shortcodes/shortcodes.php:2550 inc/shortcodes/shortcodes.php:2557
+#: inc/shortcodes/shortcodes.php:2564 inc/shortcodes/shortcodes.php:2576
+#: inc/shortcodes/shortcodes.php:2582 inc/shortcodes/shortcodes.php:2588
+#: inc/shortcodes/shortcodes.php:2598 inc/shortcodes/shortcodes.php:2604
+#: inc/shortcodes/shortcodes.php:2614 inc/shortcodes/shortcodes.php:2624
+#: inc/shortcodes/shortcodes.php:2632 inc/shortcodes/shortcodes.php:2643
+#: inc/shortcodes/shortcodes.php:2654 inc/shortcodes/shortcodes.php:2665
+#: inc/shortcodes/shortcodes.php:2686
+msgid "Button 1"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:2525 inc/shortcodes/shortcodes.php:2708
+#: inc/shortcodes/shortcodes.php:2939 inc/shortcodes/shortcodes.php:3532
+#: inc/shortcodes/shortcodes.php:8629
+msgid "URL (Link)"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:2527 inc/shortcodes/shortcodes.php:2710
+#: inc/shortcodes/shortcodes.php:2941 inc/shortcodes/shortcodes.php:8631
+msgid "Add link to button."
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:2534 inc/shortcodes/shortcodes.php:2721
+#: inc/shortcodes/shortcodes.php:2953 inc/shortcodes/shortcodes.php:5893
+#: inc/shortcodes/shortcodes.php:6456 inc/shortcodes/shortcodes.php:7199
+#: inc/shortcodes/shortcodes.php:7874 inc/shortcodes/shortcodes.php:8637
+#: inc/shortcodes/shortcodes.php:8916 inc/shortcodes/shortcodes.php:10880
+msgid "Flat"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:2534 inc/shortcodes/shortcodes.php:2721
+#: inc/shortcodes/shortcodes.php:2953 inc/shortcodes/shortcodes.php:5893
+#: inc/shortcodes/shortcodes.php:6456 inc/shortcodes/shortcodes.php:7199
+#: inc/shortcodes/shortcodes.php:7874 inc/shortcodes/shortcodes.php:8637
+#: inc/shortcodes/shortcodes.php:8916 inc/shortcodes/shortcodes.php:10880
+msgid "Outline"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:2541 inc/shortcodes/shortcodes.php:2732
+#: inc/shortcodes/shortcodes.php:2959 inc/shortcodes/shortcodes.php:5904
+#: inc/shortcodes/shortcodes.php:6467 inc/shortcodes/shortcodes.php:7210
+#: inc/shortcodes/shortcodes.php:7885 inc/shortcodes/shortcodes.php:8643
+#: inc/shortcodes/shortcodes.php:10891
+msgid "Tiny"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:2541 inc/shortcodes/shortcodes.php:2732
+#: inc/shortcodes/shortcodes.php:2959 inc/shortcodes/shortcodes.php:5904
+#: inc/shortcodes/shortcodes.php:6467 inc/shortcodes/shortcodes.php:7210
+#: inc/shortcodes/shortcodes.php:7885 inc/shortcodes/shortcodes.php:8643
+#: inc/shortcodes/shortcodes.php:10891
+msgid "Giant"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:2547 inc/shortcodes/shortcodes.php:2742
+#: inc/shortcodes/shortcodes.php:2964 inc/shortcodes/shortcodes.php:5914
+#: inc/shortcodes/shortcodes.php:6477 inc/shortcodes/shortcodes.php:7220
+#: inc/shortcodes/shortcodes.php:7895 inc/shortcodes/shortcodes.php:8648
+#: inc/shortcodes/shortcodes.php:10901
+msgid "Text weight"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:2549 inc/shortcodes/shortcodes.php:2744
+#: inc/shortcodes/shortcodes.php:2966 inc/shortcodes/shortcodes.php:5812
+#: inc/shortcodes/shortcodes.php:5916 inc/shortcodes/shortcodes.php:6348
+#: inc/shortcodes/shortcodes.php:6479 inc/shortcodes/shortcodes.php:6986
+#: inc/shortcodes/shortcodes.php:7223 inc/shortcodes/shortcodes.php:7790
+#: inc/shortcodes/shortcodes.php:7897 inc/shortcodes/shortcodes.php:8650
+#: inc/shortcodes/shortcodes.php:8926 inc/shortcodes/shortcodes.php:10781
+#: inc/shortcodes/shortcodes.php:10903
+msgid "Normal"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:2549 inc/shortcodes/shortcodes.php:2744
+#: inc/shortcodes/shortcodes.php:2966 inc/shortcodes/shortcodes.php:5916
+#: inc/shortcodes/shortcodes.php:6479 inc/shortcodes/shortcodes.php:7223
+#: inc/shortcodes/shortcodes.php:7897 inc/shortcodes/shortcodes.php:8650
+#: inc/shortcodes/shortcodes.php:8899 inc/shortcodes/shortcodes.php:8926
+#: inc/shortcodes/shortcodes.php:10903
+msgid "Thin"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:2554 inc/shortcodes/shortcodes.php:2753
+#: inc/shortcodes/shortcodes.php:2970 inc/shortcodes/shortcodes.php:5925
+#: inc/shortcodes/shortcodes.php:6488 inc/shortcodes/shortcodes.php:7232
+#: inc/shortcodes/shortcodes.php:7906 inc/shortcodes/shortcodes.php:8654
+#: inc/shortcodes/shortcodes.php:10912
+msgid "No uppercase"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:2561 inc/shortcodes/shortcodes.php:2764
+#: inc/shortcodes/shortcodes.php:2976 inc/shortcodes/shortcodes.php:5936
+#: inc/shortcodes/shortcodes.php:6499 inc/shortcodes/shortcodes.php:7243
+#: inc/shortcodes/shortcodes.php:7917 inc/shortcodes/shortcodes.php:8660
+#: inc/shortcodes/shortcodes.php:10923
+msgid "Border radius"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:2568 inc/shortcodes/shortcodes.php:2775
+#: inc/shortcodes/shortcodes.php:2982 inc/shortcodes/shortcodes.php:5947
+#: inc/shortcodes/shortcodes.php:6510 inc/shortcodes/shortcodes.php:7253
+#: inc/shortcodes/shortcodes.php:7928 inc/shortcodes/shortcodes.php:8666
+#: inc/shortcodes/shortcodes.php:10934
+msgid "Border width"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:2586 inc/shortcodes/shortcodes.php:2797
+#: inc/shortcodes/shortcodes.php:2998 inc/shortcodes/shortcodes.php:5969
+#: inc/shortcodes/shortcodes.php:6532 inc/shortcodes/shortcodes.php:7276
+#: inc/shortcodes/shortcodes.php:7950 inc/shortcodes/shortcodes.php:8682
+#: inc/shortcodes/shortcodes.php:10956
+msgid "Hover text color"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:2592 inc/shortcodes/shortcodes.php:2807
+#: inc/shortcodes/shortcodes.php:3003 inc/shortcodes/shortcodes.php:3435
+#: inc/shortcodes/shortcodes.php:4160 inc/shortcodes/shortcodes.php:5674
+#: inc/shortcodes/shortcodes.php:5979 inc/shortcodes/shortcodes.php:6542
+#: inc/shortcodes/shortcodes.php:7287 inc/shortcodes/shortcodes.php:7960
+#: inc/shortcodes/shortcodes.php:8687 inc/shortcodes/shortcodes.php:9875
+#: inc/shortcodes/shortcodes.php:10966
+msgid "Background color"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:2602 inc/shortcodes/shortcodes.php:2817
+#: inc/shortcodes/shortcodes.php:3012 inc/shortcodes/shortcodes.php:5990
+#: inc/shortcodes/shortcodes.php:6553 inc/shortcodes/shortcodes.php:7297
+#: inc/shortcodes/shortcodes.php:7971 inc/shortcodes/shortcodes.php:8696
+#: inc/shortcodes/shortcodes.php:10977
+msgid "Hover background color"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:2608 inc/shortcodes/shortcodes.php:2827
+#: inc/shortcodes/shortcodes.php:3017 inc/shortcodes/shortcodes.php:3413
+#: inc/shortcodes/shortcodes.php:6000 inc/shortcodes/shortcodes.php:6563
+#: inc/shortcodes/shortcodes.php:7308 inc/shortcodes/shortcodes.php:7981
+#: inc/shortcodes/shortcodes.php:8701 inc/shortcodes/shortcodes.php:9111
+#: inc/shortcodes/shortcodes.php:10987
+msgid "Border color"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:2618 inc/shortcodes/shortcodes.php:2837
+#: inc/shortcodes/shortcodes.php:3026 inc/shortcodes/shortcodes.php:6010
+#: inc/shortcodes/shortcodes.php:6573 inc/shortcodes/shortcodes.php:7319
+#: inc/shortcodes/shortcodes.php:7991 inc/shortcodes/shortcodes.php:8710
+#: inc/shortcodes/shortcodes.php:10997
+msgid "Hover border color"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:2683 inc/shortcodes/shortcodes.php:2906
+#: inc/shortcodes/shortcodes.php:3237 inc/shortcodes/shortcodes.php:3805
+#: inc/shortcodes/shortcodes.php:6079 inc/shortcodes/shortcodes.php:6790
+#: inc/shortcodes/shortcodes.php:7523 inc/shortcodes/shortcodes.php:8208
+#: inc/shortcodes/shortcodes.php:8770 inc/shortcodes/shortcodes.php:11213
+msgid "Icon position"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:2691 inc/shortcodes/shortcodes.php:8904
+msgid "Activate Button"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:2694 inc/shortcodes/shortcodes.php:2700
+#: inc/shortcodes/shortcodes.php:2715 inc/shortcodes/shortcodes.php:2726
+#: inc/shortcodes/shortcodes.php:2738 inc/shortcodes/shortcodes.php:2749
+#: inc/shortcodes/shortcodes.php:2760 inc/shortcodes/shortcodes.php:2771
+#: inc/shortcodes/shortcodes.php:2783 inc/shortcodes/shortcodes.php:2793
+#: inc/shortcodes/shortcodes.php:2803 inc/shortcodes/shortcodes.php:2813
+#: inc/shortcodes/shortcodes.php:2823 inc/shortcodes/shortcodes.php:2833
+#: inc/shortcodes/shortcodes.php:2843 inc/shortcodes/shortcodes.php:2855
+#: inc/shortcodes/shortcodes.php:2866 inc/shortcodes/shortcodes.php:2877
+#: inc/shortcodes/shortcodes.php:2888 inc/shortcodes/shortcodes.php:2913
+msgid "Button 2"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:2926
+msgid "Button"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:2930
+msgid "Styled button element"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:2947
+msgid "Inline"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:3035 inc/shortcodes/shortcodes.php:6583
+#: inc/shortcodes/shortcodes.php:7329 inc/shortcodes/shortcodes.php:8001
+#: inc/shortcodes/shortcodes.php:11007
+msgid "Use Gradient Backgound Colors"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:3042 inc/shortcodes/shortcodes.php:6595
+#: inc/shortcodes/shortcodes.php:7340 inc/shortcodes/shortcodes.php:8013
+#: inc/shortcodes/shortcodes.php:11018
+msgid "Background From"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:3052 inc/shortcodes/shortcodes.php:6606
+#: inc/shortcodes/shortcodes.php:7351 inc/shortcodes/shortcodes.php:8024
+#: inc/shortcodes/shortcodes.php:11029
+msgid "Background To"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:3062 inc/shortcodes/shortcodes.php:6617
+#: inc/shortcodes/shortcodes.php:7362 inc/shortcodes/shortcodes.php:8035
+#: inc/shortcodes/shortcodes.php:11040
+msgid "Hover Background From"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:3072 inc/shortcodes/shortcodes.php:6628
+#: inc/shortcodes/shortcodes.php:7373 inc/shortcodes/shortcodes.php:8046
+#: inc/shortcodes/shortcodes.php:11051
+msgid "Hover Background To"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:3086 inc/shortcodes/shortcodes.php:3868
+#: inc/shortcodes/shortcodes.php:4316 inc/shortcodes/shortcodes.php:4436
+#: inc/shortcodes/shortcodes.php:4776 inc/shortcodes/shortcodes.php:4885
+#: inc/shortcodes/shortcodes.php:5076 inc/shortcodes/shortcodes.php:5185
+#: inc/shortcodes/shortcodes.php:5402 inc/shortcodes/shortcodes.php:5511
+#: inc/shortcodes/shortcodes.php:6644 inc/shortcodes/shortcodes.php:7389
+#: inc/shortcodes/shortcodes.php:8062 inc/shortcodes/shortcodes.php:11067
+msgid "Linear"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:3087 inc/shortcodes/shortcodes.php:3869
+#: inc/shortcodes/shortcodes.php:4317 inc/shortcodes/shortcodes.php:4437
+#: inc/shortcodes/shortcodes.php:4777 inc/shortcodes/shortcodes.php:4886
+#: inc/shortcodes/shortcodes.php:5077 inc/shortcodes/shortcodes.php:5186
+#: inc/shortcodes/shortcodes.php:5403 inc/shortcodes/shortcodes.php:5512
+#: inc/shortcodes/shortcodes.php:6645 inc/shortcodes/shortcodes.php:7390
+#: inc/shortcodes/shortcodes.php:8063 inc/shortcodes/shortcodes.php:11068
+msgid "Radial"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:3097 inc/shortcodes/shortcodes.php:3879
+#: inc/shortcodes/shortcodes.php:4327 inc/shortcodes/shortcodes.php:4447
+#: inc/shortcodes/shortcodes.php:4789 inc/shortcodes/shortcodes.php:4896
+#: inc/shortcodes/shortcodes.php:5089 inc/shortcodes/shortcodes.php:5196
+#: inc/shortcodes/shortcodes.php:5415 inc/shortcodes/shortcodes.php:5522
+#: inc/shortcodes/shortcodes.php:6655 inc/shortcodes/shortcodes.php:7400
+#: inc/shortcodes/shortcodes.php:8073 inc/shortcodes/shortcodes.php:11078
+msgid "Gradient Position"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:3117 inc/shortcodes/shortcodes.php:6676
+#: inc/shortcodes/shortcodes.php:7418 inc/shortcodes/shortcodes.php:8094
+#: inc/shortcodes/shortcodes.php:11099
+msgid "Swap Colors"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:3132 inc/shortcodes/shortcodes.php:3899
+#: inc/shortcodes/shortcodes.php:4347 inc/shortcodes/shortcodes.php:4467
+#: inc/shortcodes/shortcodes.php:4809 inc/shortcodes/shortcodes.php:4916
+#: inc/shortcodes/shortcodes.php:5109 inc/shortcodes/shortcodes.php:5216
+#: inc/shortcodes/shortcodes.php:5435 inc/shortcodes/shortcodes.php:5542
+#: inc/shortcodes/shortcodes.php:6692 inc/shortcodes/shortcodes.php:7430
+#: inc/shortcodes/shortcodes.php:8110 inc/shortcodes/shortcodes.php:11115
+msgid "Custom Angle"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:3136 inc/shortcodes/shortcodes.php:3903
+#: inc/shortcodes/shortcodes.php:4351 inc/shortcodes/shortcodes.php:4471
+#: inc/shortcodes/shortcodes.php:4813 inc/shortcodes/shortcodes.php:4920
+#: inc/shortcodes/shortcodes.php:5113 inc/shortcodes/shortcodes.php:5220
+#: inc/shortcodes/shortcodes.php:5439 inc/shortcodes/shortcodes.php:5546
+#: inc/shortcodes/shortcodes.php:6697 inc/shortcodes/shortcodes.php:7435
+#: inc/shortcodes/shortcodes.php:8115 inc/shortcodes/shortcodes.php:11120
+msgid "Vertical to bottom ↓"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:3137 inc/shortcodes/shortcodes.php:3904
+#: inc/shortcodes/shortcodes.php:4352 inc/shortcodes/shortcodes.php:4472
+#: inc/shortcodes/shortcodes.php:4814 inc/shortcodes/shortcodes.php:4921
+#: inc/shortcodes/shortcodes.php:5114 inc/shortcodes/shortcodes.php:5221
+#: inc/shortcodes/shortcodes.php:5440 inc/shortcodes/shortcodes.php:5547
+#: inc/shortcodes/shortcodes.php:6698 inc/shortcodes/shortcodes.php:7436
+#: inc/shortcodes/shortcodes.php:8116 inc/shortcodes/shortcodes.php:11121
+msgid "Vertical to top ↑"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:3138 inc/shortcodes/shortcodes.php:3905
+#: inc/shortcodes/shortcodes.php:4353 inc/shortcodes/shortcodes.php:4473
+#: inc/shortcodes/shortcodes.php:4815 inc/shortcodes/shortcodes.php:4922
+#: inc/shortcodes/shortcodes.php:5115 inc/shortcodes/shortcodes.php:5222
+#: inc/shortcodes/shortcodes.php:5441 inc/shortcodes/shortcodes.php:5548
+#: inc/shortcodes/shortcodes.php:6699 inc/shortcodes/shortcodes.php:7437
+#: inc/shortcodes/shortcodes.php:8117 inc/shortcodes/shortcodes.php:11122
+msgid "Horizontal to left  →"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:3139 inc/shortcodes/shortcodes.php:3906
+#: inc/shortcodes/shortcodes.php:4354 inc/shortcodes/shortcodes.php:4474
+#: inc/shortcodes/shortcodes.php:4816 inc/shortcodes/shortcodes.php:4923
+#: inc/shortcodes/shortcodes.php:5116 inc/shortcodes/shortcodes.php:5223
+#: inc/shortcodes/shortcodes.php:5442 inc/shortcodes/shortcodes.php:5549
+#: inc/shortcodes/shortcodes.php:6700 inc/shortcodes/shortcodes.php:7438
+#: inc/shortcodes/shortcodes.php:8118 inc/shortcodes/shortcodes.php:11123
+msgid "Horizontal to right ←"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:3140 inc/shortcodes/shortcodes.php:3907
+#: inc/shortcodes/shortcodes.php:4355 inc/shortcodes/shortcodes.php:4475
+#: inc/shortcodes/shortcodes.php:4817 inc/shortcodes/shortcodes.php:4924
+#: inc/shortcodes/shortcodes.php:5117 inc/shortcodes/shortcodes.php:5224
+#: inc/shortcodes/shortcodes.php:5443 inc/shortcodes/shortcodes.php:5550
+#: inc/shortcodes/shortcodes.php:6701 inc/shortcodes/shortcodes.php:7439
+#: inc/shortcodes/shortcodes.php:8119 inc/shortcodes/shortcodes.php:11124
+msgid "Diagonal from left to bottom ↘"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:3141 inc/shortcodes/shortcodes.php:3908
+#: inc/shortcodes/shortcodes.php:4356 inc/shortcodes/shortcodes.php:4476
+#: inc/shortcodes/shortcodes.php:4818 inc/shortcodes/shortcodes.php:4925
+#: inc/shortcodes/shortcodes.php:5118 inc/shortcodes/shortcodes.php:5225
+#: inc/shortcodes/shortcodes.php:5444 inc/shortcodes/shortcodes.php:5551
+#: inc/shortcodes/shortcodes.php:6702 inc/shortcodes/shortcodes.php:7440
+#: inc/shortcodes/shortcodes.php:8120 inc/shortcodes/shortcodes.php:11125
+msgid "Diagonal from left to top ↗"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:3142 inc/shortcodes/shortcodes.php:3909
+#: inc/shortcodes/shortcodes.php:4357 inc/shortcodes/shortcodes.php:4477
+#: inc/shortcodes/shortcodes.php:4819 inc/shortcodes/shortcodes.php:4926
+#: inc/shortcodes/shortcodes.php:5119 inc/shortcodes/shortcodes.php:5226
+#: inc/shortcodes/shortcodes.php:5445 inc/shortcodes/shortcodes.php:5552
+#: inc/shortcodes/shortcodes.php:6703 inc/shortcodes/shortcodes.php:7441
+#: inc/shortcodes/shortcodes.php:8121 inc/shortcodes/shortcodes.php:11126
+msgid "Diagonal from right to bottom ↙"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:3143 inc/shortcodes/shortcodes.php:3910
+#: inc/shortcodes/shortcodes.php:4358 inc/shortcodes/shortcodes.php:4478
+#: inc/shortcodes/shortcodes.php:4820 inc/shortcodes/shortcodes.php:4927
+#: inc/shortcodes/shortcodes.php:5120 inc/shortcodes/shortcodes.php:5227
+#: inc/shortcodes/shortcodes.php:5446 inc/shortcodes/shortcodes.php:5553
+#: inc/shortcodes/shortcodes.php:6704 inc/shortcodes/shortcodes.php:7442
+#: inc/shortcodes/shortcodes.php:8122 inc/shortcodes/shortcodes.php:11127
+msgid "Diagonal from right to top ↖"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:3144 inc/shortcodes/shortcodes.php:3911
+#: inc/shortcodes/shortcodes.php:4359 inc/shortcodes/shortcodes.php:4479
+#: inc/shortcodes/shortcodes.php:4821 inc/shortcodes/shortcodes.php:4928
+#: inc/shortcodes/shortcodes.php:5121 inc/shortcodes/shortcodes.php:5228
+#: inc/shortcodes/shortcodes.php:5447 inc/shortcodes/shortcodes.php:5554
+#: inc/shortcodes/shortcodes.php:6705 inc/shortcodes/shortcodes.php:7443
+#: inc/shortcodes/shortcodes.php:8123 inc/shortcodes/shortcodes.php:9199
+#: inc/shortcodes/shortcodes.php:11128
+msgid "Custom"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:3156 inc/shortcodes/shortcodes.php:3923
+#: inc/shortcodes/shortcodes.php:4371 inc/shortcodes/shortcodes.php:4491
+#: inc/shortcodes/shortcodes.php:4833 inc/shortcodes/shortcodes.php:4940
+#: inc/shortcodes/shortcodes.php:5133 inc/shortcodes/shortcodes.php:5240
+#: inc/shortcodes/shortcodes.php:5459 inc/shortcodes/shortcodes.php:5566
+#: inc/shortcodes/shortcodes.php:6717 inc/shortcodes/shortcodes.php:7452
+#: inc/shortcodes/shortcodes.php:8135 inc/shortcodes/shortcodes.php:11140
+msgid "Angle"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:3159 inc/shortcodes/shortcodes.php:3926
+#: inc/shortcodes/shortcodes.php:4374 inc/shortcodes/shortcodes.php:4494
+#: inc/shortcodes/shortcodes.php:4836 inc/shortcodes/shortcodes.php:4943
+#: inc/shortcodes/shortcodes.php:5136 inc/shortcodes/shortcodes.php:5243
+#: inc/shortcodes/shortcodes.php:5462 inc/shortcodes/shortcodes.php:5569
+#: inc/shortcodes/shortcodes.php:6721 inc/shortcodes/shortcodes.php:7456
+#: inc/shortcodes/shortcodes.php:8139 inc/shortcodes/shortcodes.php:11144
+msgid "Set value in DG 0-360"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:3169
+msgid "Separator Style"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:3173 inc/shortcodes/shortcodes.php:6094
+#: inc/shortcodes/shortcodes.php:6805 inc/shortcodes/shortcodes.php:8223
+#: inc/shortcodes/shortcodes.php:11228
+msgid "Single"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:3175 inc/shortcodes/shortcodes.php:6096
+#: inc/shortcodes/shortcodes.php:6807 inc/shortcodes/shortcodes.php:8225
+#: inc/shortcodes/shortcodes.php:11230
+msgid "Soft Double"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:3176 inc/shortcodes/shortcodes.php:6097
+#: inc/shortcodes/shortcodes.php:6808 inc/shortcodes/shortcodes.php:8226
+#: inc/shortcodes/shortcodes.php:11231
+msgid "Strong Double"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:3181 inc/shortcodes/shortcodes.php:3480
+#: inc/shortcodes/shortcodes.php:4238 inc/shortcodes/vc_shortcodes/init.php:58
+#: inc/shortcodes/vc_shortcodes/init.php:90
+#: inc/shortcodes/vc_shortcodes/init.php:134
+#: inc/shortcodes/vc_shortcodes/init.php:180
+#: inc/shortcodes/vc_shortcodes/init.php:213
+#: inc/shortcodes/vc_shortcodes/init.php:267
+msgid "Extra class name"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:3255
+msgid "Clients overview inside content"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:3261 inc/shortcodes/shortcodes.php:6293
+#: inc/shortcodes/shortcodes.php:9353
+msgid "Grid"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:3261 inc/shortcodes/shortcodes.php:5751
+msgid "Carousel"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:3268
+msgid "Select Clients Sets"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:3273 inc/shortcodes/shortcodes.php:5656
+#: inc/shortcodes/shortcodes.php:5785 inc/shortcodes/shortcodes.php:7110
+#: inc/shortcodes/shortcodes.php:8403 inc/shortcodes/shortcodes.php:9387
+#: inc/shortcodes/shortcodes.php:9940 inc/shortcodes/shortcodes.php:11370
+msgid "Autoscroll"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:3274 inc/shortcodes/shortcodes.php:5657
+#: inc/shortcodes/shortcodes.php:5786 inc/shortcodes/shortcodes.php:7111
+#: inc/shortcodes/shortcodes.php:8404 inc/shortcodes/shortcodes.php:9388
+#: inc/shortcodes/shortcodes.php:9941 inc/shortcodes/shortcodes.php:11371
+msgid "Speed in Milliseconds, example - 5000"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:3279
+msgid "Rows"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:3290
+msgid "Cols"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:3316 inc/widgets/widgets.php:1846
+msgid "Disable grayscale"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:3325
+msgid "Countdown"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:3335
+msgid "Boxes"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:3337 inc/shortcodes/shortcodes.php:9590
+msgid "Cross"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:3338
+msgid "Days Only"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:3339
+msgid "Circles"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:3344
+msgid "Start Event"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:3354
+msgid "Event Date"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:3360
+msgid "Aligment"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:3374
+msgid "Numbers Weight"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:3384
+msgid "Number color"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:3426
+msgid "Countdown text"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:3444
+msgid "Color Days"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:3453
+msgid "Color Hours"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:3462
+msgid "Color Minutes"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:3471
+msgid "Color Seconds"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:3487 inc/shortcodes/shortcodes.php:3493
+msgid "Counter"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:3497 inc/shortcodes/shortcodes.php:3845
+#: inc/shortcodes/shortcodes.php:4293 inc/shortcodes/shortcodes.php:4413
+#: inc/shortcodes/shortcodes.php:4862 inc/shortcodes/shortcodes.php:5162
+#: inc/shortcodes/shortcodes.php:5488
+msgid "From"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:3502 inc/shortcodes/shortcodes.php:3854
+#: inc/shortcodes/shortcodes.php:4302 inc/shortcodes/shortcodes.php:4422
+#: inc/shortcodes/shortcodes.php:4871 inc/shortcodes/shortcodes.php:5171
+#: inc/shortcodes/shortcodes.php:5497
+msgid "To"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:3512
+msgid "Suffix"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:3522 inc/shortcodes/shortcodes.php:3661
+msgid "Numbers Color"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:3643 inc/shortcodes/shortcodes.php:3653
+#: inc/shortcodes/shortcodes.php:3663 inc/shortcodes/shortcodes.php:3673
+msgid "Hover"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:3683 inc/shortcodes/shortcodes.php:3690
+msgid "Counter box"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:3696 inc/shortcodes/shortcodes.php:5762
+#: inc/shortcodes/shortcodes.php:7548 inc/shortcodes/shortcodes.php:8792
+#: inc/shortcodes/shortcodes.php:9081 inc/shortcodes/shortcodes.php:9681
+#: inc/shortcodes/shortcodes.php:9869 inc/widgets/widgets.php:707
+#: inc/widgets/widgets.php:1460
+msgid "Style 1"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:3696 inc/shortcodes/shortcodes.php:5763
+#: inc/shortcodes/shortcodes.php:7549 inc/shortcodes/shortcodes.php:8792
+#: inc/shortcodes/shortcodes.php:9082 inc/shortcodes/shortcodes.php:9682
+#: inc/shortcodes/shortcodes.php:9870 inc/widgets/widgets.php:707
+#: inc/widgets/widgets.php:1460
+msgid "Style 2"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:3696 inc/shortcodes/shortcodes.php:4567
+msgid "Vertical"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:3700 inc/shortcodes/shortcodes.php:9849
+#: inc/shortcodes/shortcodes.php:10648
+msgid "Columns"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:3711
+msgid "Connector color"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:3730
+msgid "Team Person Image Size"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:3746
+msgid "Number format"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:3749
+msgid ""
+"Example: (ddd).ddd -> 9999.99, ( ddd).ddd -> 9 999.99, (,ddd).ddd -> 9,999.99"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:3755 inc/shortcodes/shortcodes.php:3761
+msgid "Custom Header"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:3772
+msgid "Title max width px"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:3778
+msgid "Title top margin"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:3783
+msgid "Title bottom margin"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:3788
+msgid "Subtitle"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:3794
+msgid "Subtitle max width px"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:3800
+msgid "Subtitle color"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:3810
+msgid "No Display"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:3833
+msgid "Custom Header Background color"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:3838 inc/shortcodes/shortcodes.php:4286
+#: inc/shortcodes/shortcodes.php:4406 inc/shortcodes/shortcodes.php:4856
+#: inc/shortcodes/shortcodes.php:5156 inc/shortcodes/shortcodes.php:5482
+msgid "Use Gradient Backgound"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:3983
+msgid "Show Bread Crumbs"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:3989
+msgid "Centreed Bread Crumbs"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:4078
+msgid "Opacity (0-1)"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:4085 inc/shortcodes/shortcodes.php:4955
+#: inc/shortcodes/shortcodes.php:5255 inc/shortcodes/shortcodes.php:5581
+msgid "small"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:4085 inc/shortcodes/shortcodes.php:4955
+#: inc/shortcodes/shortcodes.php:5255 inc/shortcodes/shortcodes.php:5581
+msgid "medium"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:4089 inc/shortcodes/shortcodes.php:4976
+#: inc/shortcodes/shortcodes.php:5303
+msgid "Icon top margin"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:4094 inc/shortcodes/shortcodes.php:4981
+#: inc/shortcodes/shortcodes.php:5308
+msgid "Icon bottom margin"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:4111
+msgid "Diagram"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:4115
+msgid "Styled diagrams and graphs"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:4119
+msgid "title"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:4124
+msgid "summary"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:4129
+msgid "type"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:4131 inc/shortcodes/shortcodes.php:4261
+#: inc/shortcodes/shortcodes.php:5378
+msgid "circle"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:4131
+msgid "line"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:4153 inc/shortcodes/shortcodes.php:9640
+msgid "style-1"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:4154 inc/shortcodes/shortcodes.php:9640
+msgid "style-2"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:4155 inc/shortcodes/shortcodes.php:9640
+msgid "style-3"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:4178
+msgid "Summary color"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:4187
+msgid "Line color"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:4198
+msgid "Divider"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:4202
+msgid "Horizontal separator in different styles"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:4209
+msgid "1px"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:4210
+msgid "stroked"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:4211
+msgid "3px"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:4212
+msgid "7px"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:4213
+msgid "dotted"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:4214
+msgid "dashed"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:4215
+msgid "zigzag"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:4216
+msgid "wave"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:4246
+msgid "Dropcap"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:4250
+msgid "Dropcap symbol for text content"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:4254
+msgid "letter"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:4261 inc/shortcodes/shortcodes.php:5378
+msgid "square"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:4261
+msgid "hexagon"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:4267 inc/shortcodes/shortcodes.php:5652
+#: inc/shortcodes/shortcodes.php:6987 inc/shortcodes/shortcodes.php:8393
+#: inc/shortcodes/shortcodes.php:11360
+msgid "Big"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:4386
+msgid "Fullwidth Container"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:4548
+msgid "Enable Parallax on Mobiles"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:4558
+msgid "Full-height"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:4564
+msgid "Parallax type"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:4568
+msgid "Horizontal"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:4569
+msgid "Fixed"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:4578
+msgid "Parallax overlay color"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:4655
+msgid "Top Styled Marker Style"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:4657 inc/shortcodes/shortcodes.php:4673
+msgid "Triangle"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:4657 inc/shortcodes/shortcodes.php:4673
+msgid "Figure"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:4661
+msgid "Top Styled Marker Direction"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:4663 inc/shortcodes/shortcodes.php:4679
+msgid "Inside"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:4663 inc/shortcodes/shortcodes.php:4679
+msgid "Outside"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:4671
+msgid "Bottom Styled Marker Style"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:4677
+msgid "Bottom Styled Marker Direction"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:4693
+msgid "Customizable Font Icon"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:4757 inc/shortcodes/shortcodes.php:5058
+#: inc/shortcodes/shortcodes.php:5384 inc/shortcodes/shortcodes.php:5640
+#: inc/shortcodes/shortcodes.php:6327 inc/shortcodes/shortcodes.php:7769
+#: inc/shortcodes/shortcodes.php:8348 inc/shortcodes/shortcodes.php:9452
+#: inc/shortcodes/shortcodes.php:10746 inc/shortcodes/shortcodes.php:10756
+#: inc/shortcodes/shortcodes.php:11304 inc/shortcodes/shortcodes.php:11314
+msgid "Gradient"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:4966
+msgid "Blank"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:4988
+msgid "Icon with text"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:4994
+msgid "Font Icon with aligned text content"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:5062
+msgid "color"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:5067
+msgid "color 2"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:5259
+msgid "Flow"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:5271
+msgid "Disable centered layout on mobile"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:5277
+msgid "Float right icon"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:5283
+msgid "Icon top padding"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:5288
+msgid "Icon right padding"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:5293
+msgid "Icon bottom padding"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:5298
+msgid "Icon left padding"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:5316
+msgid "Icon with Title"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:5320
+msgid "Title with customizable font icon"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:5378
+msgid "romb"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:5595
+msgid "Level"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:5597
+msgid "h1"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:5597
+msgid "h2"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:5597
+msgid "h3"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:5597
+msgid "h4"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:5597
+msgid "h5"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:5597
+msgid "h6"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:5608
+msgid "Instagram Gallery"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:5612
+msgid "Instagram Gallery slider"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:5626 inc/shortcodes/shortcodes.php:6267
+#: inc/shortcodes/shortcodes.php:6950 inc/shortcodes/shortcodes.php:7659
+#: inc/shortcodes/shortcodes.php:8321 inc/shortcodes/shortcodes.php:9357
+#: inc/shortcodes/shortcodes.php:9397 inc/shortcodes/shortcodes.php:10685
+#: inc/shortcodes/shortcodes.php:11269
+msgid "Layout"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:5628 inc/shortcodes/shortcodes.php:6269
+#: inc/shortcodes/shortcodes.php:7661 inc/shortcodes/shortcodes.php:8323
+#: inc/shortcodes/shortcodes.php:9400 inc/shortcodes/shortcodes.php:10687
+#: inc/shortcodes/shortcodes.php:11271
+msgid "3x columns"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:5628 inc/shortcodes/shortcodes.php:6269
+#: inc/shortcodes/shortcodes.php:7661 inc/shortcodes/shortcodes.php:9400
+#: inc/shortcodes/shortcodes.php:10687
+msgid "4x columns"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:5632 inc/shortcodes/shortcodes.php:6313
+#: inc/shortcodes/shortcodes.php:7755 inc/shortcodes/shortcodes.php:8334
+#: inc/shortcodes/shortcodes.php:10732 inc/shortcodes/shortcodes.php:11290
+msgid "Gaps Size"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:5638 inc/shortcodes/shortcodes.php:6325
+#: inc/shortcodes/shortcodes.php:7767 inc/shortcodes/shortcodes.php:8346
+#: inc/shortcodes/shortcodes.php:9450 inc/shortcodes/shortcodes.php:10744
+#: inc/shortcodes/shortcodes.php:10754 inc/shortcodes/shortcodes.php:11302
+#: inc/shortcodes/shortcodes.php:11312
+msgid "Hover Type"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:5640 inc/shortcodes/shortcodes.php:6327
+#: inc/shortcodes/shortcodes.php:7769 inc/shortcodes/shortcodes.php:8348
+#: inc/shortcodes/shortcodes.php:9452 inc/shortcodes/shortcodes.php:10746
+#: inc/shortcodes/shortcodes.php:11304
+msgid "Cyan Breeze"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:5640 inc/shortcodes/shortcodes.php:6327
+#: inc/shortcodes/shortcodes.php:7769 inc/shortcodes/shortcodes.php:8348
+#: inc/shortcodes/shortcodes.php:9452 inc/shortcodes/shortcodes.php:10746
+#: inc/shortcodes/shortcodes.php:11304
+msgid "Zooming White"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:5640 inc/shortcodes/shortcodes.php:6327
+#: inc/shortcodes/shortcodes.php:7769 inc/shortcodes/shortcodes.php:8348
+#: inc/shortcodes/shortcodes.php:9452 inc/shortcodes/shortcodes.php:10746
+#: inc/shortcodes/shortcodes.php:11304
+msgid "Horizontal Sliding"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:5640 inc/shortcodes/shortcodes.php:6327
+#: inc/shortcodes/shortcodes.php:7769 inc/shortcodes/shortcodes.php:8348
+#: inc/shortcodes/shortcodes.php:9452 inc/shortcodes/shortcodes.php:10746
+#: inc/shortcodes/shortcodes.php:11304
+msgid "Vertical Sliding"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:5640 inc/shortcodes/shortcodes.php:6327
+#: inc/shortcodes/shortcodes.php:7769 inc/shortcodes/shortcodes.php:8348
+#: inc/shortcodes/shortcodes.php:9452 inc/shortcodes/shortcodes.php:10746
+#: inc/shortcodes/shortcodes.php:10756 inc/shortcodes/shortcodes.php:11304
+#: inc/shortcodes/shortcodes.php:11314
+msgid "Circular Overlay"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:5650 inc/shortcodes/shortcodes.php:8391
+#: inc/shortcodes/shortcodes.php:9590 inc/shortcodes/shortcodes.php:11358
+msgid "Arrow"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:5664 inc/shortcodes/shortcodes.php:5670
+msgid "Map with Text"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:5679 inc/shortcodes/vc_shortcodes/init.php:260
+msgid "Map height"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:5682 inc/shortcodes/vc_shortcodes/init.php:263
+msgid ""
+"Enter map height in pixels. Example: 200 or leave it empty to make map "
+"responsive."
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:5686 inc/shortcodes/vc_shortcodes/init.php:254
+msgid "Map embed iframe"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:5688 inc/shortcodes/shortcodes.php:11406
+#: inc/shortcodes/vc_shortcodes/init.php:256
+#, php-format
+msgid ""
+"Visit <a href=\"%s\" target=\"_blank\">Google maps</a> to create your map. "
+"1) Find location 2) Click \"Share\" and make sure map is public on the web "
+"3) Click folder icon to reveal \"Embed on my site\" link 4) Copy iframe code "
+"and paste it here."
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:5692
+msgid "Grayscale"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:5704 inc/shortcodes/shortcodes.php:10464
+msgid "Deactivate Map Zoom By Scrolling"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:5710
+msgid "Rounded Corners"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:5718
+msgid "Blog"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:5722
+msgid "Classic blog lists and grids"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:5726
+msgid "Post types"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:5728
+msgid "Post"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:5739
+msgid "Timeline"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:5740
+msgid "Timeline Fullwidth"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:5742
+msgid "Masonry 3x"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:5743
+msgid "Masonry 4x"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:5744 inc/shortcodes/shortcodes.php:6269
+#: inc/shortcodes/shortcodes.php:7661 inc/shortcodes/shortcodes.php:8323
+#: inc/shortcodes/shortcodes.php:9400 inc/shortcodes/shortcodes.php:10687
+#: inc/shortcodes/shortcodes.php:11271
+msgid "100% width"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:5746
+msgid "Justified 3x"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:5747
+msgid "Justified 4x"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:5748
+msgid "Styled List 1"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:5749
+msgid "Styled List 2"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:5750
+msgid "Multi Author List"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:5752
+msgid "Compact List 1"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:5753
+msgid "Compact List 2"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:5754 inc/shortcodes/shortcodes.php:9353
+msgid "Slider"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:5759
+msgid "Justified Style"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:5772
+msgid "Slider Style"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:5776
+msgid "Halfwidth"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:5795 inc/shortcodes/shortcodes.php:6434
+#: inc/shortcodes/shortcodes.php:7118 inc/shortcodes/shortcodes.php:10662
+msgid "Categories"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:5798 inc/shortcodes/shortcodes.php:6437
+#: inc/shortcodes/shortcodes.php:7120 inc/widgets/widgets.php:473
+msgid "Select Categories"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:5803
+msgid "Post per page"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:5809 inc/shortcodes/shortcodes.php:6346
+#: inc/shortcodes/shortcodes.php:7788 inc/shortcodes/shortcodes.php:9377
+#: inc/shortcodes/shortcodes.php:10779
+msgid "Pagination"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:5814
+msgid "Infinite Scroll"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:5815
+msgid "Disable pagination"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:5824 inc/shortcodes/shortcodes.php:6352
+#: inc/shortcodes/shortcodes.php:7794 inc/shortcodes/shortcodes.php:9488
+#: inc/shortcodes/shortcodes.php:10785
+msgid "Loading animation"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:5827 inc/shortcodes/shortcodes.php:6355
+#: inc/shortcodes/shortcodes.php:7797 inc/shortcodes/shortcodes.php:9491
+#: inc/shortcodes/shortcodes.php:10788
+msgid "Disabled"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:5827 inc/shortcodes/shortcodes.php:6355
+#: inc/shortcodes/shortcodes.php:7797 inc/shortcodes/shortcodes.php:9491
+#: inc/shortcodes/shortcodes.php:10788
+msgid "Bounce"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:5827 inc/shortcodes/shortcodes.php:6355
+#: inc/shortcodes/shortcodes.php:7797 inc/shortcodes/shortcodes.php:9491
+#: inc/shortcodes/shortcodes.php:10788
+msgid "Move Up"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:5827 inc/shortcodes/shortcodes.php:6355
+#: inc/shortcodes/shortcodes.php:7797 inc/shortcodes/shortcodes.php:9491
+#: inc/shortcodes/shortcodes.php:10788
+msgid "Fade In"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:5827 inc/shortcodes/shortcodes.php:6355
+#: inc/shortcodes/shortcodes.php:7797 inc/shortcodes/shortcodes.php:9491
+#: inc/shortcodes/shortcodes.php:10788
+msgid "Fall Perspective"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:5827 inc/shortcodes/shortcodes.php:6355
+#: inc/shortcodes/shortcodes.php:7797 inc/shortcodes/shortcodes.php:9491
+#: inc/shortcodes/shortcodes.php:10788
+msgid "Scale"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:5827 inc/shortcodes/shortcodes.php:6355
+#: inc/shortcodes/shortcodes.php:7797 inc/shortcodes/shortcodes.php:9491
+#: inc/shortcodes/shortcodes.php:10788
+msgid "Flip"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:5835
+msgid "Ignore Sticky Posts"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:5841
+msgid "Hide date in title"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:5851 inc/shortcodes/shortcodes.php:6389
+#: inc/shortcodes/shortcodes.php:7037
+msgid "Hide author"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:5857 inc/shortcodes/shortcodes.php:6395
+msgid "Hide comments"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:5863
+msgid "Hide likes"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:5882 inc/shortcodes/shortcodes.php:5894
+#: inc/shortcodes/shortcodes.php:5906 inc/shortcodes/shortcodes.php:5917
+#: inc/shortcodes/shortcodes.php:5928 inc/shortcodes/shortcodes.php:5939
+#: inc/shortcodes/shortcodes.php:5955 inc/shortcodes/shortcodes.php:5961
+#: inc/shortcodes/shortcodes.php:5971 inc/shortcodes/shortcodes.php:5986
+#: inc/shortcodes/shortcodes.php:5992 inc/shortcodes/shortcodes.php:6006
+#: inc/shortcodes/shortcodes.php:6016 inc/shortcodes/shortcodes.php:6024
+#: inc/shortcodes/shortcodes.php:6039 inc/shortcodes/shortcodes.php:6050
+#: inc/shortcodes/shortcodes.php:6061 inc/shortcodes/shortcodes.php:6082
+#: inc/shortcodes/shortcodes.php:6101 inc/shortcodes/shortcodes.php:6445
+#: inc/shortcodes/shortcodes.php:6457 inc/shortcodes/shortcodes.php:6469
+#: inc/shortcodes/shortcodes.php:6480 inc/shortcodes/shortcodes.php:6491
+#: inc/shortcodes/shortcodes.php:6502 inc/shortcodes/shortcodes.php:6518
+#: inc/shortcodes/shortcodes.php:6524 inc/shortcodes/shortcodes.php:6534
+#: inc/shortcodes/shortcodes.php:6549 inc/shortcodes/shortcodes.php:6555
+#: inc/shortcodes/shortcodes.php:6569 inc/shortcodes/shortcodes.php:6579
+#: inc/shortcodes/shortcodes.php:6586 inc/shortcodes/shortcodes.php:6598
+#: inc/shortcodes/shortcodes.php:6608 inc/shortcodes/shortcodes.php:6620
+#: inc/shortcodes/shortcodes.php:6631 inc/shortcodes/shortcodes.php:6642
+#: inc/shortcodes/shortcodes.php:6658 inc/shortcodes/shortcodes.php:6679
+#: inc/shortcodes/shortcodes.php:6694 inc/shortcodes/shortcodes.php:6719
+#: inc/shortcodes/shortcodes.php:6735 inc/shortcodes/shortcodes.php:6750
+#: inc/shortcodes/shortcodes.php:6761 inc/shortcodes/shortcodes.php:6772
+#: inc/shortcodes/shortcodes.php:6793 inc/shortcodes/shortcodes.php:6812
+#: inc/shortcodes/shortcodes.php:7863 inc/shortcodes/shortcodes.php:7875
+#: inc/shortcodes/shortcodes.php:7887 inc/shortcodes/shortcodes.php:7898
+#: inc/shortcodes/shortcodes.php:7909 inc/shortcodes/shortcodes.php:7920
+#: inc/shortcodes/shortcodes.php:7936 inc/shortcodes/shortcodes.php:7942
+#: inc/shortcodes/shortcodes.php:7952 inc/shortcodes/shortcodes.php:7967
+#: inc/shortcodes/shortcodes.php:7973 inc/shortcodes/shortcodes.php:7987
+#: inc/shortcodes/shortcodes.php:7997 inc/shortcodes/shortcodes.php:8004
+#: inc/shortcodes/shortcodes.php:8016 inc/shortcodes/shortcodes.php:8026
+#: inc/shortcodes/shortcodes.php:8038 inc/shortcodes/shortcodes.php:8049
+#: inc/shortcodes/shortcodes.php:8060 inc/shortcodes/shortcodes.php:8076
+#: inc/shortcodes/shortcodes.php:8097 inc/shortcodes/shortcodes.php:8112
+#: inc/shortcodes/shortcodes.php:8137 inc/shortcodes/shortcodes.php:8153
+#: inc/shortcodes/shortcodes.php:8168 inc/shortcodes/shortcodes.php:8179
+#: inc/shortcodes/shortcodes.php:8190 inc/shortcodes/shortcodes.php:8211
+#: inc/shortcodes/shortcodes.php:8230 inc/shortcodes/shortcodes.php:10869
+#: inc/shortcodes/shortcodes.php:10881 inc/shortcodes/shortcodes.php:10893
+#: inc/shortcodes/shortcodes.php:10904 inc/shortcodes/shortcodes.php:10915
+#: inc/shortcodes/shortcodes.php:10926 inc/shortcodes/shortcodes.php:10942
+#: inc/shortcodes/shortcodes.php:10948 inc/shortcodes/shortcodes.php:10958
+#: inc/shortcodes/shortcodes.php:10973 inc/shortcodes/shortcodes.php:10979
+#: inc/shortcodes/shortcodes.php:10993 inc/shortcodes/shortcodes.php:11003
+#: inc/shortcodes/shortcodes.php:11010 inc/shortcodes/shortcodes.php:11021
+#: inc/shortcodes/shortcodes.php:11031 inc/shortcodes/shortcodes.php:11043
+#: inc/shortcodes/shortcodes.php:11054 inc/shortcodes/shortcodes.php:11065
+#: inc/shortcodes/shortcodes.php:11081 inc/shortcodes/shortcodes.php:11102
+#: inc/shortcodes/shortcodes.php:11117 inc/shortcodes/shortcodes.php:11142
+#: inc/shortcodes/shortcodes.php:11158 inc/shortcodes/shortcodes.php:11173
+#: inc/shortcodes/shortcodes.php:11184 inc/shortcodes/shortcodes.php:11195
+#: inc/shortcodes/shortcodes.php:11216 inc/shortcodes/shortcodes.php:11235
+msgid "Load More Button"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:6090 inc/shortcodes/shortcodes.php:6801
+#: inc/shortcodes/shortcodes.php:8219 inc/shortcodes/shortcodes.php:11224
+msgid "Separatot Style"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:6119 inc/shortcodes/shortcodes.php:6130
+msgid "Transparent background"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:6141 inc/shortcodes/shortcodes.php:6862
+#: inc/shortcodes/shortcodes.php:7155
+msgid "Post Title"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:6151
+msgid "Post Title Hover"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:6161 inc/shortcodes/shortcodes.php:6880
+#: inc/shortcodes/shortcodes.php:7173
+msgid "Post Excerpt"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:6171
+msgid "Sharing Button Background"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:6181
+msgid "Sharing Button Icon"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:6191
+msgid "Time line"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:6201
+msgid "Month"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:6221
+msgid "Time"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:6231 inc/shortcodes/shortcodes.php:7675
+#: inc/shortcodes/shortcodes.php:9713
+msgid "Border"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:6241
+msgid "Additional Background"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:6253
+msgid "Blog Extended Grid"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:6257
+msgid "Extended grids for blogs"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:6263 inc/shortcodes/shortcodes.php:6945
+msgid "Classic"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:6263 inc/shortcodes/shortcodes.php:6945
+msgid "Alternative"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:6269 inc/shortcodes/shortcodes.php:7661
+#: inc/shortcodes/shortcodes.php:9400 inc/shortcodes/shortcodes.php:10687
+#: inc/shortcodes/shortcodes.php:11271
+msgid "2x columns"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:6273 inc/shortcodes/shortcodes.php:7715
+#: inc/shortcodes/shortcodes.php:10691
+msgid "Layout Version"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:6275 inc/shortcodes/shortcodes.php:7717
+#: inc/shortcodes/shortcodes.php:10693
+msgid "With Sidebar"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:6283 inc/shortcodes/shortcodes.php:7725
+#: inc/shortcodes/shortcodes.php:10701
+msgid "Caption Position"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:6285 inc/shortcodes/shortcodes.php:7727
+#: inc/shortcodes/shortcodes.php:10703
+msgid "Zigzag"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:6295 inc/shortcodes/shortcodes.php:7737
+#: inc/shortcodes/shortcodes.php:9411 inc/shortcodes/shortcodes.php:10713
+msgid "Justified Grid"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:6295 inc/shortcodes/shortcodes.php:7737
+#: inc/shortcodes/shortcodes.php:10713
+msgid "Masonry Grid "
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:6295 inc/shortcodes/shortcodes.php:7737
+#: inc/shortcodes/shortcodes.php:9411 inc/shortcodes/shortcodes.php:10713
+msgid "Metro Style"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:6303 inc/shortcodes/shortcodes.php:7745
+#: inc/shortcodes/shortcodes.php:8327 inc/shortcodes/shortcodes.php:9419
+#: inc/shortcodes/shortcodes.php:10722 inc/shortcodes/shortcodes.php:11276
+msgid "Columns 100% Width (1920x Screen)"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:6305 inc/shortcodes/shortcodes.php:7747
+#: inc/shortcodes/shortcodes.php:8329 inc/shortcodes/shortcodes.php:9421
+#: inc/shortcodes/shortcodes.php:10724 inc/shortcodes/shortcodes.php:11278
+msgid "4 Columns"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:6305 inc/shortcodes/shortcodes.php:7747
+#: inc/shortcodes/shortcodes.php:8329 inc/shortcodes/shortcodes.php:9421
+#: inc/shortcodes/shortcodes.php:10724 inc/shortcodes/shortcodes.php:11278
+msgid "5 Columns"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:6319
+msgid "Display Blog Post Details"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:6321
+msgid "Below the featured image"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:6321
+msgid "On featured image"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:6331 inc/shortcodes/shortcodes.php:7773
+#: inc/shortcodes/shortcodes.php:8352 inc/shortcodes/shortcodes.php:10764
+#: inc/shortcodes/shortcodes.php:11322
+msgid "Background Style"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:6333
+msgid "Transparent"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:6333 inc/shortcodes/shortcodes.php:7775
+#: inc/shortcodes/shortcodes.php:8354 inc/shortcodes/shortcodes.php:9610
+#: inc/shortcodes/shortcodes.php:10505 inc/shortcodes/shortcodes.php:10766
+#: inc/shortcodes/shortcodes.php:11324
+msgid "White"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:6333 inc/shortcodes/shortcodes.php:7775
+#: inc/shortcodes/shortcodes.php:8354 inc/shortcodes/shortcodes.php:10766
+#: inc/shortcodes/shortcodes.php:11324
+msgid "Grey"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:6333 inc/shortcodes/shortcodes.php:6342
+#: inc/shortcodes/shortcodes.php:7084 inc/shortcodes/shortcodes.php:7775
+#: inc/shortcodes/shortcodes.php:7784 inc/shortcodes/shortcodes.php:8354
+#: inc/shortcodes/shortcodes.php:8363 inc/shortcodes/shortcodes.php:9153
+#: inc/shortcodes/shortcodes.php:10507 inc/shortcodes/shortcodes.php:10766
+#: inc/shortcodes/shortcodes.php:10775 inc/shortcodes/shortcodes.php:11324
+#: inc/shortcodes/shortcodes.php:11333
+msgid "Dark"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:6340 inc/shortcodes/shortcodes.php:7782
+#: inc/shortcodes/shortcodes.php:8361 inc/shortcodes/shortcodes.php:10773
+#: inc/shortcodes/shortcodes.php:11331
+msgid "Title Style"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:6342 inc/shortcodes/shortcodes.php:7084
+#: inc/shortcodes/shortcodes.php:7784 inc/shortcodes/shortcodes.php:8363
+#: inc/shortcodes/shortcodes.php:9152 inc/shortcodes/shortcodes.php:10775
+#: inc/shortcodes/shortcodes.php:11333
+msgid "Light"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:6348 inc/shortcodes/shortcodes.php:7790
+#: inc/shortcodes/shortcodes.php:10781
+msgid "Load More "
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:6348 inc/shortcodes/shortcodes.php:7790
+#: inc/shortcodes/shortcodes.php:10781
+msgid "Infinite Scroll "
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:6359 inc/shortcodes/shortcodes.php:7801
+#: inc/shortcodes/shortcodes.php:10792
+msgid "Items per page"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:6365
+msgid "Ignore highlighted items"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:6371 inc/shortcodes/shortcodes.php:7016
+msgid "Hide date"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:6377 inc/shortcodes/shortcodes.php:7030
+msgid "Hide categories"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:6383 inc/shortcodes/shortcodes.php:7044
+msgid "Hide author's avatar"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:6401 inc/shortcodes/shortcodes.php:7840
+#: inc/shortcodes/shortcodes.php:8385
+msgid "Activate Likes"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:6407 inc/shortcodes/shortcodes.php:7819
+#: inc/shortcodes/shortcodes.php:10819
+msgid "Activate Filter"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:6413
+msgid "\"Show All\" Button Text"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:6423
+msgid "Grid's Title"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:6428 inc/shortcodes/shortcodes.php:7846
+#: inc/shortcodes/shortcodes.php:10848
+msgid "Activate Sorting"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:6820 inc/shortcodes/shortcodes.php:8238
+#: inc/shortcodes/shortcodes.php:9499 inc/shortcodes/shortcodes.php:11243
+msgid "Max. row's height in grid (px)"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:6836
+msgid "Post Hover"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:6842
+msgid "Post Background"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:6852
+msgid "Post Bottom Border"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:6868 inc/shortcodes/shortcodes.php:7161
+msgid "Post Author"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:6874 inc/shortcodes/shortcodes.php:7167
+msgid "Post Date"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:6886 inc/shortcodes/shortcodes.php:7179
+msgid "Post Categories"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:6892
+msgid "Post Categories Background"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:6902
+msgid "Post Hover Icon"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:6908
+msgid "Post Comments Icon"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:6914
+msgid "Post Likes Icon"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:6920
+msgid "Post Sharing Icon"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:6926
+msgid "Post Sharing Social Icon"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:6934 inc/shortcodes/shortcodes.php:6938
+msgid "Featured Posts Slider"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:6946 inc/shortcodes/shortcodes.php:6953
+#: inc/shortcodes/shortcodes.php:6959 inc/shortcodes/shortcodes.php:6966
+#: inc/shortcodes/shortcodes.php:6977 inc/shortcodes/shortcodes.php:6990
+#: inc/shortcodes/shortcodes.php:6997 inc/shortcodes/shortcodes.php:7004
+#: inc/shortcodes/shortcodes.php:7012 inc/shortcodes/shortcodes.php:7019
+#: inc/shortcodes/shortcodes.php:7026 inc/shortcodes/shortcodes.php:7033
+#: inc/shortcodes/shortcodes.php:7040 inc/shortcodes/shortcodes.php:7047
+#: inc/shortcodes/shortcodes.php:7054 inc/shortcodes/shortcodes.php:7067
+#: inc/shortcodes/shortcodes.php:7078 inc/shortcodes/shortcodes.php:7085
+#: inc/shortcodes/shortcodes.php:7092 inc/shortcodes/shortcodes.php:7106
+#: inc/shortcodes/shortcodes.php:7113
+msgid "General"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:6952
+msgid "100% Width"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:6957
+msgid "Max. Height (in px)"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:6963
+msgid "Use Fullheight"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:6974
+msgid "Centered Captions"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:6981
+msgid "Blog Post Title Style"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:6994
+msgid "Max. number of posts in slider"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:7001
+msgid "Posts sorting in slider"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:7003
+msgid "Date descending"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:7003
+msgid "Date ascending"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:7008
+msgid "Hide \"Read more\" Button"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:7011
+msgid "No"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:7023
+msgid "Hide excerpt"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:7051
+msgid "Paginator"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:7053
+msgid "Arrows"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:7053
+msgid "Bullets"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:7058
+msgid "Paginator icon"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:7061
+msgid "Arrows Style 1"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:7062
+msgid "Arrows Style 2"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:7063
+msgid "Arrows Style 3"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:7064
+msgid "Arrows Style 4"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:7065
+msgid "Arrows Style 5"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:7075
+msgid "Paginator size"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:7077
+msgid "Regular"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:7082
+msgid "Paginator style"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:7089
+msgid "Paginator position"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:7091
+msgid "Left & right"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:7091
+msgid "Bottom centered"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:7100
+msgid "Sliding effect"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:7103
+msgid "Slide"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:7104 inc/shortcodes/shortcodes.php:12031
+msgid "Fade"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:7122
+msgid "No featured posts in no categories are selected"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:7126
+msgid "Use Background Overlay"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:7133
+msgid "Overlay Color"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:7144
+msgid "Overlay Opacity (0-1)"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:7185
+msgid "Button Name"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:7187 inc/shortcodes/shortcodes.php:7200
+#: inc/shortcodes/shortcodes.php:7212 inc/shortcodes/shortcodes.php:7224
+#: inc/shortcodes/shortcodes.php:7235 inc/shortcodes/shortcodes.php:7245
+#: inc/shortcodes/shortcodes.php:7257 inc/shortcodes/shortcodes.php:7268
+#: inc/shortcodes/shortcodes.php:7279 inc/shortcodes/shortcodes.php:7289
+#: inc/shortcodes/shortcodes.php:7300 inc/shortcodes/shortcodes.php:7311
+#: inc/shortcodes/shortcodes.php:7321 inc/shortcodes/shortcodes.php:7332
+#: inc/shortcodes/shortcodes.php:7343 inc/shortcodes/shortcodes.php:7353
+#: inc/shortcodes/shortcodes.php:7365 inc/shortcodes/shortcodes.php:7376
+#: inc/shortcodes/shortcodes.php:7387 inc/shortcodes/shortcodes.php:7403
+#: inc/shortcodes/shortcodes.php:7421 inc/shortcodes/shortcodes.php:7432
+#: inc/shortcodes/shortcodes.php:7454 inc/shortcodes/shortcodes.php:7468
+#: inc/shortcodes/shortcodes.php:7479 inc/shortcodes/shortcodes.php:7490
+#: inc/shortcodes/shortcodes.php:7501 inc/shortcodes/shortcodes.php:7526
+msgid "Read More Button"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:7536 inc/shortcodes/shortcodes.php:7541
+msgid "Project info"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:7554
+msgid "Values"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:7558 inc/shortcodes/shortcodes.php:7565
+msgid "Element"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:7583
+msgid "Decription"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:7655
+msgid "Portfolio overview inside content"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:7661 inc/shortcodes/shortcodes.php:10687
+msgid "1x column list"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:7685 inc/shortcodes/shortcodes.php:8283
+msgid "Project Title"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:7695 inc/shortcodes/shortcodes.php:8293
+msgid "Separator"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:7705 inc/shortcodes/shortcodes.php:8303
+msgid "Project Description"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:7761 inc/shortcodes/shortcodes.php:8340
+#: inc/shortcodes/shortcodes.php:10738 inc/shortcodes/shortcodes.php:11296
+msgid "Display Titles"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:7763 inc/shortcodes/shortcodes.php:8342
+#: inc/shortcodes/shortcodes.php:10740 inc/shortcodes/shortcodes.php:11298
+msgid "On Page"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:7763 inc/shortcodes/shortcodes.php:8342
+#: inc/shortcodes/shortcodes.php:10740 inc/shortcodes/shortcodes.php:11298
+msgid "On Hover"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:7807 inc/shortcodes/shortcodes.php:8367
+msgid "Show Date & Sets"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:7813 inc/shortcodes/shortcodes.php:8373
+#: inc/shortcodes/shortcodes.php:10813 inc/shortcodes/shortcodes.php:11346
+msgid "Disable sharing buttons"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:7825
+msgid "All Button Text"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:7855 inc/shortcodes/shortcodes.php:8316
+#: inc/widgets/widgets.php:93
+msgid "Select Portfolios"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:8250
+msgid "Portfolio slider"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:8254
+msgid "Portfolio slider inside content"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:8273
+msgid "Bottom Border"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:8329 inc/shortcodes/shortcodes.php:11278
+msgid "3 Columns"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:8397 inc/shortcodes/shortcodes.php:11364
+msgid "Animation"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:8399 inc/shortcodes/shortcodes.php:11366
+msgid "Dynamic slide"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:8399 inc/shortcodes/shortcodes.php:11366
+msgid "One-by-one"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:8411
+msgid "Pricing Table Column"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:8422
+msgid "Top Choice"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:8427
+msgid "Highlighted"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:8433
+msgid "Column width"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:8439
+msgid "Top choice color"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:8444
+msgid "Top choice background color"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:8451
+msgid "Column's Header"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:8459
+msgid "Column title"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:8465
+msgid "Column subtitle"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:8471
+msgid "Price background color "
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:8476
+msgid "Price background image"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:8482
+msgid "Currency"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:8487
+msgid "Price"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:8492
+msgid "Time period"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:8497
+msgid "Styles"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:8499
+msgid "Use default styles"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:8506
+msgid "Set font size of the price"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:8515
+msgid "Set font size of the time"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:8524
+msgid "Set color for Price"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:8533
+msgid "Set color for title"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:8542
+msgid "Set color for subtitle"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:8551
+msgid "Set color for time"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:8562
+msgid "Column's Row"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:8576
+msgid "Strike"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:8583
+msgid "Column's Extra Title"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:8591
+msgid "Extra Title"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:8597
+msgid "Extra Subtitle"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:8603
+msgid "Extra Title Color"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:8609
+msgid "Extra Subtitle Color"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:8616
+msgid "Column's Footer"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:8779
+msgid "Pricing table"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:8786
+msgid "Styled pricing table"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:8792 inc/shortcodes/shortcodes.php:9083
+#: inc/shortcodes/shortcodes.php:9683
+msgid "Style 3"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:8792 inc/shortcodes/shortcodes.php:9084
+#: inc/shortcodes/shortcodes.php:9684
+msgid "Style 4"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:8792 inc/shortcodes/shortcodes.php:9085
+#: inc/shortcodes/shortcodes.php:9685
+msgid "Style 5"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:8792 inc/shortcodes/shortcodes.php:9686
+msgid "Style 6"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:8792
+msgid "Style 7"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:8792
+msgid "Style 8"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:8802
+msgid "Quickfinder overviews inside content"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:8809
+msgid "Default Style"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:8810
+msgid "Classic Box"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:8811
+msgid "Iconed Box"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:8812
+msgid "Binded Box"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:8813
+msgid "Binded Iconed Boxes"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:8814
+msgid "Tag Box"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:8815
+msgid "Vertical Style 1"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:8816
+msgid "Vertical Style 2"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:8817
+msgid "Vertical Style 3"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:8818
+msgid "Vertical Style 4"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:8823
+msgid "Number Of Columns"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:8834
+msgid "Box Style"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:8837
+msgid "Solid"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:8838
+msgid "Soft Outlined"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:8839
+msgid "Strong Outlined"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:8848
+msgid "Box Background Color"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:8857
+msgid "Box Border Color"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:8880
+msgid "Icon Position"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:8885
+msgid "Top float"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:8886
+msgid "Center float"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:8895
+msgid "Title Weight"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:8898
+msgid "Bold"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:8914
+msgid "Button Style"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:8924
+msgid "Button Text weight"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:8934
+msgid "Button Border radius"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:8944
+msgid "Button Text color"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:8953
+msgid "Button Background color"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:8962
+msgid "Button Border color"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:8971
+msgid "Hover Icon Color"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:8973 inc/shortcodes/shortcodes.php:8979
+#: inc/shortcodes/shortcodes.php:8989 inc/shortcodes/shortcodes.php:8999
+#: inc/shortcodes/shortcodes.php:9005 inc/shortcodes/shortcodes.php:9011
+#: inc/shortcodes/shortcodes.php:9021 inc/shortcodes/shortcodes.php:9031
+msgid "Hovers"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:8977
+msgid "Hover Box Color"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:8987
+msgid "Hover Border Color"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:8997
+msgid "Hover Title Color"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:9003
+msgid "Hover Description Color"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:9009
+msgid "Hover Button Text Color"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:9019
+msgid "Hover Button Background Color"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:9029
+msgid "Hover Button Border Color"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:9039
+msgid "Connector Color"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:9057
+msgid "Select Quickfinders"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:9064
+msgid "Quoted text"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:9068
+msgid "Quoted text content"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:9090
+msgid "No Paddings"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:9096
+msgid "Use Custom Colors"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:9102
+msgid "Backgound color"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:9129 inc/shortcodes/shortcodes.php:9909
+msgid "Quote color"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:9140 inc/shortcodes/shortcodes.php:9145
+msgid "Search form"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:9168
+msgid "Placehoder"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:9170 inc/shortcodes/shortcodes.php:12166
+msgid "Search"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:9176 inc/shortcodes/shortcodes.php:9181
+#: inc/shortcodes/shortcodes.php:9229 inc/widgets/widgets.php:169
+#: inc/widgets/widgets.php:170
+msgid "Socials"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:9189
+msgid "Rounded"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:9195
+msgid "Icons color"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:9204
+msgid "Custom color"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:9223
+msgid "Icons size"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:9248
+msgid "Social"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:9263
+msgid "Url"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:9274
+msgid "Self-Hosted Video "
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:9278
+msgid "Video content"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:9282 inc/shortcodes/shortcodes.php:9518
+#: inc/shortcodes/shortcodes.php:10329 inc/shortcodes/shortcodes.php:10385
+msgid "Width"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:9287 inc/shortcodes/shortcodes.php:9523
+#: inc/shortcodes/shortcodes.php:10334 inc/shortcodes/shortcodes.php:10390
+msgid "Height"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:9298
+msgid "Video URL in mp4 or flv format"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:9303
+msgid "Poster Image"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:9308 inc/shortcodes/shortcodes.php:9456
+#: inc/shortcodes/shortcodes.php:9538 inc/shortcodes/shortcodes.php:10350
+#: inc/shortcodes/shortcodes.php:10406
+msgid "Border Style"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:9311 inc/shortcodes/shortcodes.php:9459
+#: inc/shortcodes/shortcodes.php:9541 inc/shortcodes/shortcodes.php:10353
+#: inc/shortcodes/shortcodes.php:10409 inc/shortcodes/shortcodes.php:10479
+msgid "no border"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:9312 inc/shortcodes/shortcodes.php:9460
+#: inc/shortcodes/shortcodes.php:9542 inc/shortcodes/shortcodes.php:10354
+#: inc/shortcodes/shortcodes.php:10410 inc/shortcodes/shortcodes.php:10480
+msgid "8px & border"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:9313 inc/shortcodes/shortcodes.php:9461
+#: inc/shortcodes/shortcodes.php:9543 inc/shortcodes/shortcodes.php:10355
+#: inc/shortcodes/shortcodes.php:10411 inc/shortcodes/shortcodes.php:10481
+msgid "16px & border"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:9314 inc/shortcodes/shortcodes.php:9462
+#: inc/shortcodes/shortcodes.php:9544 inc/shortcodes/shortcodes.php:10356
+#: inc/shortcodes/shortcodes.php:10412 inc/shortcodes/shortcodes.php:10482
+msgid "8px outlined border"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:9315 inc/shortcodes/shortcodes.php:9463
+#: inc/shortcodes/shortcodes.php:9545 inc/shortcodes/shortcodes.php:10357
+#: inc/shortcodes/shortcodes.php:10413 inc/shortcodes/shortcodes.php:10483
+msgid "20px outlined border"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:9316 inc/shortcodes/shortcodes.php:9464
+#: inc/shortcodes/shortcodes.php:9546 inc/shortcodes/shortcodes.php:10358
+#: inc/shortcodes/shortcodes.php:10414 inc/shortcodes/shortcodes.php:10484
+msgid "20px border with shadow"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:9317 inc/shortcodes/shortcodes.php:9465
+#: inc/shortcodes/shortcodes.php:9547 inc/shortcodes/shortcodes.php:10359
+#: inc/shortcodes/shortcodes.php:10415 inc/shortcodes/shortcodes.php:10485
+msgid "Combined border"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:9318 inc/shortcodes/shortcodes.php:9466
+#: inc/shortcodes/shortcodes.php:9548 inc/shortcodes/shortcodes.php:10360
+#: inc/shortcodes/shortcodes.php:10416 inc/shortcodes/shortcodes.php:10486
+msgid "20px border radius"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:9319 inc/shortcodes/shortcodes.php:9467
+#: inc/shortcodes/shortcodes.php:9549 inc/shortcodes/shortcodes.php:10361
+#: inc/shortcodes/shortcodes.php:10417 inc/shortcodes/shortcodes.php:10487
+msgid "55px border radius"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:9320 inc/shortcodes/shortcodes.php:9468
+#: inc/shortcodes/shortcodes.php:9550 inc/shortcodes/shortcodes.php:10362
+#: inc/shortcodes/shortcodes.php:10418 inc/shortcodes/shortcodes.php:10488
+msgid "Dashed inside"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:9321 inc/shortcodes/shortcodes.php:9469
+#: inc/shortcodes/shortcodes.php:9551 inc/shortcodes/shortcodes.php:10363
+#: inc/shortcodes/shortcodes.php:10419 inc/shortcodes/shortcodes.php:10489
+msgid "Dashed outside"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:9322 inc/shortcodes/shortcodes.php:9470
+#: inc/shortcodes/shortcodes.php:9552 inc/shortcodes/shortcodes.php:10364
+#: inc/shortcodes/shortcodes.php:10420 inc/shortcodes/shortcodes.php:10490
+msgid "Rounded with border"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:9329 inc/shortcodes/shortcodes.php:9560
+#: inc/shortcodes/shortcodes.php:10371 inc/shortcodes/shortcodes.php:10427
+msgid "below"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:9329 inc/shortcodes/shortcodes.php:9560
+#: inc/shortcodes/shortcodes.php:10371 inc/shortcodes/shortcodes.php:10427
+msgid "left"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:9329 inc/shortcodes/shortcodes.php:9560
+#: inc/shortcodes/shortcodes.php:10371 inc/shortcodes/shortcodes.php:10427
+msgid "right"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:9335
+msgid "Styled Gallery"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:9339
+msgid "Image gallery in different styles"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:9350
+msgid "Gallery Type"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:9352
+msgid "Choose gallery type"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:9359
+msgid "fullwidth"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:9359
+msgid "Sidebar"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:9367
+msgid "Disable thumbnails bar"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:9399
+msgid "Choose gallery layout"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:9410
+msgid "Choose gallery style"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:9411
+msgid "Masonry Grid"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:9429
+msgid "Gaps size (px)"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:9510
+msgid "Styled Image"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:9514
+msgid "Image in different styles"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:9528
+msgid "Src"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:9533
+msgid "Alt text"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:9553
+msgid "Rounded without border"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:9560
+msgid "centered"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:9564
+msgid "Disable lightbox"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:9578
+msgid "Styled List"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:9584
+msgid "List in different styles"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:9590
+msgid "Double arrow"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:9590
+msgid "Check style 1"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:9590
+msgid "Check style 2"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:9590
+msgid "Disc style 1"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:9590
+msgid "Disc style 2"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:9590
+msgid "Checkbox"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:9590
+msgid "Snowflake style 1"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:9590
+msgid "Snowflake style 2"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:9590
+msgid "Star"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:9590
+msgid "Plus"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:9590
+msgid "Label"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:9598
+msgid "Default Gray"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:9599
+msgid "Aubergine"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:9600
+msgid "Teal"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:9601
+msgid "Cyan"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:9602
+msgid "Amber"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:9603
+msgid "Red"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:9604
+msgid "Deep Purple"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:9605
+msgid "Purple"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:9606
+msgid "Brown"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:9607
+msgid "Light Red "
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:9608
+msgid "Dark Pink"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:9609 inc/shortcodes/shortcodes.php:9611
+msgid "Lime"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:9618
+msgid "Element 1"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:9618
+msgid "Element 2"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:9618
+msgid "Element 3"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:9630
+msgid "Table"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:9634
+msgid "Styled table content"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:9647
+msgid "Title 1"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:9647
+msgid "Title 2"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:9647
+msgid "Title 3"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:9649
+msgid "Content 1 1"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:9649
+msgid "Content 1 2"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:9649
+msgid "Content 1 3"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:9650
+msgid "Content 2 1"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:9650
+msgid "Content 2 2"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:9650
+msgid "Content 2 3"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:9651
+msgid "Content 3 1"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:9651
+msgid "Content 3 2"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:9651
+msgid "Content 3 3"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:9656
+msgid "Row Headers For Responsive"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:9662
+msgid "Deactivate Responsive Style"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:9674
+msgid "Team overview inside content"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:9707
+msgid "Hover background"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:9723
+msgid "Hover border"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:9733
+msgid "Bottom Solid Border"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:9743
+msgid "Hover Bottom Solid Border"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:9753
+msgid "Image Outline Border"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:9763
+msgid "Hover Image Border"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:9779
+msgid "Hover name"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:9791
+msgid "Hover position"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:9797
+msgid "Description color"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:9807
+msgid "Hover description color"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:9817
+msgid "Telephone"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:9823
+msgid "Hover telephone"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:9829
+msgid "E-Mail"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:9835
+msgid "Social Icons"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:9844
+msgid "Select Teams"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:9885
+msgid "Name color"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:9891
+msgid "Company color"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:9897
+msgid "Position color"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:9918
+msgid "Select Testimonials Sets"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:9923
+msgid "Image Size"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:9929
+msgid "Xlarge"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:9948
+msgid "Styled Textbox"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:9954
+msgid "Customizable block of text"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:9961
+msgid "Default / No Title "
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:9962
+msgid "With Title Area"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:9963
+msgid "Picturebox "
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:10103
+msgid "Title Area Content"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:10113
+msgid "Title Text Color"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:10123
+msgid "Title Background Color"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:10133
+msgid "Title Area Top Padding"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:10143
+msgid "Title Area Bottom Padding"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:10153
+msgid "Choose Image"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:10162
+msgid "Image position"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:10175
+msgid "Disable Lightbox"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:10185
+msgid "Content Text Color"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:10190
+msgid "Content Background Color"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:10196
+msgid "Content Background Image"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:10258
+msgid "Border Width"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:10263
+msgid "Border Radius"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:10321
+msgid "Youtube"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:10325
+msgid "Youtube video content"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:10345
+msgid "Video_id"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:10381
+msgid "Vimeo video content"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:10401
+msgid "Video id"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:10447
+msgid "Link to post"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:10448
+msgid "No link"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:10449
+msgid "Link to bigger image"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:10452
+msgid "Same window"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:10453
+msgid "New window"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:10457
+msgid "Responsiveness"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:10459
+msgid "Width & Responsiveness"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:10460
+msgid ""
+"Adjust column for different screen sizes. Control width, offset and "
+"visibility settings."
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:10470
+msgid "Hide GMaps Default Title Bar"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:10506
+msgid "White Simple Line"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:10508
+msgid "Dark Simple Line"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:10513
+msgid "Title level"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:10516
+msgid "H1"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:10517
+msgid "H2"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:10518
+msgid "H3"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:10519
+msgid "H4"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:10520
+msgid "H5"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:10521
+msgid "H6"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:10522
+msgid "XLarge"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:10523
+msgid "Styled Subtitle"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:10530
+msgid "Use light version of title"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:10541 inc/shortcodes/shortcodes.php:10547
+msgid "Column sticky"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:10553 inc/shortcodes/shortcodes.php:10562
+msgid "Sticky Offset (px)"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:10572
+msgid "Disable custom paddings on tablets"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:10574 inc/shortcodes/shortcodes.php:10580
+msgid "Design Options"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:10578
+msgid "Disable custom paddings on mobiles"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:10604
+msgid "TheGem Product categories"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:10607 inc/shortcodes/shortcodes.php:10680
+#: inc/shortcodes/shortcodes.php:11259
+msgid "WooCommerce"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:10608
+msgid "Display product categories loop"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:10612 inc/shortcodes/shortcodes.php:10656
+msgid "Number"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:10614
+msgid "The `number` field is used to display the number of products."
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:10618
+msgid "Order by"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:10623
+msgid "ID"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:10624
+msgid "Author"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:10626
+msgid "Modified"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:10627
+msgid "Random"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:10628
+msgid "Comment count"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:10629
+msgid "Menu order"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:10632
+#, php-format
+msgid "Select how to sort retrieved products. More at %s."
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:10636
+msgid "Sort order"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:10640
+msgid "Descending"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:10641
+msgid "Ascending"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:10644
+#, php-format
+msgid "Designates the ascending or descending order. More at %s."
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:10652
+msgid "How much columns grid"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:10658
+msgid "Hide empty"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:10669 inc/shortcodes/shortcodes.php:10861
+#: inc/shortcodes/shortcodes.php:11383
+msgid "List of product categories"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:10677
+msgid "TheGem Product Grid"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:10681
+msgid "Display products grid"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:10724 inc/shortcodes/shortcodes.php:11278
+msgid "6 Columns"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:10756 inc/shortcodes/shortcodes.php:11314
+msgid "Show next product image"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:10798 inc/shortcodes/shortcodes.php:11337
+msgid "Product Separator"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:10807
+msgid "Disable highlighted products view"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:10825
+msgid "Show only \"featured\" products"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:10829
+msgid "Hide \"New\" label"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:10834
+msgid "Show only \"on sale\" products"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:10838
+msgid "Hide \"Sale\" label"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:10854 inc/shortcodes/shortcodes.php:11376
+msgid "Product categories"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:10862 inc/shortcodes/shortcodes.php:11384
+msgid "Select Product Categories"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:11256
+msgid "TheGem Product Slider"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:11260
+msgid "Display products slider"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:11285
+msgid "Justified"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:11285
+msgid "Masonry "
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:11855 inc/shortcodes/shortcodes.php:11899
+msgid "Posts"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:11998
+msgid "Simple solid"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:11999
+msgid "Simple dashed"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:12002
+msgid "Solid squared"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:12003
+msgid "Solid rounded"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:12004
+msgid "Outlined rounded"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:12012
+msgid "The Gem Circle"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:12013
+msgid "The Gem Square"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:12061 inc/shortcodes/shortcodes.php:12106
+msgid "Id"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:12061
+msgid "Slug"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:12098
+msgid "Sku"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:12265 inc/shortcodes/shortcodes.php:12277
+#: inc/shortcodes/shortcodes.php:12294 inc/shortcodes/shortcodes.php:12307
+msgid "Days"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:12266 inc/shortcodes/shortcodes.php:12278
+#: inc/shortcodes/shortcodes.php:12295 inc/shortcodes/shortcodes.php:12308
+msgid "Hours"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:12267 inc/shortcodes/shortcodes.php:12279
+#: inc/shortcodes/shortcodes.php:12296 inc/shortcodes/shortcodes.php:12309
+msgid "Minutes"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:12268 inc/shortcodes/shortcodes.php:12280
+#: inc/shortcodes/shortcodes.php:12297 inc/shortcodes/shortcodes.php:12310
+msgid "Seconds"
+msgstr ""
+
+#: inc/shortcodes/vc_shortcodes/init.php:41
+#: inc/shortcodes/vc_shortcodes/init.php:73
+msgid "Row"
+msgstr ""
+
+#: inc/shortcodes/vc_shortcodes/init.php:47
+#: inc/shortcodes/vc_shortcodes/init.php:79
+msgid "Place content elements inside the row"
+msgstr ""
+
+#: inc/shortcodes/vc_shortcodes/init.php:51
+#: inc/shortcodes/vc_shortcodes/init.php:83
+msgid "Font Color"
+msgstr ""
+
+#: inc/shortcodes/vc_shortcodes/init.php:53
+#: inc/shortcodes/vc_shortcodes/init.php:85
+msgid "Select font color"
+msgstr ""
+
+#: inc/shortcodes/vc_shortcodes/init.php:60
+#: inc/shortcodes/vc_shortcodes/init.php:92
+#: inc/shortcodes/vc_shortcodes/init.php:136
+#: inc/shortcodes/vc_shortcodes/init.php:182
+#: inc/shortcodes/vc_shortcodes/init.php:215
+#: inc/shortcodes/vc_shortcodes/init.php:269
+msgid ""
+"If you wish to style particular content element differently, then use this "
+"field to add a class name and then refer to it in your css file."
+msgstr ""
+
+#: inc/shortcodes/vc_shortcodes/init.php:64
+#: inc/shortcodes/vc_shortcodes/init.php:96
+msgid "Css"
+msgstr ""
+
+#: inc/shortcodes/vc_shortcodes/init.php:67
+#: inc/shortcodes/vc_shortcodes/init.php:99
+msgid "Design options"
+msgstr ""
+
+#: inc/shortcodes/vc_shortcodes/init.php:105
+msgid "Accordion"
+msgstr ""
+
+#: inc/shortcodes/vc_shortcodes/init.php:111
+msgid "Collapsible content panels"
+msgstr ""
+
+#: inc/shortcodes/vc_shortcodes/init.php:115
+#: inc/shortcodes/vc_shortcodes/init.php:166
+#: inc/shortcodes/vc_shortcodes/init.php:199
+#: inc/shortcodes/vc_shortcodes/init.php:248
+msgid "Widget title"
+msgstr ""
+
+#: inc/shortcodes/vc_shortcodes/init.php:117
+#: inc/shortcodes/vc_shortcodes/init.php:168
+#: inc/shortcodes/vc_shortcodes/init.php:201
+#: inc/shortcodes/vc_shortcodes/init.php:250
+msgid ""
+"Enter text which will be used as widget title. Leave blank if no title is "
+"needed."
+msgstr ""
+
+#: inc/shortcodes/vc_shortcodes/init.php:121
+msgid "Active section"
+msgstr ""
+
+#: inc/shortcodes/vc_shortcodes/init.php:123
+msgid ""
+"Enter section number to be active on load or enter false to collapse all "
+"sections."
+msgstr ""
+
+#: inc/shortcodes/vc_shortcodes/init.php:127
+msgid "Allow collapsible all"
+msgstr ""
+
+#: inc/shortcodes/vc_shortcodes/init.php:129
+msgid "Select checkbox to allow all sections to be collapsible."
+msgstr ""
+
+#: inc/shortcodes/vc_shortcodes/init.php:130
+msgid "Allow"
+msgstr ""
+
+#: inc/shortcodes/vc_shortcodes/init.php:141
+#: inc/shortcodes/vc_shortcodes/vc_accordion_tab.php:5
+msgid "Section"
+msgstr ""
+
+#: inc/shortcodes/vc_shortcodes/init.php:151
+msgid "Accordion section title."
+msgstr ""
+
+#: inc/shortcodes/vc_shortcodes/init.php:156
+msgid "Tabs"
+msgstr ""
+
+#: inc/shortcodes/vc_shortcodes/init.php:162
+msgid "Tabbed content"
+msgstr ""
+
+#: inc/shortcodes/vc_shortcodes/init.php:172
+msgid "Auto rotate tabs"
+msgstr ""
+
+#: inc/shortcodes/vc_shortcodes/init.php:174
+#: inc/shortcodes/vc_shortcodes/init.php:207
+msgid "Disable"
+msgstr ""
+
+#: inc/shortcodes/vc_shortcodes/init.php:176
+msgid "Auto rotate tabs each X seconds."
+msgstr ""
+
+#: inc/shortcodes/vc_shortcodes/init.php:187
+msgid "Tour"
+msgstr ""
+
+#: inc/shortcodes/vc_shortcodes/init.php:195
+msgid "Vertical tabbed content"
+msgstr ""
+
+#: inc/shortcodes/vc_shortcodes/init.php:205
+msgid "Auto rotate slides"
+msgstr ""
+
+#: inc/shortcodes/vc_shortcodes/init.php:209
+msgid "Auto rotate slides each X seconds."
+msgstr ""
+
+#: inc/shortcodes/vc_shortcodes/init.php:220
+#: inc/shortcodes/vc_shortcodes/vc_tab.php:4
+msgid "Tab"
+msgstr ""
+
+#: inc/shortcodes/vc_shortcodes/init.php:230
+msgid "Tab title."
+msgstr ""
+
+#: inc/shortcodes/vc_shortcodes/init.php:234
+msgid "Tab ID"
+msgstr ""
+
+#: inc/shortcodes/vc_shortcodes/init.php:244
+msgid "Map block"
+msgstr ""
+
+#: inc/shortcodes/vc_shortcodes/vc_accordion_tab.php:11
+#: inc/shortcodes/vc_shortcodes/vc_tab.php:10
+msgid "Empty section. Edit page to add content here."
+msgstr ""
+
+#: inc/shortcodes/vc_shortcodes/vc_tabs.php:42
+msgid "Previous slide"
+msgstr ""
+
+#: inc/shortcodes/vc_shortcodes/vc_tabs.php:42
+msgid "Next slide"
+msgstr ""
+
+#: inc/widgets/widgets.php:32 inc/widgets/widgets.php:33
+msgid "Project Grid"
+msgstr ""
+
+#: inc/widgets/widgets.php:80
+msgid "Self Link"
+msgstr ""
+
+#: inc/widgets/widgets.php:240 inc/widgets/widgets.php:241
+msgid "Picturebox"
+msgstr ""
+
+#: inc/widgets/widgets.php:295
+msgid "Image link"
+msgstr ""
+
+#: inc/widgets/widgets.php:321
+msgid "The popular posts with thumbnails"
+msgstr ""
+
+#: inc/widgets/widgets.php:322
+msgid "Custom Popular Posts"
+msgstr ""
+
+#: inc/widgets/widgets.php:337
+msgid "Popular Posts"
+msgstr ""
+
+#: inc/widgets/widgets.php:364 inc/widgets/widgets.php:469
+msgid "Items (default 3)"
+msgstr ""
+
+#: inc/widgets/widgets.php:414
+msgid "The recent posts with thumbnails"
+msgstr ""
+
+#: inc/widgets/widgets.php:415
+msgid "Custom Recent Posts"
+msgstr ""
+
+#: inc/widgets/widgets.php:433
+msgid "Recent Posts"
+msgstr ""
+
+#: inc/widgets/widgets.php:460
+msgid "All Items"
+msgstr ""
+
+#: inc/widgets/widgets.php:485 inc/widgets/widgets.php:486
+msgid "Tweets"
+msgstr ""
+
+#: inc/widgets/widgets.php:611
+#, php-format
+msgid "<a href=\"%s\">Find or Create your Twitter App</a>"
+msgstr ""
+
+#: inc/widgets/widgets.php:664
+msgid "List of testimonials"
+msgstr ""
+
+#: inc/widgets/widgets.php:721 inc/widgets/widgets.php:1582
+msgid "Autoscroll Speed"
+msgstr ""
+
+#: inc/widgets/widgets.php:726
+msgid "Widget Style"
+msgstr ""
+
+#: inc/widgets/widgets.php:840
+msgid "thegem news"
+msgstr ""
+
+#: inc/widgets/widgets.php:886
+msgid "Count"
+msgstr ""
+
+#: inc/widgets/widgets.php:891
+msgid "News sets "
+msgstr ""
+
+#: inc/widgets/widgets.php:937
+msgid "Display your recent Flickr photos"
+msgstr ""
+
+#: inc/widgets/widgets.php:938
+msgid "Flickr"
+msgstr ""
+
+#: inc/widgets/widgets.php:957
+msgid "Photostream"
+msgstr ""
+
+#: inc/widgets/widgets.php:995
+#, php-format
+msgid "Flickr ID <a href=\"%s\">Find your Flickr ID here</a>"
+msgstr ""
+
+#: inc/widgets/widgets.php:999
+msgid "Items (default 9)"
+msgstr ""
+
+#: inc/widgets/widgets.php:1022
+msgid ""
+"No \"type\" parameter has been setup. Check your settings, or provide the "
+"parameter as an argument."
+msgstr ""
+
+#: inc/widgets/widgets.php:1089 inc/widgets/widgets.php:1090
+msgid "Submenu"
+msgstr ""
+
+#: inc/widgets/widgets.php:1121
+#, php-format
+msgid "No menus have been created yet. <a href=\"%s\">Create some</a>."
+msgstr ""
+
+#: inc/widgets/widgets.php:1130
+msgid "Select Menu"
+msgstr ""
+
+#: inc/widgets/widgets.php:1257
+msgid "Find us on Facebook"
+msgstr ""
+
+#: inc/widgets/widgets.php:1282
+msgid "Facebook Page URL"
+msgstr ""
+
+#: inc/widgets/widgets.php:1305
+#, php-format
+msgid "View all posts filed under %s"
+msgstr ""
+
+#: inc/widgets/widgets.php:1320
+#, php-format
+msgid "Feed for all posts filed under %s"
+msgstr ""
+
+#: inc/widgets/widgets.php:1378 inc/widgets/widgets.php:1379
+msgid "Project Info / Contact Info / Custom Iconed Fields"
+msgstr ""
+
+#: inc/widgets/widgets.php:1393
+msgid "Project Preview"
+msgstr ""
+
+#: inc/widgets/widgets.php:1484
+msgid "Value"
+msgstr ""
+
+#: inc/widgets/widgets.php:1508
+msgid "Button URL"
+msgstr ""
+
+#: inc/widgets/widgets.php:1588
+msgid "Team Set"
+msgstr ""
+
+#: inc/widgets/widgets.php:1660
+msgid "Send Message"
+msgstr ""
+
+#: inc/widgets/widgets.php:1677 inc/widgets/widgets.php:1678
+msgid "Contacts"
+msgstr ""
+
+#: inc/widgets/widgets.php:1719
+msgid "The Gem Gallery"
+msgstr ""
+
+#: inc/widgets/widgets.php:1762
+msgid "Select Gallery"
+msgstr ""
+
+#: inc/widgets/widgets.php:1764
+msgid "Autoscroll (msec)"
+msgstr ""
+
+#: inc/widgets/widgets.php:1777
+msgid "The Gem Clients"
+msgstr ""
+
+#: inc/widgets/widgets.php:1833
+msgid "Clients sets:"
+msgstr ""
+
+#: inc/widgets/widgets.php:1837
+msgid "Autoscroll:"
+msgstr ""
+
+#: inc/widgets/widgets.php:1842
+msgid "Effects enabled"
+msgstr ""
+
+#: thegem-elements.php:112
+msgid "Show Elegant Icon Codes"
+msgstr ""
+
+#: thegem-elements.php:113
+msgid "Show Material Design Icon Codes"
+msgstr ""
+
+#: thegem-elements.php:114
+msgid "Show FontAwesome Icon Codes"
+msgstr ""
+
+#: thegem-elements.php:116
+msgid "Show UserPack Icon Codes"
+msgstr ""
+
+#: thegem-elements.php:280
+msgid "TTF Font"
+msgstr ""
+
+#: thegem-elements.php:280
+msgid "Manage TTFs"
+msgstr ""
+
+#: thegem-elements.php:280
+#, php-format
+msgid "TTF <span class=\"count\">(%s)</span>"
+msgid_plural "TTFs <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: thegem-elements.php:281
+msgid "EOT Font"
+msgstr ""
+
+#: thegem-elements.php:281
+msgid "Manage EOTs"
+msgstr ""
+
+#: thegem-elements.php:281
+#, php-format
+msgid "EOT <span class=\"count\">(%s)</span>"
+msgid_plural "EOTs <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: thegem-elements.php:282
+msgid "WOFF Font"
+msgstr ""
+
+#: thegem-elements.php:282
+msgid "Manage WOFFs"
+msgstr ""
+
+#: thegem-elements.php:282
+#, php-format
+msgid "WOFF <span class=\"count\">(%s)</span>"
+msgid_plural "WOFFs <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: thegem-elements.php:283
+msgid "SVG Font"
+msgstr ""
+
+#: thegem-elements.php:283
+msgid "Manage SVGs"
+msgstr ""
+
+#: thegem-elements.php:283
+#, php-format
+msgid "SVG <span class=\"count\">(%s)</span>"
+msgid_plural "SVGs <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: thegem-elements.php:383
+msgid "Select an Image"
+msgstr ""
+
+#: thegem-elements.php:384
+msgid "Insert Into Widget"
+msgstr ""
+
+#: thegem-elements.php:438
+msgid "Press the following button will remove all of these inactive widgets"
+msgstr ""
+
+#: thegem-elements.php:439
+msgid "Remove inactive widgets"
+msgstr ""

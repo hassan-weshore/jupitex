@@ -1,0 +1,721 @@
+.portfolio.products .portfolio-item .image .overlay .links .portfolio-icons {
+	line-height: 1;
+}
+
+.portfolio.products.hover-gradient .fullwidth-block .portfolio-item:not(.double-item-squared) .image .overlay .links .yith-wcwl-add-to-wishlist .yith-wcwl-add-button,
+.portfolio.products.hover-gradient .fullwidth-block .portfolio-item:not(.double-item-squared) .image .overlay .links .yith-wcwl-add-to-wishlist .yith-wcwl-wishlistexistsbrowse,
+.portfolio.products.columns-3.hover-gradient .portfolio-item:not(.double-item-squared) .image .overlay .links .yith-wcwl-add-to-wishlist .yith-wcwl-add-button,
+.portfolio.products.columns-3.hover-gradient .portfolio-item:not(.double-item-squared) .image .overlay .links .yith-wcwl-add-to-wishlist .yith-wcwl-wishlistexistsbrowse,
+.portfolio.products.columns-4.hover-gradient .portfolio-item:not(.double-item-squared) .image .overlay .links .yith-wcwl-add-to-wishlist .yith-wcwl-add-button,
+.portfolio.products.columns-4.hover-gradient .portfolio-item:not(.double-item-squared) .image .overlay .links .yith-wcwl-add-to-wishlist .yith-wcwl-wishlistexistsbrowse {
+	margin-right: 8px;
+}
+
+.portfolio.products.hover-gradient.columns-1 .portfolio-item .wrap > .caption .subtitle {
+	display: block !important;
+}
+
+@media only screen and (max-width: 430px) {
+	.portfolio.products.hover-circular .portfolio-item .image .overlay .links .portfolio-icons.product-bottom .yith-wcwl-add-to-wishlist .yith-wcwl-add-button,
+	.portfolio.products.hover-circular .portfolio-item .image .overlay .links .portfolio-icons.product-bottom .yith-wcwl-add-to-wishlist .yith-wcwl-wishlistexistsbrowse {
+		margin-right: 8px;
+	}
+}
+@media only screen and (max-width: 991px) {
+	.portfolio.products.hover-circular .portfolio-item .image .overlay .links .portfolio-icons.product-bottom .yith-wcwl-add-to-wishlist .yith-wcwl-add-button,
+	.portfolio.products.hover-circular .portfolio-item .image .overlay .links .portfolio-icons.product-bottom .yith-wcwl-add-to-wishlist .yith-wcwl-wishlistexistsbrowse {
+		margin-right: 8px;
+	}
+}
+
+@media only screen and (min-width: 1170px) and (max-width: 1250px),
+			screen and (min-width: 900px) and (max-width: 992px) {
+	.portfolio.products.hover-circular .portfolio-item:not(.double-item-squared) .overlay .caption .product-price .price .amount {
+		font-size: 127%;
+	}
+}
+
+.portfolio.products .portfolio-item.product .wrap {
+	position: relative;
+}
+
+.portfolio.products .portfolio-item .product-info {
+	padding: 0 0 0 0;
+}
+
+.portfolio.products .portfolio-item .product-bottom {
+	padding: 0 0 0 0;
+}
+
+.portfolio.products .portfolio-item .wrap > .caption .product-bottom {
+
+}
+
+.portfolio.products .portfolio-item .wrap > .caption .product-bottom .add_to_cart_button,
+.portfolio.products .portfolio-item .wrap > .caption .product-bottom .bottom-product-link,
+.portfolio.products .portfolio-item .wrap > .caption .product-bottom .yith-wcwl-add-to-wishlist,
+.portfolio.products .portfolio-item .wrap > .caption .product-bottom .added_to_cart,
+.portfolio.products .portfolio-item .wrap > .caption .product-bottom .post-footer-sharing {
+	margin-left: 6px;
+	margin-right: 6px;
+}
+
+.portfolio.products .portfolio-item .wrap > .caption .product-bottom .add_to_cart_button {
+	/*margin-right: 9px;*/
+}
+
+.portfolio.products .portfolio-item .wrap > .caption .product-bottom .post-footer-sharing,
+.portfolio.products .portfolio-item .wrap > .caption .product-bottom .post-footer-sharing .bottom-product-link,
+.portfolio.products .portfolio-item .wrap > .caption .product-bottom .post-footer-sharing .bottom-product-link a,
+.portfolio.products .portfolio-item .wrap > .caption .product-bottom .post-footer-sharing .bottom-product-link a i {
+	height: auto;
+	vertical-align: top;
+	line-height: inherit;
+	font-size: inherit;
+}
+
+.portfolio.products .portfolio-item .wrap > .caption .product-bottom .post-footer-sharing .bottom-product-link a i {
+	text-indent: -1px;
+}
+
+.portfolio.products .portfolio-item .wrap > .caption .product-bottom .post-footer-sharing .bottom-product-link {
+	margin: 0;
+}
+
+.portfolio.products .portfolio-item.product.inline-column {
+	float: left;
+	margin-bottom: 0;
+}
+
+.portfolio.products .portfolio-item .caption .product-rating {
+	margin-top: 0;
+}
+
+.portfolio.products .portfolio-item .caption .product-rating .empty-rating:before {
+	-webkit-transition: all 0.2s linear;
+	transition: all 0.2s linear;
+}
+
+.portfolio.products .portfolio-item:hover .caption .product-rating .empty-rating:before {
+	width: 90px;
+}
+
+.portfolio.products .portfolio-item.product .product-labels {
+	z-index: 10;
+}
+
+.portfolio.products.hover-title .portfolio-item.product .product-labels,
+.portfolio.products.hover-gradient .portfolio-item.product .product-labels,
+.portfolio.products.hover-circular .portfolio-item.product .product-labels,
+.portfolio.portfolio-slider.products .portfolio-item.product .product-labels {
+	right: auto;
+	left: 21px;
+	z-index: 2;
+	-o-transition: opacity 0.25s ease-out 0.2s;
+    -webkit-transition: opacity 0.25s ease-out 0.2s;
+    transition: opacity 0.25s ease-out 0.2s;
+}
+
+.portfolio.products.hover-title .portfolio-item.product:hover .product-labels,
+.portfolio.products.hover-gradient .portfolio-item.product:hover .product-labels,
+.portfolio.products.hover-circular .portfolio-item.product:hover .product-labels,
+.portfolio.portfolio-slider.products.hover-title .portfolio-item.product:hover .product-labels,
+.portfolio.portfolio-slider.products.hover-gradient .portfolio-item.product:hover .product-labels,
+.portfolio.portfolio-slider.products.hover-circular .portfolio-item.product:hover .product-labels {
+	opacity: 0;
+	-o-transition: opacity 0.25s ease-out;
+    -webkit-transition: opacity 0.25s ease-out;
+    transition: opacity 0.25s ease-out;
+}
+
+.portfolio.products .portfolio-item.product.image-hover .image-inner img.image-hover {
+	position: absolute !important;
+    left: 100% !important;
+    top: 0;
+    -o-transition: all 0.25s ease-out;
+    -webkit-transition: all 0.25s ease-out;
+    transition: all 0.25s ease-out;
+}
+
+.portfolio.products:not(.hover-horizontal-sliding) .portfolio-item.product.image-hover:hover .image-inner img.image-hover {
+	left: -5%;
+}
+
+.portfolio.products.hover-horizontal-sliding .portfolio-item.product.image-hover:hover .image-inner img.image-hover {
+	left: 0%;
+}
+
+.portfolio.products.hover-horizontal-sliding .portfolio-item.image-hover:hover .image .image-inner img {
+	-webkit-transform: none;
+	transform: none;
+}
+
+.products .portfolio-item.product .caption .title a {
+	font-family: inherit;
+	font-size: inherit;
+	line-height: inherit;
+}
+
+.products .portfolio-item.product .caption .title a:not(:hover) {
+	color: inherit;
+}
+
+.portfolio.products .portfolio-item .overlay .caption .product-rating {
+	display: inline-block;
+	margin: 18px 0 0 0;
+}
+
+.products.hover-gradient.title-on-page .portfolio-item.has-rating:hover .image .links .caption .product-info,
+.products.hover-circular.title-on-page .portfolio-item.has-rating:hover .image .links .caption .product-info {
+	padding-bottom: 40px;
+}
+
+.portfolio.products .portfolio-item .overlay .caption .product-rating.product-rating-empty {
+	display: none;
+}
+
+.portfolio.products:not(.hover-zooming-blur) .portfolio-item .image .links .caption .product-price .amount,
+.portfolio.products:not(.hover-zooming-blur) .portfolio-item .image .links .caption .product-price,
+.portfolio.products:not(.hover-zooming-blur) .portfolio-item .image .links .caption .product-price ins {
+	color: #ffffff;
+}
+
+.portfolio.products .portfolio-item.product .overlay > a {
+	display: block;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+}
+
+.portfolio.products .portfolio-item.product.image-hover .overlay:before,
+.portfolio.products .portfolio-item.product.image-hover .overlay .overlay-circle,
+.portfolio.products .portfolio-item.product.image-hover .overlay .links-wrapper {
+	display: none !important;
+}
+
+.portfolio.products.title-on-page:not(.hover-gradient):not(.hover-circular) .portfolio-item.product .overlay .links-wrapper {
+	display: none !important;
+}
+
+.portfolio.products.columns-1 .portfolio-item .wrap .caption {
+	padding: 20px 25px;
+}
+
+.portfolio.products.columns-1.title-on-hover.hover-horizontal-sliding .portfolio-item .wrap .caption,
+.portfolio.products.columns-1.title-on-hover.hover-vertical-sliding .portfolio-item .wrap .caption {
+	padding-left: 0;
+	padding-right: 0;
+	padding-bottom: 0;
+}
+
+.portfolio.products.columns-1 .portfolio-item .wrap .caption .title {
+	margin-bottom: 15px;
+}
+
+.portfolio.products.columns-1 .portfolio-item .wrap .caption .product-rating {
+	min-height: 0;
+	margin: 0;
+}
+
+.portfolio.products.columns-1 .portfolio-item .wrap .caption .product-rating .empty-rating {
+	display: none;
+}
+
+.portfolio.products.columns-1 .portfolio-item .wrap .caption .product-rating .star-rating {
+	font-size: 18px;
+	margin: 0;
+	margin-bottom: 15px;
+}
+
+.products.hover-gradient.columns-1.title-on-page .portfolio-item.has-rating:hover .image .links .caption .product-info,
+.products.hover-circular.columns-1.title-on-page .portfolio-item.has-rating:hover .image .links .caption .product-info {
+	padding-bottom: 33px;
+}
+
+.portfolio.products.columns-1 .portfolio-item .wrap .caption .product-price {
+	margin-bottom: 15px;
+}
+
+.portfolio.products.columns-1 .portfolio-item .wrap .caption .product-price .price .amount {
+	font-size: 150%;
+}
+
+.portfolio.products.columns-1 .portfolio-item .wrap .overlay .caption .product-price .price .amount {
+	font-size: 100%;
+}
+
+.portfolio.products .portfolio-item .wrap .product-bottom .clear {
+	display: none;
+}
+
+.portfolio.products .portfolio-item .image .overlay .portfolio-icons.product-bottom a.added_to_cart,
+.portfolio.products .portfolio-item .image .overlay .portfolio-icons.product-bottom a.added_to_cart:before,
+.portfolio.products .portfolio-item .image .overlay .portfolio-icons.product-bottom .yith-wcwl-wishlistaddedbrowse a,
+.portfolio.products .portfolio-item .image .overlay .portfolio-icons.product-bottom .yith-wcwl-wishlistaddedbrowse a:before {
+	font-size: 120%;
+}
+
+.portfolio.products .portfolio-item .image .overlay .portfolio-icons.product-bottom a.added_to_cart:before,
+.portfolio.products .portfolio-item .image .overlay .portfolio-icons.product-bottom .yith-wcwl-wishlistaddedbrowse a:before {
+	vertical-align: top;
+}
+
+.portfolio.products .portfolio-item .image .overlay .portfolio-icons.product-bottom .yith-wcwl-wishlistaddedbrowse a:before {
+	line-height: 90%;
+}
+
+.portfolio.products.columns-1 .portfolio-item .wrap .caption .caption-bottom-line .product-bottom .add_to_cart_button,
+.portfolio.products.columns-1 .portfolio-item .wrap .caption .caption-bottom-line .product-bottom .bottom-product-link,
+.portfolio.products.columns-1 .portfolio-item .wrap .caption .caption-bottom-line .product-bottom .yith-wcwl-add-to-wishlist .yith-wcwl-wishlistexistsbrowse {
+	margin: 0 10px 0 0;
+}
+
+.portfolio.products.columns-1 .portfolio-item .wrap .caption .caption-bottom-line .product-bottom .yith-wcwl-add-to-wishlist .yith-wcwl-add-button {
+	margin-right: -11px;
+}
+
+.portfolio.products.columns-1 .portfolio-item .wrap .caption .caption-bottom-line .product-bottom > a:not(.added_to_cart):before,
+.portfolio.products.columns-1 .portfolio-item .wrap .caption .caption-bottom-line .product-bottom .bottom-product-link:before,
+.portfolio.products.columns-1 .portfolio-item .wrap .caption .caption-bottom-line .product-bottom .yith-wcwl-add-button a:before,
+.portfolio.products.columns-1 .portfolio-item .wrap .caption .caption-bottom-line .product-bottom .yith-wcwl-wishlistexistsbrowse a:before {
+	font-size: 24px;
+}
+
+.portfolio.products.columns-1 .portfolio-item .wrap .caption .caption-bottom-line .product-bottom .gem-button-container.bottom-product-link:before,
+.portfolio.products .portfolio-item .wrap .caption .product-bottom .gem-button-container.bottom-product-link:before {
+	display: none;
+}
+
+.portfolio.products.columns-1 .portfolio-item .wrap .caption .caption-bottom-line .product-bottom .gem-button-container.bottom-product-link a,
+.portfolio.products .portfolio-item .wrap .caption .product-bottom .gem-button-container.bottom-product-link a {
+	color: inherit;
+	margin: 0;
+	width: auto;
+	margin-left: -4px;
+	line-height: inherit;
+}
+
+.portfolio.products .portfolio-item .wrap .caption .product-bottom .gem-button-container.bottom-product-link a {
+	margin-left: 0;
+}
+
+.portfolio.products.columns-1 .portfolio-item .wrap .caption .caption-bottom-line .product-bottom .gem-button-container.bottom-product-link a i:before {
+	content: '\e65c';
+	font-size: 24px;
+}
+
+.portfolio.products .portfolio-item .wrap .caption .product-bottom .gem-button-container.bottom-product-link a i:before {
+	content: '\e65d';
+	font-size: 16px;
+}
+
+.portfolio.products .portfolio-item .wrap .caption .product-bottom .sharing-popup {
+	left: 50%;
+	-webkit-transform: translateX(-50%);
+	transform: translateX(-50%);
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.portfolio.products .portfolio-item .wrap .caption .product-bottom .sharing-popup .sharing-styled-arrow {
+	left: 50%;
+	margin-left: -65px;
+}
+
+.portfolio.products .portfolio-item .portfolio-icons.product-bottom .add_to_cart_button:before {
+	content: '\e613';
+	vertical-align: middle;
+}
+
+.portfolio.products .portfolio-item .portfolio-icons.product-bottom .add_to_cart_button.product_type_variable:before {
+	content: '\e671';
+}
+
+.portfolio.products.hover-default .portfolio-item .portfolio-icons.product-bottom .add_to_cart_button.product_type_variable:before,
+.portfolio.products.hover-circular .portfolio-item .portfolio-icons.product-bottom .add_to_cart_button.product_type_variable:before {
+	content: '\e672';
+}
+
+.portfolio.products .portfolio-item .portfolio-icons.product-bottom .bottom-product-link:before {
+	content: '\e670';
+	vertical-align: middle;
+}
+
+.portfolio.products .portfolio-item .portfolio-icons.product-bottom .yith-wcwl-add-button a:before,
+.portfolio.products .portfolio-item .portfolio-icons.product-bottom .yith-wcwl-wishlistexistsbrowse a:before {
+	content: '\e66b';
+	vertical-align: middle;
+}
+
+.portfolio.products .portfolio-item .portfolio-icons.product-bottom .icon {
+	vertical-align: middle;
+	margin-left: 0;
+}
+
+.portfolio.products .portfolio-item .portfolio-icons.product-bottom a.icon {
+	font-size: 0;
+}
+
+.portfolio.products .portfolio-item .portfolio-icons.product-bottom a.icon:before {
+	vertical-align: middle;
+}
+
+.portfolio.products .portfolio-item .image .overlay .portfolio-icons.product-bottom .yith-wcwl-add-to-wishlist {
+	margin: 0;
+}
+
+.portfolio.products .portfolio-item .image .overlay .portfolio-icons.product-bottom .yith-wcwl-add-to-wishlist a {
+	margin-right: 0 !important;
+}
+
+.portfolio.products.hover-default .portfolio-item .portfolio-icons.product-bottom a.share {
+	/*margin-left: -7px;*/
+}
+
+.portfolio.products .portfolio-item .overlay .caption .description {
+	margin-bottom: 18px;
+}
+
+.portfolio.products .portfolio-item .overlay .caption .subtitle p {
+	max-height: 50px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.portfolio.products .portfolio-item .overlay .product-rating .star-rating > span:before {
+	color: #ffffff;
+}
+
+.portfolio.products.hover-gradient .portfolio-item .overlay .product-rating .star-rating:before {
+	color: #ffffff;
+}
+
+.portfolio.products.hover-gradient .portfolio-item .overlay .product-rating .star-rating > span:before {
+	color: #ffc107;
+}
+
+.portfolio.products .portfolio-item .overlay .caption .product-price .price ins {
+	font-size: inherit;
+}
+
+.portfolio.products .portfolio-item .overlay .caption .product-price .price .amount {
+	font-size: 140%;
+	font-weight: lighter;
+}
+
+.portfolio.products .portfolio-item .image .overlay .links .caption {
+	padding-top: 23px;
+}
+
+.portfolio.products.hover-title .portfolio-item .caption .title,
+.portfolio.products.hover-circular-title .portfolio-item .caption .title,
+.portfolio.products.hover-gradient-title .portfolio-item .caption .title {
+	margin-bottom: 10px;
+}
+
+.portfolio.products.columns-4 .portfolio-item .overlay .caption .product-price .price .amount {
+	font-size: 127%;
+}
+.portfolio.products.columns-4 .portfolio-item .overlay .caption .product-rating {
+	margin: 11px 0 0 0;
+}
+.products.hover-gradient.columns-4.title-on-page .portfolio-item.has-rating:hover .image .links .caption .product-info,
+.products.hover-circular.columns-4.title-on-page .portfolio-item.has-rating:hover .image .links .caption .product-info {
+	padding-bottom: 27px;
+}
+.portfolio.products.columns-4 .portfolio-item .overlay .caption .description {
+	margin-bottom: 5px;
+}
+.portfolio.products.columns-4 .portfolio-item:not(.double-item-squared) .overlay .caption .title {
+	margin-bottom: 4px;
+}
+.portfolio.products.columns-4 .portfolio-item .image .overlay .links .caption {
+	padding-top: 13px;
+}
+
+.portfolio.products.hover-default.columns-4 .portfolio-item .image .overlay .links .portfolio-sharing-pane.active,
+.portfolio.products.hover-default.fullwidth-columns-5 .portfolio-item .image .overlay .links .portfolio-sharing-pane.active,
+.portfolio.products.hover-default.fullwidth-columns-6 .portfolio-item .image .overlay .links .portfolio-sharing-pane.active {
+	margin-bottom: 22px;
+}
+
+.portfolio.products.hover-zooming-blur.columns-4 .portfolio-item .image .overlay .links .portfolio-sharing-pane.active,
+.portfolio.products.hover-zooming-blur.fullwidth-columns-5 .portfolio-item .image .overlay .links .portfolio-sharing-pane.active,
+.portfolio.products.hover-zooming-blur.fullwidth-columns-6 .portfolio-item .image .overlay .links .portfolio-sharing-pane.active {
+	margin-bottom: 13px;
+}
+
+.portfolio.products.fullwidth-columns-5 .portfolio-item .overlay .caption .product-price .price .amount {
+	font-size: 127%;
+}
+.portfolio.products.fullwidth-columns-5 .portfolio-item .overlay .caption .product-rating {
+	margin: 11px 0 0 0;
+}
+.products.hover-gradient.fullwidth-columns-5.title-on-page .portfolio-item.has-rating:hover .image .links .caption .product-info,
+.products.hover-circular.fullwidth-columns-5.title-on-page .portfolio-item.has-rating:hover .image .links .caption .product-info {
+	padding-bottom: 27px;
+}
+.portfolio.products.fullwidth-columns-5 .portfolio-item .overlay .caption .description {
+	margin-bottom: 5px;
+}
+.portfolio.products.fullwidth-columns-5 .portfolio-item:not(.double-item-squared) .overlay .caption .title {
+	margin-bottom: 4px;
+}
+.portfolio.products.fullwidth-columns-5 .portfolio-item .image .overlay .links .caption {
+	padding-top: 13px;
+}
+
+.portfolio.products.fullwidth-columns-6 .portfolio-item .overlay .caption .product-price .price .amount {
+	font-size: 127%;
+}
+.portfolio.products.fullwidth-columns-6 .portfolio-item .overlay .caption .product-rating {
+	margin: 11px 0 0 0;
+}
+.products.hover-gradient.fullwidth-columns-6.title-on-page .portfolio-item.has-rating:hover .image .links .caption .product-info,
+.products.hover-circular.fullwidth-columns-6.title-on-page .portfolio-item.has-rating:hover .image .links .caption .product-info {
+	padding-bottom: 27px;
+}
+.portfolio.products.fullwidth-columns-6 .portfolio-item .overlay .caption .description {
+	margin-bottom: 5px;
+}
+.portfolio.products.fullwidth-columns-6 .portfolio-item:not(.double-item-squared) .overlay .caption .title {
+	margin-bottom: 4px;
+}
+.portfolio.products.fullwidth-columns-6 .portfolio-item .image .overlay .links .caption {
+	padding-top: 13px;
+}
+
+.portfolio.products.hover-horizontal-sliding .fullwidth-block .portfolio-item:not(.double-item-squared) .overlay .links,
+.portfolio.products.hover-horizontal-sliding .portfolio-item:not(.double-item-squared) .overlay .links,
+.portfolio.products.hover-vertical-sliding .fullwidth-block .portfolio-item:not(.double-item-squared) .overlay .links,
+.portfolio.products.hover-vertical-sliding .portfolio-item:not(.double-item-squared) .overlay .links {
+	padding: 25px 30px;
+}
+
+.portfolio.products.columns-4.hover-gradient .portfolio-item .overlay .links .portfolio-icons {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.portfolio.products.hover-vertical-sliding .portfolio-item .overlay .links .caption .description {
+	padding-left: 30px;
+	padding-bottom: 25px;
+}
+
+.portfolio.products.columns-4.hover-gradient .portfolio-item .overlay .links .caption {
+	padding-left: 15px;
+}
+
+.portfolio.products.hover-horizontal-sliding .fullwidth-block .portfolio-item:not(.double-item-squared) .overlay .links .caption,
+.portfolio.products.hover-horizontal-sliding .portfolio-item:not(.double-item-squared) .overlay .links .caption,
+.portfolio.products.hover-vertical-sliding .fullwidth-block .portfolio-item:not(.double-item-squared) .overlay .links .caption,
+.portfolio.products.hover-vertical-sliding .portfolio-item:not(.double-item-squared) .overlay .links .caption {
+	padding-top: 5px;
+}
+
+.portfolio.products.fullwidth-columns-5 .portfolio-item .image .overlay .links a.icon:before {
+	font-size: 24px;
+}
+
+.portfolio.products.fullwidth-columns-6 .portfolio-item:not(.double-item-squared) .image .overlay .links a.icon:before {
+	width: 24px;
+	height: 24px;
+	font-size: 24px;
+	line-height: 24px;
+}
+
+.portfolio.products.fullwidth-columns-6.hover-gradient .portfolio-item:not(.double-item-squared) .image .overlay .links a.icon:before,
+.portfolio.products.fullwidth-columns-6.hover-zooming-blur .portfolio-item:not(.double-item-squared) .image .overlay .links a.icon:before {
+	width: 32px;
+	height: 32px;
+	font-size: 18px;
+	line-height: 32px;
+}
+
+.portfolio.products.fullwidth-columns-6.hover-circular .overlay .overlay-line {
+	margin: 5px 0;
+}
+
+.portfolio.products.hover-gradient .portfolio-item .image .overlay .links .description,
+.portfolio.products.hover-circular .portfolio-item .image .overlay .links .description {
+	display: block !important;
+	height: 0;
+	overflow: hidden;
+	position: relative;
+	margin: 0;
+}
+
+.portfolio.products.title-on-page.hover-zooming-blur .portfolio-item.image-hover .image .image-inner img,
+.portfolio.products.title-on-page.hover-gradient .portfolio-item.image-hover .image .image-inner img,
+.portfolio.products.title-on-page.hover-vertical-sliding .portfolio-item.image-hover .image .image-inner img {
+	-webkit-transform: scale(1);
+    transform: scale(1);
+}
+
+@media only screen and (min-width: 800px) and (max-width: 1150px) {
+	.portfolio.products.columns-3.hover-vertical-sliding .portfolio-item .overlay .caption .description,
+	.portfolio.products.columns-4.hover-vertical-sliding .portfolio-item .overlay .caption .description {
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 1100px) {
+	.portfolio.products .portfolio-item .overlay .caption .product-price .price .amount {
+		font-size: 127%;
+	}
+	.portfolio.products .portfolio-item .overlay .caption .product-rating {
+		margin: 11px 0 0 0;
+	}
+	.products.hover-gradient.title-on-page .portfolio-item.has-rating:hover .image .links .caption .product-info,
+	.products.hover-circular.title-on-page .portfolio-item.has-rating:hover .image .links .caption .product-info {
+		padding-bottom: 27px;
+	}
+	.portfolio.products .portfolio-item .overlay .caption .description {
+		margin-bottom: 5px;
+	}
+	.portfolio.products .portfolio-item:not(.double-item-squared) .overlay .caption .title,
+	.portfolio.products.hover-zooming-blur .portfolio-item:not(.double-item-squared) .image .overlay .links .caption .title,
+	.portfolio.products.columns-1 .portfolio-item .wrap .caption .title {
+		margin-bottom: 4px;
+		font-size: 14px;
+		line-height: 21px;
+	}
+	.portfolio.products .portfolio-item .image .overlay .links .caption {
+		padding-top: 17px;
+	}
+	.portfolio.products.columns-3 .portfolio-item .overlay .caption .description {
+		display: none;
+	}
+	.portfolio.products.hover-horizontal-sliding .overlay .overlay-line {
+		margin: 15px 0;
+	}
+
+	.portfolio.products.hover-default .portfolio-item .image .overlay .links a.icon,
+	.portfolio.products.hover-default .portfolio-item .image .overlay .links .portfolio-icons.product-bottom .yith-wcwl-add-to-wishlist .yith-wcwl-add-button,
+	.portfolio.products.hover-default .portfolio-item .image .overlay .links .portfolio-icons.product-bottom .yith-wcwl-add-to-wishlist .yith-wcwl-wishlistexistsbrowse {
+		margin-right: 15px;
+	}
+	.portfolio.products.hover-default .portfolio-item .image .overlay .links a.icon:before {
+		font-size: 24px;
+	}
+
+	.portfolio.products.hover-circular .portfolio-item .image .overlay .links a.icon,
+	.portfolio.products.hover-horizontal-sliding .portfolio-item .image .overlay .links a.icon,
+	.portfolio.products.hover-vertical-sliding .portfolio-item .image .overlay .links a.icon,
+	.portfolio.products.hover-circular .portfolio-item .image .overlay .links .portfolio-icons.product-bottom .yith-wcwl-add-to-wishlist .yith-wcwl-add-button,
+	.portfolio.products.hover-circular .portfolio-item .image .overlay .links .portfolio-icons.product-bottom .yith-wcwl-add-to-wishlist .yith-wcwl-wishlistexistsbrowse,
+	.portfolio.products.hover-horizontal-sliding .portfolio-item .image .overlay .links .portfolio-icons.product-bottom .yith-wcwl-add-to-wishlist .yith-wcwl-add-button,
+	.portfolio.products.hover-horizontal-sliding .portfolio-item .image .overlay .links .portfolio-icons.product-bottom .yith-wcwl-add-to-wishlist .yith-wcwl-wishlistexistsbrowse,
+	.portfolio.products.hover-vertical-sliding .portfolio-item .image .overlay .links .portfolio-icons.product-bottom .yith-wcwl-add-to-wishlist .yith-wcwl-add-button,
+	.portfolio.products.hover-vertical-sliding .portfolio-item .image .overlay .links .portfolio-icons.product-bottom .yith-wcwl-add-to-wishlist .yith-wcwl-wishlistexistsbrowse {
+		margin-right: 8px;
+	}
+	.portfolio.products.hover-circular .portfolio-item .image .overlay .links a.icon:before,
+	.portfolio.products.hover-horizontal-sliding .portfolio-item .image .overlay .links a.icon:before,
+	.portfolio.products.hover-vertical-sliding .portfolio-item .image .overlay .links a.icon:before {
+		width: 24px;
+		height: 24px;
+		line-height: 24px;
+		font-size: 24px;
+	}
+
+	.portfolio.products.hover-circular .portfolio-item.double-item .image .overlay .links a.icon,
+	.portfolio.products.hover-circular .portfolio-item .image .overlay .links .portfolio-icons.product-bottom .yith-wcwl-add-to-wishlist .yith-wcwl-add-button,
+	.portfolio.products.hover-circular .portfolio-item .image .overlay .links .portfolio-icons.product-bottom .yith-wcwl-add-to-wishlist .yith-wcwl-wishlistexistsbrowse {
+		margin-right: 8px;
+	}
+	.portfolio.products.hover-circular .portfolio-item.double-item-squared .image .overlay .links a.icon:before {
+		width: 40px;
+		height: 40px;
+		line-height: 40px;
+		font-size: 32px;
+	}
+
+	.portfolio.products.hover-default .portfolio-item:hover .image .overlay .links .portfolio-sharing-pane.active {
+		margin-bottom: 20px;
+	}
+
+	.portfolio.products.hover-zooming-blur .portfolio-item:hover .image .overlay .links .portfolio-sharing-pane.active {
+		margin-bottom: 13px;
+	}
+}
+
+@media only screen and (max-width: 700px) {
+	.portfolio.products .portfolio-item .overlay .caption .description {
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 550px) {
+	.portfolio.products .portfolio-item .overlay .caption .description,
+	.portfolio.products.columns-3 .portfolio-item .overlay .caption .description,
+	.portfolio.products.columns-4 .portfolio-item .overlay .caption .description {
+		display: block;
+	}
+}
+
+@media (min-width: 1170px) and (max-width: 1250px) {
+	body .portfolio.products.hover-title .fullwidth-block .portfolio-item.product .overlay .links .caption .title {
+		font-size: 24px;
+		line-height: 38px;
+	}
+	body .portfolio.products.hover-title.hover-gradient .fullwidth-block .portfolio-item.product:not(.double-item-squared) .overlay .links .caption .title,
+	body .portfolio.products.hover-title.hover-circular .fullwidth-block .portfolio-item.product:not(.double-item-squared) .overlay .links .caption .title,
+	body .portfolio.products.hover-title.fullwidth-columns-6 .fullwidth-block .portfolio-item.product:not(.double-item-squared) .overlay .links .caption .title {
+		font-size: 14px;
+		line-height: 21px;
+	}
+	.portfolio.products .fullwidth-block .portfolio-item .overlay .links .caption .description {
+		display: none;
+	}
+}
+
+@media (min-width: 1280px) and (max-width: 1550px),
+ 		(max-width: 1170px) {
+	.portfolio.products .fullwidth-block .portfolio-item:not(.double-item-squared) .overlay .caption .product-price .price .amount {
+		font-size: 127%;
+	}
+	.portfolio.products .fullwidth-block .portfolio-item .overlay .caption .product-rating {
+		margin: 11px 0 0 0;
+	}
+	.products.hover-gradient.title-on-page .fullwidth-block .portfolio-item.has-rating:hover .image .links .caption .product-info,
+	.products.hover-circular.title-on-page .fullwidth-block .portfolio-item.has-rating:hover .image .links .caption .product-info {
+		padding-bottom: 27px;
+	}
+	.portfolio.products .fullwidth-block .portfolio-item .overlay .caption .description {
+		margin-bottom: 5px;
+	}
+	.portfolio.products .fullwidth-block .portfolio-item:not(.double-item-squared) .overlay .caption .title {
+		margin-bottom: 4px;
+		font-size: 14px;
+		line-height: 21px;
+	}
+	.portfolio.products .fullwidth-block .portfolio-item .image .overlay .links .caption {
+		padding-top: 13px;
+	}
+	.portfolio.products .fullwidth-block .portfolio-item .overlay .caption .description {
+		display: none;
+	}
+	.portfolio.products.hover-default .fullwidth-block .portfolio-item .image .overlay .links a.icon:before {
+	    font-size: 24px;
+	}
+	.portfolio.products.hover-horizontal-sliding .overlay .overlay-line {
+		margin: 15px 0;
+	}
+}
+
+@media only screen and (min-width: 550px) and (max-width: 1200px) {
+	.portfolio.products.hover-horizontal-sliding.columns-3 .portfolio-item .overlay .caption .description {
+		display: none;
+	}
+}
+
+.portfolio.products .portfolio-item.item-small-size .overlay .caption .description {
+	display: none !important;
+}
+
+.portfolio.products.portfolio-disable-socials .portfolio-item .image .overlay .links .portfolio-icons.product-bottom .yith-wcwl-add-to-wishlist > div {
+	margin-right: 0;
+}

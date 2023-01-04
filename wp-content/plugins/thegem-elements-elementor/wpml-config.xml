@@ -1,0 +1,46 @@
+<wpml-config>
+<admin-texts>
+	<key name="thegem_gdpr_settings">
+		<key name="privacy_policy_link_text" />
+		<key name="cookies_policy_link_text" />
+		<key name="modal_title" />
+		<key name="excerpt_text" />
+		<key name="notice_text" />
+		<key name="save_preferences_button_text" />
+		<key name="consents">
+			<key name="privacy-policy">
+				<key name="description" />
+			</key>
+			<key name="google-fonts">
+				<key name="description" />
+			</key>
+			<key name="google-maps">
+				<key name="description" />
+			</key>
+			<key name="tracking">
+				<key name="description" />
+			</key>
+			<key name="youtube">
+				<key name="description" />
+			</key>
+			<key name="vimeo">
+				<key name="description" />
+			</key>
+			<key name="required">
+				<key name="description" />
+			</key>
+		</key>
+	</key>
+	<key name="thegem_gdpr_consent_bar">
+		<key name="text" />
+		<key name="privacy_preferences_link_text" />
+		<key name="i_agree_button_text" />
+	</key>
+	<key name="thegem_gdpr_integrations">
+		<key name="wordpress-comments">
+			<key name="checkbox_text" />
+			<key name="error_message" />
+		</key>
+	</key>
+</admin-texts>
+</wpml-config>

@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'thegem-arrows';
+    src:  url('../fonts/arrows/thegem-arrows.eot?p5r839');
+    src:  url('../fonts/arrows/thegem-arrows.eot?p5r839#iefix') format('embedded-opentype'),
+    url('../fonts/arrows/thegem-arrows.ttf?p5r839') format('truetype'),
+    url('../fonts/arrows/thegem-arrows.woff?p5r839') format('woff'),
+    url('../fonts/arrows/thegem-arrows.svg?p5r839#thegem-arrows') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

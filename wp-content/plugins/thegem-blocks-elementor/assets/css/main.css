@@ -1,0 +1,883 @@
+.thegem-blocks-panel {
+    width: 100% !important;
+    max-width: 1920px;
+    padding: 0 !important;
+    top: 0 !important;
+    left: 0 !important;
+    z-index: 99999 !important;
+}
+
+.thegem-blocks-panel .vc_ui-panel-header-container {
+    background-color: #23282d;
+}
+
+.thegem-blocks-panel .vc_ui-panel-content {
+    background-color: #393d50;
+}
+
+.thegem-blocks-panel:not(.thegem-blocks-panel-active) .vc_ui-panel-content {
+    padding: 35px 40px;
+}
+
+.thegem-blocks-panel .vc_ui-panel-header-heading {
+    position: relative;
+    font-family: 'Montserrat';
+    font-weight: 200;
+    font-size: 22px;
+    padding-left: 156px;
+}
+
+.thegem-blocks-panel .vc_ui-panel-header-heading:before {
+    content: url("../img/logo.png");
+    width: 131px;
+    height: 29px;
+    display: block;
+    position: absolute;
+    top: -4px;
+    left: 5px;
+}
+
+.thegem-blocks-panel .vc_panel-tabs-control .vc_ui-tabs-line-trigger {
+    font-family: 'Source Sans Pro';
+    font-weight: 400;
+    font-size: 16px;
+    padding: 11px 22px;
+    color: #99a9b5;
+    background-color: #23282d;
+}
+
+.thegem-blocks-panel .vc_panel-tabs-control .vc_ui-tabs-line-trigger:focus,
+.thegem-blocks-panel .vc_panel-tabs-control .vc_ui-tabs-line-trigger:hover,
+.thegem-blocks-panel .vc_panel-tabs-control.vc_active .vc_ui-tabs-line-trigger {
+    background-color: #393d50;
+    color: #ffffff;
+}
+
+.thegem-blocks-panel .vc_ui-search-box {
+    width: auto;
+}
+
+.thegem-blocks-panel .vc_ui-search-box-input input[type=search] {
+    border-radius: 15px;
+    background-color: #393d50;
+    color: #ffffff;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    width: 100%;
+    max-width: 226px;
+    line-height: 30px;
+    height: 30px;
+    padding: 0 12px 0 38px;
+    -webkit-transition: none;
+    transition: none;
+}
+
+.thegem-blocks-panel .vc_ui-search-box input[type=search]:focus {
+    color: #ffffff;
+    box-shadow: none;
+}
+
+.thegem-blocks-panel .vc_ui-search-box-input input[type=search]::placeholder {
+    color: #ffffff;
+    font-style: normal;
+}
+
+.thegem-blocks-panel .vc_ui-search-box-input input[type=search]::-webkit-search-cancel-button {
+    display: none;
+}
+
+.thegem-blocks-panel .vc_ui-search-box-input label {
+    left: 12px;
+}
+
+.thegem-blocks-panel .vc_ui-search-box-input label i {
+    color: #ffffff;
+}
+
+#thegem-blocks-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    right: 0;
+    z-index: 999;
+    overflow-x: auto;
+}
+
+.thegem-blocks-box {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    min-width: 600px;
+    padding: 100px 0 40px 30px;
+    color: #99a9b5;
+    display: flex;
+    background: #393d50;
+}
+
+.thegem-blocks-box *:focus,
+.thegem-blocks-box input[type=checkbox]:focus{
+    box-shadow: none;
+    outline: none;
+}
+
+.thegem-blocks-left-box {
+    flex: 0 0 220px;
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+.thegem-blocks-include-media {
+    font-family: 'Source Sans Pro';
+    font-weight: 400;
+    font-size: 16px;
+    color: #99a9b5;
+    margin-bottom: 40px;
+}
+
+.thegem-blocks-include-media label {
+    display: flex;
+    align-items: center;
+}
+
+.thegem-blocks-include-media input[type=checkbox] {
+    width: 24px;
+    height: 24px;
+    border-radius: 2px;
+    background-color: #5f727f;
+    -webkit-appearance: none;
+    margin: 0 10px 0 0;
+    border: none;
+    position: relative;
+}
+
+.thegem-blocks-include-media input[type=checkbox]:checked::before {
+    content: '';
+    width: 14px;
+    height: 6px;
+    border-bottom: 2px solid #ffffff;
+    border-left: 2px solid #ffffff;
+    position: absolute;
+    top: 6px;
+    left: 4px;
+    margin: 0;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+}
+
+.thegem-blocks-categories-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.thegem-blocks-categories-list li {
+    margin-bottom: 22px;
+}
+
+.thegem-blocks-categories-list li:last-child {
+    margin-bottom: 0;
+}
+
+.thegem-blocks-categories-list li a {
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #ffffff;
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    -webkit-transition: .3s all;
+    transition: .3s all;
+    position: relative;
+}
+
+.thegem-blocks-categories-list li a.active,
+.thegem-blocks-categories-list li a:hover {
+    color: #00bcd4;
+}
+
+.thegem-blocks-categories-list li a[data-name="all"],
+.thegem-blocks-categories-list li a[data-name="favorite"] {
+    padding-left: 30px;
+}
+
+.thegem-blocks-categories-list li a i {
+    font-size: 21px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.thegem-blocks-categories-list li a span {
+    font-weight: 300;
+    font-size: 14px;
+    color: #99a9b5;
+    padding-left: 5px;
+}
+
+.thegem-blocks-right-box {
+    position: relative;
+    flex: 1 1 100%;
+    overflow: hidden;
+    overflow-y: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.thegem-blocks-template-items,
+.thegem-blocks-template-items * {
+    box-sizing: border-box;
+}
+
+.thegem-blocks-template-items {
+    position: relative;
+    opacity: 0;
+    -webkit-transform: translateY(-20px);
+    transform: translateY(-20px);
+    font-family: 'Source Sans Pro';
+    font-size: 14px;
+    font-weight: 400;
+    margin: -40px 0 0 -40px;
+}
+
+.thegem-blocks-template-items.loaded {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    transition: all 1.16s cubic-bezier(0.23, 1, 0.32, 1) 0.2s;
+    -webkit-transition: all 1.16s cubic-bezier(0.23, 1, 0.32, 1) 0.2s;
+}
+
+.thegem-blocks-template-item {
+    width: 25%;
+    float: left;
+    padding: 40px 0 0 40px;
+}
+
+.thegem-blocks-template-item.hide {
+    display: none;
+}
+
+.thegem-blocks-template-item-image {
+    width: 100%;
+    height: 100%;
+    display: block;
+    overflow: hidden;
+    border-radius: 4px;
+    box-shadow: 0 19px 16px 0 rgba(24,24,40,0.4);
+    position: relative;
+}
+
+.thegem-blocks-template-item-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 4px;
+    transition: all .4s;
+}
+
+.thegem-blocks-template-item-image .thegem-blocks-loader {
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.thegem-blocks-template-item-head {
+    margin-top: 7px;
+    display: flex;
+    align-items: center;
+}
+
+.thegem-blocks-template-item-title {
+    color: #99a9b5;
+}
+
+.thegem-blocks-template-item-head span {
+    text-transform: uppercase;
+    color: #00bcd4;
+    padding-left: 5px;
+}
+
+.thegem-blocks-template-item-actions {
+    position: absolute;
+    width: 100%;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    background-color: #23282d;
+    visibility: hidden;
+    opacity: 0;
+    bottom: 0;
+    -webkit-transform: translateY(35px);
+    transform: translateY(35px);
+    -webkit-transition: transform .4s, opacity .4s, visibility .4s;
+    transition: transform .4s, opacity .4s, visibility .4s;
+    padding: 0 10px;
+}
+
+.thegem-blocks-template-item-inner:hover .thegem-blocks-template-item-actions {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    visibility: visible;
+}
+
+.thegem-blocks-template-item-inner:hover .thegem-blocks-template-item-image img {
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+
+.thegem-blocks-template-item-actions a {
+    color: #00bcd4;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    line-height: 1.4;
+}
+
+.thegem-blocks-template-item-actions a:hover {
+    color: #ffffff;
+}
+
+.thegem-blocks-template-item-actions a i {
+    color: #ffffff;
+    line-height: 1;
+}
+
+.thegem-blocks-template-item-actions a:not(.thegem-blocks-template-item-favorite) {
+    margin-right: 18px;
+}
+
+.thegem-blocks-template-item-actions a:not(.thegem-blocks-template-item-favorite) i {
+    margin-right: 5px;
+    font-size: 15px;
+}
+
+.thegem-blocks-template-item-favorite {
+    position: absolute;
+    right: 7px;
+    top: 50%;
+    margin-top: -2px;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    font-size: 19px;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+}
+
+.thegem-blocks-template-item-favorite:hover i,
+.is-favorite .thegem-blocks-template-item-favorite i {
+    color: #eeff41;
+}
+
+.is-favorite .thegem-blocks-template-item-favorite i:before {
+    content: '\e903';
+}
+
+.thegem-blocks-template-item-favorite.saving {
+    opacity: .5;
+}
+
+#thegem-blocks-templates-empty,
+#thegem-blocks-favorites-empty {
+    display: none;
+    max-width: 350px;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    font-family: 'Montserrat';
+    font-weight: 200;
+    line-height: 30px;
+    font-size: 19px;
+    text-align: center;
+}
+
+.thegem-blocks-text-empty i.tgb-icon-info-outline {
+    display: block;
+    text-align: center;
+    font-size: 40px;
+    color: #4d5164;
+    line-height: 1;
+    margin-bottom: 18px;
+}
+
+#thegem-blocks-favorites-empty i.tgb-icon-star-outline {
+    position: relative;
+    top: 5px;
+}
+
+.thegem-blocks-loader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.thegem-blocks-spinner {
+    border-radius: 50%;
+    width: 28px;
+    height: 28px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.thegem-blocks-spinner {
+    border-top: 2px solid rgba(255, 255, 255, 0.2);
+    border-right: 2px solid rgba(255, 255, 255, 0.2);
+    border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+    border-left: 2px solid #ffffff;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-animation: loaderAnimation 1.1s infinite linear;
+    animation: loaderAnimation 1.1s infinite linear;
+}
+
+.thegem-blocks-right-box > .thegem-blocks-spinner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -14px;
+    margin-left: -14px;
+}
+
+.thegem-blocks-template-items.loading-new-items {
+    margin-bottom: 30px;
+}
+
+.thegem-blocks-template-items.loading-new-items .thegem-blocks-spinner {
+    position: absolute;
+    bottom: -34px;
+    left: 50%;
+    margin-left: -14px;
+}
+
+@-webkit-keyframes loaderAnimation {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes loaderAnimation {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+.thegem-blocks-left-box::-webkit-scrollbar,
+.thegem-blocks-right-box::-webkit-scrollbar {
+    width: 5px;
+}
+
+.thegem-blocks-left-box::-webkit-scrollbar-track,
+.thegem-blocks-right-box::-webkit-scrollbar-track {
+    background-color: rgba(95,114,127,0.2);
+    border-radius: 2px;
+}
+
+.thegem-blocks-left-box::-webkit-scrollbar-thumb,
+.thegem-blocks-right-box::-webkit-scrollbar-thumb {
+    border-radius: 2px;
+    background-color: rgba(95,114,127,0.5);
+}
+
+
+#thegem-blocks-notification {
+    position: absolute;
+    top: 60px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(57,61,80,0.95);
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.thegem-blocks-notification-inner {
+    max-width: 600px;
+    width: 100%;
+    text-align: center;
+}
+
+.thegem-blocks-notification-inner p {
+    font-size: 19px;
+    font-family: 'Montserrat';
+    font-weight: 200;
+    line-height: 30px;
+    margin: 20px 0;
+}
+
+.thegem-blocks-notification-inner p > a {
+    color: #00bcd4;
+    text-decoration: underline;
+}
+
+.thegem-blocks-notification-inner p > a:hover {
+    text-decoration: none;
+}
+
+a.thegem-blocks-notification-btn, a.thegem-blocks-notification-btn:hover {
+    padding: 11px 20px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    color: #ffffff;
+    background-color: #00bbd3;
+}
+
+
+.thegem-blocks-notification-btn > i {
+    margin-right: 6px;
+    font-size: 18px;
+    line-height: 1;
+}
+
+.thegem-blocks-notification-icon {
+    width: 40px;
+    font-size: 40px;
+    line-height: 1;
+    display: block;
+    margin: 0 auto;
+}
+
+.thegem-blocks-panel .vc_ui-panel-header {
+    position: relative;
+}
+
+.thegem-blocks-control-mode {
+    position: absolute;
+    background-color: #23282d;
+    right: 0;
+    left: 0;
+    height: 60px;
+    top: 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#thegem-blocks-close {
+    background: transparent;
+    width: 30px;
+    height: 30px;
+    border: none;
+    position: relative;
+    margin-right: 18px;
+    cursor: pointer;
+}
+
+#thegem-blocks-close:before, #thegem-blocks-close:after {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: -10px;
+    content: '';
+    display: block;
+    font-size: 0;
+    width: 0px;
+    height: 20px;
+    border-left: 2px solid white;
+    transform: rotate(45deg);
+}
+
+#thegem-blocks-close:before {
+    transform: rotate(-45deg);
+}
+
+#thegem-blocks-close i {
+    font-size: 26px;
+    color: white;
+}
+
+.thegem-blocks-control-mode-logo {
+    margin-left: 23px;
+    padding-left: 151px;
+    padding-top: 7px;
+    margin-top: -3px;
+    background-position: left top;
+    background: url('../img/logo.png');
+    background-repeat: no-repeat;
+    font-family: 'Montserrat';
+    font-size: 22px;
+    line-height: 22px;
+    font-weight: 200;
+    color: white;
+    flex: 1;
+}
+
+.thegem-blocks-switch {
+    position: relative;
+    display: flex;
+    align-items: center;
+    font-family: 'Source Sans Pro';
+    font-size: 14px;
+    font-weight: 400;
+    color: #99a9b5;
+    padding: 0 5px;
+    user-select: none;
+    cursor: pointer;
+    margin-right: 10px;
+    margin-left: 20px;
+}
+
+.thegem-blocks-switch input[type="checkbox"] {
+    display:none;
+}
+
+.thegem-blocks-switch .thegem-blocks-switch-indicator {
+    display: block;
+    position: relative;
+    border-radius: 17px;
+    background-color: #5f727f;
+    width: 44px;
+    height: 24px;
+    cursor: inherit;
+    margin: 0 5px;
+}
+
+.thegem-blocks-switch .thegem-blocks-switch-indicator:after{
+    content: '';
+    width: 18px;
+    height: 18px;
+    display: block;
+    border-radius: 50%;
+    background-color: #ffffff;
+    position: absolute;
+    top: 50%;
+    margin-top: -9px;
+    left: 4px;
+    transition: transform .4s;
+}
+
+.thegem-blocks-switch input:checked + .thegem-blocks-switch-indicator:after{
+    transform: translateX(18px);
+}
+
+.thegem-blocks-switch.disabled {
+    color: #393d50;
+    cursor: not-allowed;
+}
+
+.thegem-blocks-switch.disabled .thegem-blocks-switch-indicator {
+    background-color: #2c2f3b;
+}
+
+.thegem-blocks-switch.disabled .thegem-blocks-switch-indicator:after {
+    background-color: #393d50;
+}
+
+.thegem-blocks-panel.vc_minimized .thegem-blocks-switch {
+    display: none;
+}
+
+.thegem-blocks-panel .vc_edit-form-tab[data-tab='my_templates'] h3,
+.thegem-blocks-panel .vc_edit-form-tab[data-tab='my_templates'] .vc_element_label {
+    font-family: 'Montserrat';
+    font-size: 22px;
+    font-weight: 300;
+    color: #ffffff;
+    margin-bottom: 15px;
+}
+
+.thegem-blocks-panel .vc_edit-form-tab[data-tab='my_templates'] h3 {
+    margin-top: 40px;
+}
+
+
+.thegem-blocks-panel .vc_edit-form-tab[data-tab='my_templates'] .vc_description {
+    font-family: 'Source Sans Pro';
+    font-weight: 400;
+    font-size: 14px;
+    font-style: normal;
+    color: #99a9b5;
+    margin-top: 11px;
+}
+
+.thegem-blocks-panel .vc_edit-form-tab[data-tab='my_templates'] .vc_form-control {
+    background-color: #393d50;
+    border: 1px solid #64687f;
+    color: #ffffff;
+    min-height: 40px;
+    padding: 3px 24px 3px 15px;
+    border-radius: 3px;
+}
+
+.thegem-blocks-panel .vc_edit-form-tab[data-tab='my_templates'] .vc_form-control:focus {
+    box-shadow: none;
+}
+
+.thegem-blocks-panel .vc_edit-form-tab[data-tab='my_templates'] .vc_form-control::placeholder {
+    color: #99a9b5;
+    font-style: normal;
+}
+
+.thegem-blocks-panel .vc_edit-form-tab[data-tab='my_templates'] .vc_template-save-btn {
+    background-color: #00bcd4;
+    font-family: 'Montserrat';
+    text-transform: uppercase;
+    font-weight: 300;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.thegem-blocks-panel .vc_edit-form-tab[data-tab='my_templates'] .vc_ui-template-list.vc_ui-list-bar {
+    margin-left: -40px;
+    margin-right: -40px;
+}
+
+.thegem-blocks-panel .vc_edit-form-tab[data-tab='my_templates'] .vc_ui-template-list .vc_ui-list-bar-item {
+    background-color: #2c2e3d;
+    border-color: #393d50;
+}
+
+.thegem-blocks-panel .vc_edit-form-tab[data-tab='my_templates'] .vc_ui-template-list .vc_ui-list-bar-item-trigger {
+    font-family: 'Source Sans Pro';
+    font-size: 16px;
+    font-weight: 400;
+    color: #00bcd4;
+    padding: 24px 24px 24px 40px;
+}
+
+.thegem-blocks-panel .vc_edit-form-tab[data-tab='my_templates'] .vc_ui-template-list .vc_ui-list-bar-item-actions {
+    opacity: 1;
+    visibility: visible;
+    color: #ffffff;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.thegem-blocks-panel .vc_edit-form-tab[data-tab='my_templates'] .vc_ui-template-list .vc_ui-control-button {
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+.thegem-blocks-panel .vc_edit-form-tab[data-tab='my_templates'] .vc_ui-template-list .vc_ui-control-button .vc-composer-icon.vc-c-icon-add {
+    font-size: 16px;
+}
+
+.thegem-blocks-panel .vc_edit-form-tab[data-tab='my_templates'] .vc_ui-template-list .vc_ui-control-button .vc-composer-icon.vc-c-icon-delete_empty {
+    font-size: 14px;
+}
+
+.thegem-blocks-panel .vc_edit-form-tab[data-tab='my_templates'] .vc_ui-template-list .vc_ui-control-button .vc-composer-icon {
+    font-size: 22px;
+}
+
+.thegem-blocks-panel .vc_edit-form-tab[data-tab='my_templates'] [data-vc-panel-message] {
+    margin-bottom: 20px;
+}
+
+.thegem-blocks-panel .vc_edit-form-tab[data-tab='my_templates'] [data-vc-panel-message] p {
+    font-family: 'Source Sans Pro';
+    font-size: 14px;
+}
+
+.thegem-blocks-templates-filter {
+    margin-left: 10px;
+    position: relative;
+}
+
+.thegem-blocks-templates-filter i {
+    color: white;
+    position: absolute;
+    left: 13px;
+    top: 6px;
+    font-size: 16px;
+}
+
+#thegem-blocks-templates-filter {
+    border-radius: 15px;
+    background-color: #393d50;
+    color: #ffffff;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    width: 100%;
+    max-width: 226px;
+    line-height: 30px;
+    height: 30px;
+    padding: 0 12px 0 38px;
+    border-width: 0;
+}
+
+
+
+@media (min-width: 1920px) {
+    .thegem-blocks-panel {
+        left: 50% !important;
+        margin-left: -960px !important;
+    }
+}
+
+@media (max-width: 1370px) {
+    .thegem-blocks-template-items {
+        margin: -30px 0 0 -30px;
+    }
+
+    .thegem-blocks-template-item {
+        width: 33.333%;
+        padding: 30px 0 0 30px ;
+    }
+}
+
+@media (max-width: 1025px) {
+    .thegem-blocks-template-items {
+        margin: -20px 0 0 -20px;
+    }
+
+    .thegem-blocks-template-item {
+        width: 50%;
+        padding: 20px 0 0 20px;
+    }
+}
+
+
+@media (max-width: 770px) {
+    .thegem-blocks-panel.vc_ui-panel-window.vc_active {
+        display: flex !important;
+    }
+
+    .thegem-blocks-template-items {
+        margin: 0;
+    }
+
+    .thegem-blocks-template-item {
+        width: 100%;
+        padding: 0 0 30px 0;
+    }
+}

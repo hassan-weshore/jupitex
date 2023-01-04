@@ -1,0 +1,227 @@
+.gem-quote {
+    position: relative;
+    overflow: hidden;
+    -o-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+.gem-quote blockquote div,
+.gem-quote blockquote p,
+.gem-quote blockquote {
+    margin: 0;
+}
+
+.gem-quote.gem-quote-style-default {
+    padding: 3px;
+    border: 1px solid #c9d2d9;
+}
+
+.gem-quote.gem-quote-style-default blockquote {
+    margin: 0px;
+    font-size: 24px;
+    line-height: 37px;
+    font-weight: 100;
+    padding: 60px 80px;
+    border: 1px solid #e9edf0;
+}
+
+.gem-quote.gem-quote-style-1 {
+    font-size: 24px;
+    line-height: 37px;
+    padding: 67px 87px;
+    font-weight: 200;
+}
+
+.gem-quote.gem-quote-style-2 {
+    color: #bcc6cd;
+    font-weight: 200;
+    padding: 67px 87px;
+    font-size: 24px;
+    line-height: 37px;
+    background-color: #2c3e50;
+}
+
+.gem-quote.gem-quote-style-2 blockquote {
+    color: #b6c6c9;
+}
+
+.gem-quote.gem-quote-style-3 blockquote {
+    text-transform: uppercase;
+    margin: 0px;
+    font-size: 19px;
+    padding: 67px 87px;
+    letter-spacing: 0.085em;
+    line-height: 1.85em;
+    border: 1px solid #e9edf0;
+}
+
+.gem-quote.gem-quote-style-3 {
+    padding: 4px;
+    color: #2c3e50;
+    border: 1px solid #c9d2d9;
+    background: transparent;
+}
+
+.gem-quote.gem-quote-style-4 {
+    color: #2c3e50;
+    letter-spacing: 0.085em;
+    padding: 72px 92px;
+    text-transform: uppercase;
+}
+
+.gem-quote.gem-quote-style-5 {
+    padding: 72px 92px;
+    text-transform: uppercase;
+    letter-spacing: 0.085em;
+    background-color: #2c3e50;
+    color: #ffffff;
+}
+
+.gem-quote .custom-color-blockqute-mark,
+.gem-quote.gem-quote-style-default:after,
+.gem-quote.gem-quote-style-1:after,
+.gem-quote.gem-quote-style-2:after,
+.gem-quote.gem-quote-style-3:after,
+.gem-quote.gem-quote-style-4:after,
+.gem-quote.gem-quote-style-5:after {
+    position: absolute;
+    font-family: thegem-icons;
+    content: '\e60c';
+    font-size: 76px;
+    right: 67px;
+}
+
+.gem-quote.gem-quote-style-1 blockquote,
+.gem-quote.gem-quote-style-2 blockquote,
+.gem-quote.gem-quote-style-4 blockquote,
+.gem-quote.gem-quote-style-5 blockquote {
+    padding: 0;
+    background-color: transparent;
+}
+
+.gem-quote.gem-quote-style-default blockquote,
+.gem-quote.gem-quote-style-3 blockquote {
+    background-color: transparent;
+}
+
+.gem-quote.gem-quote-style-default blockquote:after,
+.gem-quote.gem-quote-style-1 blockquote:after,
+.gem-quote.gem-quote-style-2 blockquote:after,
+.gem-quote.gem-quote-style-3 blockquote:after,
+.gem-quote.gem-quote-style-4 blockquote:after,
+.gem-quote.gem-quote-style-5 blockquote:after {
+    display: none;
+}
+
+.gem-quote.gem-quote-style-2.gem-quote .custom-color-blockqute-mark,
+.gem-quote.gem-quote-style-1.gem-quote .custom-color-blockqute-mark,
+.gem-quote.gem-quote-style-1:after,
+.gem-quote.gem-quote-style-2:after,
+.gem-quote.gem-quote-style-4:after,
+.gem-quote.gem-quote-style-5:after {
+    bottom: 6px;
+}
+
+.custom-color-blockqute-mark-added.gem-quote:after {
+    display: none;
+}
+
+.gem-quote .custom-color-blockqute-mark,
+.gem-quote .custom-color-blockqute-mark,
+.gem-quote.gem-quote-style-default:after,
+.gem-quote.gem-quote-style-3:after {
+    bottom: 11px;
+}
+
+.gem-quote.gem-quote-style-default:after {
+    color: #e7ebee;
+}
+
+.gem-quote.gem-quote-style-1:after {
+    color: #a3e7f0;
+}
+
+.gem-quote.gem-quote-style-2:after {
+    color: #4dd0e1;
+}
+
+.gem-quote.gem-quote-style-3:after {
+    color: #e7ebee;
+}
+
+.gem-quote.gem-quote-style-4:after {
+    color: #a3e7f0;
+}
+
+.gem-quote.gem-quote-style-5:after {
+    color: #4dd0e1;
+}
+
+.gem-quote.gem-quote-style-1.gem-quote-no-paddings,
+.gem-quote.gem-quote-style-2.gem-quote-no-paddings,
+.gem-quote.gem-quote-style-4.gem-quote-no-paddings,
+.gem-quote.gem-quote-style-5.gem-quote-no-paddings {
+    padding-left: 50px;
+    padding-right: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+@media (max-width:767px) {
+    .gem-quote.gem-quote-style-1,
+    .gem-quote.gem-quote-style-2,
+    .gem-quote.gem-quote-style-4,
+    .gem-quote.gem-quote-style-5,
+    .gem-quote.gem-quote-style-1.gem-quote-no-paddings,
+    .gem-quote.gem-quote-style-2.gem-quote-no-paddings,
+    .gem-quote.gem-quote-style-4.gem-quote-no-paddings,
+    .gem-quote.gem-quote-style-5.gem-quote-no-paddings {
+        padding-left: 25px;
+        padding-right: 10px;
+        padding-top: 25px;
+        padding-bottom: 50px;
+    }
+}
+
+.gem-quote.gem-quote-style-default.gem-quote-no-paddings blockquote,
+.gem-quote.gem-quote-style-3.gem-quote-no-paddings blockquote {
+    padding-left: 39px;
+    padding-right: 20px;
+    padding-top: 44px;
+    padding-bottom: 50px;
+}
+
+@media (max-width:767px) {
+    .gem-quote.gem-quote-style-default blockquote,
+    .gem-quote.gem-quote-style-3 blockquote,
+    .gem-quote.gem-quote-style-default.gem-quote-no-paddings blockquote,
+    .gem-quote.gem-quote-style-3.gem-quote-no-paddings blockquote {
+        padding-left: 19px;
+        padding-right: 10px;
+        padding-top: 22px;
+        padding-bottom: 50px;
+    }
+}
+
+.gem-quote.gem-quote-style-default.custom-color-blockqute-mark-added.gem-quote-no-paddings .custom-color-blockqute-mark,
+.gem-quote.gem-quote-style-1.custom-color-blockqute-mark-added.gem-quote-no-paddings .custom-color-blockqute-mark,
+.gem-quote.gem-quote-style-2.custom-color-blockqute-mark-added.gem-quote-no-paddings .custom-color-blockqute-mark,
+.gem-quote.gem-quote-style-4.custom-color-blockqute-mark-added.gem-quote-no-paddings .custom-color-blockqute-mark,
+.gem-quote.gem-quote-style-5.custom-color-blockqute-mark-added.gem-quote-no-paddings .custom-color-blockqute-mark,
+.gem-quote.gem-quote-style-default.gem-quote-no-paddings:after,
+.gem-quote.gem-quote-style-1.gem-quote-no-paddings:after,
+.gem-quote.gem-quote-style-2.gem-quote-no-paddings:after,
+.gem-quote.gem-quote-style-4.gem-quote-no-paddings:after,
+.gem-quote.gem-quote-style-5.gem-quote-no-paddings:after {
+    font-size: 67px;
+    right: 35px;
+    bottom: 4px;
+}
+
+.gem-quote.gem-quote-style-default.gem-quote-no-paddings:after,
+.gem-quote.gem-quote-style-3.gem-quote-no-paddings:after {
+    font-size: 67px;
+    right: 35px;
+    bottom: 10px;
+}

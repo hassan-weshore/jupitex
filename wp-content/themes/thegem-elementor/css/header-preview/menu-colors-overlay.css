@@ -1,0 +1,91 @@
+@media (min-width: 0px) and (max-width: 1212px) {
+	#site-header .header-main {
+		position: relative;
+		display: table;
+		width: 100%;
+		z-index: 11;
+	}
+	#page #site-header .site-title {
+		display: table-cell;
+		padding-top: 15px;
+	}
+	#page #site-header .primary-navigation {
+		display: table-cell;
+		text-align: right;
+	}
+	#page #site-header .logo-position-right .primary-navigation {
+		text-align: left;
+	}
+	/*#primary-navigation .menu-toggle {
+		display: none;
+	}*/
+	/*#primary-navigation .overlay-toggle {
+		display: inline-block;
+	}*/
+	.primary-navigation .dl-menu {
+		position: relative;
+		left: auto;
+		right: auto;
+		opacity: 1;
+	}
+}
+
+#site-header .header-main.header-layout-overlay #primary-menu.no-responsive > li.menu-item-current > a,
+#site-header .header-main.header-layout-overlay #primary-menu.no-responsive > li.menu-item-active > a {
+	background: transparent;
+	border: 0 none;
+}
+
+#page.header-style-1 .menu-overlay:not(.mobile),
+#page.header-style-4 .menu-overlay:not(.mobile) {
+	background-color: #212331;
+}
+
+#page.header-style-1 .header-layout-overlay #primary-menu.no-responsive > li > a,
+#page.header-style-1 .header-layout-overlay #primary-navigation #primary-menu.no-responsive > li li > a,
+#page.header-style-4 .header-layout-overlay #primary-menu.no-responsive > li > a,
+#page.header-style-4 .header-layout-overlay #primary-navigation #primary-menu.no-responsive > li li > a,
+#page.header-style-1 .header-layout-overlay #primary-menu.no-responsive > li > .menu-item-parent-toggle:before,
+#page.header-style-4 .header-layout-overlay #primary-menu.no-responsive > li > .menu-item-parent-toggle:before {
+	color: #ffffff;
+}
+
+#page.header-style-1 .header-layout-overlay #primary-menu.no-responsive > li > .menu-item-parent-toggle,
+#page.header-style-1 .header-layout-overlay #primary-navigation #primary-menu.no-responsive > li li > .menu-item-parent-toggle,
+#page.header-style-4 .header-layout-overlay #primary-menu.no-responsive > li > .menu-item-parent-toggle,
+#page.header-style-4 .header-layout-overlay #primary-navigation #primary-menu.no-responsive > li li > .menu-item-parent-toggle,
+#page.header-style-1 .header-layout-overlay #primary-menu.no-responsive > li li > .menu-item-parent-toggle:before,
+#page.header-style-4 .header-layout-overlay #primary-menu.no-responsive > li li > .menu-item-parent-toggle:before {
+	color: #ffffff;
+}
+
+#page.header-style-2 .menu-overlay:not(.mobile),
+#page.header-style-3 .menu-overlay:not(.mobile) {
+	background-color: #ffffff;
+}
+
+#page.header-style-2 .header-layout-overlay #primary-menu.no-responsive > li > a,
+#page.header-style-2 .header-layout-overlay #primary-navigation #primary-menu.no-responsive > li li > a,
+#page.header-style-3 .header-layout-overlay #primary-menu.no-responsive > li > a,
+#page.header-style-3 .header-layout-overlay #primary-navigation #primary-menu.no-responsive > li li > a,
+#page.header-style-2 .header-layout-overlay #primary-menu.no-responsive > li > .menu-item-parent-toggle:before,
+#page.header-style-3 .header-layout-overlay #primary-menu.no-responsive > li > .menu-item-parent-toggle:before {
+	color: #212331;
+}
+
+#page.header-style-2 .header-layout-overlay #primary-menu.no-responsive > li > .menu-item-parent-toggle,
+#page.header-style-2 .header-layout-overlay #primary-navigation #primary-menu.no-responsive > li li > .menu-item-parent-toggle,
+#page.header-style-3 .header-layout-overlay #primary-menu.no-responsive > li > .menu-item-parent-toggle,
+#page.header-style-3 .header-layout-overlay #primary-navigation #primary-menu.no-responsive > li li > .menu-item-parent-toggle,
+#page.header-style-2 .header-layout-overlay #primary-menu.no-responsive > li li > .menu-item-parent-toggle:before,
+#page.header-style-3 .header-layout-overlay #primary-menu.no-responsive > li li > .menu-item-parent-toggle:before {
+	color: #212331;
+}
+
+#page.header-style-1 #primary-navigation.overlay-active .overlay-toggle > span {
+	background-color: #ffffff;
+}
+#page.header-style-2 #primary-navigation.overlay-active .overlay-toggle > span,
+#page.header-style-3 #primary-navigation.overlay-active .overlay-toggle > span {
+	background-color: #212331;
+}

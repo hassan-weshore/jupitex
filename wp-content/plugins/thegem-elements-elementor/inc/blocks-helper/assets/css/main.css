@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,700|Source+Sans+Pro:300,400');
+
+#thegem-blocks-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    right: 0;
+    z-index: 999;
+    overflow-x: auto;
+}
+
+.thegem-blocks-box {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    padding: 100px 0 40px 30px;
+    color: #99a9b5;
+    display: flex;
+    background: #393d50;
+}
+
+.thegem-blocks-control-mode {
+    position: absolute;
+    background-color: #23282d;
+    right: 0;
+    left: 0;
+    height: 60px;
+    top: 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#thegem-blocks-close {
+    background: transparent;
+    width: 30px;
+    height: 30px;
+    border: none;
+    position: relative;
+    margin-right: 18px;
+    cursor: pointer;
+}
+
+#thegem-blocks-close:before, #thegem-blocks-close:after {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: -10px;
+    content: '';
+    display: block;
+    font-size: 0;
+    width: 0px;
+    height: 20px;
+    border-left: 2px solid white;
+    transform: rotate(45deg);
+}
+
+#thegem-blocks-close:before {
+    transform: rotate(-45deg);
+}
+
+#thegem-blocks-close i {
+    font-size: 26px;
+    color: white;
+}
+
+.thegem-blocks-control-mode-logo {
+    margin-left: 23px;
+    padding-left: 151px;
+    padding-top: 7px;
+    margin-top: -3px;
+    background-position: left top;
+    background: url('../img/logo.png');
+    background-repeat: no-repeat;
+    font-family: 'Montserrat';
+    font-size: 22px;
+    line-height: 22px;
+    font-weight: 200;
+    color: white;
+    flex: 1;
+}
+
+#thegem-blocks-notification {
+    position: absolute;
+    top: 60px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(57,61,80,0.95);
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.thegem-blocks-notification-inner {
+    max-width: 600px;
+    width: 100%;
+    text-align: center;
+}
+
+.thegem-blocks-notification-inner p {
+    font-size: 19px;
+    font-family: 'Montserrat';
+    font-weight: 200;
+    line-height: 30px;
+    margin: 20px 0;
+}
+
+.thegem-blocks-notification-inner p > a {
+    color: #00bcd4;
+    text-decoration: underline;
+}
+
+.thegem-blocks-notification-inner p > a:hover {
+    text-decoration: none;
+}
+
+a.thegem-blocks-notification-btn, a.thegem-blocks-notification-btn:hover {
+    padding: 11px 20px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    color: #ffffff;
+    background-color: #00bbd3;
+}
+
+
+.thegem-blocks-notification-btn > i {
+    margin-right: 6px;
+    font-size: 18px;
+    line-height: 1;
+}
+
+.thegem-blocks-notification-icon {
+    width: 40px;
+    font-size: 40px;
+    line-height: 1;
+    display: block;
+    margin: 0 auto;
+}

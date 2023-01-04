@@ -1,0 +1,256 @@
+.hover-default-zooming-blur .portfolio-item .image .image-inner img {
+	overflow: hidden;
+	-webkit-transform: translate(0,0) scale(1);
+	transform: translate(0,0) scale(1);
+	-webkit-transition: -webkit-transform 0.3s;
+	transition: transform 0.3s;
+}
+
+.hover-default-zooming-blur .portfolio-item:hover .image .image-inner img {
+	-webkit-transform: translate(0,0) scale(1.12);
+	transform: translate(0,0) scale(1.12);
+	-webkit-transition: -webkit-transform 0.3s;
+	transition: transform 0.3s;
+}
+
+.hover-default-zooming-blur .portfolio-item:hover .image.format-video.has-post-thumbnail .image-inner img {
+	-webkit-transform: translate(0,0) scale(1);
+	transform: translate(0,0) scale(1);
+}
+
+.hover-default-zooming-blur .portfolio-item .image .overlay,
+.hover-default-zooming-blur .portfolio-item:hover .image .overlay {
+	display: block;
+}
+
+.hover-default-zooming-blur .portfolio-item .image .overlay:before,
+.hover-default-zooming-blur .portfolio-item .gem-simple-gallery .gem-gallery-item a:before {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: -1;
+	content: '';
+	opacity: 0;
+    margin: 0;
+	-webkit-transition: opacity 0.3s;
+	transition: opacity 0.3s;
+}
+
+.hover-default-zooming-blur .portfolio-item:hover .image .overlay:before,
+.hover-default-zooming-blur .portfolio-item .gem-simple-gallery .gem-gallery-item a:hover:before {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
+	content: '';
+	width: 100%;
+	height: 100%;
+	opacity: 1;
+	-webkit-transition: opacity 0.3s;
+	transition: opacity 0.3s;
+}
+
+.hover-default-zooming-blur .portfolio-item .gem-simple-gallery .gem-gallery-item a:before,
+.hover-default-zooming-blur .portfolio-item .gem-simple-gallery .gem-gallery-item a:hover:before {
+    z-index: 5;
+}
+
+.hover-default-zooming-blur.title-on-hover .portfolio-item .image .overlay:after {
+	display: block;
+	background: -moz-linear-gradient(top, rgba(0,0,0,0.5) 0%, rgba(30,87,153,0) 45%);
+	background: -webkit-linear-gradient(top, rgba(0,0,0,0.5) 0%, rgba(30,87,153,0) 45%);
+	background: linear-gradient(to bottom, rgba(0,0,0,0.5) 0%, rgba(30,87,153,0) 45%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#80000000', endColorstr='#001e5799',GradientType=0 );
+	opacity: 1;
+	-webkit-transition: opacity 0.3s;
+	transition: opacity 0.3s;
+}
+
+.hover-default-zooming-blur.title-on-hover .portfolio-item:hover .image .overlay:after {
+	opacity: 0;
+}
+
+.hover-default-zooming-blur .portfolio-item .image .overlay .links .portfolio-icons > .icon {
+	opacity: 0;
+	display: inline-block;
+	vertical-align: middle;
+	position: relative;
+    top: 200px;
+	-webkit-transform: scale(0);
+	transform: scale(0);
+	-webkit-transition: opacity 0.3s 0.2s, -webkit-transform 0s 0.3s, top 0.3s 0.2s;
+	transition: opacity 0.3s, transform 0s 0.3s, top 0.3s;
+}
+
+.hover-default-zooming-blur .portfolio-item:hover .image .overlay .links .portfolio-icons > .icon {
+	opacity: 1;
+	-webkit-transform: scale(1);
+	transform: scale(1);
+    top: 0;
+    -webkit-transition: opacity 0.3s 0s, -webkit-transform 0.4s 0s;
+	transition: opacity 0.3s, transform 0.4s;
+}
+
+.portfolio.hover-default-zooming-blur .portfolio-item .gem-simple-gallery .gem-gallery-item a:after {
+    position: absolute;
+    opacity: 0;
+    left: 50%;
+    top: 50%;
+	-webkit-transform: scale(0);
+	transform: scale(0);
+	-webkit-transition: opacity 0.3s, -webkit-transform 0s 0.3s, margin 0.3s;
+	transition: opacity 0.3s, transform 0s 0.3s, margin 0.3s;
+}
+
+.portfolio.hover-default-zooming-blur .portfolio-item .gem-simple-gallery .gem-gallery-item a:hover:after {
+    opacity: 1;
+    -webkit-transform: scale(1);
+	transform: scale(1);
+    -webkit-transition: opacity 0.3s 0s, -webkit-transform 0.4s 0s;
+	transition: opacity 0.3s, transform 0.4s;
+}
+
+.portfolio.hover-default-zooming-blur .portfolio-item .gem-simple-gallery .gem-gallery-item a:not(:hover):after {
+    margin-top: 165px !important;
+}
+
+.version-default.news-grid.hover-default-zooming-blur .portfolio-item .image .links .caption .slide-content {
+	display: flex;
+	flex-direction: column-reverse;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	-webkit-transform: translateY(0);
+	transform: translateY(0);
+	-webkit-transition: top 0.3s, transform 0.3s;
+	transition: top 0.3s, transform 0.3s;
+}
+
+.version-default.news-grid.hover-default-zooming-blur .portfolio-item .image .links .caption .slide-content .slide-content-hidden {
+	-webkit-transition: margin 0.3s;
+	transition: margin 0.3s;
+}
+
+.version-default.news-grid.hover-default-zooming-blur .portfolio-item:hover .image .links .caption .slide-content {
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+
+.version-default.news-grid.hover-default-zooming-blur .portfolio-item:hover .image.format-video.has-post-thumbnail .links .caption .slide-content {
+	top: 0;
+	-webkit-transform: translateY(0);
+	transform: translateY(0);
+}
+
+.version-default.news-grid.hover-default-zooming-blur .portfolio-item .image .links .caption .title {
+	-webkit-transition: color 0.3s;
+	transition: color 0.3s;
+}
+
+.version-default.hover-default-zooming-blur .portfolio-item .image .links .caption .description {
+	display: none;
+	opacity: 0;
+	-webkit-transition: opacity 0.3s;
+	transition: opacity 0.3s;
+}
+
+.version-default.hover-default-zooming-blur .portfolio-item:hover .image .links .caption .description {
+	display: block;
+	opacity: 1;
+}
+
+.version-default.hover-default-zooming-blur .portfolio-item:hover .image.format-video.has-post-thumbnail .links .caption .description {
+	display: none;
+	opacity: 0;
+}
+
+.version-default.news-grid.hover-default-zooming-blur .portfolio-item .image .links .caption .info {
+	display: none;
+	opacity: 0;
+	-webkit-transition: opacity 0.3s;
+	transition: opacity 0.3s;
+}
+
+.version-default.news-grid.hover-default-zooming-blur .portfolio-item:hover .image .links .caption .info {
+	display: block;
+	opacity: 1;
+}
+
+.version-default.news-grid.hover-default-zooming-blur .portfolio-item .image.format-video.has-post-thumbnail .links .caption .info,
+.version-default.news-grid.hover-default-zooming-blur .portfolio-item:hover .image.format-video.has-post-thumbnail .links .caption .info {
+	display: none;
+	opacity: 0;
+}
+
+.version-default.news-grid.hover-default-zooming-blur .portfolio-item .image .links .caption .author {
+	display: block;
+	opacity: 1;
+	-webkit-transition: opacity 0.3s;
+	transition: opacity 0.3s;
+}
+
+.version-default.news-grid.hover-default-zooming-blur .portfolio-item .image .links .caption .slide-content-hidden {
+	display: none;
+}
+
+.version-default.news-grid.hover-default-zooming-blur .portfolio-item:hover .image .links .caption .slide-content-hidden {
+	display: block;
+}
+
+.version-default.news-grid.hover-default-zooming-blur .portfolio-item:hover .image .links .caption .author {
+	display: none;
+	opacity: 0;
+}
+
+.version-default.news-grid.hover-default-zooming-blur .portfolio-item:hover .image.format-video.has-post-thumbnail .links .caption .author {
+	display: block;
+	opacity: 1;
+}
+
+.version-default.news-grid.hover-default-zooming-blur .portfolio-item .image .links .caption .title {
+	margin: 0 !important;
+}
+
+.version-default.news-grid.hover-default-zooming-blur .portfolio-item .image .links .caption .grid-post-meta + .post-date {
+	padding-top: 16px;
+}
+
+.version-default.news-grid.hover-default-zooming-blur .portfolio-item .image .links .caption .post-date {
+	margin: 0;
+}
+
+.version-default.news-grid.hover-default-zooming-blur .portfolio-item .image .links .caption .grid-post-meta {
+	margin-bottom: 0;
+}
+
+.version-default.news-grid.hover-default-zooming-blur .portfolio-item .image .links .caption .author {
+    padding-top: 3px;
+	margin: 0;
+}
+
+.version-default.news-grid.hover-default-zooming-blur .portfolio-item .image .links .caption .description {
+	margin: 0;
+	margin-top: 11px;
+}
+
+.version-default.news-grid.hover-default-zooming-blur .portfolio-item .image .links .caption .info {
+	padding-top: 0;
+}
+
+.version-default.news-grid.hover-default-zooming-blur .portfolio-item .image .links .caption .info {
+	padding-top: 12px !important;
+}
+
+.version-default.news-grid.hover-default-zooming-blur .portfolio-item .image .links .caption .slide-content-visible {
+	padding: 14px 0 0 0;
+}
+
+@media only screen and (min-width: 551px) {
+	.hover-default-zooming-blur.title-on-hover .portfolio-item.double-item-style-alternative:not(.post-has-author) .image .overlay:after {
+		display: none;
+	}
+}
